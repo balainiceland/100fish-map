@@ -6,6 +6,7 @@ import {
   BYPRODUCT_LABELS,
 } from '../../types';
 import type { Factory, EndUse } from '../../types';
+import VerificationBadge from '../Factory/VerificationBadge';
 
 // End-use color mapping
 const END_USE_COLORS: Record<EndUse | 'other' | 'waste', string> = {
@@ -61,6 +62,9 @@ function FactoryColumn({ factory, onRemove }: { factory: Factory; onRemove: () =
               {scoreLabel}
             </div>
             <div className="text-xs text-gray-500">100% Fish Score</div>
+            <div className="mt-1">
+              <VerificationBadge level={factory.verificationLevel} size="sm" showLabel={false} />
+            </div>
           </div>
         </div>
       </div>

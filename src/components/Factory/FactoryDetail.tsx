@@ -6,10 +6,10 @@ import {
   getScoreLabel,
   BYPRODUCT_LABELS,
   CATEGORY_LABELS,
-  VERIFICATION_LABELS,
   END_USE_LABELS,
 } from '../../types';
 import type { EndUse } from '../../types';
+import VerificationBadge from './VerificationBadge';
 
 // End-use color mapping - consistent colors by what the byproduct is used for
 const END_USE_COLORS: Record<EndUse | 'other' | 'waste', string> = {
@@ -209,8 +209,8 @@ export default function FactoryDetail() {
             </div>
             <div>
               <div className="font-medium" style={{ color: scoreColor }}>{scoreLabel}</div>
-              <div className="text-xs text-gray-500 mt-1">
-                Verification: {VERIFICATION_LABELS[factory.verificationLevel]}
+              <div className="mt-2">
+                <VerificationBadge level={factory.verificationLevel} size="sm" />
               </div>
             </div>
           </div>

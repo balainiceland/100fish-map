@@ -5,8 +5,8 @@ import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import 'leaflet.markercluster';
 import { useStore } from '../../hooks/useStore';
-import { getScoreColor } from '../../types';
-import type { Factory } from '../../types';
+import { getScoreColor, VERIFICATION_LABELS } from '../../types';
+import type { Factory, VerificationLevel } from '../../types';
 
 // Extend L namespace to include markerClusterGroup
 declare module 'leaflet' {
@@ -29,16 +29,48 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
 });
 
-// Create custom marker icon based on score
-const createMarkerIcon = (score: number, featured: boolean = false) => {
+// Verification badge colors for markers
+const VERIFICATION_BADGE_COLORS: Record<VerificationLevel, { bg: string; icon: string }> = {
+  self_reported: { bg: '#9CA3AF', icon: '!' },
+  documentation_verified: { bg: '#3B82F6', icon: '✓' },
+  audit_verified: { bg: '#168AAD', icon: '✓' },
+  certified: { bg: '#52B69A', icon: '★' },
+};
+
+// Create custom marker icon based on score and verification
+const createMarkerIcon = (score: number, featured: boolean = false, verificationLevel?: VerificationLevel) => {
   const color = getScoreColor(score);
   const size = featured ? 16 : 12;
   const borderWidth = featured ? 3 : 2;
+  const isVerified = verificationLevel === 'audit_verified' || verificationLevel === 'certified';
+  const badgeConfig = verificationLevel ? VERIFICATION_BADGE_COLORS[verificationLevel] : null;
+
+  // Show badge for audit_verified and certified factories
+  const badgeHtml = isVerified && badgeConfig ? `
+    <div style="
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      width: 10px;
+      height: 10px;
+      background-color: ${badgeConfig.bg};
+      border: 1.5px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 6px;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    ">${badgeConfig.icon}</div>
+  ` : '';
 
   return L.divIcon({
     className: 'custom-marker',
     html: `
       <div style="
+        position: relative;
         width: ${size}px;
         height: ${size}px;
         background-color: ${color};
@@ -46,9 +78,9 @@ const createMarkerIcon = (score: number, featured: boolean = false) => {
         border-radius: 50%;
         box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         ${featured ? 'animation: pulse 2s infinite;' : ''}
-      "></div>
+      ">${badgeHtml}</div>
     `,
-    iconSize: [size + borderWidth * 2, size + borderWidth * 2],
+    iconSize: [size + borderWidth * 2 + 6, size + borderWidth * 2 + 6],
     iconAnchor: [(size + borderWidth * 2) / 2, (size + borderWidth * 2) / 2],
   });
 };
@@ -129,8 +161,12 @@ export default function MapContainer() {
     // Add markers for each factory
     filteredFactories.forEach((factory: Factory) => {
       const marker = L.marker([factory.latitude, factory.longitude], {
-        icon: createMarkerIcon(factory.utilizationScore, factory.featured),
+        icon: createMarkerIcon(factory.utilizationScore, factory.featured, factory.verificationLevel),
       });
+
+      // Get verification badge colors
+      const verificationConfig = factory.verificationLevel ? VERIFICATION_BADGE_COLORS[factory.verificationLevel] : null;
+      const verificationLabel = factory.verificationLevel ? VERIFICATION_LABELS[factory.verificationLevel] : 'Unknown';
 
       // Create popup content
       const popupContent = `
@@ -142,7 +178,7 @@ export default function MapContainer() {
           <p style="margin: 0 0 8px 0; font-size: 12px; color: #666;">
             ${factory.primarySpecies.slice(0, 3).join(', ')}${factory.primarySpecies.length > 3 ? '...' : ''}
           </p>
-          <div style="display: flex; align-items: center; gap: 8px;">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
             <div style="
               width: 40px;
               height: 40px;
@@ -157,6 +193,23 @@ export default function MapContainer() {
             ">${factory.utilizationScore}%</div>
             <span style="font-size: 11px; color: #666;">Utilization Score</span>
           </div>
+          ${verificationConfig ? `
+            <div style="
+              display: inline-flex;
+              align-items: center;
+              gap: 4px;
+              padding: 3px 8px;
+              border-radius: 12px;
+              background-color: ${verificationConfig.bg}15;
+              border: 1px solid ${verificationConfig.bg}40;
+              font-size: 10px;
+              color: ${verificationConfig.bg};
+              font-weight: 500;
+            ">
+              <span>${verificationConfig.icon}</span>
+              <span>${verificationLabel}</span>
+            </div>
+          ` : ''}
           <button
             onclick="window.dispatchEvent(new CustomEvent('selectFactory', { detail: '${factory.id}' }))"
             style="
