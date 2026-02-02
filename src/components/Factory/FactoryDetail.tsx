@@ -120,10 +120,10 @@ export default function FactoryDetail() {
           )}
           <button
             onClick={() => isInCompare ? removeFromCompare(factory.id) : addToCompare(factory)}
-            className={`flex items-center gap-1.5 px-2 py-1 text-xs font-medium rounded transition-colors ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded transition-colors border ${
               isInCompare
-                ? 'bg-white text-ioc-deep-blue'
-                : 'bg-white/20 text-white hover:bg-white/30'
+                ? 'bg-white text-ioc-deep-blue border-white'
+                : 'bg-ioc-teal text-white border-ioc-teal hover:bg-ioc-seafoam hover:border-ioc-seafoam'
             }`}
           >
             {isInCompare ? (
