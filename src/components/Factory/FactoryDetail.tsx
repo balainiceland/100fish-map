@@ -1,4 +1,4 @@
-import { X, MapPin, Fish, Calendar, Users, Award, ExternalLink, Mail, Phone, Utensils, FlaskConical, Heart, PawPrint, Leaf, Package, Trash2 } from 'lucide-react';
+import { X, MapPin, Fish, Calendar, Users, Award, ExternalLink, Mail, Phone, Utensils, FlaskConical, Heart, PawPrint, Leaf, Package, Trash2, GitCompareArrows, Check } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import { useStore } from '../../hooks/useStore';
 import {
@@ -42,7 +42,8 @@ const END_USE_ICONS: Record<string, React.ReactNode> = {
 };
 
 export default function FactoryDetail() {
-  const { selectedFactory, isDetailPanelOpen, closeDetailPanel } = useStore();
+  const { selectedFactory, isDetailPanelOpen, closeDetailPanel, addToCompare, compareFactories, removeFromCompare } = useStore();
+  const isInCompare = selectedFactory ? compareFactories.some(f => f.id === selectedFactory.id) : false;
 
   if (!isDetailPanelOpen || !selectedFactory) {
     return null;
@@ -111,11 +112,33 @@ export default function FactoryDetail() {
             <X className="w-5 h-5" />
           </button>
         </div>
-        {factory.featured && (
-          <span className="inline-block mt-2 px-2 py-1 bg-ioc-seafoam text-white text-xs font-medium rounded">
-            Featured
-          </span>
-        )}
+        <div className="flex items-center gap-2 mt-2">
+          {factory.featured && (
+            <span className="px-2 py-1 bg-ioc-seafoam text-white text-xs font-medium rounded">
+              Featured
+            </span>
+          )}
+          <button
+            onClick={() => isInCompare ? removeFromCompare(factory.id) : addToCompare(factory)}
+            className={`flex items-center gap-1.5 px-2 py-1 text-xs font-medium rounded transition-colors ${
+              isInCompare
+                ? 'bg-white text-ioc-deep-blue'
+                : 'bg-white/20 text-white hover:bg-white/30'
+            }`}
+          >
+            {isInCompare ? (
+              <>
+                <Check className="w-3 h-3" />
+                In Compare
+              </>
+            ) : (
+              <>
+                <GitCompareArrows className="w-3 h-3" />
+                Compare
+              </>
+            )}
+          </button>
+        </div>
       </div>
 
       <div className="p-4 space-y-6">

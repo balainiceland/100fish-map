@@ -21,6 +21,8 @@ interface StoreState {
   isFilterPanelOpen: boolean;
   isDetailPanelOpen: boolean;
   isSubmitFormOpen: boolean;
+  isComparePanelOpen: boolean;
+  compareFactories: Factory[];
 
   // Actions
   loadFactories: () => Promise<void>;
@@ -32,6 +34,10 @@ interface StoreState {
   toggleDetailPanel: () => void;
   toggleSubmitForm: () => void;
   closeDetailPanel: () => void;
+  toggleComparePanel: () => void;
+  addToCompare: (factory: Factory) => void;
+  removeFromCompare: (factoryId: string) => void;
+  clearCompare: () => void;
 }
 
 const initialFilters: FilterState = {
@@ -154,6 +160,8 @@ export const useStore = create<StoreState>((set, get) => ({
   isFilterPanelOpen: true,
   isDetailPanelOpen: false,
   isSubmitFormOpen: false,
+  isComparePanelOpen: false,
+  compareFactories: [],
 
   // Actions
   loadFactories: async () => {
@@ -231,6 +239,38 @@ export const useStore = create<StoreState>((set, get) => ({
     set({
       isDetailPanelOpen: false,
       selectedFactory: null,
+    });
+  },
+
+  toggleComparePanel: () => {
+    set({ isComparePanelOpen: !get().isComparePanelOpen });
+  },
+
+  addToCompare: (factory) => {
+    const current = get().compareFactories;
+    // Limit to 4 factories for comparison
+    if (current.length >= 4) return;
+    // Don't add duplicates
+    if (current.some(f => f.id === factory.id)) return;
+    set({
+      compareFactories: [...current, factory],
+      isComparePanelOpen: true,
+    });
+  },
+
+  removeFromCompare: (factoryId) => {
+    const current = get().compareFactories;
+    const updated = current.filter(f => f.id !== factoryId);
+    set({
+      compareFactories: updated,
+      isComparePanelOpen: updated.length > 0,
+    });
+  },
+
+  clearCompare: () => {
+    set({
+      compareFactories: [],
+      isComparePanelOpen: false,
     });
   },
 }));
