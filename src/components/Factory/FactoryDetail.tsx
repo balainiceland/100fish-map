@@ -1,4 +1,4 @@
-import { X, MapPin, Fish, Calendar, Users, Award, ExternalLink, Mail, Phone } from 'lucide-react';
+import { X, MapPin, Fish, Calendar, Users, Award, ExternalLink, Mail, Phone, Utensils, FlaskConical, Heart, PawPrint, Leaf, Package, Trash2 } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import { useStore } from '../../hooks/useStore';
 import {
@@ -9,8 +9,37 @@ import {
   VERIFICATION_LABELS,
   END_USE_LABELS,
 } from '../../types';
+import type { EndUse } from '../../types';
 
-const COLORS = ['#0B3D5F', '#1E6091', '#168AAD', '#52B69A', '#F4A261', '#E07A5F', '#8B5CF6', '#EC4899'];
+// End-use color mapping - consistent colors by what the byproduct is used for
+const END_USE_COLORS: Record<EndUse | 'other' | 'waste', string> = {
+  food: '#52B69A',        // Seafoam green - human food
+  supplements: '#168AAD', // Teal - health supplements
+  cosmetics: '#EC4899',   // Pink - cosmetics
+  pharma: '#8B5CF6',      // Purple - pharmaceuticals
+  medical: '#6366F1',     // Indigo - medical
+  pet_food: '#F59E0B',    // Amber - pet food
+  animal_feed: '#D97706', // Orange - animal feed
+  fertilizer: '#84CC16',  // Lime - fertilizer
+  industrial: '#6B7280',  // Gray - industrial
+  other: '#9CA3AF',       // Light gray - other
+  waste: '#E5E7EB',       // Very light gray - waste
+};
+
+// Icons for end uses
+const END_USE_ICONS: Record<string, React.ReactNode> = {
+  food: <Utensils className="w-3 h-3" />,
+  supplements: <Heart className="w-3 h-3" />,
+  cosmetics: <FlaskConical className="w-3 h-3" />,
+  pharma: <FlaskConical className="w-3 h-3" />,
+  medical: <Heart className="w-3 h-3" />,
+  pet_food: <PawPrint className="w-3 h-3" />,
+  animal_feed: <PawPrint className="w-3 h-3" />,
+  fertilizer: <Leaf className="w-3 h-3" />,
+  industrial: <Package className="w-3 h-3" />,
+  other: <Package className="w-3 h-3" />,
+  waste: <Trash2 className="w-3 h-3" />,
+};
 
 export default function FactoryDetail() {
   const { selectedFactory, isDetailPanelOpen, closeDetailPanel } = useStore();
@@ -23,12 +52,14 @@ export default function FactoryDetail() {
   const scoreColor = getScoreColor(factory.utilizationScore);
   const scoreLabel = getScoreLabel(factory.utilizationScore);
 
-  // Prepare chart data
-  const chartData = factory.byproducts.map((bp, index) => ({
+  // Prepare chart data with end-use based colors
+  const chartData = factory.byproducts.map((bp) => ({
     name: BYPRODUCT_LABELS[bp.category],
     value: bp.percentage,
-    endUse: END_USE_LABELS[bp.endUse],
-    color: COLORS[index % COLORS.length],
+    endUse: bp.endUse,
+    endUseLabel: END_USE_LABELS[bp.endUse],
+    color: END_USE_COLORS[bp.endUse] || END_USE_COLORS.other,
+    category: bp.category,
   }));
 
   // Calculate waste percentage
@@ -36,12 +67,25 @@ export default function FactoryDetail() {
   const waste = 100 - totalUtilized;
   if (waste > 0) {
     chartData.push({
-      name: 'Waste',
+      name: 'Waste/Untracked',
       value: waste,
-      endUse: 'Discarded',
-      color: '#D1D5DB',
+      endUse: 'waste' as EndUse,
+      endUseLabel: 'Not Utilized',
+      color: END_USE_COLORS.waste,
+      category: 'other' as const,
     });
   }
+
+  // Group byproducts by end use for summary
+  const endUseSummary = chartData.reduce((acc, item) => {
+    const key = item.endUse;
+    if (!acc[key]) {
+      acc[key] = { total: 0, items: [] };
+    }
+    acc[key].total += item.value;
+    acc[key].items.push(item.name);
+    return acc;
+  }, {} as Record<string, { total: number; items: string[] }>);
 
   return (
     <>
@@ -159,42 +203,114 @@ export default function FactoryDetail() {
           </div>
         </div>
 
-        {/* Byproduct Chart */}
-        <div>
-          <h3 className="font-medium text-gray-900 text-sm mb-3">Byproduct Utilization</h3>
-          <div className="h-48">
+        {/* Byproduct Visualization */}
+        <div className="space-y-4">
+          <h3 className="font-medium text-gray-900 text-sm">100% Fish Breakdown</h3>
+
+          {/* Donut Chart with Center Label */}
+          <div className="relative h-52">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
                   data={chartData}
                   cx="50%"
                   cy="50%"
-                  innerRadius={40}
-                  outerRadius={70}
-                  paddingAngle={2}
+                  innerRadius={50}
+                  outerRadius={80}
+                  paddingAngle={1}
                   dataKey="value"
+                  stroke="white"
+                  strokeWidth={2}
                 >
                   {chartData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
                   ))}
                 </Pie>
                 <Tooltip
-                  formatter={(value, name) => [`${value}%`, name]}
+                  content={({ active, payload }) => {
+                    if (active && payload && payload.length) {
+                      const data = payload[0].payload;
+                      return (
+                        <div className="bg-white px-3 py-2 shadow-lg rounded-lg border text-xs">
+                          <div className="font-medium text-gray-900">{data.name}</div>
+                          <div className="text-gray-600">{data.value}% of fish</div>
+                          <div className="flex items-center gap-1 mt-1 text-gray-500">
+                            {END_USE_ICONS[data.endUse]}
+                            <span>{data.endUseLabel}</span>
+                          </div>
+                        </div>
+                      );
+                    }
+                    return null;
+                  }}
                 />
               </PieChart>
             </ResponsiveContainer>
+            {/* Center label */}
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="text-center">
+                <div className="text-2xl font-bold" style={{ color: scoreColor }}>
+                  {factory.utilizationScore}%
+                </div>
+                <div className="text-xs text-gray-500">Utilized</div>
+              </div>
+            </div>
           </div>
-          {/* Legend */}
-          <div className="grid grid-cols-2 gap-2 mt-2">
+
+          {/* Detailed Breakdown by Byproduct */}
+          <div className="space-y-2">
             {chartData.map((item, index) => (
-              <div key={index} className="flex items-center gap-2 text-xs">
+              <div
+                key={index}
+                className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 transition-colors"
+              >
                 <div
                   className="w-3 h-3 rounded-full shrink-0"
                   style={{ backgroundColor: item.color }}
                 />
-                <span className="truncate">{item.name}: {item.value}%</span>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium text-gray-900 truncate">{item.name}</span>
+                    <span className="text-sm font-semibold text-gray-700 ml-2">{item.value}%</span>
+                  </div>
+                  <div className="flex items-center gap-1 text-xs text-gray-500">
+                    {END_USE_ICONS[item.endUse]}
+                    <span>{item.endUseLabel}</span>
+                  </div>
+                </div>
+                {/* Mini progress bar */}
+                <div className="w-16 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full rounded-full"
+                    style={{
+                      width: `${item.value}%`,
+                      backgroundColor: item.color
+                    }}
+                  />
+                </div>
               </div>
             ))}
+          </div>
+
+          {/* End Use Summary */}
+          <div className="bg-gray-50 p-3 rounded-lg">
+            <h4 className="text-xs font-medium text-gray-700 mb-2">By End Use</h4>
+            <div className="grid grid-cols-2 gap-2">
+              {Object.entries(endUseSummary)
+                .filter(([key]) => key !== 'waste')
+                .sort((a, b) => b[1].total - a[1].total)
+                .map(([endUse, data]) => (
+                  <div key={endUse} className="flex items-center gap-2">
+                    <div
+                      className="w-2 h-2 rounded-full"
+                      style={{ backgroundColor: END_USE_COLORS[endUse as EndUse] || END_USE_COLORS.other }}
+                    />
+                    <span className="text-xs text-gray-600">
+                      {END_USE_LABELS[endUse as EndUse] || endUse}: {data.total}%
+                    </span>
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
 
