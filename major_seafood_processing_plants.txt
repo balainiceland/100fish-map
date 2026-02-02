@@ -1,0 +1,170 @@
+Factory: Mowi Jøsnøya Processing Plant
+  Company: Mowi ASA
+  Location: Jøsnøya (Hitra Municipality), Trøndelag, Norway
+  Species: Atlantic salmon
+  Capacity/Volume: 100,000 tonnes/year (production capacity)
+  Categories: Primary processing (harvest/slaughter), packing
+  Certifications: Not publicly listed (site-level)
+  Website: https://mowi.com/be/en/news/new-processing-plant-in-mowi-norway-region-mid/
+
+Factory: Mowi Fort William Processing Facility
+  Company: Mowi Scotland (Mowi ASA)
+  Location: Fort William, Scotland, United Kingdom
+  Species: Atlantic salmon
+  Capacity/Volume: >80,000 tonnes/year (post-upgrade capacity referenced by Mowi)
+  Categories: Primary processing, portioning/packing
+  Certifications: Not publicly listed (site-level)
+  Website: https://mowi.com/uk/blog/2024/03/01/latest-tech-now-installed/
+
+Factory: InnovaMar (SalMar Industrial Processing Facility)
+  Company: SalMar ASA
+  Location: Nordskaget, Frøya, Trøndelag, Norway
+  Species: Atlantic salmon
+  Capacity/Volume: 150,000 tonnes/year (harvest capacity)
+  Categories: Primary processing (harvest), filleting, portioning (secondary processing)
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.salmar.no/en/about-salmar/salmars-operating-areas/
+
+Factory: Thai Union Samut Sakhon Seafood Operations
+  Company: Thai Union Group PCL
+  Location: Samut Sakhon, Samut Sakhon, Thailand
+  Species: Tuna (primary), other seafood (various)
+  Capacity/Volume: 1,200 tonnes/day (daily production capacity); ~300,000 tonnes/year tuna raw material requirement (group figure)
+  Categories: Canning, value-added processing, cold storage/logistics
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.thaiunion.com/en/newsroom/press-release/677/thai-union-group-acquiring-fishing-fleet-to-gain-advantages
+
+Factory: Pioneer Food Cannery (PFC) – Cold Store Support Site
+  Company: Thai Union Group PCL
+  Location: Tema, Greater Accra, Ghana
+  Species: Atlantic tuna
+  Capacity/Volume: 8,000 metric tons (cold storage capacity)
+  Categories: Cold storage / logistics (supports tuna processing)
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.thaiunion.com/en/newsroom/press-release/1743/thai-union-expands-footprint-in-ghana-with-cold-store-to-strengthen-supply-chain
+
+Factory: Trident Seafoods – Akutan Shore Plant
+  Company: Trident Seafoods Corporation
+  Location: Akutan, Alaska, United States
+  Species: Multi-species wild fish (varies by season/region)
+  Capacity/Volume: >3,000,000 lb/day (~1,361 tonnes/day) raw fish processing capability
+  Categories: Primary processing, freezing, frozen storage
+  Certifications: Not publicly listed (site-level)
+  Website: https://takuengineering.com/project/trident-seafoods/
+
+Factory: Samherji Dalvík Plant
+  Company: Samherji hf.
+  Location: Dalvík, Norðurland eystra, Iceland
+  Species: Groundfish (e.g., cod, haddock, saithe)
+  Capacity/Volume: 15,000 tonnes/year (raw material annual production capacity)
+  Categories: Primary processing (groundfish), value-added processing
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.samherji.is/en/land-based
+
+Factory: Síldarvinnslan (SVN) – Pelagic Freezing Factory
+  Company: Síldarvinnslan hf. (SVN) (part of Samherji Group historically/affiliations vary by period)
+  Location: Neskaupstaður, Eastfjords, Iceland
+  Species: Pelagic fish (e.g., herring, capelin, mackerel)
+  Capacity/Volume: 450 tonnes/day (freezing capacity); 20,000 tonnes (cold store capacity)
+  Categories: Primary processing, freezing, cold storage
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.samherji.is/static/files/2015/samherji_2014_brochure_print.pdf
+
+Factory: Brim – Pelagic Freezing Plant (Vopnafjörður)
+  Company: Brim hf.
+  Location: Vopnafjörður, East Iceland, Iceland
+  Species: Capelin, herring, mackerel (pelagic)
+  Capacity/Volume: ~400 tonnes/day (maximum output for frozen whole fish)
+  Categories: Primary processing, freezing (whole-frozen; H&G/fillets/flaps seasonally)
+  Certifications: Not publicly listed (site-level)
+  Website: https://en.wikipedia.org/wiki/Brim_hf.
+
+Factory: Loðnuvinnslan (LVF) – Pelagic Processing System
+  Company: Loðnuvinnslan hf. (LVF)
+  Location: Fáskrúðsfjörður, East Iceland, Iceland
+  Species: Pelagic fish (capelin, herring, mackerel and other pelagic species)
+  Capacity/Volume: Up to 400 tonnes per 24 hours (continuous pelagic production system)
+  Categories: Primary processing, pelagic grading/packing/freezing
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.kapp.com/news/new-pelagic-processing-system-to-increase-production-capacity-by-70
+
+Factory: Pelagia Egersund Seafood
+  Company: Pelagia AS
+  Location: Egersund, Rogaland, Norway
+  Species: Pelagic fish (varies by season)
+  Capacity/Volume: 1,400 tonnes/day (production capacity); 20,000 tonnes (storage)
+  Categories: Primary processing, freezing, cold storage
+  Certifications: HACCP; MSC (certificate published by site); BRC (certificate download listed)
+  Website: https://www.pelagia.com/facilities/pelagia-egersund-seafood
+
+Factory: Pelagia Træna
+  Company: Pelagia AS
+  Location: Træna, Nordland, Norway
+  Species: NVG herring, capelin, silver smelt, mackerel, saithe
+  Capacity/Volume: 800 tonnes/day (production capacity); 80,000 tonnes/year (yearly capacity noted); 25 tonnes/hour (fillet capacity)
+  Categories: Round freezing, fillet production, roe production (seasonal)
+  Certifications: HACCP; MSC (certificate published by site)
+  Website: https://www.pelagia.com/facilities/pelagia-traena
+
+Factory: Pelagia Måløy (Fish Factory)
+  Company: Pelagia AS
+  Location: Måløy (Kinn Municipality), Vestland, Norway
+  Species: Pelagic fish (varies by season)
+  Capacity/Volume: 1,100 tonnes/day (production capacity); 30 tonnes/hour (fillet capacity)
+  Categories: Round freezing, fillet production
+  Certifications: MSC (certificate published by site); BRC (certificate download listed)
+  Website: https://www.pelagia.com/facilities/pelagia-maloy
+
+Factory: Pelagia Lødingen
+  Company: Pelagia AS
+  Location: Lødingen, Nordland, Norway
+  Species: Herring (round frozen + fillets)
+  Capacity/Volume: 450 tonnes/day (production capacity); 30,000 tonnes/year (round frozen herring) + 13,000 tonnes/year (fillet)
+  Categories: Round freezing, fillet production
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.pelagia.com/facilities/pelagia-lodingen
+
+Factory: Pelagia Måløy Sildoljefabrikk (Fishmeal & Oil)
+  Company: Pelagia AS
+  Location: Måløy (Kinn Municipality), Vestland, Norway
+  Species: Pelagic by-products / raw material for meal & oil
+  Capacity/Volume: Up to 1,500 tonnes/day (raw material processing)
+  Categories: Fishmeal, fish oil processing
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.pelagia.com/facilities/pelagia-maloy-sildoljefabrikk
+
+Factory: Royal Greenland – Ilulissat Factory
+  Company: Royal Greenland A/S
+  Location: Ilulissat, Avannaata, Greenland (Kingdom of Denmark)
+  Species: Cold-water prawns; Greenland halibut; plus cod, catfish, capelin (as landed)
+  Capacity/Volume: Up to ~100 tonnes/day prawns + 25 tonnes/day Greenland halibut (site statement); (also listed as 120 tonnes/day on production sites listing)
+  Categories: Primary processing, freezing, cold storage
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.royalgreenland.com/en-GB/a/4-welcome-to-ilulissat-en-GB
+
+Factory: Culmárex Processing Facility (Águilas)
+  Company: Culmárex Group (Cooke Aquaculture group)
+  Location: Águilas, Murcia, Spain
+  Species: European seabass; gilthead seabream
+  Capacity/Volume: 24,000 tonnes/year (processing capacity)
+  Categories: Primary processing, packing
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.seafoodsource.com/news/aquaculture/spanish-bass-bream-producer-opens-processing-facility
+
+Factory: Promarisco Shrimp Processing Plant
+  Company: Nueva Pescanova Group (via subsidiaries)
+  Location: Guayaquil, Guayas, Ecuador
+  Species: Vannamei shrimp
+  Capacity/Volume: 80,000 tonnes/year (annual production capacity)
+  Categories: Processing, freezing
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.nuevapescanova.com/en/what-we-do-2/we-process/
+
+Factory: Camanica Shrimp Processing Plant
+  Company: Nueva Pescanova Group (via subsidiaries)
+  Location: Nicaragua (plant listed by Nueva Pescanova)
+  Species: Vannamei shrimp
+  Capacity/Volume: 30,000 tonnes/year (capacity)
+  Categories: Processing, freezing
+  Certifications: Not publicly listed (site-level)
+  Website: https://www.nuevapescanova.com/en/what-we-do-2/we-process/

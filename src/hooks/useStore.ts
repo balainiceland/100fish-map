@@ -1,0 +1,250 @@
+import { create } from 'zustand';
+import type { Factory, FilterState, FactoryCategory, VerificationLevel, FactoryByproduct } from '../types';
+import { sampleFactories } from '../data/sampleFactories';
+import { fetchApprovedFactories, isSupabaseConfigured, type FactoryFromDB } from '../lib/supabase';
+
+interface StoreState {
+  // Data
+  factories: Factory[];
+  filteredFactories: Factory[];
+  selectedFactory: Factory | null;
+
+  // Loading state
+  isLoading: boolean;
+  error: string | null;
+  dataSource: 'supabase' | 'sample';
+
+  // Filters
+  filters: FilterState;
+
+  // UI State
+  isFilterPanelOpen: boolean;
+  isDetailPanelOpen: boolean;
+  isSubmitFormOpen: boolean;
+
+  // Actions
+  loadFactories: () => Promise<void>;
+  setFactories: (factories: Factory[]) => void;
+  setSelectedFactory: (factory: Factory | null) => void;
+  setFilters: (filters: Partial<FilterState>) => void;
+  resetFilters: () => void;
+  toggleFilterPanel: () => void;
+  toggleDetailPanel: () => void;
+  toggleSubmitForm: () => void;
+  closeDetailPanel: () => void;
+}
+
+const initialFilters: FilterState = {
+  search: '',
+  country: null,
+  category: null,
+  species: null,
+  scoreRange: [0, 100],
+  verificationLevel: null,
+};
+
+// Transform database format to app format
+function transformDBFactory(dbFactory: FactoryFromDB): Factory {
+  // Calculate utilization score from byproducts
+  const utilizationScore = dbFactory.utilization_score ??
+    dbFactory.byproducts.reduce((sum, bp) => sum + (bp.percentage || 0), 0);
+
+  // Transform byproducts
+  const byproducts: FactoryByproduct[] = dbFactory.byproducts.map(bp => ({
+    id: bp.id,
+    factoryId: bp.factory_id,
+    category: bp.category as FactoryByproduct['category'],
+    description: bp.description,
+    percentage: bp.percentage,
+    endUse: bp.end_use as FactoryByproduct['endUse'],
+  }));
+
+  return {
+    id: dbFactory.id,
+    name: dbFactory.name,
+    slug: dbFactory.name.toLowerCase().replace(/\s+/g, '-'),
+    country: dbFactory.country,
+    region: dbFactory.region,
+    city: dbFactory.city,
+    address: dbFactory.address,
+    latitude: dbFactory.latitude,
+    longitude: dbFactory.longitude,
+    companyName: dbFactory.company_name,
+    website: dbFactory.website,
+    contactEmail: dbFactory.contact_email,
+    phone: dbFactory.phone,
+    employeeCount: dbFactory.employee_count,
+    yearEstablished: dbFactory.year_established,
+    primarySpecies: dbFactory.primary_species || [],
+    annualVolume: dbFactory.annual_volume,
+    certifications: dbFactory.certifications || [],
+    utilizationScore,
+    byproducts,
+    categories: (dbFactory.categories || []) as FactoryCategory[],
+    status: dbFactory.status as Factory['status'],
+    verified: dbFactory.verified,
+    verificationLevel: dbFactory.verification_level as VerificationLevel,
+    featured: dbFactory.featured || false,
+    createdAt: dbFactory.created_at,
+    updatedAt: dbFactory.updated_at || dbFactory.created_at,
+  };
+}
+
+const applyFilters = (factories: Factory[], filters: FilterState): Factory[] => {
+  return factories.filter(factory => {
+    // Search filter
+    if (filters.search) {
+      const searchLower = filters.search.toLowerCase();
+      const matchesSearch =
+        factory.name.toLowerCase().includes(searchLower) ||
+        factory.companyName?.toLowerCase().includes(searchLower) ||
+        factory.country.toLowerCase().includes(searchLower) ||
+        factory.city?.toLowerCase().includes(searchLower) ||
+        factory.primarySpecies.some(s => s.toLowerCase().includes(searchLower));
+      if (!matchesSearch) return false;
+    }
+
+    // Country filter
+    if (filters.country && factory.country !== filters.country) {
+      return false;
+    }
+
+    // Category filter
+    if (filters.category && !factory.categories.includes(filters.category as FactoryCategory)) {
+      return false;
+    }
+
+    // Species filter
+    if (filters.species && !factory.primarySpecies.includes(filters.species)) {
+      return false;
+    }
+
+    // Score range filter
+    if (
+      factory.utilizationScore < filters.scoreRange[0] ||
+      factory.utilizationScore > filters.scoreRange[1]
+    ) {
+      return false;
+    }
+
+    // Verification level filter
+    if (filters.verificationLevel && factory.verificationLevel !== (filters.verificationLevel as VerificationLevel)) {
+      return false;
+    }
+
+    return true;
+  });
+};
+
+export const useStore = create<StoreState>((set, get) => ({
+  // Initial data - empty until loaded
+  factories: [],
+  filteredFactories: [],
+  selectedFactory: null,
+
+  // Loading state
+  isLoading: true,
+  error: null,
+  dataSource: 'sample',
+
+  // Initial filters
+  filters: initialFilters,
+
+  // Initial UI state
+  isFilterPanelOpen: true,
+  isDetailPanelOpen: false,
+  isSubmitFormOpen: false,
+
+  // Actions
+  loadFactories: async () => {
+    set({ isLoading: true, error: null });
+
+    // Start with sample data as demo placeholders
+    let allFactories = [...sampleFactories];
+    let dataSource: 'supabase' | 'sample' = 'sample';
+
+    // If Supabase is configured, fetch real data and merge
+    if (isSupabaseConfigured()) {
+      const result = await fetchApprovedFactories();
+
+      if (result.success && result.factories.length > 0) {
+        const supabaseFactories = result.factories.map(transformDBFactory);
+        // Add Supabase factories at the beginning (real data first)
+        allFactories = [...supabaseFactories, ...sampleFactories];
+        dataSource = 'supabase';
+        console.log(`Loaded ${supabaseFactories.length} factories from Supabase + ${sampleFactories.length} demo factories`);
+      } else if (result.error) {
+        console.error('Error fetching from Supabase:', result.error);
+      }
+    }
+
+    set({
+      factories: allFactories,
+      filteredFactories: applyFilters(allFactories, get().filters),
+      isLoading: false,
+      dataSource,
+    });
+  },
+
+  setFactories: (factories) => {
+    set({
+      factories,
+      filteredFactories: applyFilters(factories, get().filters),
+    });
+  },
+
+  setSelectedFactory: (factory) => {
+    set({
+      selectedFactory: factory,
+      isDetailPanelOpen: factory !== null,
+    });
+  },
+
+  setFilters: (newFilters) => {
+    const filters = { ...get().filters, ...newFilters };
+    set({
+      filters,
+      filteredFactories: applyFilters(get().factories, filters),
+    });
+  },
+
+  resetFilters: () => {
+    set({
+      filters: initialFilters,
+      filteredFactories: get().factories,
+    });
+  },
+
+  toggleFilterPanel: () => {
+    set({ isFilterPanelOpen: !get().isFilterPanelOpen });
+  },
+
+  toggleDetailPanel: () => {
+    set({ isDetailPanelOpen: !get().isDetailPanelOpen });
+  },
+
+  toggleSubmitForm: () => {
+    set({ isSubmitFormOpen: !get().isSubmitFormOpen });
+  },
+
+  closeDetailPanel: () => {
+    set({
+      isDetailPanelOpen: false,
+      selectedFactory: null,
+    });
+  },
+}));
+
+// Selector hooks for computed values
+export const useStatistics = () => {
+  const factories = useStore(state => state.filteredFactories);
+
+  const totalFactories = factories.length;
+  const totalCountries = new Set(factories.map(f => f.country)).size;
+  const averageScore =
+    factories.length > 0
+      ? Math.round(factories.reduce((sum, f) => sum + f.utilizationScore, 0) / factories.length)
+      : 0;
+
+  return { totalFactories, totalCountries, averageScore };
+};
