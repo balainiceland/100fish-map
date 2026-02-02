@@ -5,6 +5,7 @@ import FilterPanel from './components/Filters/FilterPanel';
 import FactoryDetail from './components/Factory/FactoryDetail';
 import SubmitForm from './components/Submit/SubmitForm';
 import ComparePanel from './components/Compare/ComparePanel';
+import BenchmarksPanel from './components/Benchmarks/BenchmarksPanel';
 import { useStore } from './hooks/useStore';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <FactoryDetail />
         <SubmitForm />
         <ComparePanel />
+        <BenchmarksPanel />
       </main>
     </div>
   );

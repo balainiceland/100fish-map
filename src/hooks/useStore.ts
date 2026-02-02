@@ -22,6 +22,7 @@ interface StoreState {
   isDetailPanelOpen: boolean;
   isSubmitFormOpen: boolean;
   isComparePanelOpen: boolean;
+  isBenchmarksPanelOpen: boolean;
   compareFactories: Factory[];
 
   // Actions
@@ -35,6 +36,7 @@ interface StoreState {
   toggleSubmitForm: () => void;
   closeDetailPanel: () => void;
   toggleComparePanel: () => void;
+  toggleBenchmarksPanel: () => void;
   addToCompare: (factory: Factory) => void;
   removeFromCompare: (factoryId: string) => void;
   clearCompare: () => void;
@@ -161,6 +163,7 @@ export const useStore = create<StoreState>((set, get) => ({
   isDetailPanelOpen: false,
   isSubmitFormOpen: false,
   isComparePanelOpen: false,
+  isBenchmarksPanelOpen: false,
   compareFactories: [],
 
   // Actions
@@ -246,6 +249,10 @@ export const useStore = create<StoreState>((set, get) => ({
     set({ isComparePanelOpen: !get().isComparePanelOpen });
   },
 
+  toggleBenchmarksPanel: () => {
+    set({ isBenchmarksPanelOpen: !get().isBenchmarksPanelOpen });
+  },
+
   addToCompare: (factory) => {
     const current = get().compareFactories;
     // Limit to 4 factories for comparison
@@ -287,4 +294,75 @@ export const useStatistics = () => {
       : 0;
 
   return { totalFactories, totalCountries, averageScore };
+};
+
+// Benchmark statistics by country
+export interface CountryBenchmark {
+  country: string;
+  factoryCount: number;
+  averageScore: number;
+  minScore: number;
+  maxScore: number;
+  topFactory: Factory | null;
+}
+
+export const useBenchmarks = () => {
+  const factories = useStore(state => state.factories);
+
+  // Global stats
+  const globalAverage = factories.length > 0
+    ? Math.round(factories.reduce((sum, f) => sum + f.utilizationScore, 0) / factories.length)
+    : 0;
+
+  const globalMin = factories.length > 0
+    ? Math.min(...factories.map(f => f.utilizationScore))
+    : 0;
+
+  const globalMax = factories.length > 0
+    ? Math.max(...factories.map(f => f.utilizationScore))
+    : 0;
+
+  // Group by country
+  const countryMap = new Map<string, Factory[]>();
+  factories.forEach(f => {
+    const list = countryMap.get(f.country) || [];
+    list.push(f);
+    countryMap.set(f.country, list);
+  });
+
+  // Calculate benchmarks per country
+  const countryBenchmarks: CountryBenchmark[] = Array.from(countryMap.entries())
+    .map(([country, countryFactories]) => {
+      const scores = countryFactories.map(f => f.utilizationScore);
+      const avgScore = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+      const topFactory = countryFactories.reduce((best, f) =>
+        f.utilizationScore > (best?.utilizationScore || 0) ? f : best,
+        countryFactories[0]
+      );
+
+      return {
+        country,
+        factoryCount: countryFactories.length,
+        averageScore: avgScore,
+        minScore: Math.min(...scores),
+        maxScore: Math.max(...scores),
+        topFactory,
+      };
+    })
+    .sort((a, b) => b.averageScore - a.averageScore);
+
+  // Top performers globally
+  const topPerformers = [...factories]
+    .sort((a, b) => b.utilizationScore - a.utilizationScore)
+    .slice(0, 10);
+
+  return {
+    globalAverage,
+    globalMin,
+    globalMax,
+    countryBenchmarks,
+    topPerformers,
+    totalFactories: factories.length,
+    totalCountries: countryMap.size,
+  };
 };

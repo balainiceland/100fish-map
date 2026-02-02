@@ -1,8 +1,8 @@
-import { Fish, Plus, HelpCircle, Menu } from 'lucide-react';
+import { Fish, Plus, HelpCircle, Menu, TrendingUp } from 'lucide-react';
 import { useStore } from '../hooks/useStore';
 
 export default function Header() {
-  const { toggleSubmitForm, toggleFilterPanel, isFilterPanelOpen } = useStore();
+  const { toggleSubmitForm, toggleFilterPanel, isFilterPanelOpen, toggleBenchmarksPanel, isBenchmarksPanelOpen } = useStore();
 
   return (
     <header className="bg-ioc-deep-blue text-white px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between shadow-lg z-[1001] relative">
@@ -29,6 +29,17 @@ export default function Header() {
       </div>
 
       <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+        <button
+          onClick={toggleBenchmarksPanel}
+          className={`p-2 rounded-md transition-colors ${
+            isBenchmarksPanelOpen
+              ? 'bg-ioc-seafoam text-white'
+              : 'hover:bg-white/10'
+          }`}
+          title="Industry Benchmarks"
+        >
+          <TrendingUp className="w-5 h-5" />
+        </button>
         <button
           onClick={toggleSubmitForm}
           className="flex items-center gap-2 px-3 sm:px-4 py-2 bg-ioc-seafoam text-white rounded-md hover:bg-ioc-teal transition-colors text-sm font-medium"
