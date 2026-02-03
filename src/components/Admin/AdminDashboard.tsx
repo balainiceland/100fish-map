@@ -16,7 +16,9 @@ import {
   Fish,
   Loader2,
   AlertCircle,
+  Settings,
 } from 'lucide-react';
+import AdminSettings from './AdminSettings';
 import {
   fetchFactoriesByStatus,
   updateFactoryStatus,
@@ -27,13 +29,14 @@ import {
 import { getScoreColor, VERIFICATION_LABELS } from '../../types';
 import type { VerificationLevel } from '../../types';
 
-type TabType = 'pending' | 'approved' | 'rejected' | 'all';
+type TabType = 'pending' | 'approved' | 'rejected' | 'all' | 'settings';
 
 const TABS: { id: TabType; label: string; icon: React.ReactNode }[] = [
   { id: 'pending', label: 'Pending', icon: <Clock className="w-4 h-4" /> },
   { id: 'approved', label: 'Approved', icon: <CheckCircle className="w-4 h-4" /> },
   { id: 'rejected', label: 'Rejected', icon: <XCircle className="w-4 h-4" /> },
   { id: 'all', label: 'All', icon: <List className="w-4 h-4" /> },
+  { id: 'settings', label: 'Settings', icon: <Settings className="w-4 h-4" /> },
 ];
 
 export default function AdminDashboard() {
@@ -45,10 +48,12 @@ export default function AdminDashboard() {
   const [actionLoading, setActionLoading] = useState<string | null>(null);
 
   const loadFactories = useCallback(async () => {
+    if (activeTab === 'settings') return;
+
     setIsLoading(true);
     setError(null);
 
-    const status = activeTab === 'all' ? undefined : activeTab;
+    const status = activeTab === 'all' ? undefined : (activeTab as 'pending' | 'approved' | 'rejected');
     const result = await fetchFactoriesByStatus(status);
 
     if (result.success) {
@@ -127,6 +132,36 @@ export default function AdminDashboard() {
     rejected: factories.filter((f) => f.status === 'rejected').length,
     total: factories.length,
   };
+
+  // Show settings page
+  if (activeTab === 'settings') {
+    return (
+      <div className="space-y-6">
+        {/* Tabs only */}
+        <div className="bg-white rounded-lg shadow">
+          <div className="p-4">
+            <div className="flex gap-1 overflow-x-auto">
+              {TABS.map((tab) => (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap ${
+                    activeTab === tab.id
+                      ? 'bg-ioc-deep-blue text-white'
+                      : 'text-gray-600 hover:bg-gray-100'
+                  }`}
+                >
+                  {tab.icon}
+                  {tab.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+        <AdminSettings />
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">

@@ -449,6 +449,84 @@ export async function updateVerificationLevel(
   }
 }
 
+// ==================== ADMIN MANAGEMENT ====================
+
+// Fetch all admin users
+export async function fetchAdminUsers(): Promise<{
+  success: boolean;
+  admins: { id: string; email: string; created_at: string }[];
+  error?: string;
+}> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, admins: [], error: 'Supabase not configured' };
+  }
+
+  try {
+    const { data, error } = await supabase
+      .from('admin_users')
+      .select('*')
+      .order('created_at', { ascending: true });
+
+    if (error) throw error;
+
+    return { success: true, admins: data || [] };
+  } catch (error) {
+    console.error('Error fetching admin users:', error);
+    return {
+      success: false,
+      admins: [],
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Add a new admin user
+export async function addAdminUser(email: string): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    const { error } = await supabase
+      .from('admin_users')
+      .insert({ email: email.toLowerCase().trim() });
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error adding admin user:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Remove an admin user
+export async function removeAdminUser(email: string): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    const { error } = await supabase
+      .from('admin_users')
+      .delete()
+      .eq('email', email.toLowerCase().trim());
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error removing admin user:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
 // Request email verification
 export async function requestEmailVerification(email: string): Promise<{ success: boolean; error?: string }> {
   if (!isSupabaseConfigured() || !supabase) {
