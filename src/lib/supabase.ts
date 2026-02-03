@@ -218,6 +218,237 @@ export interface ByproductFromDB {
   end_use: string;
 }
 
+// Export supabase client for auth operations
+export { supabase };
+
+// ==================== ADMIN FUNCTIONS ====================
+
+// Fetch factories with optional status filter (for admin)
+export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | 'rejected'): Promise<{
+  success: boolean;
+  factories: FactoryFromDB[];
+  error?: string;
+}> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, factories: [], error: 'Supabase not configured' };
+  }
+
+  try {
+    let query = supabase.from('factories').select('*');
+
+    if (status) {
+      query = query.eq('status', status);
+    }
+
+    const { data: factories, error: factoriesError } = await query.order('created_at', { ascending: false });
+
+    if (factoriesError) throw factoriesError;
+
+    if (!factories || factories.length === 0) {
+      return { success: true, factories: [] };
+    }
+
+    // Fetch byproducts for all factories
+    const factoryIds = factories.map(f => f.id);
+
+    const { data: byproducts, error: byproductsError } = await supabase
+      .from('factory_byproducts')
+      .select('*')
+      .in('factory_id', factoryIds);
+
+    if (byproductsError) throw byproductsError;
+
+    // Fetch categories for all factories
+    const { data: categories, error: categoriesError } = await supabase
+      .from('factory_categories')
+      .select('*')
+      .in('factory_id', factoryIds);
+
+    if (categoriesError) throw categoriesError;
+
+    // Combine data
+    const factoriesWithRelations = factories.map(factory => ({
+      ...factory,
+      byproducts: (byproducts || []).filter(bp => bp.factory_id === factory.id),
+      categories: (categories || []).filter(cat => cat.factory_id === factory.id).map(cat => cat.category),
+    }));
+
+    return { success: true, factories: factoriesWithRelations };
+  } catch (error) {
+    console.error('Error fetching factories:', error);
+    return {
+      success: false,
+      factories: [],
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Update factory status (approve/reject)
+export async function updateFactoryStatus(
+  factoryId: string,
+  status: 'approved' | 'rejected',
+  adminNotes?: string
+): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    const updateData: Record<string, unknown> = {
+      status,
+      updated_at: new Date().toISOString(),
+    };
+
+    if (adminNotes) {
+      updateData.admin_notes = adminNotes;
+    }
+
+    // If approving, also calculate and set utilization score
+    if (status === 'approved') {
+      const { data: byproducts } = await supabase
+        .from('factory_byproducts')
+        .select('percentage')
+        .eq('factory_id', factoryId);
+
+      if (byproducts) {
+        const utilizationScore = byproducts.reduce((sum, bp) => sum + (bp.percentage || 0), 0);
+        updateData.utilization_score = Math.min(100, utilizationScore);
+      }
+    }
+
+    const { error } = await supabase
+      .from('factories')
+      .update(updateData)
+      .eq('id', factoryId);
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error updating factory status:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Update factory data
+export async function updateFactory(
+  factoryId: string,
+  data: Partial<FactoryInsert>
+): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    const { error } = await supabase
+      .from('factories')
+      .update({
+        ...data,
+        updated_at: new Date().toISOString(),
+      })
+      .eq('id', factoryId);
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error updating factory:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Delete factory
+export async function deleteFactory(factoryId: string): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    // Delete related byproducts first
+    await supabase.from('factory_byproducts').delete().eq('factory_id', factoryId);
+
+    // Delete related categories
+    await supabase.from('factory_categories').delete().eq('factory_id', factoryId);
+
+    // Delete factory
+    const { error } = await supabase.from('factories').delete().eq('id', factoryId);
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error deleting factory:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Toggle featured status
+export async function toggleFeatured(factoryId: string, featured: boolean): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    const { error } = await supabase
+      .from('factories')
+      .update({ featured, updated_at: new Date().toISOString() })
+      .eq('id', factoryId);
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error toggling featured:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
+// Update verification level
+export async function updateVerificationLevel(
+  factoryId: string,
+  level: 'self_reported' | 'documentation_verified' | 'audit_verified' | 'certified'
+): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    const verified = level !== 'self_reported';
+
+    const { error } = await supabase
+      .from('factories')
+      .update({
+        verification_level: level,
+        verified,
+        updated_at: new Date().toISOString(),
+      })
+      .eq('id', factoryId);
+
+    if (error) throw error;
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error updating verification level:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
 // Request email verification
 export async function requestEmailVerification(email: string): Promise<{ success: boolean; error?: string }> {
   if (!isSupabaseConfigured() || !supabase) {
