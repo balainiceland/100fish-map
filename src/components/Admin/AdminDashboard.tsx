@@ -19,6 +19,7 @@ import {
   Settings,
 } from 'lucide-react';
 import AdminSettings from './AdminSettings';
+import FactoryEditor from './FactoryEditor';
 import {
   fetchFactoriesByStatus,
   updateFactoryStatus,
@@ -46,6 +47,7 @@ export default function AdminDashboard() {
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [actionLoading, setActionLoading] = useState<string | null>(null);
+  const [editingFactory, setEditingFactory] = useState<FactoryFromDB | null>(null);
 
   const loadFactories = useCallback(async () => {
     if (activeTab === 'settings') return;
@@ -308,12 +310,25 @@ export default function AdminDashboard() {
                 onApprove={() => handleApprove(factory.id)}
                 onReject={() => handleReject(factory.id)}
                 onToggleFeatured={() => handleToggleFeatured(factory.id, factory.featured || false)}
+                onEdit={() => setEditingFactory(factory)}
                 onDelete={() => handleDelete(factory.id, factory.name)}
               />
             ))
           )}
         </div>
       </div>
+
+      {/* Factory Editor Modal */}
+      {editingFactory && (
+        <FactoryEditor
+          factory={editingFactory}
+          onClose={() => setEditingFactory(null)}
+          onSave={() => {
+            setEditingFactory(null);
+            loadFactories();
+          }}
+        />
+      )}
     </div>
   );
 }
@@ -325,6 +340,7 @@ function FactoryRow({
   onApprove,
   onReject,
   onToggleFeatured,
+  onEdit,
   onDelete,
 }: {
   factory: FactoryFromDB;
@@ -332,6 +348,7 @@ function FactoryRow({
   onApprove: () => void;
   onReject: () => void;
   onToggleFeatured: () => void;
+  onEdit: () => void;
   onDelete: () => void;
 }) {
   const score = factory.utilization_score || 0;
@@ -429,6 +446,7 @@ function FactoryRow({
               <Star className={`w-5 h-5 ${factory.featured ? 'fill-yellow-500' : ''}`} />
             </button>
             <button
+              onClick={onEdit}
               disabled={isLoading}
               className="p-2 text-gray-400 hover:bg-gray-100 rounded-lg transition-colors disabled:opacity-50"
               title="Edit"
