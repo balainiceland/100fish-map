@@ -61,7 +61,7 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: '100% Fish Map <notifications@yourdomain.com>', // Update with your verified domain
+        from: '100% Fish Map <onboarding@resend.dev>', // Using Resend test domain
         to: adminEmails,
         subject: `New Factory Submission: ${factory.name}`,
         html: `
@@ -114,7 +114,7 @@ serve(async (req) => {
     if (!emailResponse.ok) {
       const errorData = await emailResponse.text();
       console.error('Resend API error:', errorData);
-      return new Response(JSON.stringify({ error: 'Failed to send email' }), {
+      return new Response(JSON.stringify({ error: 'Failed to send email', details: errorData }), {
         status: 500,
         headers: { 'Content-Type': 'application/json' },
       });
