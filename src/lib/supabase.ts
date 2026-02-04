@@ -317,12 +317,16 @@ export async function updateFactoryStatus(
       }
     }
 
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from('factories')
       .update(updateData)
-      .eq('id', factoryId);
+      .eq('id', factoryId)
+      .select('id');
 
     if (error) throw error;
+    if (!data || data.length === 0) {
+      return { success: false, error: 'Update blocked by permissions. Check that your admin email is in the admin_users table.' };
+    }
 
     return { success: true };
   } catch (error) {
@@ -344,15 +348,19 @@ export async function updateFactory(
   }
 
   try {
-    const { error } = await supabase
+    const { data: updated, error } = await supabase
       .from('factories')
       .update({
         ...data,
         updated_at: new Date().toISOString(),
       })
-      .eq('id', factoryId);
+      .eq('id', factoryId)
+      .select('id');
 
     if (error) throw error;
+    if (!updated || updated.length === 0) {
+      return { success: false, error: 'Update blocked by permissions. Check that your admin email is in the admin_users table.' };
+    }
 
     return { success: true };
   } catch (error) {
@@ -451,12 +459,16 @@ export async function toggleFeatured(factoryId: string, featured: boolean): Prom
   }
 
   try {
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from('factories')
       .update({ featured, updated_at: new Date().toISOString() })
-      .eq('id', factoryId);
+      .eq('id', factoryId)
+      .select('id');
 
     if (error) throw error;
+    if (!data || data.length === 0) {
+      return { success: false, error: 'Update blocked by permissions.' };
+    }
 
     return { success: true };
   } catch (error) {
@@ -480,16 +492,20 @@ export async function updateVerificationLevel(
   try {
     const verified = level !== 'self_reported';
 
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from('factories')
       .update({
         verification_level: level,
         verified,
         updated_at: new Date().toISOString(),
       })
-      .eq('id', factoryId);
+      .eq('id', factoryId)
+      .select('id');
 
     if (error) throw error;
+    if (!data || data.length === 0) {
+      return { success: false, error: 'Update blocked by permissions.' };
+    }
 
     return { success: true };
   } catch (error) {
