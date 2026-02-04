@@ -347,41 +347,15 @@ export async function updateFactory(
   }
 
   try {
-    // Debug: check auth state
-    const { data: sessionData } = await supabase.auth.getSession();
-    const userEmail = sessionData?.session?.user?.email;
-    console.log('[updateFactory] Auth email:', userEmail);
-    console.log('[updateFactory] Factory ID:', factoryId);
-    console.log('[updateFactory] Update data:', JSON.stringify(data));
-
-    if (!userEmail) {
-      return { success: false, error: 'Not authenticated. Please log in again.' };
-    }
-
     const { data: updated, error } = await supabase
       .from('factories')
-      .update({
-        ...data,
-  
-      })
+      .update({ ...data })
       .eq('id', factoryId)
       .select('id');
 
-    console.log('[updateFactory] Response:', { updated, error });
-
     if (error) throw error;
     if (!updated || updated.length === 0) {
-      // Check if the factory exists at all
-      const { data: exists } = await supabase
-        .from('factories')
-        .select('id, status')
-        .eq('id', factoryId);
-      console.log('[updateFactory] Factory exists check:', exists);
-
-      return {
-        success: false,
-        error: `Update blocked by RLS. Your email: ${userEmail}. Factory found: ${exists && exists.length > 0 ? 'yes' : 'no'}. Run in SQL Editor: SELECT email FROM admin_users;`
-      };
+      return { success: false, error: 'Update blocked by permissions. Check that your admin email is in the admin_users table.' };
     }
 
     return { success: true };
