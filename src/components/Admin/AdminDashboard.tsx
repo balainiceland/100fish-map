@@ -453,13 +453,15 @@ function FactoryRow({
             >
               <Edit2 className="w-5 h-5" />
             </button>
-            <button
-              disabled={isLoading}
-              className="p-2 text-gray-400 hover:bg-gray-100 rounded-lg transition-colors disabled:opacity-50"
+            <a
+              href={`/?factory=${factory.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-gray-400 hover:bg-gray-100 rounded-lg transition-colors inline-flex"
               title="View on map"
             >
               <Eye className="w-5 h-5" />
-            </button>
+            </a>
             <button
               onClick={onDelete}
               disabled={isLoading}

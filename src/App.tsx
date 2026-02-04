@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useSearchParams } from 'react-router-dom';
 import Header from './components/Header';
 import MapContainer from './components/Map/MapContainer';
 import FilterPanel from './components/Filters/FilterPanel';
@@ -12,11 +12,25 @@ import { useStore } from './hooks/useStore';
 
 function MapPage() {
   const loadFactories = useStore(state => state.loadFactories);
+  const factories = useStore(state => state.factories);
+  const setSelectedFactory = useStore(state => state.setSelectedFactory);
+  const [searchParams] = useSearchParams();
 
   // Load factories on mount
   useEffect(() => {
     loadFactories();
   }, [loadFactories]);
+
+  // Select factory from URL query param
+  useEffect(() => {
+    const factoryId = searchParams.get('factory');
+    if (factoryId && factories.length > 0) {
+      const factory = factories.find(f => f.id === factoryId);
+      if (factory) {
+        setSelectedFactory(factory);
+      }
+    }
+  }, [searchParams, factories, setSelectedFactory]);
 
   return (
     <div className="h-screen flex flex-col">
