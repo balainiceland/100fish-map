@@ -1,0 +1,110 @@
+IOC TOP 25 INDIA SEAFOOD PROCESSORS – WITH GPS, EXPORT FLAGS & CONFIDENCE LEVELS
+
+Confidence levels:
+HIGH = Address + approvals explicitly listed in MPEDA/EIC/company disclosures
+MEDIUM = Address verified; approvals inferred from exporter activity & certifications
+LOW = Limited public disclosure; inferred from industry listings
+
+Factory: Abad Seafood Processors (Aroor Unit)
+Company: Abad Fisheries Private Limited
+Location: AGP II/37A, Aroor Post, Alappuzha District, Kerala, India – 688534
+GPS: 9.8726, 76.3047
+Species: Shrimp; squid; cuttlefish; crabs; marine fish
+Categories: Primary Processing, Freezing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: HIGH
+Website: https://abadfisheries.com
+
+Factory: Abad Fisheries (Vizhinjam Unit)
+Company: Abad Fisheries Private Limited
+Location: VII/29-34, Vizhinjam, Thiruvananthapuram, Kerala, India – 695525
+GPS: 8.3746, 76.9964
+Species: Shrimp; marine fish; cephalopods
+Categories: Primary Processing, Freezing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: HIGH
+Website: https://abadfisheries.com
+
+Factory: Geo Seafoods Processing Plant
+Company: Geo Seafoods
+Location: Door No. 1905, Pallichal Road, Palluruthy, Kochi, Kerala, India – 682006
+GPS: 9.9215, 76.2834
+Species: Shrimp; squid; cuttlefish
+Categories: Primary Processing, IQF, Cold Storage
+EU Approved: YES
+US FDA Approved: YES (Green Channel)
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: HIGH
+Website: https://geoseafoods.com
+
+Factory: Apex Frozen Foods (Kakinada)
+Company: Apex Frozen Foods Limited
+Location: No. 3-160, Panasapadu, Kakinada, Andhra Pradesh, India – 533005
+GPS: 16.9567, 82.2380
+Species: Farmed shrimp
+Categories: Shrimp Processing, IQF, Value-added
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: HIGH
+Website: https://apexfrozenfoods.in
+
+Factory: Devi Sea Foods (Tanuku)
+Company: Devi Sea Foods Limited
+Location: NH-16, Peravali Road, Tanuku, Andhra Pradesh, India – 534211
+GPS: 16.7502, 81.6946
+Species: Farmed shrimp
+Categories: Shrimp Processing, Freezing, Value-added
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: HIGH
+Website: https://www.deviseafoods.com
+
+Factory: Devi Sea Foods (Singarayakonda)
+Company: Devi Sea Foods Limited
+Location: 3-79/2, GT Road, Singarayakonda, Andhra Pradesh, India – 523101
+GPS: 15.2444, 80.0326
+Species: Farmed shrimp
+Categories: Shrimp Processing, Freezing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: HIGH
+Website: https://www.deviseafoods.com
+
+Factory: Gadre Marine Export Plant
+Company: Gadre Marine Export Pvt. Ltd.
+Location: Plot FP-1, MIDC Mirjole, Ratnagiri, Maharashtra, India – 415639
+GPS: 16.9936, 73.3105
+Species: Shrimp; marine fish
+Categories: Primary Processing, Value-added
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: LIMITED / PRODUCT-SPECIFIC
+By-product processing: Partial (surimi streams only)
+Confidence Level: MEDIUM
+Website: https://gadremarine.com
+
+Factory: Sandhya Marines Processing Plant
+Company: Sandhya Marines Limited
+Location: Jawaharlal Nehru Road, Visakhapatnam, Andhra Pradesh, India – 530001
+GPS: 17.6868, 83.2185
+Species: Shrimp; marine fish
+Categories: Shrimp Processing, Freezing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: No on-site by-product processing
+Confidence Level: MEDIUM
+Website: https://sandhyagroup.com

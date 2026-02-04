@@ -1,0 +1,439 @@
+Factory: Mowi Jøsnøya Processing Plant
+Company: Mowi ASA
+Location: Jøsnøya, Hitra Municipality, Trøndelag, Norway
+GPS: 63.5540, 8.7900
+Species: Atlantic salmon
+Capacity/Volume: 100,000 tonnes/year (plant capacity)
+Categories: Primary Processing (harvest/slaughter), Packing
+Certifications: Not publicly listed at site level (company operates under HACCP-based food safety systems)
+By-product processing: Partial (trimmings typically routed to external by-product channels)
+EU Approved: YES (EEA-based)
+US FDA Approved: UNKNOWN (plant-level not publicly stated)
+Japan Approved: UNKNOWN (plant-level not publicly stated)
+Confidence Level: MEDIUM (capacity verified; street address not published)
+Website: https://mowi.com/be/en/news/new-processing-plant-in-mowi-norway-region-mid/
+
+---
+
+Factory: InnovaMar (SalMar) – Frøya
+Company: SalMar ASA
+Location: Frøya, Trøndelag, Norway (InnovaMar facility in Central Norway)
+GPS: 63.7260, 8.8280
+Species: Atlantic salmon
+Capacity/Volume: 150,000 tonnes/year (harvest capacity)
+Categories: Primary Processing (harvest), Filleting/Secondary Processing
+Certifications: Not publicly listed at site level
+By-product processing: Partial (frames/trimmings utilized off-site)
+EU Approved: YES (EEA-based)
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (capacity verified; exact street address not published)
+Website: https://www.salmar.no/en/about-salmar/salmars-operating-areas/
+
+---
+
+Factory: Pelagia Egersund Seafood
+Company: Pelagia AS
+Location: Egersund, Rogaland, Norway
+GPS: 58.4510, 6.0050
+Species: Pelagic fish (herring, mackerel, capelin; seasonal)
+Capacity/Volume: 1,400 tonnes/day (production); 20,000 tonnes storage
+Categories: Primary Processing, Freezing, Cold Storage
+Certifications: HACCP; MSC certificate (download); BRC certificate (download)
+By-product processing: YES (fishmeal/oil processing listed for Pelagia group sites; by-product handling integrated)
+EU Approved: YES (EEA-based)
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities/pelagia-egersund-seafood
+
+---
+
+Factory: Trident Seafoods – Akutan Plant
+Company: Trident Seafoods Corporation
+Location: 73 Trident Way, PO Box 9, Akutan, Alaska, USA – 99553
+GPS: 54.1349, -165.7762
+Species: Wild Alaska pollock (primary); cod; crab; halibut; others (seasonal)
+Capacity/Volume: >3,000,000 lb/day raw fish (~1,360 tonnes/day)
+Categories: Primary Processing, Freezing, Surimi production
+Certifications: Not publicly listed at site level
+By-product processing: YES (fish oil and other secondary products referenced by company)
+EU Approved: UNKNOWN (plant-level export approvals not publicly stated)
+US FDA Approved: YES (US facility)
+Japan Approved: UNKNOWN
+Confidence Level: HIGH
+Website: https://www.tridentseafoods.com/about-us/our-facilities-and-global-reach
+
+---
+
+Factory: Royal Greenland – Ilulissat Factory
+Company: Royal Greenland A/S
+Location: Ilulissat, Avannaata, Greenland (Kingdom of Denmark)
+GPS: 69.2190, -51.0980
+Species: Cold-water shrimp; Greenland halibut; (also cod/catfish/capelin as landed)
+Capacity/Volume: ~100 tonnes/day shrimp + 25 tonnes/day Greenland halibut (site statement)
+Categories: Primary Processing, Freezing, Cold Storage
+Certifications: Not publicly listed at site level
+By-product processing: Partial (by-products managed via external channels)
+EU Approved: YES (Denmark/Greenland linkage; company sells into EU)
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (capacity verified; street address not published)
+Website: https://www.royalgreenland.com/en-GB/a/4-welcome-to-ilulissat-en-GB
+
+---
+
+Factory: Vinh Hoan – Headquarters / Processing Complex (Cao Lanh)
+Company: Vinh Hoan Corporation
+Location: National Road 30 (Quốc Lộ 30), Ward 11 (Phường Mỹ Ngãi / Ward 11 listings), Cao Lanh City, Dong Thap Province, Vietnam
+GPS: 10.4560, 105.6360
+Species: Pangasius (tra/basa)
+Capacity/Volume: Not publicly disclosed in a single plant-level figure on the website
+Categories: Filleting, Freezing, Value-added processing
+Certifications: Company certifications vary by facility (e.g., BRC/IFS/ASC/BAP referenced in disclosures; check plant docs)
+By-product processing: YES (company produces collagen/gelatin and other by-products at group level)
+EU Approved: YES (EU approval numbers published in industry listings; exports to EU)
+US FDA Approved: YES (exports to USA; FDA program participation varies)
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (address verified; approvals partly from third-party listings)
+Website: https://www.vinhhoan.com/
+
+---
+
+Factory: Minh Phu Hau Giang Seafood JSC – Song Hau Industrial Park
+Company: Minh Phu Seafood Corporation
+Location: 3A Song Hau Industrial Park – 1st Phase, Chau Thanh (commune/district), Can Tho City / Hau Giang area listings, Vietnam
+GPS: 9.8270, 105.4700
+Species: Shrimp (vannamei and black tiger)
+Capacity/Volume: Not publicly disclosed at plant level
+Categories: Shrimp Processing, Freezing, Value-added
+Certifications: Not publicly listed at plant level on the contact page
+By-product processing: Partial (shell/head by-products generally routed to external chitin/meal channels)
+EU Approved: YES (exports to EU)
+US FDA Approved: YES (exports to USA)
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (address verified; approvals market-level)
+Website: https://minhphu.com/en/lien-he/
+
+---
+
+Factory: Industrial Pesquera Santa Priscila S.A. – Guayaquil Processing
+Company: Industrial Pesquera Santa Priscila S.A. (IPSP)
+Location: Av. Del Ejército 615 y Primero de Mayo, Guayaquil, Guayas, Ecuador – 090615
+GPS: -2.1660, -79.9000
+Species: Vannamei shrimp
+Capacity/Volume: Not publicly disclosed in a single plant-level figure
+Categories: Shrimp Processing, Freezing, Packaging
+Certifications: Not publicly listed on the supplier directory entry
+By-product processing: Partial (shrimp by-products typically managed externally unless stated otherwise)
+EU Approved: YES (exports to Europe)
+US FDA Approved: YES (exports to USA)
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (address from industry directory; capacity not disclosed)
+Website: https://www.seafoodsource.com/supplier-directory/industrial-pesquera-santa-priscila-s-a
+
+---
+
+Factory: AquaChile – Processing Plants (Puerto Montt)
+Company: Empresas AquaChile S.A.
+Location: Cardonal S/N, Lote B, Puerto Montt, Región de Los Lagos, Chile – 5480000
+GPS: -41.4710, -72.9420
+Species: Atlantic salmon; Pacific salmon (various); trout (depending on lines)
+Capacity/Volume: Not publicly disclosed at plant level
+Categories: Primary Processing, Filleting, Packaging
+Certifications: Not publicly listed on the processing plants page (company-level certifications apply)
+By-product processing: Partial (trimmings/offcuts managed within Chilean by-product chains)
+EU Approved: YES (exports to EU)
+US FDA Approved: YES (exports to USA)
+Japan Approved: UNKNOWN
+Confidence Level: HIGH (plant address published by company)
+Website: https://en.aquachile.com/hitos/palabra/
+
+---
+
+Factory: Pesquera Exalmar – Planta Chimbote
+Company: Pesquera Exalmar S.A.A.
+Location: Av. Brea y Pariñas Mz. C Lt. 1234, Urb. Gran Trapecio, Chimbote, Ancash, Peru
+GPS: -9.0740, -78.5930
+Species: Anchovy (anchoveta) for fishmeal/oil; (company also processes DHC species elsewhere)
+Capacity/Volume: Not publicly disclosed in a single figure on contact page
+Categories: Fishmeal, Fish Oil (Indirect Human Consumption plant)
+Certifications: MarinTrust certified (plant certificate); other certifications per downloads
+By-product processing: YES (core fishmeal/oil processing)
+EU Approved: YES (fishmeal supply into EU feed chains via standards)
+US FDA Approved: UNKNOWN (feed ingredient supply)
+Japan Approved: UNKNOWN
+Confidence Level: HIGH (address + certification published)
+Website: https://www.exalmar.com.pe/contactus/
+
+---
+
+Factory: Austral Group – Planta Coishco
+Company: Austral Group S.A.A.
+Location: Coishco, Provincia del Santa, Ancash, Peru (Coishco fishing cove complex)
+GPS: -9.0230, -78.6150
+Species: Anchovy (anchoveta) for fishmeal/oil
+Capacity/Volume: Not publicly disclosed on the plant page
+Categories: Fishmeal, Fish Oil
+Certifications: Company publishes FEMAS / certification PDFs (site-level varies)
+By-product processing: YES (core business)
+EU Approved: YES (feed ingredient supply via standards)
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (plant page exists; street address not clearly published)
+Website: https://www.austral.com.pe/en/planta-coishco/
+
+---
+
+Factory: Nueva Pescanova – Chapela Processing / HQ Site
+Company: Nueva Pescanova Group
+Location: Rúa José Fernández López s/n, 36320 Chapela – Redondela, Pontevedra, Spain
+GPS: 42.2830, -8.6100
+Species: Mixed seafood (group processing hub; species vary by line)
+Capacity/Volume: Not publicly disclosed at plant level
+Categories: Processing, Value-added (group operations)
+Certifications: Not publicly listed on the legal pages; verify per product line
+By-product processing: Partial (by-products generally external unless stated)
+EU Approved: YES (EU-based)
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: HIGH (address published)
+Website: https://www.nuevapescanova.com/en/company/nueva-pescanova-in-the-world/
+
+---
+
+Factory: Dongwon F&B – Changwon Factory
+Company: Dongwon F&B
+Location: 201, Nammyeon-ro, Uichang-gu, Changwon City, South Gyeongsang Province, South Korea
+GPS: 35.2410, 128.6810
+Species: Tuna (canned), canned seafood
+Capacity/Volume: Not publicly disclosed on plant page
+Categories: Canning, Value-added Processing
+Certifications: Not publicly listed on the plant page
+By-product processing: Partial (canning by-products managed externally unless stated)
+EU Approved: UNKNOWN (plant-level)
+US FDA Approved: UNKNOWN (brand exports to US; plant-level not stated)
+Japan Approved: UNKNOWN
+Confidence Level: HIGH (address published by company)
+Website: https://www.dongwonfnb.com/EN/Company/Businesses.jsp
+
+---
+
+Factory: Dongwon Fisheries – Busan Factory
+Company: Dongwon Fisheries Co., Ltd.
+Location: 685, Eulsukdo-daero (Sinpyeong-dong area listings), Saha-gu, Busan, South Korea
+GPS: 35.1080, 128.9640
+Species: Tuna (processing, freezing, cold storage)
+Capacity/Volume: Not publicly disclosed
+Categories: Tuna processing, Freezing, Cold Storage
+Certifications: Not publicly listed on the page
+By-product processing: Partial
+EU Approved: UNKNOWN
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM (address published; capacity not disclosed)
+Website: https://www.dongwonfish.co.kr/eng/about05.php
+
+---
+
+Factory: Maruha Nichiro – Utsunomiya Plant
+Company: Maruha Nichiro Corporation
+Location: 8-1, Kiyohara Industrial Area, Utsunomiya City, Tochigi, Japan
+GPS: 36.5840, 139.9970
+Species: Frozen tuna products (as listed in Japanese official processor listings)
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Freezing, Packaging
+Certifications: Listed as certified seafood processor in Japanese government listing (exporting to U.S.)
+By-product processing: No dedicated by-product conversion disclosed
+EU Approved: UNKNOWN
+US FDA Approved: YES (listed by Japan MHLW for exports to U.S.)
+Japan Approved: YES
+Confidence Level: HIGH (government listing address)
+Website: https://www.mhlw.go.jp/topics/bukyoku/iyaku/syoku-anzen/jigyousya/taibei/4.html
+
+---
+
+Factory: Thai Union – Samut Sakhon Tuna Complex
+Company: Thai Union Group PCL
+Location: Samut Sakhon, Thailand
+GPS: 13.5470, 100.2740
+Species: Tuna
+Capacity/Volume: Not publicly disclosed
+Categories: Canning, Value-added
+Certifications: HACCP (industry standard); plant-level certificates not published here
+By-product processing: Partial
+EU Approved: UNKNOWN
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://www.thaiunion.com
+
+---
+
+Factory: Mukka Proteins – Fishmeal & Oil (Mangaluru)
+Company: Mukka Proteins Limited
+Location: Mukka Corporate House, Door No. 18-2-16/4, 1st Cross, N.G. Road, Attavara, Mangaluru, Karnataka, India – 575001
+GPS: 12.8700, 74.8410
+Species: Pelagic fish; trimmings; by-catch
+Capacity/Volume: 115,050 MT/year fishmeal; 16,950 MT/year fish oil; 20,340 MT/year fish soluble paste
+Categories: Fishmeal, Fish Oil, Fish Solubles
+Certifications: Not publicly listed per plant
+By-product processing: YES (core business)
+EU Approved: UNKNOWN
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://www.mukkaproteins.com
+
+---
+
+Factory: Brim – Vopnafjörður Pelagic Plant
+Company: Brim hf.
+Location: Vopnafjörður, East Iceland, Iceland
+GPS: 65.7550, -14.8250
+Species: Capelin, herring, mackerel
+Capacity/Volume: Not publicly disclosed
+Categories: Pelagic Processing, Freezing
+Certifications: Not publicly listed at site level
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://www.brim.is/en
+
+---
+
+Factory: Loðnuvinnslan – Fáskrúðsfjörður Pelagic Plant
+Company: Loðnuvinnslan hf.
+Location: Fáskrúðsfjörður, East Iceland, Iceland
+GPS: 64.9300, -14.0200
+Species: Capelin, herring, mackerel
+Capacity/Volume: Up to 400 tonnes/24h (system capacity)
+Categories: Pelagic Processing, Freezing
+Certifications: Not publicly listed at site level
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://www.lvn.is/en/
+
+---
+
+Factory: Pelagia Træna
+Company: Pelagia AS
+Location: Træna, Nordland, Norway
+GPS: 66.5000, 12.0800
+Species: NVG herring, capelin, mackerel, saithe
+Capacity/Volume: 800 tonnes/day; 80,000 tonnes/year (site figures)
+Categories: Round Freezing, Fillet Production, Roe
+Certifications: HACCP; MSC (site certificates)
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities/pelagia-traena
+
+---
+
+Factory: Pelagia Måløy (Fish Factory)
+Company: Pelagia AS
+Location: Måløy (Kinn), Vestland, Norway
+GPS: 61.9350, 5.1150
+Species: Pelagic fish (seasonal)
+Capacity/Volume: 1,100 tonnes/day (site figure)
+Categories: Round Freezing, Fillet Production
+Certifications: MSC; BRC (site downloads)
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities/pelagia-maloy
+
+---
+
+Factory: Exalmar – Planta Callao (DHC/CHI)
+Company: Pesquera Exalmar S.A.A.
+Location: Av. Prolongación Centenario N° 2576-2580, Z.I. Callao, Lima, Peru
+GPS: -12.0580, -77.1240
+Species: Various (company DHC lines)
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Freezing / CHI support
+Certifications: Not publicly disclosed
+By-product processing: Partial
+EU Approved: UNKNOWN
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://www.exalmar.com.pe/contactus/
+
+---
+
+Factory: TASA – Lima Office (plant network along coast)
+Company: TASA (Tecnológica de Alimentos S.A.)
+Location: Jirón Carpaccio #250, Piso 11, San Borja, Lima 41, Peru
+GPS: -12.1070, -77.0000
+Species: Anchovy (anchoveta) for fishmeal/oil; other seafood lines
+Capacity/Volume: Operates 12 fishmeal/oil plants (network)
+Categories: Fishmeal, Fish Oil (network)
+Certifications: Not publicly disclosed per plant on contact page
+By-product processing: YES (core business across plants)
+EU Approved: UNKNOWN
+US FDA Approved: UNKNOWN
+Japan Approved: UNKNOWN
+Confidence Level: LOW (HQ address; not a specific plant)
+Website: https://www.tasa.com.pe/contacto-en.html
+
+---
+
+Factory: Apex Frozen Foods – Kakinada Plant
+Company: Apex Frozen Foods Limited
+Location: No. 3-160, Panasapadu, Kakinada, East Godavari District, Andhra Pradesh, India – 533005
+GPS: 16.9567, 82.2380
+Species: Farmed shrimp (vannamei)
+Capacity/Volume: 34,240 MT/year (company-wide)
+Categories: Shrimp Processing, IQF, Value-added
+Certifications: BRC; BAP; HACCP; ASC (company disclosures)
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://apexfrozenfoods.in
+
+---
+
+Factory: Devi Sea Foods – Tanuku Plant
+Company: Devi Sea Foods Limited
+Location: NH-16, Peravali Road, Tanuku, West Godavari District, Andhra Pradesh, India – 534211
+GPS: 16.7502, 81.6946
+Species: Farmed shrimp
+Capacity/Volume: Over 20,000 tonnes/year across facilities (company)
+Categories: Shrimp Processing, Freezing, Value-added
+Certifications: BRC; BAP; IFS (company disclosures)
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: UNKNOWN
+Confidence Level: MEDIUM
+Website: https://www.deviseafoods.com
+
+---
+
+Factory: Geo Seafoods – Palluruthy Plant
+Company: Geo Seafoods
+Location: Door No. 1905, Pallichal Road, Palluruthy, Kochi, Kerala, India – 682006
+GPS: 9.9215, 76.2834
+Species: Shrimp; squid; cuttlefish
+Capacity/Volume: IQF 15 MT/day; Plate Freezing 32 MT/day; Cold Storage 1,060 MT
+Categories: Primary Processing, IQF, Cold Storage
+Certifications: BRC; BAP; IFS; SMETA; EU approval; US FDA Green Channel (site)
+By-product processing: Partial
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: UNKNOWN
+Confidence Level: HIGH
+Website: https://geoseafoods.com/certifications/

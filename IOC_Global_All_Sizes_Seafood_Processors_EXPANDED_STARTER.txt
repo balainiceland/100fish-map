@@ -1,0 +1,717 @@
+Factory: Pelagia Egersund Seafood
+Company: Pelagia AS
+Location: Kaupanesveien 34, NO-4374 Egersund, Norway
+GPS: Not geocoded (address available)
+Species: Pelagic fish (herring, mackerel, capelin)
+Capacity/Volume: 1400 tonnes/day; storage 20,000 tonnes
+Categories: Primary Processing, Freezing, Cold Storage
+Certifications: HACCP; MSC; BRC
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities/pelagia-egersund-seafood
+Sources: turn0search3
+
+---
+
+Factory: Pelagia Egersund Sildoljefabrikk
+Company: Pelagia AS
+Location: Åsaneveien 103, NO-4373 Egersund, Norway
+GPS: Not geocoded (address available)
+Species: Pelagic raw material/by-products
+Capacity/Volume: Not publicly disclosed
+Categories: Fishmeal, Fish Oil (feed)
+Certifications: Not listed on facilities page
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Lødingen
+Company: Pelagia AS
+Location: Industriveien 4B, NO-8410 Lødingen, Norway
+GPS: Not geocoded (address available)
+Species: Herring (round/fillet)
+Capacity/Volume: 450 tonnes/day; 30,000 t/yr round + 13,000 t/yr fillet (site page)
+Categories: Freezing, Filleting
+Certifications: Not listed on facilities page
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Måløy (Fish Factory)
+Company: Pelagia AS
+Location: Ulvesundveien 85, NO-6718 Deknepollen, Norway
+GPS: Not geocoded (address available)
+Species: Pelagic fish (seasonal)
+Capacity/Volume: 1100 tonnes/day; fillet 30 t/hour
+Categories: Freezing, Filleting
+Certifications: MSC; BRC
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities/pelagia-maloy
+Sources: turn0search11
+
+---
+
+Factory: Pelagia Måløy Sildoljefabrikk
+Company: Pelagia AS
+Location: Ulvesundveien 77, NO-6718 Deknepollen, Norway
+GPS: Not geocoded (address available)
+Species: Pelagic by-products/raw material
+Capacity/Volume: Not publicly disclosed
+Categories: Fishmeal, Fish Oil
+Certifications: Not listed on facilities page
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Træna
+Company: Pelagia AS
+Location: Galtneset 11, NO-8770 Træna, Norway
+GPS: Not geocoded (address available)
+Species: NVG herring, capelin, silver smelt, mackerel, saithe
+Capacity/Volume: 800 tonnes/day; 80,000 t/yr
+Categories: Freezing, Filleting, Roe
+Certifications: MSC; HACCP (site certificates referenced)
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities/pelagia-traena
+Sources: turn0search7
+
+---
+
+Factory: Pelagia Tromsø
+Company: Pelagia AS
+Location: Nordlysveien 225, NO-9020 Tromsø, Norway
+GPS: Not geocoded (address available)
+Species: Pelagic fish (seasonal)
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Cold storage
+Certifications: Not listed
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Kalvåg
+Company: Pelagia AS
+Location: Kalvøyna 12, NO-6729 Kalvåg, Norway
+GPS: Not geocoded (address available)
+Species: Pelagic fish (seasonal)
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Freezing
+Certifications: Not listed
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Killybegs
+Company: Pelagia AS
+Location: Donegal Road, Killybegs, Ireland
+GPS: Not geocoded (address available)
+Species: Pelagic raw material/by-products
+Capacity/Volume: Not publicly disclosed
+Categories: Fishmeal, Fish Oil (feed)
+Certifications: Not listed
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Shetland
+Company: Pelagia AS
+Location: Gremista, Lerwick, Shetland, UK ZE1 0PX
+GPS: Not geocoded (address available)
+Species: Pelagic fish (seasonal)
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Freezing
+Certifications: Not listed
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Greenock
+Company: Pelagia AS
+Location: Weighbridge House, Drumfrochar Rd, Greenock, UK PA15 4TS
+GPS: Not geocoded (address available)
+Species: Fish oil / omega-3 value chain
+Capacity/Volume: Not publicly disclosed
+Categories: Oil refining / feed ingredients
+Certifications: Not listed
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Pelagia Grimsby
+Company: Pelagia AS
+Location: Gilbey Road, Grimsby, UK DN31 2SL
+GPS: Not geocoded (address available)
+Species: Fish oil / feed ingredients
+Capacity/Volume: Not publicly disclosed
+Categories: Feed ingredients
+Certifications: Not listed
+EU Approved: YES (EU/EEA/UK/Ireland based)
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown
+Confidence Level: HIGH
+Website: https://www.pelagia.com/facilities
+Sources: turn1view1
+
+---
+
+Factory: Codroy Seafoods Inc.
+Company: Codroy Seafoods Inc.
+Location: 1 Wharf Road, Codroy, Newfoundland and Labrador, Canada A0N 1H0
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Quin-Sea Fisheries Limited
+Company: Quin-Sea Fisheries Limited
+Location: 257-269 Marine Drive, Southern Harbour, Newfoundland and Labrador, Canada
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Conche Seafoods Limited
+Company: Conche Seafoods Limited
+Location: 2 Harbour View Drive, Conche, Newfoundland and Labrador, Canada
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: B.A. Richard Ltd.
+Company: B.A. Richard Ltd.
+Location: 374 St. Anne Shore Road, Ste-Anne de Kent, New Brunswick, Canada E4S 1M6
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Shediac Lobster Shop Ltd.
+Company: Shediac Lobster Shop Ltd.
+Location: 261 Main Street, Shediac, New Brunswick, Canada E4P 2A6
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Beothic Fish Processors Limited
+Company: Beothic Fish Processors Limited
+Location: 1 Beothic Road, Valleyfield, Newfoundland and Labrador, Canada A0G 1B0
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Quality Seafoods Limited
+Company: Quality Seafoods Limited
+Location: 308 Hilton Road, Rockville, Nova Scotia, Canada B5A 5G2
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Cape Bald Packers Ltd.
+Company: Cape Bald Packers Ltd.
+Location: 2618 Acadie Road, Cap-Pelé, New Brunswick, Canada E4N 1E3
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Westmorland Fisheries Limited
+Company: Westmorland Fisheries Limited
+Location: 64 Gautreau Street, Cap-Pelé, New Brunswick, Canada E4N 1V3
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Clearwater Seafoods Limited Partnership
+Company: Clearwater Seafoods Limited Partnership
+Location: 68 Water Street, Lockeport, Nova Scotia, Canada B0T 1L0
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Village Bay Sea Products Ltd.
+Company: Village Bay Sea Products Ltd.
+Location: 769 ch. de la Pointe, Richibucto Village, New Brunswick, Canada E4W 5N5
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Acadian Fishermen's Co-operative Association, Limited
+Company: Acadian Fishermen's Co-operative Association, Limited
+Location: 08323 Route #11, Abrams Village, Wellington, Prince Edward Island, Canada C0B 2E0
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Baie Ste-Anne Seafoods (2014) Inc.
+Company: Baie Ste-Anne Seafoods (2014) Inc.
+Location: 143 Chemin Escuminac Point, Escuminac, New Brunswick, Canada E9A 1V6
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: James L. Mood Fisheries Limited
+Company: James L. Mood Fisheries Limited
+Location: 130 Falls Point Road, Woods Harbour, Shelburne County, Nova Scotia, Canada B0W 2E0
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Summerside Seafood Supreme Inc.
+Company: Summerside Seafood Supreme Inc.
+Location: 105 Queens Wharf Road, Summerside, Prince Edward Island, Canada C1N 2V5
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Seafood 2000 Ltd.
+Company: Seafood 2000 Ltd.
+Location: 10 Water Street, Georgetown, Prince Edward Island, Canada C0A 1L0
+GPS: Not geocoded (address available)
+Species: Live lobster; lobster tomalley products
+Capacity/Volume: Not publicly disclosed
+Categories: Live holding, Packing/Export
+Certifications: CFIA approved exporter list (Japan)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: YES (CFIA list)
+By-product processing: No
+Confidence Level: HIGH
+Website: Unknown / not listed on CFIA page
+Sources: turn1view0
+
+---
+
+Factory: Peter Pan Seafood Company LLC – King Cove
+Company: Peter Pan Seafood Company LLC
+Location: King Cove, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Peter Pan Seafood Company LLC – Valdez
+Company: Peter Pan Seafood Company LLC
+Location: Valdez, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Pacific Seafood – Kodiak LLC
+Company: Pacific Seafood - Kodiak LLC
+Location: Kodiak, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Pacific Seafood – Seward LLC
+Company: Pacific Seafood - Seward LLC
+Location: Seward, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Pacific Seafood – Wrangell LLC
+Company: Pacific Seafood - Wrangell LLC
+Location: Wrangell, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Silver Bay Seafoods – False Pass
+Company: Silver Bay Seafoods
+Location: False Pass, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Silver Bay Seafoods Kodiak LLC
+Company: Silver Bay Seafoods Kodiak LLC
+Location: Kodiak, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Seafood Producers Cooperative
+Company: Seafood Producers Cooperative
+Location: Sitka, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Tonka Seafoods, Inc.
+Company: Tonka Seafoods, Inc.
+Location: Petersburg, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: Seaborn Seafood LLC
+Company: Seaborn Seafood LLC
+Location: Craig, Alaska, USA
+GPS: Not geocoded (city only in NOAA FFP list)
+Species: Wild Alaska groundfish/salmon (varies by plant)
+Capacity/Volume: Not publicly disclosed
+Categories: Shore-based processing (SHP) – per NOAA Federal Processor Permit list
+Certifications: Not listed on NOAA FFP list
+EU Approved: Unknown
+US FDA Approved: YES (US facility)
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (processor + city verified; full address not provided)
+Website: Unknown / varies
+Sources: turn1view2
+
+---
+
+Factory: CAP Seafoods Pvt. Ltd.
+Company: CAP Seafoods Pvt. Ltd.
+Location: 1/71, Vypeen Island, Kochi, Kerala 682510, India
+GPS: Not geocoded (address available)
+Species: Shrimp; prawns; cooked/value-added seafood
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Value-added
+Certifications: Not listed on supplier directory entry
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: MEDIUM (supplier-directory address)
+Website: https://www.seafoodsource.com/supplier-directory/cap-seafoods-pvt-ltd
+Sources: turn0search6
+
+---
+
+Factory: ULKA Seafoods Pvt Ltd
+Company: ULKA Seafoods Pvt Ltd
+Location: Plot No. M-79, Taloja MIDC, Panvel, Maharashtra 410208, India
+GPS: Not geocoded (address available)
+Species: Surimi; shrimp; mackerel; squid; cuttlefish; fish oil (listed categories)
+Capacity/Volume: Not publicly disclosed
+Categories: Processing, Value-added (surimi), Seafood products
+Certifications: Not listed on supplier directory entry
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Partial/Unknown (fish oil listed)
+Confidence Level: MEDIUM (supplier-directory address)
+Website: https://www.seafoodsource.com/supplier-directory/ulka-seafoods-pvt-ltd
+Sources: turn0search10

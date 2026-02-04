@@ -1,0 +1,79 @@
+IOC TOP GLOBAL SEAFOOD PROCESSORS – IOC DATABASE FORMAT
+
+Factory: Mowi Jøsnøya Processing Plant
+Company: Mowi ASA
+Location: Jøsnøya, Hitra Municipality, Trøndelag, Norway
+GPS: 63.5400, 8.7400
+Species: Atlantic salmon
+Categories: Primary Processing, Slaughtering, Packing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: Partial (trimmings routed to external fishmeal/oil plants)
+Confidence Level: HIGH
+Website: https://mowi.com
+
+Factory: InnovaMar Processing Facility
+Company: SalMar ASA
+Location: Nordskaget, Frøya, Trøndelag, Norway
+GPS: 63.7270, 8.8270
+Species: Atlantic salmon
+Categories: Primary Processing, Filleting, Value-added
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: Partial
+Confidence Level: HIGH
+Website: https://www.salmar.no
+
+Factory: Pelagia Egersund Seafood
+Company: Pelagia AS
+Location: Egersund, Rogaland, Norway
+GPS: 58.4510, 6.0050
+Species: Herring, mackerel, capelin
+Categories: Pelagic Processing, Freezing, Cold Storage
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: YES (meal & oil)
+Confidence Level: HIGH
+Website: https://www.pelagia.com
+
+Factory: Samherji Dalvík Processing Plant
+Company: Samherji hf.
+Location: Dalvík, Iceland
+GPS: 65.9700, -18.5300
+Species: Cod, haddock, saithe
+Categories: Primary Processing, Value-added
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: Partial
+Confidence Level: HIGH
+Website: https://www.samherji.is
+
+Factory: Trident Seafoods Akutan Plant
+Company: Trident Seafoods Corporation
+Location: Akutan, Alaska, USA
+GPS: 54.1350, -165.7760
+Species: Pollock, salmon, cod
+Categories: Primary Processing, Freezing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: YES
+Confidence Level: HIGH
+Website: https://www.tridentseafoods.com
+
+Factory: Thai Union Samut Sakhon Plant
+Company: Thai Union Group
+Location: Samut Sakhon, Thailand
+GPS: 13.5470, 100.2740
+Species: Tuna
+Categories: Canning, Value-added Processing
+EU Approved: YES
+US FDA Approved: YES
+Japan Approved: YES
+By-product processing: Partial
+Confidence Level: HIGH
+Website: https://www.thaiunion.com

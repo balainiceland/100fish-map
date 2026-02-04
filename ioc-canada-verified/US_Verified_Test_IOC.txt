@@ -1,0 +1,232 @@
+IOC – CANADA VERIFIED LAYER (TOP N)
+
+Factory: Westward Seafoods - Captains Bay Plant
+Company: Westward Seafoods, Inc.
+Location: Captains Bay Road, PO Box 920608, Dutch Harbor, Alaska 99692, USA
+GPS: (compute from address)
+Species: Crab, Halibut, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (Collagen/Gelatin)
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): HIGH
+Website: https://www.westwardseafoods.com/
+Evidence URLs: https://www.westwardseafoods.com
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Wrangell Plant
+Company: Trident Seafoods
+Location: 641 Shakes St, PO Box 908, Wrangell, Alaska 99929, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - St. Paul Plant
+Company: Trident Seafoods
+Location: 1027 Harbor Road, PO Box 909, St. Paul, Alaska 99660, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Seattle Pier 91 R&D
+Company: Trident Seafoods
+Location: 2001 W Garfield St, Bldg 391, Seattle, Washington 98119, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Sand Point Plant
+Company: Trident Seafoods
+Location: 229 Main Street, PO Box 229, Sand Point, Alaska 99661, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - North Naknek Plant
+Company: Trident Seafoods
+Location: 1/2 Mile Post Peninsula Way, PO Box 139, Naknek, Alaska 99633, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Motley Facility
+Company: Trident Seafoods
+Location: 1348 US-10, Motley, Minnesota 56466, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Everett Facility
+Company: Trident Seafoods
+Location: 1930 Merrill Creek Pkwy B, Everett, Washington 98203, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Dutch Harbor Support Center
+Company: Trident Seafoods
+Location: 1836 Ballyhoo Road, PO Box 920048, Dutch Harbor, Alaska 99692, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
+Factory: Trident Seafoods - Cordova Plant
+Company: Trident Seafoods
+Location: 301 Jim Poor Ave, Cordova, Alaska 99574, USA
+GPS: (compute from address)
+Species: Salmon, Crab, Cod
+Capacity/Volume: Unknown
+Categories: Seafood processing (CFIA-registered); refine if verified
+Certifications: Unknown
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address from CFIA); see per-field confidence below
+Species (confidence): HIGH
+Capacity/Volume (confidence): LOW
+Certifications (confidence): LOW
+By-product processing (confidence): LOW
+Website: https://www.tridentseafoods.com/
+Evidence URLs: https://www.tridentseafoods.com, https://www.tridentseafoods.com/products, https://www.tridentseafoods.com/product, https://www.tridentseafoods.com/our-products, https://www.tridentseafoods.com/certifications, https://www.tridentseafoods.com/certification
+Notes: Verified from website text extraction
+
+---
+
