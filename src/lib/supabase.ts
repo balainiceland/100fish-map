@@ -364,6 +364,58 @@ export async function updateFactory(
   }
 }
 
+// Save byproducts for a factory (replaces all existing byproducts)
+export async function saveByproducts(
+  factoryId: string,
+  byproducts: Omit<ByproductInsert, 'factory_id'>[]
+): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    // Delete existing byproducts
+    const { error: deleteError } = await supabase
+      .from('factory_byproducts')
+      .delete()
+      .eq('factory_id', factoryId);
+
+    if (deleteError) throw deleteError;
+
+    // Insert new byproducts if any
+    if (byproducts.length > 0) {
+      const rows = byproducts.map(bp => ({
+        factory_id: factoryId,
+        category: bp.category,
+        description: bp.description || null,
+        percentage: bp.percentage,
+        end_use: bp.end_use,
+      }));
+
+      const { error: insertError } = await supabase
+        .from('factory_byproducts')
+        .insert(rows);
+
+      if (insertError) throw insertError;
+    }
+
+    // Recalculate utilization score
+    const score = byproducts.reduce((sum, bp) => sum + (bp.percentage || 0), 0);
+    await supabase
+      .from('factories')
+      .update({ utilization_score: Math.min(score, 100), updated_at: new Date().toISOString() })
+      .eq('id', factoryId);
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error saving byproducts:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
 // Delete factory
 export async function deleteFactory(factoryId: string): Promise<{ success: boolean; error?: string }> {
   if (!isSupabaseConfigured() || !supabase) {

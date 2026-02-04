@@ -13,10 +13,13 @@ import {
   Users,
   Calendar,
   Shield,
+  Recycle,
+  Plus,
+  Trash2,
 } from 'lucide-react';
-import { updateFactory, updateVerificationLevel, type FactoryFromDB, type FactoryInsert } from '../../lib/supabase';
-import { VERIFICATION_LABELS } from '../../types';
-import type { VerificationLevel } from '../../types';
+import { updateFactory, updateVerificationLevel, saveByproducts, type FactoryFromDB, type FactoryInsert } from '../../lib/supabase';
+import { VERIFICATION_LABELS, BYPRODUCT_LABELS, END_USE_LABELS } from '../../types';
+import type { VerificationLevel, ByproductCategory, EndUse } from '../../types';
 
 interface FactoryEditorProps {
   factory: FactoryFromDB;
@@ -43,6 +46,25 @@ const VERIFICATION_LEVELS: VerificationLevel[] = [
   'certified',
 ];
 
+const BYPRODUCT_CATEGORIES: ByproductCategory[] = [
+  'fillet', 'oil', 'meal', 'collagen', 'gelatin', 'leather',
+  'bones', 'heads', 'roe', 'milt', 'liver', 'blood', 'skin',
+  'viscera', 'shell_meal', 'other',
+];
+
+const END_USES: EndUse[] = [
+  'food', 'cosmetics', 'pharma', 'pet_food', 'animal_feed',
+  'fertilizer', 'supplements', 'medical', 'industrial', 'other',
+];
+
+interface ByproductRow {
+  id?: string;
+  category: ByproductCategory;
+  description: string;
+  percentage: number;
+  end_use: EndUse;
+}
+
 export default function FactoryEditor({ factory, onClose, onSave }: FactoryEditorProps) {
   const [formData, setFormData] = useState({
     name: factory.name || '',
@@ -61,6 +83,16 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
     verification_level: factory.verification_level as VerificationLevel || 'self_reported',
   });
 
+  const [byproducts, setByproducts] = useState<ByproductRow[]>(
+    (factory.byproducts || []).map(bp => ({
+      id: bp.id,
+      category: bp.category as ByproductCategory,
+      description: bp.description || '',
+      percentage: bp.percentage,
+      end_use: bp.end_use as EndUse,
+    }))
+  );
+
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -78,6 +110,27 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
       }
     });
   };
+
+  const addByproduct = () => {
+    setByproducts(prev => [...prev, {
+      category: 'fillet',
+      description: '',
+      percentage: 0,
+      end_use: 'food',
+    }]);
+  };
+
+  const updateByproduct = (index: number, field: keyof ByproductRow, value: unknown) => {
+    setByproducts(prev => prev.map((bp, i) =>
+      i === index ? { ...bp, [field]: value } : bp
+    ));
+  };
+
+  const removeByproduct = (index: number) => {
+    setByproducts(prev => prev.filter((_, i) => i !== index));
+  };
+
+  const totalPercentage = byproducts.reduce((sum, bp) => sum + bp.percentage, 0);
 
   const handleSubmit = async (e?: React.FormEvent | React.MouseEvent) => {
     if (e) e.preventDefault();
@@ -118,6 +171,19 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
           setError(verifyResult.error || 'Failed to update verification level');
           return;
         }
+      }
+
+      // Save byproducts
+      const bpResult = await saveByproducts(factory.id, byproducts.map(bp => ({
+        category: bp.category,
+        description: bp.description || undefined,
+        percentage: bp.percentage,
+        end_use: bp.end_use,
+      })));
+
+      if (!bpResult.success) {
+        setError(bpResult.error || 'Failed to save byproducts');
+        return;
       }
 
       onSave();
@@ -368,6 +434,102 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
                 </button>
               ))}
             </div>
+          </div>
+
+          {/* Byproduct Processing */}
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="font-medium text-gray-900 flex items-center gap-2">
+                <Recycle className="w-4 h-4 text-ioc-teal" />
+                Byproduct Processing
+              </h3>
+              <div className="flex items-center gap-3">
+                <span className={`text-sm font-medium ${totalPercentage > 100 ? 'text-red-600' : 'text-gray-500'}`}>
+                  Total: {totalPercentage}%
+                </span>
+                <button
+                  type="button"
+                  onClick={addByproduct}
+                  className="flex items-center gap-1 px-3 py-1.5 text-sm bg-ioc-teal text-white rounded-lg hover:bg-ioc-ocean transition-colors"
+                >
+                  <Plus className="w-3 h-3" />
+                  Add
+                </button>
+              </div>
+            </div>
+
+            {byproducts.length === 0 ? (
+              <p className="text-sm text-gray-400 italic">No byproducts added yet. Click "Add" to start tracking fish utilization.</p>
+            ) : (
+              <div className="space-y-3">
+                {byproducts.map((bp, index) => (
+                  <div key={index} className="p-3 bg-gray-50 rounded-lg border border-gray-200 space-y-3">
+                    <div className="flex items-start gap-2">
+                      <div className="flex-1 grid grid-cols-2 sm:grid-cols-4 gap-2">
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 mb-1">Category</label>
+                          <select
+                            value={bp.category}
+                            onChange={(e) => updateByproduct(index, 'category', e.target.value)}
+                            className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                          >
+                            {BYPRODUCT_CATEGORIES.map(cat => (
+                              <option key={cat} value={cat}>{BYPRODUCT_LABELS[cat]}</option>
+                            ))}
+                          </select>
+                        </div>
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 mb-1">% of Fish</label>
+                          <input
+                            type="number"
+                            value={bp.percentage}
+                            onChange={(e) => updateByproduct(index, 'percentage', Number(e.target.value))}
+                            className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                            min="0"
+                            max="100"
+                            step="0.5"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 mb-1">End Use</label>
+                          <select
+                            value={bp.end_use}
+                            onChange={(e) => updateByproduct(index, 'end_use', e.target.value)}
+                            className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                          >
+                            {END_USES.map(use => (
+                              <option key={use} value={use}>{END_USE_LABELS[use]}</option>
+                            ))}
+                          </select>
+                        </div>
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 mb-1">Description</label>
+                          <input
+                            type="text"
+                            value={bp.description}
+                            onChange={(e) => updateByproduct(index, 'description', e.target.value)}
+                            className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                            placeholder="Optional"
+                          />
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => removeByproduct(index)}
+                        className="mt-5 p-1.5 text-red-400 hover:bg-red-50 rounded transition-colors"
+                        title="Remove"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {totalPercentage > 100 && (
+              <p className="text-sm text-red-600">Total percentage exceeds 100%. Please adjust the values.</p>
+            )}
           </div>
 
           {/* Verification Level */}
