@@ -94,7 +94,7 @@ function transformDBFactory(dbFactory: FactoryFromDB): Factory {
     verificationLevel: dbFactory.verification_level as VerificationLevel,
     featured: dbFactory.featured || false,
     createdAt: dbFactory.created_at,
-    updatedAt: dbFactory.updated_at || dbFactory.created_at,
+    updatedAt: dbFactory.created_at,
   };
 }
 

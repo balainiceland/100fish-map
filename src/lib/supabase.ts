@@ -204,7 +204,6 @@ export interface FactoryFromDB {
   verification_level: string;
   featured?: boolean;
   created_at: string;
-  updated_at?: string;
   byproducts: ByproductFromDB[];
   categories: string[];
 }
@@ -297,7 +296,7 @@ export async function updateFactoryStatus(
   try {
     const updateData: Record<string, unknown> = {
       status,
-      updated_at: new Date().toISOString(),
+
     };
 
     if (adminNotes) {
@@ -363,7 +362,7 @@ export async function updateFactory(
       .from('factories')
       .update({
         ...data,
-        updated_at: new Date().toISOString(),
+  
       })
       .eq('id', factoryId)
       .select('id');
@@ -434,7 +433,7 @@ export async function saveByproducts(
     const score = byproducts.reduce((sum, bp) => sum + (bp.percentage || 0), 0);
     await supabase
       .from('factories')
-      .update({ utilization_score: Math.min(score, 100), updated_at: new Date().toISOString() })
+      .update({ utilization_score: Math.min(score, 100) })
       .eq('id', factoryId);
 
     return { success: true };
@@ -484,7 +483,7 @@ export async function toggleFeatured(factoryId: string, featured: boolean): Prom
   try {
     const { data, error } = await supabase
       .from('factories')
-      .update({ featured, updated_at: new Date().toISOString() })
+      .update({ featured })
       .eq('id', factoryId)
       .select('id');
 
@@ -520,7 +519,7 @@ export async function updateVerificationLevel(
       .update({
         verification_level: level,
         verified,
-        updated_at: new Date().toISOString(),
+  
       })
       .eq('id', factoryId)
       .select('id');
