@@ -14,7 +14,7 @@ import {
   Calendar,
   Shield,
 } from 'lucide-react';
-import { updateFactory, updateVerificationLevel, type FactoryFromDB } from '../../lib/supabase';
+import { updateFactory, updateVerificationLevel, type FactoryFromDB, type FactoryInsert } from '../../lib/supabase';
 import { VERIFICATION_LABELS } from '../../types';
 import type { VerificationLevel } from '../../types';
 
