@@ -79,48 +79,54 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
     });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (e?: React.FormEvent | React.MouseEvent) => {
+    if (e) e.preventDefault();
     setIsSaving(true);
     setError(null);
 
-    // Update factory data
-    const updateData = {
-      name: formData.name,
-      company_name: formData.company_name || undefined,
-      country: formData.country,
-      region: formData.region || undefined,
-      city: formData.city || undefined,
-      address: formData.address || undefined,
-      website: formData.website || undefined,
-      contact_email: formData.contact_email || undefined,
-      phone: formData.phone || undefined,
-      employee_count: formData.employee_count ? Number(formData.employee_count) : undefined,
-      year_established: formData.year_established ? Number(formData.year_established) : undefined,
-      primary_species: formData.primary_species,
-      certifications: formData.certifications,
-    };
+    try {
+      // Update factory data - only include fields that have values
+      const updateData: Record<string, unknown> = {
+        name: formData.name,
+        country: formData.country,
+        primary_species: formData.primary_species,
+        certifications: formData.certifications,
+      };
 
-    const result = await updateFactory(factory.id, updateData);
+      // Only include optional fields if they have values
+      if (formData.company_name) updateData.company_name = formData.company_name;
+      if (formData.region) updateData.region = formData.region;
+      if (formData.city) updateData.city = formData.city;
+      if (formData.address) updateData.address = formData.address;
+      if (formData.website) updateData.website = formData.website;
+      if (formData.contact_email) updateData.contact_email = formData.contact_email;
+      if (formData.phone) updateData.phone = formData.phone;
+      if (formData.employee_count) updateData.employee_count = Number(formData.employee_count);
+      if (formData.year_established) updateData.year_established = Number(formData.year_established);
 
-    if (!result.success) {
-      setError(result.error || 'Failed to save changes');
-      setIsSaving(false);
-      return;
-    }
+      const result = await updateFactory(factory.id, updateData as Partial<FactoryInsert>);
 
-    // Update verification level if changed
-    if (formData.verification_level !== factory.verification_level) {
-      const verifyResult = await updateVerificationLevel(factory.id, formData.verification_level);
-      if (!verifyResult.success) {
-        setError(verifyResult.error || 'Failed to update verification level');
-        setIsSaving(false);
+      if (!result.success) {
+        setError(result.error || 'Failed to save changes');
         return;
       }
-    }
 
-    setIsSaving(false);
-    onSave();
+      // Update verification level if changed
+      if (formData.verification_level !== factory.verification_level) {
+        const verifyResult = await updateVerificationLevel(factory.id, formData.verification_level);
+        if (!verifyResult.success) {
+          setError(verifyResult.error || 'Failed to update verification level');
+          return;
+        }
+      }
+
+      onSave();
+    } catch (err) {
+      console.error('Error saving factory:', err);
+      setError(err instanceof Error ? err.message : 'An unexpected error occurred');
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   // Close on escape key
