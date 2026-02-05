@@ -1,0 +1,323 @@
+IOC – ICELAND SEAFOOD PROCESSING + BY-PRODUCT FACTORIES (VERIFIED LAYER v2, BEST-EFFORT)
+Only fields backed by cited sources were filled; remaining items marked Unknown for targeted follow-up.
+
+Factory: Brim – Groundfish Processing Plant (Norðurgarður)
+Company: Brim hf
+Location: Norðurgarður 1, 101 Reykjavík, Iceland
+GPS: (geocode from address)
+Species: Cod; Redfish; Saithe; Haddock; Halibut; Golden salmon (Brim products page)
+Capacity/Volume: Unknown
+Categories: Primary processing; Filleting; Fresh & frozen
+Certifications: MSC Chain of Custody/traceability (Brim); IRF (Brim); HACCP (Brim); IFS/FEMAS mentioned by Brim (company-level)
+EU Approved: Unknown
+US FDA Approved: YES (Brim reports Norðurgarður plant audited by FDA)
+Japan Approved: Unknown
+By-product processing: Unknown at plant level (Brim group has fishmeal/oil plants; Brim also notes initiative/affiliate for fish-skin collagen)
+Confidence Level: HIGH
+Website: https://www.brim.is/
+Sources: https://www.brimseafood.is/certifications/; https://arsskyrsla2022.brim.is/operations; https://www.brim.is/products; https://www.brim.is/products; https://arsskyrsla2023.brim.is/operations
+Notes: Plant address needs separate Brim contact-page confirmation in next pass (not captured here).
+
+---
+
+Factory: Brim – Vopnafjörður Fishmeal & Fish Oil Factory (IFFO 110A)
+Company: Brim hf
+Location: Hafnarbyggð 12–14, 690 Vopnafjörður, Iceland (see note)
+GPS: (geocode from address)
+Species: Pelagic/by-product raw material scope: see Icelandic Fishmeal Association list; Brim history mentions capelin roe processing in Vopnafjörður
+Capacity/Volume: 1,150 t/24h raw material (Icelandic Fishmeal Association)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust / IFFO RS (registration 110A); HACCP/MSC at company-level
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil; capelin roe processing historically noted by Brim)
+Confidence Level: HIGH
+Website: https://www.brim.is/
+Sources: https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf; https://www.brim.is/about/history
+Notes: Brim contact lists Hafnarbyggð 14; fishmeal association list shows Hafnarbyggð 12.
+
+---
+
+Factory: Brim – Akranes Fishmeal & Fish Oil Factory (IFFO 110B)
+Company: Brim hf
+Location: Hafnarbraut 2–4 (fishmeal factory address), 300 Akranes, Iceland
+GPS: (geocode from address)
+Species: Pelagic/by-product raw material scope: see Icelandic Fishmeal Association list
+Capacity/Volume: 1,000 t/24h raw material (Icelandic Fishmeal Association)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust / IFFO RS (registration 110B per association list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://www.brim.is/
+Sources: https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: Company also has Akursbraut 3 address listed for Akranes site; this entry uses fishmeal factory address from FIF list.
+
+---
+
+Factory: Síldarvinnslan – Neskaupstaður Fishmeal/Oil Factory (IFFO 113A)
+Company: Síldarvinnslan hf
+Location: Naustahvammur 67–69, 740 Fjarðabyggð (Neskaupstaður), Iceland
+GPS: (geocode from address)
+Species: Pelagic/by-product raw material scope: see Icelandic Fishmeal Association list
+Capacity/Volume: 1,200 t/24h raw material (Icelandic Fishmeal Association)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: IFFO 113A (Icelandic Fishmeal Association list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://svn.is/
+Sources: https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: Síldarvinnslan – Seyðisfjörður Fishmeal/Oil Factory (IFFO 113B)
+Company: Síldarvinnslan hf
+Location: Strandarvegur 1–11, 710 Seyðisfjörður, Iceland
+GPS: (geocode from address)
+Species: Pelagic/by-product raw material scope: see Icelandic Fishmeal Association list
+Capacity/Volume: 1,200 t/24h raw material (Icelandic Fishmeal Association)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: IFFO 113B (Icelandic Fishmeal Association list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://svn.is/
+Sources: https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: Eskja – Eskifjörður Fishmeal/Oil Factory
+Company: Eskja hf
+Location: Strandgata 2, 735 Eskifjörður, Iceland
+GPS: (geocode from address)
+Species: Fishmeal/by-product raw material includes pelagic species such as mackerel (certificate appendix mentions mackerel among others)
+Capacity/Volume: 1,000 t/24h raw material (Icelandic Fishmeal Association list)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust / IFFO RS registration 109 (certificate); IFFO 109 also listed by FIF
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://eskja.is/
+Sources: https://www.marin-trust.com/sites/marintrust/files/2022-10/109%20Eskja%20h.f%20Certificate.pdf; https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: Loðnuvinnslan – Fishmeal/Oil Factory
+Company: Loðnuvinnslan hf
+Location: Hafnargata 1, 750 Fáskrúðsfjörður, Iceland
+GPS: (geocode from address)
+Species: Fishmeal/by-product raw material scope: see MarinTrust certificate appendix / FIF list
+Capacity/Volume: 800 t/24h raw material (FIF list)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust / IFFO RS registration 112 (certificate); IFFO 112 (FIF list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://lvf.is/
+Sources: https://www.marin-trust.com/sites/marintrust/files/2024-11/112%20Lo%C3%B0nuvinnslan%20hf%20%20Certificate.pdf; https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: Skinney-Þinganes – Groundfish Processing Plant (Krossey, Höfn)
+Company: Skinney-Þinganes hf
+Location: Krossey, 780 Höfn (Hornafjörður), Iceland
+GPS: (geocode from address)
+Species: Pelagic fish; Groundfish; Langoustine (company products page)
+Capacity/Volume: Unknown
+Categories: Primary processing; Secondary processing
+Certifications: IFS certified (groundfish factories at Krossey in Höfn and in Þorlákshöfn); MSC traceability/CoC described by company; Equal Pay certification (ÍST 85:2012)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (separate fishmeal/oil factory in Höfn)
+Confidence Level: HIGH
+Website: https://sth.is/
+Sources: https://sth.is/en/products/; https://sth.is/en/certifications/
+Notes: Company page states IFS certification for Krossey and Þorlákshöfn groundfish plants.
+
+---
+
+Factory: Skinney-Þinganes – Fishmeal/Oil Factory (Höfn) (IFFO 114)
+Company: Skinney-Þinganes hf
+Location: Miðós 17, 780 Höfn, Iceland
+GPS: (geocode from address)
+Species: By-product raw material scope: see FIF list / MarinTrust certificate
+Capacity/Volume: 550 t/24h raw material (FIF list)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust / IFFO RS registration 114 (certificate); IFFO 114 (FIF list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://sth.is/
+Sources: https://www.marin-trust.com/sites/marintrust/files/2025-05/114%20Skinney%C3%9Einganes%20hf%20-%20Fiskmj%C3%B6lsverksmi%C3%B0ja%20Certificate.pdf; https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: VSV – Vinnslustöðin Fishmeal & Fish Oil Unit (MarinTrust 115)
+Company: Vinnslustöðin hf (VSV)
+Location: Hafnargata 2, 900 Vestmannaeyjar, Iceland
+GPS: (geocode from address)
+Species: By-product raw material scope: see MarinTrust certificate appendix (not fully captured here)
+Capacity/Volume: 1,000 t/24h raw material (FIF list)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust registration 115 (certificate)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://www.vsv.is/
+Sources: https://www.marin-trust.com/sites/marintrust/files/2025-03/115%20Vinnslust%C3%B6%C3%B0in%20hf%20Certificate.pdf; https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: VSV – Vinnslustöðin (Company-level processing & quality claims)
+Company: Vinnslustöðin hf (VSV)
+Location: Vestmannaeyjar, Iceland (exact plant street address TBD)
+GPS: (geocode from address)
+Species: Pelagic and groundfish (company-level)
+Capacity/Volume: Unknown
+Categories: Seafood processing; Freezing
+Certifications: MSC; IRF; HACCP (company responsibility page)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil unit at Hafnargata 2)
+Confidence Level: MEDIUM
+Website: https://www.vsv.is/
+Sources: https://www.vsv.is/is/abyrgd/
+Notes: Needs exact street address for the food processing plant(s); fishmeal unit address is separately captured above.
+
+---
+
+Factory: Ísfélag Vestmannaeyja – Fishmeal/Oil Factory (FES) (MarinTrust 111a)
+Company: Ísfélag hf / Ísfélag Vestmannaeyja hf
+Location: Strandvegur 28, 900 Vestmannaeyjar, Iceland
+GPS: (geocode from address)
+Species: Capelin; Herring; Mackerel; Blue whiting (company landvinnsla page)
+Capacity/Volume: 1,200 t/24h raw material (company landvinnsla page; also FIF list)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: MarinTrust registration 111a (certificate)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://isfelag.is/en/
+Sources: https://www.marin-trust.com/sites/marintrust/files/2025-04/111a_Isfelag_Vestmannaeyja_hf._-_Fiskimjolsverksmidja_Certificate_1.pdf; https://isfelag.is/en/landvinnsla/; https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: Ísfélag Vestmannaeyja – Þórshöfn Fishmeal/Oil Factory (IFFO 111B)
+Company: Ísfélag hf / Ísfélag Vestmannaeyja hf
+Location: Hafnarvegur 4, 680 Þórshöfn, Iceland
+GPS: (geocode from address)
+Species: By-product raw material scope: see FIF list
+Capacity/Volume: 900 t/24h raw material (FIF list)
+Categories: By-product processing; Fishmeal; Fish oil
+Certifications: IFFO 111B (FIF list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (fishmeal & fish oil)
+Confidence Level: HIGH
+Website: https://isfelag.is/en/
+Sources: https://fif.is/wp-content/uploads/2022/11/Icelandic-factories-2021.pdf
+Notes: 
+
+---
+
+Factory: Vísir hf – Processing Facilities (Grindavík)
+Company: Vísir hf
+Location: Hafnargata 16, 240 Grindavík, Iceland
+GPS: (geocode from address)
+Species: Not enumerated on cited page (longline raw material; product categories include saltfish, frozen and fresh products)
+Capacity/Volume: Unknown
+Categories: Primary processing; Freezing; Saltfish
+Certifications: MSC (Vísir appears on MSC certificate sharers list)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: Unknown
+Confidence Level: HIGH (address) / MEDIUM (certifications)
+Website: https://www.visirhf.is/
+Sources: https://www.visirhf.is/is/um-visi/english; https://cert.msc.org/FileLoader/FileLinkDownload.asmx/GetFile?encryptedKey=9%2FBiXq%2FEnsJlylxeODyy8vgrTRtiO3hx9Dq%2FXtewDrnq8godyx9WtUQ68SVIvhL0
+Notes: MSC file is dated 2018; needs a current CoC certificate lookup for 2026 refresh.
+
+---
+
+Factory: Primex – Chitosan Factory (Siglufjörður)
+Company: Primex ehf
+Location: Óskarsgata 7, 580 Siglufjörður, Iceland
+GPS: (geocode from address)
+Species: Northern shrimp (Pandalus borealis) shells (Primex partner listing)
+Capacity/Volume: Unknown
+Categories: By-product processing; Chitin/Chitosan (marine biotech)
+Certifications: Unknown (not stated on cited pages)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (chitin/chitosan from shrimp shells)
+Confidence Level: HIGH
+Website: https://www.primex.is/
+Sources: https://www.primex.is/; https://www.primex.is/about-us/distributors-warehouses/titill; https://bluebioportal.com/partner/primex/
+Notes: 
+
+---
+
+Factory: Genis – Chitin Derivatives Facility (Siglufjörður)
+Company: Genis
+Location: Aðalgata 34, 580 Siglufjörður, Iceland
+GPS: (geocode from address)
+Species: Shrimp shell chitin (Genis overview/about page)
+Capacity/Volume: Unknown
+Categories: By-product processing; Chitin derivatives (biotech)
+Certifications: Unknown (not stated on cited pages)
+EU Approved: Unknown
+US FDA Approved: Unknown
+Japan Approved: Unknown
+By-product processing: YES (chitin derivatives from shrimp shell)
+Confidence Level: HIGH
+Website: https://www.genis.is/
+Sources: https://www.genis.is/contact; https://www.genis.is/about; https://bluebioportal.com/partner/genis/
+Notes: 
+
+---
+
+Factory: Kerecis – Ísafjörður Manufacturing
+Company: Kerecis Limited / Kerecis ehf
+Location: Sundstræti 38, 400 Ísafjörður, Iceland
+GPS: (geocode from address)
+Species: Fish skin (species not specified on cited pages)
+Capacity/Volume: Unknown
+Categories: Seafood by-product utilization; Manufacturing
+Certifications: Regulatory clearance noted for US/Europe (company page); food certifications not applicable
+EU Approved: YES (regulatory clearance mentioned)
+US FDA Approved: YES (regulatory clearance mentioned)
+Japan Approved: Unknown
+By-product processing: YES (high-value utilization of fish skin)
+Confidence Level: HIGH
+Website: https://www.kerecis.com/
+Sources: https://www.kerecis.com/wp-content/uploads/2025/06/KL-24-0021-IFU-Kerecis-Tendon-lettersizes-en-US-DIGITAL.pdf; https://www.kerecis.com/isafjordur-iceland/
+Notes: Not a food plant; included because you asked to include by-product processing facilities.
