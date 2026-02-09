@@ -142,29 +142,29 @@ export async function fetchApprovedFactories(): Promise<{
       return { success: true, factories: [] };
     }
 
-    // Fetch byproducts for all factories
+    // Fetch byproducts and categories in batches to avoid URL length limits
     const factoryIds = factories.map(f => f.id);
+    const BATCH_SIZE = 200;
+    let allByproducts: Record<string, unknown>[] = [];
+    let allCategories: Record<string, unknown>[] = [];
 
-    const { data: byproducts, error: byproductsError } = await supabase
-      .from('factory_byproducts')
-      .select('*')
-      .in('factory_id', factoryIds);
-
-    if (byproductsError) throw byproductsError;
-
-    // Fetch categories for all factories
-    const { data: categories, error: categoriesError } = await supabase
-      .from('factory_categories')
-      .select('*')
-      .in('factory_id', factoryIds);
-
-    if (categoriesError) throw categoriesError;
+    for (let i = 0; i < factoryIds.length; i += BATCH_SIZE) {
+      const batchIds = factoryIds.slice(i, i + BATCH_SIZE);
+      const [bpResult, catResult] = await Promise.all([
+        supabase.from('factory_byproducts').select('*').in('factory_id', batchIds),
+        supabase.from('factory_categories').select('*').in('factory_id', batchIds),
+      ]);
+      if (bpResult.error) throw bpResult.error;
+      if (catResult.error) throw catResult.error;
+      allByproducts = allByproducts.concat(bpResult.data || []);
+      allCategories = allCategories.concat(catResult.data || []);
+    }
 
     // Combine data
     const factoriesWithRelations = factories.map(factory => ({
       ...factory,
-      byproducts: (byproducts || []).filter(bp => bp.factory_id === factory.id),
-      categories: (categories || []).filter(cat => cat.factory_id === factory.id).map(cat => cat.category),
+      byproducts: allByproducts.filter((bp: Record<string, unknown>) => bp.factory_id === factory.id),
+      categories: allCategories.filter((cat: Record<string, unknown>) => cat.factory_id === factory.id).map((cat: Record<string, unknown>) => cat.category as string),
     }));
 
     return { success: true, factories: factoriesWithRelations };
@@ -247,29 +247,29 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
       return { success: true, factories: [] };
     }
 
-    // Fetch byproducts for all factories
+    // Fetch byproducts and categories in batches to avoid URL length limits
     const factoryIds = factories.map(f => f.id);
+    const BATCH_SIZE = 200;
+    let allByproducts: Record<string, unknown>[] = [];
+    let allCategories: Record<string, unknown>[] = [];
 
-    const { data: byproducts, error: byproductsError } = await supabase
-      .from('factory_byproducts')
-      .select('*')
-      .in('factory_id', factoryIds);
-
-    if (byproductsError) throw byproductsError;
-
-    // Fetch categories for all factories
-    const { data: categories, error: categoriesError } = await supabase
-      .from('factory_categories')
-      .select('*')
-      .in('factory_id', factoryIds);
-
-    if (categoriesError) throw categoriesError;
+    for (let i = 0; i < factoryIds.length; i += BATCH_SIZE) {
+      const batchIds = factoryIds.slice(i, i + BATCH_SIZE);
+      const [bpResult, catResult] = await Promise.all([
+        supabase.from('factory_byproducts').select('*').in('factory_id', batchIds),
+        supabase.from('factory_categories').select('*').in('factory_id', batchIds),
+      ]);
+      if (bpResult.error) throw bpResult.error;
+      if (catResult.error) throw catResult.error;
+      allByproducts = allByproducts.concat(bpResult.data || []);
+      allCategories = allCategories.concat(catResult.data || []);
+    }
 
     // Combine data
     const factoriesWithRelations = factories.map(factory => ({
       ...factory,
-      byproducts: (byproducts || []).filter(bp => bp.factory_id === factory.id),
-      categories: (categories || []).filter(cat => cat.factory_id === factory.id).map(cat => cat.category),
+      byproducts: allByproducts.filter((bp: Record<string, unknown>) => bp.factory_id === factory.id),
+      categories: allCategories.filter((cat: Record<string, unknown>) => cat.factory_id === factory.id).map((cat: Record<string, unknown>) => cat.category as string),
     }));
 
     return { success: true, factories: factoriesWithRelations };
