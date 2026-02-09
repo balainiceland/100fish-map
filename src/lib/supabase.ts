@@ -130,15 +130,25 @@ export async function fetchApprovedFactories(): Promise<{
   }
 
   try {
-    // Fetch factories with their byproducts and categories
-    const { data: factories, error: factoriesError } = await supabase
-      .from('factories')
-      .select('*')
-      .eq('status', 'approved');
+    // Fetch factories in pages (Supabase default limit is 1000 rows)
+    const PAGE_SIZE = 1000;
+    let factories: Record<string, unknown>[] = [];
+    let from = 0;
+    while (true) {
+      const { data, error: factoriesError } = await supabase
+        .from('factories')
+        .select('*')
+        .eq('status', 'approved')
+        .range(from, from + PAGE_SIZE - 1);
 
-    if (factoriesError) throw factoriesError;
+      if (factoriesError) throw factoriesError;
+      if (!data || data.length === 0) break;
+      factories = factories.concat(data);
+      if (data.length < PAGE_SIZE) break;
+      from += PAGE_SIZE;
+    }
 
-    if (!factories || factories.length === 0) {
+    if (factories.length === 0) {
       return { success: true, factories: [] };
     }
 
@@ -233,17 +243,27 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
   }
 
   try {
-    let query = supabase.from('factories').select('*');
+    // Fetch factories in pages (Supabase default limit is 1000 rows)
+    const PAGE_SIZE = 1000;
+    let factories: Record<string, unknown>[] = [];
+    let from = 0;
+    while (true) {
+      let query = supabase.from('factories').select('*');
+      if (status) {
+        query = query.eq('status', status);
+      }
+      const { data, error: factoriesError } = await query
+        .order('created_at', { ascending: false })
+        .range(from, from + PAGE_SIZE - 1);
 
-    if (status) {
-      query = query.eq('status', status);
+      if (factoriesError) throw factoriesError;
+      if (!data || data.length === 0) break;
+      factories = factories.concat(data);
+      if (data.length < PAGE_SIZE) break;
+      from += PAGE_SIZE;
     }
 
-    const { data: factories, error: factoriesError } = await query.order('created_at', { ascending: false });
-
-    if (factoriesError) throw factoriesError;
-
-    if (!factories || factories.length === 0) {
+    if (factories.length === 0) {
       return { success: true, factories: [] };
     }
 
