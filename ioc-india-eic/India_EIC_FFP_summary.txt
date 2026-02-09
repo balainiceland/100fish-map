@@ -1,0 +1,6 @@
+EIC India - Fish & Fishery Products (FFP) Approved Units
+Source file: EIC_FFP_Approved_Units.xlsx.xls
+Total rows in source: 413
+Total rows after dedup: 413
+Dedup key: approval_no + plant_name + address
+Access date: 2026-02-09
