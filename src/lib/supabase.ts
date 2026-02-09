@@ -132,7 +132,8 @@ export async function fetchApprovedFactories(): Promise<{
   try {
     // Fetch factories in pages (Supabase default limit is 1000 rows)
     const PAGE_SIZE = 1000;
-    let factories: Record<string, unknown>[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let factories: any[] = [];
     let from = 0;
     while (true) {
       const { data, error: factoriesError } = await supabase
@@ -153,7 +154,7 @@ export async function fetchApprovedFactories(): Promise<{
     }
 
     // Fetch byproducts and categories in batches to avoid URL length limits
-    const factoryIds = factories.map(f => f.id);
+    const factoryIds = factories.map((f: any) => f.id);
     const BATCH_SIZE = 200;
     let allByproducts: Record<string, unknown>[] = [];
     let allCategories: Record<string, unknown>[] = [];
@@ -245,7 +246,8 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
   try {
     // Fetch factories in pages (Supabase default limit is 1000 rows)
     const PAGE_SIZE = 1000;
-    let factories: Record<string, unknown>[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let factories: any[] = [];
     let from = 0;
     while (true) {
       let query = supabase.from('factories').select('*');
@@ -268,7 +270,7 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
     }
 
     // Fetch byproducts and categories in batches to avoid URL length limits
-    const factoryIds = factories.map(f => f.id);
+    const factoryIds = factories.map((f: any) => f.id);
     const BATCH_SIZE = 200;
     let allByproducts: Record<string, unknown>[] = [];
     let allCategories: Record<string, unknown>[] = [];
