@@ -158,8 +158,8 @@ export default function MapContainer() {
     // Clear existing markers
     markersRef.current.clearLayers();
 
-    // Add markers for each factory
-    filteredFactories.forEach((factory: Factory) => {
+    // Add markers for each factory (skip entries with missing coordinates)
+    filteredFactories.filter((f: Factory) => f.latitude != null && f.longitude != null).forEach((factory: Factory) => {
       const marker = L.marker([factory.latitude, factory.longitude], {
         icon: createMarkerIcon(factory.utilizationScore, factory.featured, factory.verificationLevel),
       });
