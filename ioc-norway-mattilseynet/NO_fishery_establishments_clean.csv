@@ -1,0 +1,886 @@
+approval_no,plant_name,company,address,town_region,country,scope,expiry_date,business_no
+A51,Fjordfisk As   Son Fiskemottak,Fjordfisk As   Son Fiskemottak,"Storgata 23, 1555.0 Son, Norway",Son,Norway,FFPP,,915067506.0
+A232,Mowi Logistics,Mowi Logistics,"Kurillvegen 8, 2060.0 Gardermoen, Norway",Gardermoen,Norway,RW,,993493791.0
+A234,Faun Pharma As,Faun Pharma As,"Støttumveien 9, 1543.0 Vestby, Norway",Vestby,Norway,PP-MA,,983386156.0
+A240,Norway King Crab Hub As,Norway King Crab Hub As,"Industrivegen 27, 2166.0 Oppaker, Norway",Oppaker,Norway,PP-C,,914075890.0
+A241,Alimenta As Avd Produksjon,Alimenta As Avd Produksjon,"Jeksleveien 2, 2016.0 Frogner, Norway",Frogner,Norway,RW,,926457896.0
+A242,Vitalis Pharma,Vitalis Pharma,"Drengsrudhagen 6, 1385.0 Asker, Norway",Asker,Norway,PP-MA,,821099412.0
+A244,Sanomega E&E As,Sanomega E&E As,"Sagaveien 50, 1555.0 Son, Norway",Son,Norway,PP-MA,,932869624.0
+A245,Maskinpakking As,Maskinpakking As,"Johan Follestads Vei 18, 3474.0 Åros, Norway",Åros,Norway,RW,,974092557.0
+A246,Oslo Salmon Processing As Avd. Gardemoen,Oslo Salmon Processing As Avd. Gardemoen,"Maren Furulunds Veg 20b, 2060.0 Gardermoen, Norway",Gardermoen,Norway,FFPP-P,,936316611.0
+AA61,Fiskernes Salgslag,Fiskernes Salgslag,"Storg 2, 4876.0 Grimstad, Norway",Grimstad,Norway,"FFPP, FFPP-P",,971687347.0
+AA74,Arendal Fiskemottak As,Arendal Fiskemottak As,"Kystveien 28, 4841.0 Arendal, Norway",Arendal,Norway,"FFPP, FFPP-P",,983597564.0
+AA202,Ferdigmat As,Ferdigmat As,"Holmen 6, 4842.0 Arendal, Norway",Arendal,Norway,PP,,971783176.0
+AA415,Eco Marine As,Eco Marine As,"Langodden 14, 4816.0 Kolbjørnsvik, Norway",Kolbjørnsvik,Norway,PP-MA,,993907367.0
+AA447,Hos Oss Lillesand As,Hos Oss Lillesand As,"Havnegata 3, 4790.0 Lillesand, Norway",Lillesand,Norway,"FFPP, PP",,919335068.0
+AG2,Maxi Catering As,Maxi Catering As,"Stålveien 9, 4629.0 Kristiansand S, Norway",Kristiansand S,Norway,PP,,924803096.0
+AG8,Fjord Service Flekkefjord As,Fjord Service Flekkefjord As,"Abelnes 60, 4404.0 Flekkefjord, Norway",Flekkefjord,Norway,FFPP-SA,,916646410.0
+AG10,Nødings Delikatesse,Nødings Delikatesse,"Sommerkroveien 5a, 4515.0 Mandal, Norway",Mandal,Norway,FFPP-P,,982958792.0
+AG18,Sirdal Stun As,Sirdal Stun As,"Tonstadveien 9, 4440.0 Tonstad, Norway",Tonstad,Norway,FFPP-SA,,928697029.0
+AG20,Domstein Sjømat As Avd Kristiansand,Domstein Sjømat As Avd Kristiansand,"Østerøya 242, 4625.0 Flekkerøy, Norway",Flekkerøy,Norway,FFPP,,979195095.0
+AG28,Rtka As,Rtka As,"Hestemyrveien 24, 4950.0 Risør, Norway",Risør,Norway,RW,,930926957.0
+AG31,Sørlandskrabbe Avd Hæstad,Sørlandskrabbe Avd Hæstad,"Kastoddveien 32, 4770.0 Høvåg, Norway",Høvåg,Norway,PP-C,,927414651.0
+BU50,Hansens Røkeri As,Hansens Røkeri As,"Frydenhaugveien 2, 3041.0 Drammen, Norway",Drammen,Norway,"FFPP-P, PP",,973133802.0
+BU200,Torgersen Mat Og Pølsemakeri As,Torgersen Mat Og Pølsemakeri As,"Stasjonsgata 34, 3300.0 Hokksund, Norway",Hokksund,Norway,PP,,875395882.0
+BU242,Norgescatering As,Norgescatering As,"Dølasletta 3, 3408.0 Tranby, Norway",Tranby,Norway,PP,,985684642.0
+BU308,Ferskvannsfisk As,Ferskvannsfisk As,"Høgkastveien 24, 3531.0 Krokkleiva, Norway",Krokkleiva,Norway,"FFPP, PP",,994171852.0
+BU309,Skarvheimen Fjellfisk Da,Skarvheimen Fjellfisk Da,"V/Kirsti Skrattegard, 3570.0 Ål, Norway",Ål,Norway,PP,,985347611.0
+F50,Willy Myhre,Willy Myhre,"Tufteveien 7, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,912135748.0
+F55,Kirkenes Processing As,Kirkenes Processing As,"Timberveien 85, 9911.0 Jarfjord, Norway",Jarfjord,Norway,"FFPP-P, FFPP-SA",,990457719.0
+F62,Gunnar Ingebrigtsen,Gunnar Ingebrigtsen,"Storekorsnesveien 230, 9519.0 Kviby, Norway",Kviby,Norway,PP-ST,,nan
+F69,Norway Shrimp As,Norway Shrimp As,"nan, 9935.0 Bugøynes, Norway",Bugøynes,Norway,"FFPP, FFPP-P, PP-C",,976273052.0
+F90,Kranes Kjøkken As,Kranes Kjøkken As,"Strandgaten 21, 9593.0 Breivikbotn, Norway",Breivikbotn,Norway,"FFPP-P, PP",,994325361.0
+F100,Vardø Videregående Skole,Vardø Videregående Skole,"Kaigata 6, 9952.0 Vardø, Norway",Vardø,Norway,"FFPP, FFPP-P, PP-KL, PP-SA, PP-ST",,974622777.0
+F101,Seagourmet Norway As,Seagourmet Norway As,"Havnegata 16, 9990.0 Båtsfjord, Norway",Båtsfjord,Norway,"FFPP, FFPP-P, PP-C",,994572709.0
+F104,Arctic Catch As,Arctic Catch As,"Svartneset, 9950.0 Vardø, Norway",Vardø,Norway,"FFPP, PP",,993277525.0
+F106,Hansen Bjarne,Hansen Bjarne,"Vestersandveien 4, 9935.0 Bugøynes, Norway",Bugøynes,Norway,PP-ST,,998952301.0
+F158,Arctic Catch As,Arctic Catch As,"Svartneset, 9950.0 Vardø, Norway",Vardø,Norway,"FFPP, FFPP-P, PP-C",,993277525.0
+F161,Lerøy Norway Seafoods As Avd Båtsfjord,Lerøy Norway Seafoods As Avd Båtsfjord,"Holmen, 9990.0 Båtsfjord, Norway",Båtsfjord,Norway,"FFPP, FFPP-P, MSM, PP, PP-SA",,974071037.0
+F162,Båtsfjordbruket As,Båtsfjordbruket As,"Fomavegen 7, 9990.0 Båtsfjord, Norway",Båtsfjord,Norway,"FFPP, FFPP-P, PP, PP-C",,973235885.0
+F201,Coast Berlevåg As,Coast Berlevåg As,"Samfunnsgata 12, 9981.0 Berlevåg, Norway",Berlevåg,Norway,"FFPP, PP, PP-C",,889886102.0
+F202,Lerøy Norway Seafoods As Avd Berlevåg,Lerøy Norway Seafoods As Avd Berlevåg,"Storgata 18a, 9980.0 Berlevåg, Norway",Berlevåg,Norway,"FFPP, FFPP-P, PP",,986004475.0
+F205,Berle Fisk As,Berle Fisk As,"Storgata 22 Postboks 310, 9980.0 Berlevåg, Norway",Berlevåg,Norway,"FFPP, FFPP-P",,974453614.0
+F226,Skjånesbruket,Skjånesbruket,"Skjånes Kai, 9771.0 Skjånes, Norway",Skjånes,Norway,"FFPP, FFPP-P, PP, PP-C, PP-ST",,974097532.0
+F242,North Cape Food As Avd Gjesvær,North Cape Food As Avd Gjesvær,"Kobbenesvegen 4, 9765.0 Gjesvær, Norway",Gjesvær,Norway,"FFPP, FFPP-P",,931617168.0
+F243,Gamst Shilova As,Gamst Shilova As,"Ørtangen 12, 9800.0 Vadsø, Norway",Vadsø,Norway,FFPP,,925805211.0
+F251,Isanlegget As,Isanlegget As,"Industriveien, 9770.0 Mehamn, Norway",Mehamn,Norway,"FFPP, PP",,982123224.0
+F260,Lerøy Norway Seafoods As Avd Kjøllefjord,Lerøy Norway Seafoods As Avd Kjøllefjord,"Strandveien 79/81, 9790.0 Kjøllefjord, Norway",Kjøllefjord,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA",,971655534.0
+F261,Nordkyn Eiendom As,Nordkyn Eiendom As,"Værveien 71, 9770.0 Mehamn, Norway",Mehamn,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA, PP-ST",,985951373.0
+F293,Storbukt Fiskeindustri As Avd Hovedanlegg Honningsvåg,Storbukt Fiskeindustri As Avd Hovedanlegg Honningsvåg,"Nordkappveien 2b, 9750.0 Honningsvåg, Norway",Honningsvåg,Norway,"FFPP, PP-C, PP-SA, PP-ST",,974200201.0
+F295,Gamvik Seafood As,Gamvik Seafood As,"Strandveien 16, 9775.0 Gamvik, Norway",Gamvik,Norway,"FFPP, FFPP-P, PP",,995736586.0
+F313,Nordvågen As Avd Nordvågen,Nordvågen As Avd Nordvågen,"Hovedveien 45, 9760.0 Nordvågen, Norway",Nordvågen,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA, PP-ST",,976772172.0
+F323,Storbukt Fiskeindustri As Avd Hovedanlegg Honningsvåg,Storbukt Fiskeindustri As Avd Hovedanlegg Honningsvåg,"Nordkappveien 2b, 9750.0 Honningsvåg, Norway",Honningsvåg,Norway,"FFPP, FFPP-P, PP-C, PP-SA, PP-ST",,974200201.0
+F343,Jangaard Export As Avd Gjesvær,Jangaard Export As Avd Gjesvær,"Kobbenesvegen 27, 9765.0 Gjesvær, Norway",Gjesvær,Norway,"FFPP, FFPP-P, PP, PP-SA",,980122247.0
+F348,Even Harald Einarsen,Even Harald Einarsen,"Mortensnes, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,nan
+F352,Tobø Fisk As,Tobø Fisk As,"Strandgata 105, 9690.0 Havøysund, Norway",Havøysund,Norway,"FFPP, FFPP-P, PP, PP-SA",,974084376.0
+F357,Aalesundfisk Skarsvåg As,Aalesundfisk Skarsvåg As,"Børnesveien 52, 9763.0 Skarsvåg, Norway",Skarsvåg,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,917855374.0
+F377,Tufjordbruket As,Tufjordbruket As,"nan, 9670.0 Tufjord, Norway",Tufjord,Norway,"FFPP, PP, PP-MA, PP-SA, PP-ST",,989697838.0
+F405,Øystein Kristiansen,Øystein Kristiansen,"Perlarsenvik, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,973588737.0
+F412,Lerøy Norway Seafoods As Avd Rypefjord,Lerøy Norway Seafoods As Avd Rypefjord,"Havneveien 44, 9610.0 Rypefjord, Norway",Rypefjord,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA, PP-ST",,930739219.0
+F421,Johan Kvalsvik As,Johan Kvalsvik As,"Akkarfjord 36, 9650.0 Akkarfjord, Norway",Akkarfjord,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,873190272.0
+F430,Cermaq Norway As Avd Slakteri Rypefjord,Cermaq Norway As Avd Slakteri Rypefjord,"Havneveien 36, 9610.0 Rypefjord, Norway",Rypefjord,Norway,"FFPP-P, FFPP-SA",,981487575.0
+F433,Nergård Sørøya As,Nergård Sørøya As,"Strandgata 40, 9593.0 Breivikbotn, Norway",Breivikbotn,Norway,"FFPP, PP, PP-MA, PP-SA",,976050932.0
+F440,Nergård Sørøya As,Nergård Sørøya As,"Strandgata 40, 9593.0 Breivikbotn, Norway",Breivikbotn,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,976050932.0
+F443,Embla Båtsfjord As,Embla Båtsfjord As,"Nedre Holmen 18, 9990.0 Båtsfjord, Norway",Båtsfjord,Norway,PP-ST,,898292592.0
+F444,Vidar Hansen,Vidar Hansen,"Tyttebærveien 8b, 9935.0 Bugøynes, Norway",Bugøynes,Norway,PP-ST,,994128191.0
+F447,Lerøy Norway Seafoods As Avd Sørvær,Lerøy Norway Seafoods As Avd Sørvær,"Havneveien 13, 9595.0 Sørvær, Norway",Sørvær,Norway,"FFPP, FFPP-P, PP",,988236101.0
+F466,Even Einarsen,Even Einarsen,"Mortensnes, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,998951070.0
+F478,Tom Egil Hansen,Tom Egil Hansen,"C/O 4/1/92/3, 9935.0 Bugøynes, Norway",Bugøynes,Norway,PP-ST,,987578904.0
+F480,Cermaq Finnmark As Avd Lakseslakteri,Cermaq Finnmark As Avd Lakseslakteri,"Kvenvikveien 99, 9541.0 Alta, Norway",Alta,Norway,"FFPP-P, FFPP-SA",,999068723.0
+F500,Stappan Sjøprodukter,Stappan Sjøprodukter,"Kobbenesveien 8, 9765.0 Gjesvær, Norway",Gjesvær,Norway,"FFPP, PP-C, PP-KL, PP-ST",,982610524.0
+F607,Askur As Avd Kvalsund,Askur As Avd Kvalsund,"Skjåholmveien 192, 9620.0 Kvalsund, Norway",Kvalsund,Norway,"PP-KL, PP-ST",,989759175.0
+F610,Sigmund Marjavara,Sigmund Marjavara,"Terje Wolds Gate 22, 9803.0 Vadsø, Norway",Vadsø,Norway,PP-ST,,nan
+F621,Gunnar A Noste,Gunnar A Noste,"Suovka 48, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,996145727.0
+F622,Norway King Crab Production As,Norway King Crab Production As,"Nesseveien 16, 9935.0 Bugøynes, Norway",Bugøynes,Norway,"FFPP, FFPP-P",,991795286.0
+F633,North Capelin Honningsvåg,North Capelin Honningsvåg,"Kobbhullveien 12, 9750.0 Honningsvåg, Norway",Honningsvåg,Norway,"FFPP, FFPP-P, PP",,876415992.0
+F646,Ørjan Mikkelsen Trane,Ørjan Mikkelsen Trane,"Tangnesveien 10, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,995592916.0
+F650,Oskar Kristoffersen,Oskar Kristoffersen,"Raigressveien 1, 9516.0 Alta, Norway",Alta,Norway,PP-ST,,985055920.0
+F652,Tor Oskar Mathisen,Tor Oskar Mathisen,"Várjjatgeaidnu 42, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,993664200.0
+F653,Olav Nordstrand,Olav Nordstrand,"Odden 8, 9771.0 Skjånes, Norway",Skjånes,Norway,PP-ST,,nan
+F654,Øyvind Nilsen,Øyvind Nilsen,"Smibakken 10, 9515.0 Alta, Norway",Alta,Norway,PP-ST,,984144318.0
+F656,Edgar Olsen,Edgar Olsen,"Njidgogáddi 36, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,993710253.0
+F661,Svend Knutsen,Svend Knutsen,"Langnesveien 343, 9540.0 Talvik, Norway",Talvik,Norway,PP-ST,,980934071.0
+F662,Partrederiet Karl Torgeir Ans,Partrederiet Karl Torgeir Ans,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,978888364.0
+F664,Pettersen Eivind M,Pettersen Eivind M,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,973678868.0
+F665,Arnulf Pettersen,Arnulf Pettersen,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,978343716.0
+F666,Anut-Jakt Og Fiske V/Olaf Nilsen Inngår I Dødsbo,Anut-Jakt Og Fiske V/Olaf Nilsen Inngår I Dødsbo,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,998947936.0
+F667,Sverre Pedersen,Sverre Pedersen,"Smalfjordveien 111, 9845.0 Tana, Norway",Tana,Norway,PP-ST,,993913472.0
+F668,Tone Nilsen,Tone Nilsen,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,nan
+F670,Kristian Nilsen,Kristian Nilsen,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,974066785.0
+F671,Mikalsen Edvart,Mikalsen Edvart,"nan, 9771.0 Skjånes, Norway",Skjånes,Norway,PP-ST,,978369154.0
+F673,Albert Martin Mikalsen,Albert Martin Mikalsen,"nan, 9771.0 Skjånes, Norway",Skjånes,Norway,PP-ST,,969617560.0
+F675,Stein Inge Kristiansen,Stein Inge Kristiansen,"nan, 9771.0 Skjånes, Norway",Skjånes,Norway,PP-ST,,973678833.0
+F676,Frank Einar Nordstrand,Frank Einar Nordstrand,"nan, 9771.0 Skjånes, Norway",Skjånes,Norway,PP-ST,,994248219.0
+F677,Idun Karine Pedersen,Idun Karine Pedersen,"Smalfjordveien 111, 9841.0 Tana, Norway",Tana,Norway,PP-ST,,nan
+F678,Lyder Fisk As,Lyder Fisk As,"nan, 9717.0 Veidnesklubben, Norway",Veidnesklubben,Norway,PP-ST,,995316137.0
+F679,Mikalsen Gjermund,Mikalsen Gjermund,"nan, 9771.0 Skjånes, Norway",Skjånes,Norway,PP-ST,,973678841.0
+F681,Arnt Viktor Pettersen,Arnt Viktor Pettersen,"Øksfjordveien 265, 9552.0 Øksfjorden, Norway",Øksfjorden,Norway,PP-ST,,985079358.0
+F682,Arilds Fiskebåtrederi As,Arilds Fiskebåtrederi As,"Marienlund 5, 9511.0 Alta, Norway",Alta,Norway,PP-ST,,979857470.0
+F683,Arvid Arild,Arvid Arild,"Årøyveien 43, 9533.0 Kongshus, Norway",Kongshus,Norway,PP-ST,,995134810.0
+F685,Trond Henriksen,Trond Henriksen,"Elvebukt 14, 9536.0 Korsfjorden, Norway",Korsfjorden,Norway,PP-ST,,994362542.0
+F686,Rita Murberg Henriksen,Rita Murberg Henriksen,"Elvebukt 14, 9536.0 Korsfjorden, Norway",Korsfjorden,Norway,PP-ST,,991723099.0
+F687,Evertsen Herleif,Evertsen Herleif,"Rakaluftveien 33, 9536.0 Korsfjorden, Norway",Korsfjorden,Norway,PP-ST,,978166342.0
+F689,Borg Kurt Arnold,Borg Kurt Arnold,"Lamvikveien 69, 9536.0 Korsfjorden, Norway",Korsfjorden,Norway,PP-ST,,974815761.0
+F692,Ingebrigtsen Roger,Ingebrigtsen Roger,"Nyvollveien 236, 9519.0 Kviby, Norway",Kviby,Norway,PP-ST,,878136462.0
+F696,Arnt Ring,Arnt Ring,"Vestre Porsangerveien 6808, 9713.0 Russenes, Norway",Russenes,Norway,PP-ST,,978086411.0
+F699,Nadezda Levicheva,Nadezda Levicheva,"Nordre Ringvei 10, 9511.0 Alta, Norway",Alta,Norway,PP-ST,,nan
+F701,Kjell Holmgren,Kjell Holmgren,"Jupiters Vei 3, 9602.0 Hammerfest, Norway",Hammerfest,Norway,PP-ST,,nan
+F702,Marbakken As,Marbakken As,"Markveien 18, 9610.0 Rypefjord, Norway",Rypefjord,Norway,PP-ST,,920681271.0
+F704,Anne-Karin Halvorsen,Anne-Karin Halvorsen,"Aronnesveien 84 A, 9514.0 Alta, Norway",Alta,Norway,PP-ST,,nan
+F705,Harder Småvik,Harder Småvik,"Breverudsvingen 17, 9513.0 Alta, Norway",Alta,Norway,PP-ST,,976780353.0
+F706,Finn Hjalmar Seipæjærvi,Finn Hjalmar Seipæjærvi,"Evertsveien 5, 9935.0 Bugøynes, Norway",Bugøynes,Norway,PP-ST,,977436931.0
+F707,Storbukt Fiskeindustri As Avd Vardø,Storbukt Fiskeindustri As Avd Vardø,"Havnegata 14, 9960.0 Kiberg, Norway",Kiberg,Norway,FFPP,,920210376.0
+F710,Bjørn Gunnvald Kristensen,Bjørn Gunnvald Kristensen,"Postboks 1, 9846.0 Tana, Norway",Tana,Norway,PP-ST,,997604954.0
+F713,Edmar Persen,Edmar Persen,"nan, 9716.0 Børselv, Norway",Børselv,Norway,PP-ST,,981645316.0
+F714,Josefsen Hedly,Josefsen Hedly,"nan, 9710.0 Indre Billefjord, Norway",Indre Billefjord,Norway,PP-ST,,978343589.0
+F715,Roald Wilhelmsen,Roald Wilhelmsen,"Smørfjord, 9713.0 Russenes, Norway",Russenes,Norway,PP-ST,,978564607.0
+F716,Gunn Inger Johansen,Gunn Inger Johansen,"nan, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,nan
+F720,North Cape King Crab As Avd Honningsvåg,North Cape King Crab As Avd Honningsvåg,"Repvåg 47, 9768.0 Repvåg, Norway",Repvåg,Norway,"FFPP, FFPP-P",,972374490.0
+F721,Jørn Harangen,Jørn Harangen,"Karkoveien 5, 9700.0 Lakselv, Norway",Lakselv,Norway,PP-ST,,nan
+F732,Lars Henry Malvin Johnsen,Lars Henry Malvin Johnsen,"Bukta, 9550.0 Øksfjord, Norway",Øksfjord,Norway,PP-ST,,nan
+F738,Finnmarksrøya As,Finnmarksrøya As,"Ropelv, 9900.0 Kirkenes, Norway",Kirkenes,Norway,"FFPP-P, FFPP-SA",,916082061.0
+F742,Tor Ivar Hauge,Tor Ivar Hauge,"Abelsborg, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,nan
+F744,Jan Erik Gundersen,Jan Erik Gundersen,"nan, 9586.0 Loppa, Norway",Loppa,Norway,PP-ST,,nan
+F746,Helmer Olsen,Helmer Olsen,"nan, nan nan, Norway",nan,Norway,PP-ST,,nan
+F748,Enk Sverre Hugo Olsen,Enk Sverre Hugo Olsen,"Revsneshamn, 9624.0 Revsneshamn, Norway",Revsneshamn,Norway,PP-ST,,998193222.0
+F749,Jan Harald Lorentzen,Jan Harald Lorentzen,"Langstrand, 9600.0 Hammerfest, Norway",Hammerfest,Norway,PP-ST,,991179585.0
+F750,Pedersen Alf Sigurd,Pedersen Alf Sigurd,"Kvalfjordveien 14, 9531.0 Kvalfjord, Norway",Kvalfjord,Norway,PP-ST,,972664960.0
+F751,Kvalfjord Kystfiske As,Kvalfjord Kystfiske As,"Kvalfjordveien 11, 9531.0 Kvalfjord, Norway",Kvalfjord,Norway,PP-ST,,994813331.0
+F753,Solveig Othilie Berg,Solveig Othilie Berg,"nan, 9586.0 Loppa, Norway",Loppa,Norway,PP-ST,,nan
+F755,Thor-Svein Berg,Thor-Svein Berg,"Rektindveien 154, 9586.0 Loppa, Norway",Loppa,Norway,PP-ST,,nan
+F756,Jan Inge Nilsen,Jan Inge Nilsen,"Kvenvikveien 88, 9541.0 Alta, Norway",Alta,Norway,PP-ST,,985669996.0
+F757,Mevær As,Mevær As,"Mønesveien 23, 9586.0 Loppa, Norway",Loppa,Norway,PP-ST,,877943712.0
+F758,Odd Olsen,Odd Olsen,"nan, 9587.0 Skavnakk, Norway",Skavnakk,Norway,PP-ST,,978342604.0
+F759,Bjørg Sølvi Pettersen,Bjørg Sølvi Pettersen,"Hovedveien 29, 9760.0 Nordvågen, Norway",Nordvågen,Norway,PP-ST,,nan
+F763,Ellens Northern Light Fishing Vekve,Ellens Northern Light Fishing Vekve,"Øvreveien 62, 9515.0 Alta, Norway",Alta,Norway,PP-ST,,916228384.0
+F768,Moen Magnar,Moen Magnar,"Elveveien 1, 9536.0 Korsfjorden, Norway",Korsfjorden,Norway,PP-ST,,978086187.0
+F769,Kristian Ragnar Larsen,Kristian Ragnar Larsen,"Lomvannsveien 60, 9690.0 Havøysund, Norway",Havøysund,Norway,PP-ST,,nan
+F770,Ingolv Jenvald Kvivesen,Ingolv Jenvald Kvivesen,"Nuvsvågveien 1357, 9582.0 Nuvsvåg, Norway",Nuvsvåg,Norway,PP-ST,,nan
+F771,Lerøy Norway Seafoods As Avd Forsøl,Lerøy Norway Seafoods As Avd Forsøl,"Leirbuktveien 40, 9612.0 Forsøl, Norway",Forsøl,Norway,"FFPP, FFPP-P, PP",,973100254.0
+F772,Tor Harald Mikkola,Tor Harald Mikkola,"Hovedveien 29, 9760.0 Nordvågen, Norway",Nordvågen,Norway,PP-ST,,nan
+F780,Carina Prytz-Wallmann,Carina Prytz-Wallmann,"Hasfjordveien 65, 9590.0 Hasvik, Norway",Hasvik,Norway,PP-ST,,nan
+F791,Storbukt Fiskeindustri As   Avd Tana,Storbukt Fiskeindustri As   Avd Tana,"Tanafjordveien 5431, 9841.0 Tana, Norway",Tana,Norway,FFPP,,975224171.0
+F797,Toralf Pettersen,Toralf Pettersen,"Klokkarøya 2, 9610.0 Rypefjord, Norway",Rypefjord,Norway,PP-ST,,nan
+F804,Lyder Fisk As,Lyder Fisk As,"Holmbuktveien 247, 9717.0 Veidnesklubben, Norway",Veidnesklubben,Norway,FFPP,,995316137.0
+F805,Norway King Crab Trollbukt As,Norway King Crab Trollbukt As,"nan, 9740.0 Lebesby, Norway",Lebesby,Norway,"FFPP, FFPP-P",,915565824.0
+F807,North Cape King Crab As Avd Honningsvåg,North Cape King Crab As Avd Honningsvåg,"Vestkaiveien 22, 9710.0 Indre Billefjord, Norway",Indre Billefjord,Norway,"FFPP, FFPP-P, PP-C",,972374490.0
+F810,Coast Kjøllefjord As,Coast Kjøllefjord As,"Moloveien 10, 9790.0 Kjøllefjord, Norway",Kjøllefjord,Norway,"FFPP, FFPP-P, PP-ST",,916092946.0
+F819,Arctic Resource Norge As,Arctic Resource Norge As,"Strandgata 21, 9690.0 Havøysund, Norway",Havøysund,Norway,"FFPP, FFPP-P",,912969878.0
+F827,Lerøy Norway Seafoods As Avd Båtsfjord,Lerøy Norway Seafoods As Avd Båtsfjord,"Holmen, 9990.0 Båtsfjord, Norway",Båtsfjord,Norway,"FFPP, FFPP-P, PP",,974071037.0
+F830,Lauritzen Fisk As,Lauritzen Fisk As,"Mollaveien 6, 9790.0 Kjøllefjord, Norway",Kjøllefjord,Norway,PP-ST,,993829412.0
+F833,Nervei Torsk As,Nervei Torsk As,"Nervei Mellom 1, 9773.0 Nervei, Norway",Nervei,Norway,PP-ST,,920789307.0
+F835,Tvedt-Hansen,Tvedt-Hansen,"Lismaveien 35, 9845.0 Tana, Norway",Tana,Norway,PP-ST,,918144099.0
+F836,Aalesundfisk Vardø As,Aalesundfisk Vardø As,"Svartnes Havnelageret, 9950.0 Vardø, Norway",Vardø,Norway,"FFPP, FFPP-P, PP-ST",,920170854.0
+F837,Aalesundfisk Mehamn As,Aalesundfisk Mehamn As,"Værveien 93, 9770.0 Mehamn, Norway",Mehamn,Norway,"FFPP, FFPP-P",,917799539.0
+F842,S. Skjåvik As,S. Skjåvik As,"Masjokdalen 131, 9841.0 Tana, Norway",Tana,Norway,PP-ST,,820050002.0
+F844,Kongsfjordbruket As,Kongsfjordbruket As,"nan, 9982.0 Kongsfjord, Norway",Kongsfjord,Norway,"FFPP, PP, PP-SA, PP-ST",,919009861.0
+F845,Arktis Fisch As,Arktis Fisch As,"Fjordvegen 21, 9990.0 Båtsfjord, Norway",Båtsfjord,Norway,FFPP,,989923579.0
+F849,Svein Eilif Svendsen,Svein Eilif Svendsen,"Christian Horsts Vei 15, 9790.0 Kjøllefjord, Norway",Kjøllefjord,Norway,PP-ST,,nan
+F855,Synnøve Helen Nuth Pedersen,Synnøve Helen Nuth Pedersen,"Kvalfjordveien 11, 9531.0 Kvalfjord, Norway",Kvalfjord,Norway,PP-ST,,nan
+F857,Stig Arnt Arvola As,Stig Arnt Arvola As,"Blåbærnes, 9800.0 Vadsø, Norway",Vadsø,Norway,"FFPP, FFPP-P, PP, PP-SA, RW",,985573255.0
+F861,Lyder Fisk Dyfjord As,Lyder Fisk Dyfjord As,"Tørrfiskveien 18, 9782.0 Dyfjord, Norway",Dyfjord,Norway,"FFPP, PP-ST",,920871577.0
+F862,Kontepella As,Kontepella As,"Masjokdalen 131, 9841.0 Tana, Norway",Tana,Norway,PP-ST,,922284490.0
+F864,Storbukt Fiskeindustri As Avd Alta,Storbukt Fiskeindustri As Avd Alta,"Korsnesveien 22, 9519.0 Kviby, Norway",Kviby,Norway,FFPP,,920210538.0
+F865,Vargsundværing As,Vargsundværing As,"Jenshaugen 16, 9536.0 Korsfjorden, Norway",Korsfjorden,Norway,PP-ST,,987662727.0
+F2424,Nordic Betula As,Nordic Betula As,"Bygdeveien 59, 9802.0 Vestre Jakobselv, Norway",Vestre Jakobselv,Norway,"FFPP-P, PP",,925069620.0
+F2428,Lyder Fisk Billefjord,Lyder Fisk Billefjord,"Vestre Porsangerveien 3339, 9710.0 Indre Billefjord, Norway",Indre Billefjord,Norway,FFPP,,933625559.0
+F2429,Rutanord As,Rutanord As,"Værveien 48, 9770.0 Mehamn, Norway",Mehamn,Norway,"FFPP-P, PP, PP-C",,927463687.0
+F2432,Truls Bjørnar Halvari,Truls Bjørnar Halvari,"Deanugeaidnu 2199, 9843.0 Tana, Norway",Tana,Norway,PP-ST,,973525948.0
+FI102,Noraker Rakfisk As,Noraker Rakfisk As,"Oslovegen 749, 2910.0 Aurdal, Norway",Aurdal,Norway,PP,,989293338.0
+FI104,Norsk Kvalitetsmat As,Norsk Kvalitetsmat As,"Gammelmeieriet, 6657.0 Rindal, Norway",Rindal,Norway,PP,,977457343.0
+FI126,Wangensten As,Wangensten As,"Elvebakken, 2920.0 Leira I Valdres, Norway",Leira I Valdres,Norway,PP,,972308757.0
+FI127,Haadem Fisk As,Haadem Fisk As,"nan, 2920.0 Leira I Valdres, Norway",Leira I Valdres,Norway,PP,,999325084.0
+FI128,Trøsvik Gård V/Audun Trøsvik,Trøsvik Gård V/Audun Trøsvik,"nan, 2967.0 Lomen, Norway",Lomen,Norway,PP,,978551637.0
+FI129,Hande Valdres Rakfisken As,Hande Valdres Rakfisken As,"nan, 2960.0 Røn, Norway",Røn,Norway,PP,,978618197.0
+FI130,Røn Gard Da,Røn Gard Da,"nan, 2960.0 Røn, Norway",Røn,Norway,PP,,973309161.0
+FI131,Lofoss Fisk As,Lofoss Fisk As,"nan, 2967.0 Lomen, Norway",Lomen,Norway,PP,,972795100.0
+H55,Lerøy Fossen As,Lerøy Fossen As,"nan, 5281.0 Valestrandsfossen, Norway",Valestrandsfossen,Norway,"FFPP-P, FFPP-SA, PP",,972064009.0
+H57,Biomega Norway As,Biomega Norway As,"Skaganeset, 5382.0 Skogsvåg, Norway",Skogsvåg,Norway,PP-MA,,983090842.0
+H65,Vågen Seafood As,Vågen Seafood As,"Apalvågvegen 42, 5357.0 Fjell, Norway",Fjell,Norway,FFPP-P,,976567110.0
+H66,Sotra Fiskeindustri As,Sotra Fiskeindustri As,"Porsvika 57a, 5381.0 Glesvær, Norway",Glesvær,Norway,"FFPP-P, FFPP-SA, PP",,972088358.0
+H72,Lerøy Austevoll As,Lerøy Austevoll As,"Bjånesøyvegen 13, 5392.0 Storebø, Norway",Storebø,Norway,"FFPP-P, FFPP-SA",,996653811.0
+H73,Bergen Røkeri As,Bergen Røkeri As,"Mangersnesvegen 91, 5936.0 Manger, Norway",Manger,Norway,PP,,914257697.0
+H77,Domstein Sjømat As Avd Espehaugen,Domstein Sjømat As Avd Espehaugen,"Espehaugen 55, 5258.0 Blomsterdalen, Norway",Blomsterdalen,Norway,"FFPP-P, PP",,891342632.0
+H79,Smp Marine Produkter As,Smp Marine Produkter As,"Bøvågen 31, 5937.0 Bøvågen, Norway",Bøvågen,Norway,FFPP-P,,972034843.0
+H81,Brandasund Fiskemottak As,Brandasund Fiskemottak As,"Kvarven, 5423.0 Brandasund, Norway",Brandasund,Norway,FFPP,,984375514.0
+H82,Seashore Industri As,Seashore Industri As,"Øklandsvegen 90, 5430.0 Bremnes, Norway",Bremnes,Norway,"FFPP-P, FFPP-SA, PP",,972189685.0
+H84,Inka As,Inka As,"Røtingavegen 244, 5216.0 Lepsøy, Norway",Lepsøy,Norway,FFPP-P,,984816162.0
+H85,Nordhordland Fisk As,Nordhordland Fisk As,"Bøvågen, 5936.0 Manger, Norway",Manger,Norway,"FFPP, FFPP-P",,981569857.0
+H88,Bømlo Fersk Fisk As,Bømlo Fersk Fisk As,"Hillesdalen 21, 5427.0 Urangsvåg, Norway",Urangsvåg,Norway,FFPP,,920240895.0
+H92,Bømlo Edelfisk As,Bømlo Edelfisk As,"nan, 5443.0 Bømlo, Norway",Bømlo,Norway,"PP, PP-C",,972208671.0
+H95,Espevær Røykeri As,Espevær Røykeri As,"Espevær, 5444.0 Espevær, Norway",Espevær,Norway,"FFPP-P, PP",,983723624.0
+H100,Orkla Foods Norge As Avd Toro Arna,Orkla Foods Norge As Avd Toro Arna,"Ekrevegen 60, 5261.0 Indre Arna, Norway",Indre Arna,Norway,PP,,973163094.0
+H108,Leiren Laks As,Leiren Laks As,"Stamnes, 5727.0 Stamnes, Norway",Stamnes,Norway,PP,,977527430.0
+H111,Viking Fjord As,Viking Fjord As,"Sundsvegen 119, 5450.0 Sunde I Sunnhordland, Norway",Sunde I Sunnhordland,Norway,"FFPP-P, FFPP-SA",,979768273.0
+H112,Sekkingstad As,Sekkingstad As,"Skaganeset, 5382.0 Skogsvåg, Norway",Skogsvåg,Norway,"FFPP-P, FFPP-S, FFPP-SA",,972292222.0
+H122,Hav Line As,Hav Line As,"Christian Michelsens Gate 6b, 5012.0 Bergen, Norway",Bergen,Norway,"FFPP-P, FFPP-SA",,917486565.0
+H123,Nordic Caviar As,Nordic Caviar As,"Toft, 5379.0 Steinsland, Norway",Steinsland,Norway,PP,,981265424.0
+H131,Fjordfisk Skånevik,Fjordfisk Skånevik,"Sardinfabrikken, 5593.0 Skånevik, Norway",Skånevik,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA",,983441483.0
+H132,Halstensen Granit As,Halstensen Granit As,"Halstensen Granit As, 5399.0 Bekkjarvik, Norway",Bekkjarvik,Norway,PP-MA,,998381851.0
+H144,Lerøy Norge As Avd Bergen,Lerøy Norge As Avd Bergen,"Skuteviksboder 1-2, 5035.0 Bergen, Norway",Bergen,Norway,FFPP-P,,971656891.0
+H200,Trolltunga Arctic Trout As,Trolltunga Arctic Trout As,"Naustbakken 3, 5770.0 Tyssedal, Norway",Tyssedal,Norway,"FFPP-P, FFPP-SA",,982348005.0
+H217,Brødrene Hjønnevåg As,Brødrene Hjønnevåg As,"Børnes 20, 5463.0 Uskedalen, Norway",Uskedalen,Norway,"FFPP-P, PP",,971706694.0
+H300,Scalmarin As,Scalmarin As,"Svartevikvegen 5, 5337.0 Rong, Norway",Rong,Norway,FFPP,,815798082.0
+H786,Napier As,Napier As,"Hovlandsvegen 18, 5443.0 Bømlo, Norway",Bømlo,Norway,FFPP-SA,,976173023.0
+H793,Tubilah As Avd Bømlo,Tubilah As Avd Bømlo,"Stavlandsveien 5, 5430.0 Bremnes, Norway",Bremnes,Norway,FFPP-S,,980654206.0
+H801,Taupo As,Taupo As,"Hovlandsvegen 18, 5443.0 Bømlo, Norway",Bømlo,Norway,FFPP-SA,,920709176.0
+H805,Thermo Service As,Thermo Service As,"Alfabygget, 5392.0 Storebø, Norway",Storebø,Norway,FFPP-SA,,915561640.0
+H806,Hauglaks,Hauglaks,"Christian Michelsens Gate 6b, 5012.0 Bergen, Norway",Bergen,Norway,"FFPP-P, FFPP-SA",,921449526.0
+H815,Seivik As,Seivik As,"Austevollshellevegen 67, 5384.0 Torangsvåg, Norway",Torangsvåg,Norway,FFPP-SA,,995410559.0
+H816,Konrad Sekkingstad As,Konrad Sekkingstad As,"Apalvågvegen 42, 5357.0 Fjell, Norway",Fjell,Norway,FFPP,,974101998.0
+H819,Taupiri As,Taupiri As,"Hovlandsvegen 18, 5443.0 Bømlo, Norway",Bømlo,Norway,FFPP-SA,,920971172.0
+H822,Seistar Prosessfartøy As,Seistar Prosessfartøy As,"Austevollshellevegen 67, 5384.0 Torangsvåg, Norway",Torangsvåg,Norway,FFPP-SA,,994212923.0
+H823,Seivik As,Seivik As,"Austevollshellevegen 67, 5384.0 Torangsvåg, Norway",Torangsvåg,Norway,FFPP-SA,,995410559.0
+H824,Fylkesnes Fisk As,Fylkesnes Fisk As,"Fylkesnesvegen 164, 5430.0 Bremnes, Norway",Bremnes,Norway,FFPP-SA,,972254592.0
+HE224,Primar As,Primar As,"Folldal Industriområde, 2580.0 Folldal, Norway",Folldal,Norway,"PP, PP-KL",,993948047.0
+HE227,Femundfisk As,Femundfisk As,"Elgå, 2446.0 Elgå, Norway",Elgå,Norway,"FFPP, FFPP-P, PP",,971960086.0
+HE2268,Salsus As,Salsus As,"Norvald Strands Veg 162, 2212.0 Kongsvinger, Norway",Kongsvinger,Norway,"PP, PP-C",,813538512.0
+IL3,Sykehuset Innlandet Hf,Sykehuset Innlandet Hf,"Anders Sandvigs Gate 17, 2609.0 Lillehammer, Norway",Lillehammer,Norway,FFPP-P,,874632562.0
+IL6,First Seafood As Avd Kongsvinger,First Seafood As Avd Kongsvinger,"Stømnervegen 1, 2212.0 Kongsvinger, Norway",Kongsvinger,Norway,FFPP-P,,929066294.0
+M36,Ramoen As,Ramoen As,"Ystenesgata 6b, 6003.0 Ålesund, Norway",Ålesund,Norway,PP-MA,,971838329.0
+M75,Veidholmen Fisk As,Veidholmen Fisk As,"Skjærsgårdsveien 789, 6570.0 Smøla, Norway",Smøla,Norway,"FFPP, FFPP-P, PP-KL, PP-SA",,974108038.0
+M89,Hopmark Fisk As,Hopmark Fisk As,"Vikan Industriområde 98, 6570.0 Smøla, Norway",Smøla,Norway,FFPP,,932406519.0
+M94,Atlantic Dawn Seafoods As,Atlantic Dawn Seafoods As,"Vikan Industriområde 96, 6570.0 Smøla, Norway",Smøla,Norway,"FFPP, FFPP-P, PP",,885796532.0
+M96,Kongshaug Krabbe As,Kongshaug Krabbe As,"Hestøya, 6570.0 Smøla, Norway",Smøla,Norway,"FFPP, FFPP-P, PP-C",,916295391.0
+M116,Lofotkompaniet As,Lofotkompaniet As,"Skippergata 27, 6507.0 Kristiansund N, Norway",Kristiansund N,Norway,RW,,971797053.0
+M129,Lm Processing As,Lm Processing As,"Vågahammeren 6, 6520.0 Frei, Norway",Frei,Norway,FFPP-P,,972096237.0
+M132,Fortuna Oils As,Fortuna Oils As,"Fiskeribasen 5, 6512.0 Kristiansund N, Norway",Kristiansund N,Norway,PP-MA,,987152303.0
+M150,Peder B. Sørvik As,Peder B. Sørvik As,"Reksundveien 424, 6533.0 Averøy, Norway",Averøy,Norway,"FFPP, PP, PP-KL, PP-SA, PP-ST",,971779446.0
+M152,Ole Løvold As,Ole Løvold As,"Langøyneset, 6530.0 Averøy, Norway",Averøy,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,971896965.0
+M155,Sigurd Folland As,Sigurd Folland As,"Reksundveien 207, 6533.0 Averøy, Norway",Averøy,Norway,FFPP,,971689064.0
+M157,Jangaard Export As Avd Nordmøre,Jangaard Export As Avd Nordmøre,"nan, 6530.0 Averøy, Norway",Averøy,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA, PP-ST",,972002003.0
+M158,Edward Johnsen As,Edward Johnsen As,"nan, 6530.0 Averøy, Norway",Averøy,Norway,"FFPP, FFPP-P, PP",,971715979.0
+M161,Jangaard Export As Avd Nordmøre,Jangaard Export As Avd Nordmøre,"nan, 6530.0 Averøy, Norway",Averøy,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA, PP-ST",,972002003.0
+M162,Strømsholm Fiskeindustri As,Strømsholm Fiskeindustri As,"Tømmervåg, 6590.0 Tustna, Norway",Tustna,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,874154172.0
+M168,Pure Norwegian Seafood As,Pure Norwegian Seafood As,"Hendnesveien 99, 6533.0 Averøy, Norway",Averøy,Norway,"FFPP, FFPP-P, FFPP-S, FFPP-SA",,972277959.0
+M190,Romsdal Processing As,Romsdal Processing As,"Utsidevegen 21, 6475.0 Midsund, Norway",Midsund,Norway,FFPP-P,,989292994.0
+M198,As Møre Codfish Comp Avd Bud,As Møre Codfish Comp Avd Bud,"Kaivegen 12, 6430.0 Bud, Norway",Bud,Norway,"FFPP, FFPP-P, PP-KL, PP-SA",,982495725.0
+M199,Vikomar As,Vikomar As,"Indre Harøyvegen 32, 6430.0 Bud, Norway",Bud,Norway,"FFPP, FFPP-P, PP",,972215597.0
+M200,Vikenco As,Vikenco As,"Rindarøyvegen 383, 6480.0 Aukra, Norway",Aukra,Norway,"FFPP-P, FFPP-S, FFPP-SA, PP",,988029653.0
+M212,O Skarsbø As,O Skarsbø As,"Håsundvegen 81, 6430.0 Bud, Norway",Bud,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,971766832.0
+M269,Horsgaard & Co A/S,Horsgaard & Co A/S,"Hamnegata 43, 6413.0 Molde, Norway",Molde,Norway,"FFPP, PP, PP-C",,974085925.0
+M294,Scanprod As,Scanprod As,"Sætrehamna 9, 6050.0 Valderøya, Norway",Valderøya,Norway,"FFPP, PP-KL, PP-SA",,984011199.0
+M296,Seafood Farmers Of Norway As,Seafood Farmers Of Norway As,"Blomvika 102, 6050.0 Valderøya, Norway",Valderøya,Norway,"FFPP-P, PP",,972147958.0
+M301,Bedre Helse As,Bedre Helse As,"Malmefjordvegen 18, 6440.0 Elnesvågen, Norway",Elnesvågen,Norway,PP,,933640124.0
+M303,Hofseth Aqua Avd 31 Slakteri Ålesund,Hofseth Aqua Avd 31 Slakteri Ålesund,"Fjordgata 52, 6005.0 Ålesund, Norway",Ålesund,Norway,"FFPP-P, FFPP-S, FFPP-SA, PP-MA",,930296473.0
+M310,Jangaard Export As Avd Kleivane,Jangaard Export As Avd Kleivane,"Aarsæthervegen 41, 6006.0 Ålesund, Norway",Ålesund,Norway,PP-KL,,971805730.0
+M314,Pelagia Liavåg,Pelagia Liavåg,"Liavaagen, 6063.0 Hjørungavåg, Norway",Hjørungavåg,Norway,"FFPP, FFPP-P, PP",,973167502.0
+M317,Fjordlaks As,Fjordlaks As,"Fjordgata 52, 6005.0 Ålesund, Norway",Ålesund,Norway,"FFPP, PP, PP-KL, PP-SA",,973170856.0
+M325,Marine Sales As,Marine Sales As,"Postboks 383, 6001.0 Ålesund, Norway",Ålesund,Norway,"FFPP, FFPP-P, PP, PP-SA",,886102232.0
+M327,Brødrene Sperre As  Avd Vest,Brødrene Sperre As  Avd Vest,"Aarsæthervegen 17, 6006.0 Ålesund, Norway",Ålesund,Norway,PP-KL,,971655518.0
+M341,Olav E Fiskerstrand As,Olav E Fiskerstrand As,"Fiskarstrandvegen 262, 6035.0 Fiskarstrand, Norway",Fiskarstrand,Norway,"FFPP, FFPP-P, PP-KL, PP-SA",,971687371.0
+M343,Brødr Remø As,Brødr Remø As,"Fiskarstrandvegen 168, 6035.0 Fiskarstrand, Norway",Fiskarstrand,Norway,"FFPP-P, PP, PP-C, PP-KL, PP-M",,972066265.0
+M359,Brødrene Sperre As Avd Fiskarstrand,Brødrene Sperre As Avd Fiskarstrand,"Tranvågen 6, 6035.0 Fiskarstrand, Norway",Fiskarstrand,Norway,"FFPP, FFPP-P, PP-KL, PP-SA",,971783583.0
+M360,Abs As,Abs As,"Lyngholmvegen 8, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP-P, PP-KL, PP-SA",,994995766.0
+M361,Jacob Bjørge As,Jacob Bjørge As,"Bjørge Industriveg 7, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP, PP-KL, PP-SA",,871667012.0
+M363,Brødr Aarseth As,Brødr Aarseth As,"Lyngholmvegen 96, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP, PP-KL, PP-SA",,999236162.0
+M364,Mathias Bjørge As,Mathias Bjørge As,"Årset, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP-P, PP-KL, PP-SA",,995477645.0
+M367,Gustav Stokke As,Gustav Stokke As,"Gustav Stokkes Veg 21, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP, FFPP-P, PP-KL, PP-SA",,935032407.0
+M369,Brødrene Sperre As,Brødrene Sperre As,"Ellingsøyvegen 680, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,974103540.0
+M371,Firmenich Bjørge Biomarin As,Firmenich Bjørge Biomarin As,"Ellingsøyvegen 920, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,PP-MA,,972160571.0
+M373,Nils Sperre As,Nils Sperre As,"Ellingsøyvegen 700, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP, PP, PP-KL, PP-SA",,971771437.0
+M374,Marine Sales Stokksund As,Marine Sales Stokksund As,"Hagemannsvegen 6, 6070.0 Tjørvåg, Norway",Tjørvåg,Norway,"FFPP, FFPP-P, PP",,992634162.0
+M392,Njardar As,Njardar As,"Nærøy, 6094.0 Leinøy, Norway",Leinøy,Norway,PP,,971986107.0
+M394,Mowi Avd Eggebønes Processing,Mowi Avd Eggebønes Processing,"Eggesbønes, 6092.0 Fosnavåg, Norway",Fosnavåg,Norway,FFPP-SA,,971856211.0
+M395,Karsten Flem As,Karsten Flem As,"Longvafjordvegen 249, 6293.0 Longva, Norway",Longva,Norway,"FFPP, PP-KL, PP-SA",,971688378.0
+M408,Lofotprodukt As Avd Gjerdsvika,Lofotprodukt As Avd Gjerdsvika,"Gjerdsvikvegen 208, 6083.0 Gjerdsvika, Norway",Gjerdsvika,Norway,PP,,973488724.0
+M416,Finefish As Avd Sandshamn,Finefish As Avd Sandshamn,"Sandshamna 91, 6089.0 Sandshamn, Norway",Sandshamn,Norway,"FFPP, FFPP-P, PP",,977058333.0
+M421,Berg Lipidtech As,Berg Lipidtech As,"Sjukenesstranda 62, 6037.0 Eidsnes, Norway",Eidsnes,Norway,PP-MA,,924301392.0
+M422,Korsneset Klippfisk As,Korsneset Klippfisk As,"Korsnesveien, 6035.0 Fiskarstrand, Norway",Fiskarstrand,Norway,PP-KL,,971824700.0
+M425,Jakob Og Johan Dybvik As,Jakob Og Johan Dybvik As,"Tingstadvika 5, 6035.0 Fiskarstrand, Norway",Fiskarstrand,Norway,"PP, PP-KL, PP-SA",,971679026.0
+M426,Rafael Dybvik As,Rafael Dybvik As,"Tingstadvika 3, 6035.0 Fiskarstrand, Norway",Fiskarstrand,Norway,"PP-KL, PP-ST",,971679034.0
+M428,Epax Norway As Avd Ålesund,Epax Norway As Avd Ålesund,"Aarsæthervegen 17, 6006.0 Ålesund, Norway",Ålesund,Norway,PP-MA,,971655526.0
+M434,Hans Fauske & Sønn As,Hans Fauske & Sønn As,"Nordstrand, 6050.0 Valderøya, Norway",Valderøya,Norway,PP-KL,,971686227.0
+M435,Johan Giskeødegård As,Johan Giskeødegård As,"Sætrehamna 15, 6050.0 Valderøya, Norway",Valderøya,Norway,"FFPP, PP-KL, PP-SA",,971693312.0
+M448,Grytestranda Fiskeindustri As,Grytestranda Fiskeindustri As,"Grytafjordvegen 762, 6265.0 Vatne, Norway",Vatne,Norway,"FFPP, PP-KL, PP-SA",,873295082.0
+M449,Ingolf Engeset As,Ingolf Engeset As,"Grytafjordvegen 926, 6265.0 Vatne, Norway",Vatne,Norway,"FFPP, PP-KL, PP-SA",,974170809.0
+M459,Volda Mat As,Volda Mat As,"Furene Industriområde, 6100.0 Volda, Norway",Volda,Norway,PP,,925564141.0
+M460,Cryonor As,Cryonor As,"Fiskerihavna Rovde, Co/ Volda Fiskemat As, 6100.0 Volda, Norway",Volda,Norway,"FFPP, MSM",,889477202.0
+M461,Norsk Sjømat Stranda As,Norsk Sjømat Stranda As,"Svemorka 26, 6200.0 Stranda, Norway",Stranda,Norway,"FFPP-P, PP",,976586905.0
+M465,Ode Processing As,Ode Processing As,"Hamnevegen 85, 6170.0 Vartdal, Norway",Vartdal,Norway,"FFPP-P, FFPP-S, FFPP-SA",,972123943.0
+M480,Hofseth As,Hofseth As,"Syvdefjordvegen 432, 6140.0 Syvde, Norway",Syvde,Norway,FFPP-P,,983860524.0
+M509,Waterline As,Waterline As,"Kongshaugstranda 101, 6037.0 Eidsnes, Norway",Eidsnes,Norway,"FFPP-P, PP",,985418179.0
+M931,Gjendemsjø Seafood As,Gjendemsjø Seafood As,"Hellandshamna 88, 6270.0 Brattvåg, Norway",Brattvåg,Norway,PP,,993085421.0
+M946,Hofseth Biocare Asa Avd Midsund,Hofseth Biocare Asa Avd Midsund,"Stormyrvegen 52, 6475.0 Midsund, Norway",Midsund,Norway,"PP, PP-MA",,996267911.0
+M955,Pharma Marine As,Pharma Marine As,"Terøy Industriområde 3, 6280.0 Søvik, Norway",Søvik,Norway,PP-MA,,991046127.0
+M962,Sande Sjømat Da,Sande Sjømat Da,"nan, 6089.0 Sandshamn, Norway",Sandshamn,Norway,PP,,993428809.0
+M976,Ellingsøy Klippfisk As,Ellingsøy Klippfisk As,"Kokkervika 11, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,PP-KL,,994761447.0
+M2005,Brødrene Sperre As  Avd Hoff,Brødrene Sperre As  Avd Hoff,"Ellingsøyvegen 172, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,"FFPP, PP-KL, PP-SA",,997674197.0
+M2009,Klippfiskbua.No,Klippfiskbua.No,"6055 Godøya, 6055.0 Godøya, Norway",Godøya,Norway,RW,,998001137.0
+M2013,Silver Seafood,Silver Seafood,"Vølvegen 78, 6475.0 Midsund, Norway",Midsund,Norway,"FFPP, FFPP-P, PP, PP-C, RW",,998996899.0
+M2014,As Havstrand,As Havstrand,"Kjøpmannsgata 37, 6005.0 Ålesund, Norway",Ålesund,Norway,PP-MA,,977989442.0
+M2020,Bacalaofabrikken As,Bacalaofabrikken As,"nan, 6174.0 Barstadvik, Norway",Barstadvik,Norway,"FFPP-P, PP",,985547068.0
+M2021,Gc Rieber Vivomega As,Gc Rieber Vivomega As,"Teistholmsundet 6, 6512.0 Kristiansund N, Norway",Kristiansund N,Norway,PP-MA,,995672472.0
+M2022,Møre Star Fish E Måseidvåg,Møre Star Fish E Måseidvåg,"Svingen 7, 6036.0 Mauseidvåg, Norway",Mauseidvåg,Norway,"FFPP-P, PP",,972184632.0
+M2032,Drågen Smokehouse As,Drågen Smokehouse As,"Drågen, 6430.0 Bud, Norway",Bud,Norway,"FFPP-P, PP, RW",,993778575.0
+M2035,Dalen Og Helland Fiskemat As,Dalen Og Helland Fiskemat As,"Geilereset 7, 6055.0 Godøya, Norway",Godøya,Norway,PP,,999517331.0
+M2047,Fosnavaag Pelagic As,Fosnavaag Pelagic As,"Nørvågvegen 7, 6090.0 Fosnavåg, Norway",Fosnavåg,Norway,"FFPP, FFPP-P, PP",,981968638.0
+M2076,Kd Norway As,Kd Norway As,"Strandgata 60, 6270.0 Brattvåg, Norway",Brattvåg,Norway,PP-MA,,979457197.0
+M2092,Hofseth Aalesund As,Hofseth Aalesund As,"Havnegata 11, 6005.0 Ålesund, Norway",Ålesund,Norway,FFPP-P,,916053916.0
+M2103,Juvikprodukt As,Juvikprodukt As,"Juvikvegen 34, 6480.0 Aukra, Norway",Aukra,Norway,PP,,919979062.0
+M2104,Opplæringskonsulent O. Giskeødegård As,Opplæringskonsulent O. Giskeødegård As,"Øygarden, 6052.0 Giske, Norway",Giske,Norway,"FFPP-P, PP",,994337904.0
+M2107,Seagems Norway As,Seagems Norway As,"Bjørge Industriveg 41, 6057.0 Ellingsøy, Norway",Ellingsøy,Norway,PP-MA,,920314643.0
+M2158,Demari As,Demari As,"Omagata 115, 6517.0 Kristiansund N, Norway",Kristiansund N,Norway,FFPP,,920676871.0
+M2161,Volt Collector As,Volt Collector As,"Eggesbøvegen 40, 6092.0 Fosnavåg, Norway",Fosnavåg,Norway,"FFPP-S, FFPP-SA",,922296170.0
+M2166,Silver Seafood,Silver Seafood,"Strandgata 60, 6512.0 Kristiansund N, Norway",Kristiansund N,Norway,FFPP,,998996899.0
+M2177,Charvest As,Charvest As,"Myrane 26, 6094.0 Leinøy, Norway",Leinøy,Norway,FFPP-SA,,922700931.0
+M2186,Silver Seafood,Silver Seafood,"Sjøvikvegen 55, 6475.0 Midsund, Norway",Midsund,Norway,"FFPP, FFPP-P, PP, PP-C",,998996899.0
+M2187,Norcoast As,Norcoast As,"Geilevika, 6055.0 Godøya, Norway",Godøya,Norway,"FFPP, FFPP-P",,921104049.0
+M2201,Volt Harvest Ii As,Volt Harvest Ii As,"Eggesbøvegen 40, 6092.0 Fosnavåg, Norway",Fosnavåg,Norway,"FFPP-S, FFPP-SA",,934855825.0
+M2203,Volt Harvest I As,Volt Harvest I As,"Eggesbøvegen 40, 6092.0 Fosnavåg, Norway",Fosnavåg,Norway,"FFPP-S, FFPP-SA",,934855817.0
+M2227,Boreas Seafood As,Boreas Seafood As,"Kildehaugen 10, 6037.0 Eidsnes, Norway",Eidsnes,Norway,FFPP-P,,928854620.0
+M2229,Volt Harvest Iii As,Volt Harvest Iii As,"Eggesbøvegen 40, 6092.0 Fosnavåg, Norway",Fosnavåg,Norway,FFPP-SA,,934855833.0
+M2231,Sølvtrans Rederi Ii As,Sølvtrans Rederi Ii As,"Skansekaia 4b, 6002.0 Ålesund, Norway",Ålesund,Norway,FFPP-SA,,923903046.0
+M2235,Gjerde Seafood As,Gjerde Seafood As,"Lausundvegen 112, 6292.0 Kjerstad, Norway",Kjerstad,Norway,"FFPP, PP-C",,832106992.0
+M2238,Charvest As,Charvest As,"Grøthaugvegen 12, 6037.0 Eidsnes, Norway",Eidsnes,Norway,FFPP-SA,,922700931.0
+M2240,Poseidon Frozen As,Poseidon Frozen As,"Kongshaugstranda 3, 6037.0 Eidsnes, Norway",Eidsnes,Norway,"FFPP-P, RW",,930502316.0
+M2241,Fsv Rederi As,Fsv Rederi As,"Øvre Veg 24, 6415.0 Molde, Norway",Molde,Norway,FFPP-SA,,922064512.0
+M2242,Frost Seafood Norge As,Frost Seafood Norge As,"Legemyrane 4, 6076.0 Moltustranda, Norway",Moltustranda,Norway,FFPP-P,,931768913.0
+M2250,Pronofa Møre As,Pronofa Møre As,"Årsbogvegen 115, 6494.0 Vevang, Norway",Vevang,Norway,"FFPP, PP-M",,934777964.0
+M2251,Fsv Rederi As,Fsv Rederi As,"Øvre Veg 24, 6415.0 Molde, Norway",Molde,Norway,FFPP-SA,,922064512.0
+M2252,Pretio As,Pretio As,"Fjordgata 50, 6005.0 Ålesund, Norway",Ålesund,Norway,FFPP-P,,930197270.0
+M2254,Roaldsnes As,Roaldsnes As,"Nordstrandfjørå 71, 6050.0 Valderøya, Norway",Valderøya,Norway,PP-MA,,824195862.0
+N45,Prestfjord As,Prestfjord As,"Havnegata 19, 8400.0 Sortland, Norway",Sortland,Norway,PP-MA,,973437267.0
+N51,Bleik Fisk As,Bleik Fisk As,"Fiskeværsveien 118, 8481.0 Bleik, Norway",Bleik,Norway,FFPP,,917136750.0
+N55,Saga Fisk As,Saga Fisk As,"H. Chr. Størmers Gate 22, 8300.0 Svolvær, Norway",Svolvær,Norway,"FFPP-P, PP-ST",,996723526.0
+N63,Andenes Fiskemottak As,Andenes Fiskemottak As,"Hamnegata 69, 8480.0 Andenes, Norway",Andenes,Norway,"FFPP, PP-SA",,995507412.0
+N69,Jangaard Export As   Avd Sjøanlegget,Jangaard Export As   Avd Sjøanlegget,"nan, 8480.0 Andenes, Norway",Andenes,Norway,"FFPP, FFPP-P, PP-SA",,972315109.0
+N71,Vitux As Avd Andenes,Vitux As Avd Andenes,"Hamnegata 71a, 8480.0 Andenes, Norway",Andenes,Norway,PP-MA,,884205182.0
+N75,Jangaard Export As Avd Framnes,Jangaard Export As Avd Framnes,"Hamnegata 2a, 8480.0 Andenes, Norway",Andenes,Norway,"FFPP, FFPP-P, PP-SA",,971690313.0
+N100,Prestfjord As,Prestfjord As,"Havnegata 19, 8400.0 Sortland, Norway",Sortland,Norway,PP-MA,,973437267.0
+N112,J. M. Nilsen Fisk As,J. M. Nilsen Fisk As,"nan, 8489.0 Nordmela, Norway",Nordmela,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,973186876.0
+N117,Balseth Arne,Balseth Arne,"Gammelveien 16, 8150.0 Ørnes, Norway",Ørnes,Norway,PP-ST,,969708272.0
+N119,Gunnar Klo As Avd Stø,Gunnar Klo As Avd Stø,"Bårdholmen, 8438.0 Stø, Norway",Stø,Norway,"FFPP, PP, PP-ST",,923613439.0
+N126,Myremar As,Myremar As,"Havnegata 25, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,979630476.0
+N127,Gunnar Klo As Avd Myre,Gunnar Klo As Avd Myre,"Havnegata 3, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P, PP",,973186752.0
+N136,Alsvåg Lakseslakteri As,Alsvåg Lakseslakteri As,"Anna Eriksens Vei 8, 8432.0 Alsvåg, Norway",Alsvåg,Norway,"FFPP, FFPP-S, FFPP-SA",,978661130.0
+N137,Vesterålen Havbruk Produksjonslag As,Vesterålen Havbruk Produksjonslag As,"Bolstad Vei 7, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA, PP-ST",,971771054.0
+N137,Vesterålen Havbruk Produksjonslag As,Vesterålen Havbruk Produksjonslag As,"Bolstads Vei 7, 8430.0 Myre, Norway",Myre,Norway,PP-SA,,971771054.0
+N141,Myre Fiskemottak As Avd Myre,Myre Fiskemottak As Avd Myre,"Bolstads Vei 15, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P, PP, PP-ST",,989281682.0
+N142,Myre Saltfish Group As,Myre Saltfish Group As,"Terminalveien 2, 8430.0 Myre, Norway",Myre,Norway,PP-SA,,995681293.0
+N143,Orkla Health Ocean As Avd Myre,Orkla Health Ocean As Avd Myre,"Terminalveien 3, 8430.0 Myre, Norway",Myre,Norway,"FFPP-P, PP-MA",,995085224.0
+N150,Vesteraalens As,Vesteraalens As,"Havnegata 17, 8400.0 Sortland, Norway",Sortland,Norway,"FFPP-P, PP, PP-MA",,971788518.0
+N152,Sigerfjord Fisk As,Sigerfjord Fisk As,"Sigerfjordveien 425, 8406.0 Sortland, Norway",Sortland,Norway,"FFPP, FFPP-P, FFPP-SA, PP",,972187496.0
+N153,Vesterålen Havbruk Bø As,Vesterålen Havbruk Bø As,"Handkleppveien 8, 8475.0 Straumsjøen, Norway",Straumsjøen,Norway,"FFPP-P, FFPP-S",,929721411.0
+N161,Lerøy Norway Seafoods As Avd Melbu,Lerøy Norway Seafoods As Avd Melbu,"Villaveien 1, 8445.0 Melbu, Norway",Melbu,Norway,"FFPP, FFPP-P, MSM, PP, PP-SA, RW",,973186558.0
+N169,Nordlaks Produkter As Avd Stokmarknes,Nordlaks Produkter As Avd Stokmarknes,"Industriveien 14, 8450.0 Stokmarknes, Norway",Stokmarknes,Norway,"FFPP-P, FFPP-SA, PP, PP-MA",,973149636.0
+N217,Lerøy Norway Seafoods As Avd Skårvågen,Lerøy Norway Seafoods As Avd Skårvågen,"Skårvågen Postboks 14, 8475.0 Straumsjøen, Norway",Straumsjøen,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,990782865.0
+N220,Bø Fiskemottak As,Bø Fiskemottak As,"Straumsjøveien 30, 8475.0 Straumsjøen, Norway",Straumsjøen,Norway,FFPP,,929384946.0
+N234,Egil Kristoffersen & Sønner As Avd Produksjon,Egil Kristoffersen & Sønner As Avd Produksjon,"Jernskarveien 52, 8475.0 Straumsjøen, Norway",Straumsjøen,Norway,"FFPP-S, FFPP-SA",,973186655.0
+N235,Hovden Fiskeindustri As,Hovden Fiskeindustri As,"Handkleppveien 8, 8475.0 Straumsjøen, Norway",Straumsjøen,Norway,"FFPP, PP-ST",,829932822.0
+N238,Stiftelsen Tinden Handelsted,Stiftelsen Tinden Handelsted,"Storgata 30, 8430.0 Myre, Norway",Myre,Norway,PP-ST,,919465972.0
+N263,Notø As,Notø As,"Barstrandveien 274, 8314.0 Gimsøysand, Norway",Gimsøysand,Norway,"PP, PP-ST",,972307734.0
+N275,Lofothau As,Lofothau As,"Mærvollveien 73, 8360.0 Bøstad, Norway",Bøstad,Norway,"PP, PP-ST",,987787902.0
+N278,Steinfjorden Sjømat As,Steinfjorden Sjømat As,"Tangstad, 8360.0 Bøstad, Norway",Bøstad,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA, PP-ST",,911860929.0
+N288,Napp Sjømat As,Napp Sjømat As,"nan, 8382.0 Napp, Norway",Napp,Norway,"FFPP, PP, PP-SA, PP-ST",,991927921.0
+N289,Jentoft As,Jentoft As,"C/O Vestvågøy Regnskap As, 8370.0 Leknes, Norway",Leknes,Norway,"FFPP, PP, PP-ST",,998271096.0
+N300,Lofotterminalen As,Lofotterminalen As,"Leknes Havn, 8370.0 Leknes, Norway",Leknes,Norway,FFPP,,976743253.0
+N304,Steinfjorden Sjømat As,Steinfjorden Sjømat As,"Eggumsveien, 8360.0 Bøstad, Norway",Bøstad,Norway,FFPP,,911860929.0
+N315,Ballstad Fisk As,Ballstad Fisk As,"Kræmmervika, 8373.0 Ballstad, Norway",Ballstad,Norway,"FFPP, PP, PP-SA, PP-ST",,979469713.0
+N318,Orkla Health Ocean As Avd Ballstad,Orkla Health Ocean As Avd Ballstad,"Moloveien 95, 8373.0 Ballstad, Norway",Ballstad,Norway,PP-MA,,971714522.0
+N319,Lofoten Fish Export As,Lofoten Fish Export As,"Jacob Jentofts Vei 45, 8373.0 Ballstad, Norway",Ballstad,Norway,"FFPP, PP, PP-SA, PP-ST",,994466208.0
+N322,Nic Haug As,Nic Haug As,"Ballstadlandet 100, 8373.0 Ballstad, Norway",Ballstad,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,971702133.0
+N324,Kaikanten Delikatesser As,Kaikanten Delikatesser As,"Ballstadlandet 200, 8373.0 Ballstad, Norway",Ballstad,Norway,PP,,989899562.0
+N350,Lofotprodukt As Avd Leknes,Lofotprodukt As Avd Leknes,"Havet 45, 8370.0 Leknes, Norway",Leknes,Norway,"FFPP-P, PP",,973960822.0
+N368,Ottar Statle As,Ottar Statle As,"Mortsund, 8370.0 Leknes, Norway",Leknes,Norway,PP-MA,,873240792.0
+N375,Lofoten Sjøprodukter As,Lofoten Sjøprodukter As,"Mortsundveien 379, 8370.0 Leknes, Norway",Leknes,Norway,"FFPP, FFPP-P, FFPP-SA, PP, PP-SA, PP-ST",,972115177.0
+N410,The Qrill Company As Avd Stamsund,The Qrill Company As Avd Stamsund,"J.M.Johansens Vei 99, 8340.0 Stamsund, Norway",Stamsund,Norway,"PP-C, PP-MA",,988364754.0
+N411,Jangaard Export As Stamsund,Jangaard Export As Stamsund,"Buøyveien 27, 8340.0 Stamsund, Norway",Stamsund,Norway,"FFPP, PP, PP-SA",,973118676.0
+N413,Lerøy Norway Seafoods As Avd Stamsund,Lerøy Norway Seafoods As Avd Stamsund,"Buøyveien 7, 8340.0 Stamsund, Norway",Stamsund,Norway,"FFPP, FFPP-P, MSM, PP",,974087499.0
+N439,Bjørn Gjertsen As,Bjørn Gjertsen As,"Fredvang, 8387.0 Fredvang, Norway",Fredvang,Norway,"FFPP, PP, PP-SA, PP-ST",,873261072.0
+N445,Holmøy Produkter As,Holmøy Produkter As,"Lilandveien 10, 8407.0 Sortland, Norway",Sortland,Norway,"FFPP-P, FFPP-SA",,927212587.0
+N457,Sufi As Avd Sund I Lofoten,Sufi As Avd Sund I Lofoten,"Sundveien 157, 8384.0 Sund I Lofoten, Norway",Sund I Lofoten,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,975925811.0
+N458,Jm Langaas Drift As,Jm Langaas Drift As,"Sundveien 86, 8384.0 Sund I Lofoten, Norway",Sund I Lofoten,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,971725419.0
+N460,Steinar Mikkelsen,Steinar Mikkelsen,"Justadbakken 10, 8340.0 Stamsund, Norway",Stamsund,Norway,"FFPP, PP, PP-SA, PP-ST",,978964176.0
+N484,H. Sverdrup,H. Sverdrup,"Reineveien 170, 8390.0 Reine, Norway",Reine,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,994739042.0
+N491,Kvalvik Maskin As,Kvalvik Maskin As,"Kvalvik, 8390.0 Reine, Norway",Reine,Norway,PP-ST,,973507001.0
+N506,Olsen Yngve As,Olsen Yngve As,"Postboks 28, 8392.0 Sørvågen, Norway",Sørvågen,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,872236872.0
+N522,Gadus Norway As Avd Henningsvær,Gadus Norway As Avd Henningsvær,"Hellandsgata 85, 8312.0 Henningsvær, Norway",Henningsvær,Norway,FFPP,,916770839.0
+N523,Brødrene Hardy As,Brødrene Hardy As,"Venes, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, PP, PP-SA, PP-ST",,989830058.0
+N524,Christensen Kjell P,Christensen Kjell P,"nan, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, PP, PP-ST",,978242103.0
+N528,Brødrene Berg As,Brødrene Berg As,"Nedre Vågen 16, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, PP, PP-SA, PP-ST",,972321788.0
+N530,Bensvik Brygge As,Bensvik Brygge As,"nan, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, PP, PP-SA, PP-ST",,876345382.0
+N533,Brødrene Andreassen Værøy As,Brødrene Andreassen Værøy As,"Vågen 6, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,980618943.0
+N538,Astrup Lofoten As,Astrup Lofoten As,"nan, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, PP, PP-SA, PP-ST",,971660694.0
+N541,Lofoten Viking As,Lofoten Viking As,"Røstnesvågen, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, FFPP-P, PP, PP-ST",,972000337.0
+N554,John Greger As,John Greger As,"Gleaveien 4b, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,871801622.0
+N555,Røst Sjømat As,Røst Sjømat As,"Tyvsøyveien 1, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,978692370.0
+N556,Glea As,Glea As,"Glea, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,973213148.0
+N559,Røst Fiskeindustri As,Røst Fiskeindustri As,"Tyvsøy, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,972320846.0
+N560,Røst Trandamperi As,Røst Trandamperi As,"Gleaveien 6, 8064.0 Røst, Norway",Røst,Norway,PP-MA,,981180437.0
+N566,John Greger As,John Greger As,"Tyvsøyveien 15, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,871801622.0
+N570,A Johansen As,A Johansen As,"Gleaveien 9, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,974110555.0
+N575,Jangaard Export As Avd Røst,Jangaard Export As Avd Røst,"Gleaveien 12, 8064.0 Røst, Norway",Røst,Norway,"FFPP, FFPP-P, PP-SA",,990127670.0
+N581,Saga Fisk As,Saga Fisk As,"H. Chr. Størmers Gate 22, 8300.0 Svolvær, Norway",Svolvær,Norway,"FFPP, PP-ST",,996723526.0
+N624,Saga Fisk As,Saga Fisk As,"Sauøya 1, 8312.0 Henningsvær, Norway",Henningsvær,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,996723526.0
+N630,Bernhard Martin Bloch,Bernhard Martin Bloch,"Postboks 117, 8151.0 Ørnes, Norway",Ørnes,Norway,PP-ST,,nan
+N631,Jangaard Export As Henningsvær,Jangaard Export As Henningsvær,"nan, 8312.0 Henningsvær, Norway",Henningsvær,Norway,"FFPP, PP-SA, PP-ST",,973118692.0
+N645,Hopen Fisk As,Hopen Fisk As,"Hopsveien 42, 8310.0 Kabelvåg, Norway",Kabelvåg,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,975792455.0
+N680,Bergs Fisk As,Bergs Fisk As,"Bernt Salvesens Vei 31, 8300.0 Svolvær, Norway",Svolvær,Norway,PP,,929729323.0
+N681,King Oscar As Avd Svolvær,King Oscar As Avd Svolvær,"Storgata 2, 8300.0 Svolvær, Norway",Svolvær,Norway,"PP, PP-MA",,980900797.0
+N717,Saga Fisk As,Saga Fisk As,"H. Chr. Størmers Gate 22, 8300.0 Svolvær, Norway",Svolvær,Norway,"PP-SA, PP-ST",,996723526.0
+N741,Ellingsen Seafood As Avd Hovedkontor,Ellingsen Seafood As Avd Hovedkontor,"Været 2, 8320.0 Skrova, Norway",Skrova,Norway,"FFPP, PP, PP-SA, PP-ST",,972718807.0
+N742,Ellingsen Seafood As Avd Hovedkontor,Ellingsen Seafood As Avd Hovedkontor,"Været 2, 8320.0 Skrova, Norway",Skrova,Norway,FFPP-SA,,972718807.0
+N830,Pelagia Lødingen,Pelagia Lødingen,"Industrivegen 4a, 8410.0 Lødingen, Norway",Lødingen,Norway,"FFPP, FFPP-P",,972349356.0
+N849,Skaga Processing As,Skaga Processing As,"Korsnesveien 177, 8275.0 Storjorda I Tysfjorden, Norway",Storjorda I Tysfjorden,Norway,FFPP-P,,934501330.0
+N879,Nordfold Fiskerikai As,Nordfold Fiskerikai As,"Nordfold, 8286.0 Nordfold, Norway",Nordfold,Norway,FFPP,,973809636.0
+N880,Steigen Sjømat As,Steigen Sjømat As,"Helnessund, 8285.0 Leines, Norway",Leines,Norway,"FFPP, FFPP-P, PP, PP-SA",,990072957.0
+N891,Dyping Og Omegn Fiskemottak Sa,Dyping Og Omegn Fiskemottak Sa,"Dyping, 8288.0 Bogøy, Norway",Bogøy,Norway,FFPP,,872572732.0
+N893,Helligvær Sjømat As,Helligvær Sjømat As,"Sørværveien 2, 8095.0 Helligvær, Norway",Helligvær,Norway,"FFPP, FFPP-P, PP, PP-ST",,987004053.0
+N905,Bofisk As,Bofisk As,"Prinsens Gate 148 A, 8003.0 Bodø, Norway",Bodø,Norway,"FFPP, FFPP-P, PP",,984154208.0
+N918,Strøksnes Utleiebygg As,Strøksnes Utleiebygg As,"Styrkesnes, 8264.0 Engan, Norway",Engan,Norway,FFPP,,873717092.0
+N950,Salten N950 As,Salten N950 As,"Arnøyveien 1, 8135.0 Sørarnøy, Norway",Sørarnøy,Norway,"FFPP-P, FFPP-SA",,973676040.0
+N991,Træna Sjømat As,Træna Sjømat As,"Slenesveien 3, 8762.0 Sleneset, Norway",Sleneset,Norway,FFPP,,929720261.0
+N994,Brødrene Jtb Olsen As,Brødrene Jtb Olsen As,"Postboks 13, 8193.0 Rødøy, Norway",Rødøy,Norway,"FFPP, PP, PP-SA, PP-ST",,972002224.0
+N1000,Jensen Benjamin As,Jensen Benjamin As,"Napp, 8382.0 Napp, Norway",Napp,Norway,"FFPP, PP-ST, RW",,972253952.0
+N1001,Træna Sjømat As,Træna Sjømat As,"Stongveien 18, 8742.0 Selvær, Norway",Selvær,Norway,FFPP,,929720261.0
+N1003,Træna Sjømat As,Træna Sjømat As,"nan, 8198.0 Nordnesøy, Norway",Nordnesøy,Norway,FFPP,,929720261.0
+N1005,Jim Roger Monsen,Jim Roger Monsen,"Lyngvågen, 8195.0 Gjerøy, Norway",Gjerøy,Norway,"FFPP, FFPP-P, PP-SA, PP-ST, RW",,981000684.0
+N1006,Nord-Reker As,Nord-Reker As,"Kvina, 8752.0 Konsvikosen, Norway",Konsvikosen,Norway,"FFPP, PP-C",,972272787.0
+N1008,Aldra Fiskalag,Aldra Fiskalag,"Aldersundveien 404, 8730.0 Bratland, Norway",Bratland,Norway,FFPP,,999438881.0
+N1009,Leif Snorre Sarassen P/R Ans,Leif Snorre Sarassen P/R Ans,"nan, 8743.0 Indre Kvarøy, Norway",Indre Kvarøy,Norway,"FFPP, FFPP-P, PP-ST",,978242022.0
+N1036,Pelagia Træna,Pelagia Træna,"Galtneset, 8770.0 Træna, Norway",Træna,Norway,"FFPP, FFPP-P, MSM, PP",,971766247.0
+N1041,Nova Sea As Avd Industri,Nova Sea As Avd Industri,"nan, 8764.0 Lovund, Norway",Lovund,Norway,"FFPP-P, FFPP-SA",,974165716.0
+N1065,Sæterstad Gård As,Sæterstad Gård As,"Sæterstad, 8695.0 Hattfjelldal, Norway",Hattfjelldal,Norway,"FFPP-P, FFPP-SA, PP",,872225382.0
+N1070,Tindskjær As,Tindskjær As,"Vågstranda 64, 8063.0 Værøy, Norway",Værøy,Norway,"FFPP, PP, PP-ST",,920905412.0
+N1073,Finneidfjord Industrier As,Finneidfjord Industrier As,"nan, 8642.0 Finneidsfjord, Norway",Finneidsfjord,Norway,PP,,812575422.0
+N1084,Dønna Fiskemottak As,Dønna Fiskemottak As,"Hølaveien 48, 8820.0 Dønna, Norway",Dønna,Norway,"FFPP, PP-SA",,989576232.0
+N1098,Seløy Fisk As,Seløy Fisk As,"Seløy, 8850.0 Herøy, Norway",Herøy,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,990424004.0
+N1113,Træna Sjømat As,Træna Sjømat As,"nan, 8158.0 Bolga, Norway",Bolga,Norway,FFPP,,929720261.0
+N1115,Mowi Avd Slakteri Herøy,Mowi Avd Slakteri Herøy,"Øksningsveien 43, 8850.0 Herøy, Norway",Herøy,Norway,"FFPP-P, FFPP-SA",,972354899.0
+N1142,Øver Hongset Da,Øver Hongset Da,"Hongsetveien 106, 8960.0 Velfjord, Norway",Velfjord,Norway,"FFPP-P, FFPP-SA, PP",,887680892.0
+N1187,Kjella Samvirkelag Sa,Kjella Samvirkelag Sa,"Haukenesveien 45, 7982.0 Bindalseidet, Norway",Bindalseidet,Norway,FFPP,,971719230.0
+N1200,Roger Blom,Roger Blom,"Kvitnes, 8414.0 Hennes, Norway",Hennes,Norway,PP-ST,,nan
+N1206,Vega Delikatesser As,Vega Delikatesser As,"Igerøy, 8980.0 Vega, Norway",Vega,Norway,"FFPP-P, PP-KL, PP-SA, PP-ST",,876232332.0
+N1302,Ole Lars Kildal,Ole Lars Kildal,"Kjeldal 95, 8170.0 Engavågen, Norway",Engavågen,Norway,PP-ST,,nan
+N1303,Eddie Even Kildal,Eddie Even Kildal,"Skogmo 9, 8178.0 Halsa, Norway",Halsa,Norway,PP-ST,,nan
+N1307,Wiggo Nygård,Wiggo Nygård,"Nyveien 23, 8149.0 Neverdal, Norway",Neverdal,Norway,PP-ST,,nan
+N1310,Jim Lorentzen,Jim Lorentzen,"Vikran 11, 8198.0 Nordnesøy, Norway",Nordnesøy,Norway,"FFPP, PP, PP-ST",,986688269.0
+N1409,Fredriksen Roar,Fredriksen Roar,"Bergvn. 69, 8520.0 Ankenesstrand, Norway",Ankenesstrand,Norway,FFPP-P,,978111912.0
+N2063,Fleinvær Fiskemottak As,Fleinvær Fiskemottak As,"Fleinvær, 8094.0 Fleinvær, Norway",Fleinvær,Norway,"FFPP, FFPP-P",,976392353.0
+N2141,Polarmat As,Polarmat As,"nan, 8750.0 Tonnes, Norway",Tonnes,Norway,PP,,919379790.0
+N2156,Villmarksprodukter Da,Villmarksprodukter Da,"O.T. Olsens Vei 2 D, 8690.0 Hattfjelldal, Norway",Hattfjelldal,Norway,"FFPP-P, PP",,988746428.0
+N2157,Håvard Reløy,Håvard Reløy,"Håvard Reløy, 8766.0 Lurøy, Norway",Lurøy,Norway,PP-ST,,993914177.0
+N2158,Reløy Sigurd M,Reløy Sigurd M,"Onøy, 8766.0 Lurøy, Norway",Lurøy,Norway,PP-ST,,978204961.0
+N2159,Olsen Terje L,Olsen Terje L,"Onøy, 8766.0 Lurøy, Norway",Lurøy,Norway,PP-ST,,970195130.0
+N2160,Olsen Terje L,Olsen Terje L,"Onøy, 8766.0 Lurøy, Norway",Lurøy,Norway,PP-ST,,970195130.0
+N2163,Wiggo Johansen,Wiggo Johansen,"Onøy, 8766.0 Lurøy, Norway",Lurøy,Norway,PP-ST,,989856669.0
+N2165,Tangen Produkter,Tangen Produkter,"Drag, 8270.0 Drag, Norway",Drag,Norway,"FFPP, PP",,987582286.0
+N2166,Nargtind As,Nargtind As,"Onøy, 8766.0 Lurøy, Norway",Lurøy,Norway,PP-ST,,999354394.0
+N2173,The Qrill Company As Avd Stamsund,The Qrill Company As Avd Stamsund,"J.M.Johansens Vei 99, 8340.0 Stamsund, Norway",Stamsund,Norway,"PP-C, PP-MA",,988364754.0
+N2181,Jann Breivik,Jann Breivik,"Breivik, 8186.0 Tjongsfjorden, Norway",Tjongsfjorden,Norway,PP-ST,,nan
+N2182,Hans Urskog,Hans Urskog,"Sunset, 8185.0 Vågaholmen, Norway",Vågaholmen,Norway,PP-ST,,nan
+N2184,Torleif Peder Urskog,Torleif Peder Urskog,"nan, 8187.0 Jektvik, Norway",Jektvik,Norway,PP-ST,,nan
+N2186,Rørvik Fisk As,Rørvik Fisk As,"Fryseriet, 7900.0 Rørvik, Norway",Rørvik,Norway,FFPP,,884084652.0
+N2189,Meløy Videregående Skole Avd Inndyr,Meløy Videregående Skole Avd Inndyr,"Inndyr 455, 8140.0 Inndyr, Norway",Inndyr,Norway,"FFPP, FFPP-P, FFPP-S, FFPP-SA, PP, PP-ST",,874621412.0
+N2196,Per-Otto Davidsen,Per-Otto Davidsen,"nan, 8732.0 Aldra, Norway",Aldra,Norway,PP-ST,,995415631.0
+N2204,Nordland Havfiske As,Nordland Havfiske As,"Buøyveien 7, 8340.0 Stamsund, Norway",Stamsund,Norway,PP-MA,,973234676.0
+N2205,Svein Larsen,Svein Larsen,"Flostrandveien 342, 8725.0 Utskarpen, Norway",Utskarpen,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,914287332.0
+N2207,Frank Pedersen,Frank Pedersen,"Selhaugveien 6, 8093.0 Kjerringøy, Norway",Kjerringøy,Norway,"FFPP, FFPP-P",,987801166.0
+N2224,Lene Engvik Rasch,Lene Engvik Rasch,"Sperstadveien 152, 8187.0 Jektvik, Norway",Jektvik,Norway,PP-ST,,972508535.0
+N2228,Myre Fiskemottak As Avd Myre,Myre Fiskemottak As Avd Myre,"Bolstads Vei 15, 8430.0 Myre, Norway",Myre,Norway,"FFPP, PP, PP-ST",,989281682.0
+N2230,Karl-Arne Kristiansen,Karl-Arne Kristiansen,"Mærvollveien 75, 8360.0 Bøstad, Norway",Bøstad,Norway,PP-ST,,nan
+N2240,Anne Marie As,Anne Marie As,"Losbakken 1, 8320.0 Skrova, Norway",Skrova,Norway,"FFPP, FFPP-P",,997987934.0
+N2243,Myhres Røkeri As,Myhres Røkeri As,"Mellomveien 13, 8430.0 Myre, Norway",Myre,Norway,RW,,913200497.0
+N2256,Reidar Johansen,Reidar Johansen,"Sperstadveien 34, 8187.0 Jektvik, Norway",Jektvik,Norway,PP-ST,,978240887.0
+N2257,Futurum Seafood As Avd Henningsvær,Futurum Seafood As Avd Henningsvær,"Dreyers Gate 17, 8312.0 Henningsvær, Norway",Henningsvær,Norway,"FFPP, FFPP-P",,916279884.0
+N2275,Primex Norway As,Primex Norway As,"Havnegaten 1, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P, MSM, PP",,986662839.0
+N2284,Cermaq Norway As Avd Slakteri Steigen,Cermaq Norway As Avd Slakteri Steigen,"Bogøyveien 153, 8288.0 Bogøy, Norway",Bogøy,Norway,"FFPP-P, FFPP-SA",,920248063.0
+N2285,Sa-Fish As,Sa-Fish As,"Hestøysundet 35, 8135.0 Sørarnøy, Norway",Sørarnøy,Norway,FFPP,,920292062.0
+N2297,Dybos Fisk As,Dybos Fisk As,"Strandveien 30, 8904.0 Brønnøysund, Norway",Brønnøysund,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA, PP-ST",,882927512.0
+N2301,The Qrill Company As Avd Stamsund,The Qrill Company As Avd Stamsund,"J.M.Johansens Vei 99, 8340.0 Stamsund, Norway",Stamsund,Norway,"FFPP, PP-MA",,988364754.0
+N2304,Salten Salmon As,Salten Salmon As,"Dreyfushammarn 30, 8012.0 Bodø, Norway",Bodø,Norway,"FFPP-P, PP",,920315550.0
+N2309,Vega Delikatesser As,Vega Delikatesser As,"Igerøy, 8986.0 Vega, Norway",Vega,Norway,"FFPP, PP",,876232332.0
+N2315,Safe Track Food As,Safe Track Food As,"Steinesjøveien 73, 8470.0 Bø I Vesterålen, Norway",Bø I Vesterålen,Norway,PP-ST,,916786549.0
+N2320,Myre Fiskemottak As Avd Myre,Myre Fiskemottak As Avd Myre,"Bolstads Vei 15, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P, PP, PP-ST",,989281682.0
+N2334,Beiarvekst As,Beiarvekst As,"Vestre Beiarveien 1042, 8114.0 Tollå, Norway",Tollå,Norway,PP,,988183105.0
+N2336,Sten Ivar Nilsen,Sten Ivar Nilsen,"Mærvollveien 187, 8360.0 Bøstad, Norway",Bøstad,Norway,PP-ST,,nan
+N2337,Isaksen Arnleik,Isaksen Arnleik,"Oddaveien 22, 8762.0 Sleneset, Norway",Sleneset,Norway,PP-ST,,998982456.0
+N2338,Torstein Grønning,Torstein Grønning,"Straumen 23, 8762.0 Sleneset, Norway",Sleneset,Norway,PP-ST,,974284146.0
+N2339,Aud Anita Skughei Grønning,Aud Anita Skughei Grønning,"Straumen 23, 8762.0 Sleneset, Norway",Sleneset,Norway,PP-ST,,nan
+N2341,Roald Johan Stensland,Roald Johan Stensland,"Steinslandsveien 100, 8754.0 Øresvik, Norway",Øresvik,Norway,PP-ST,,nan
+N2342,Frank Roger Andersen,Frank Roger Andersen,"Steinslandsveien 13, 8754.0 Øresvik, Norway",Øresvik,Norway,PP-ST,,nan
+N2347,Brimo Fiskeforedling As,Brimo Fiskeforedling As,"Foreveien 135, 8146.0 Reipå, Norway",Reipå,Norway,"FFPP, FFPP-P, PP-SA",,925227390.0
+N2349,Calanus As Avd Produksjon,Calanus As Avd Produksjon,"Lilandveien 20, 8407.0 Sortland, Norway",Sortland,Norway,PP-MA,,912404668.0
+N2350,Sufi As Avd Sund I Lofoten,Sufi As Avd Sund I Lofoten,"Flakstadveien 487, 8380.0 Ramberg, Norway",Ramberg,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,975925811.0
+N2353,Myre Kystdrift As,Myre Kystdrift As,"Sommarøy, 8430.0 Myre, Norway",Myre,Norway,FFPP-SA,,980645762.0
+N2356,Karl Viktor Fisk As,Karl Viktor Fisk As,"Hellandsgata 77, 8312.0 Henningsvær, Norway",Henningsvær,Norway,"FFPP, FFPP-P, PP-SA",,926549138.0
+N2357,Vesteralen Seafood As,Vesteralen Seafood As,"Kloneset 35a, 8430.0 Myre, Norway",Myre,Norway,"FFPP, FFPP-P",,827392502.0
+N2368,Hilde Stensen,Hilde Stensen,"Nymo Gård, 8647.0 Bleikvasslia, Norway",Bleikvasslia,Norway,FFPP-SA,,920214568.0
+N2376,J. M. Nilsen Fisk As,J. M. Nilsen Fisk As,"Hamnegt 87, 8480.0 Andenes, Norway",Andenes,Norway,FFPP,,973186876.0
+N2377,Reid Engseth,Reid Engseth,"Steinslandsveien 6, 8754.0 Øresvik, Norway",Øresvik,Norway,PP-ST,,928700437.0
+N2380,Saltenfisk As,Saltenfisk As,"Trålveien 6, 8013.0 Bodø, Norway",Bodø,Norway,"FFPP-P, PP, PP-KL",,932119013.0
+N2384,Træna Sjømat As,Træna Sjømat As,"Flottingveien 26, 8770.0 Træna, Norway",Træna,Norway,"FFPP, FFPP-P, PP, PP-SA",,929720261.0
+N2391,Lofothau Produksjon As,Lofothau Produksjon As,"Havnekvartalet 4, 8370.0 Leknes, Norway",Leknes,Norway,PP-ST,,928158357.0
+N2395,Storvik Gård As,Storvik Gård As,"Osbakken 10, 8145.0 Storvik, Norway",Storvik,Norway,"FFPP, PP, PP-ST",,929731107.0
+N2396,Oppinor As,Oppinor As,"Gamle Skutvik Vei 36, 8290.0 Skutvik, Norway",Skutvik,Norway,"FFPP, FFPP-P, PP-C",,931592254.0
+N2398,Futurum Seafood As Avd Henningsvær,Futurum Seafood As Avd Henningsvær,"Dreyers Gate 17, 8312.0 Henningsvær, Norway",Henningsvær,Norway,"FFPP-P, PP, RW",,916279884.0
+N2404,Kolbjørn Aksel Johansen,Kolbjørn Aksel Johansen,"Skolbakken 2, 8752.0 Konsvikosen, Norway",Konsvikosen,Norway,PP-ST,,973882635.0
+N2407,Aminor As Lovund,Aminor As Lovund,"Naustholmveien 13, 8764.0 Lovund, Norway",Lovund,Norway,"FFPP-P, FFPP-S",,932375613.0
+N2408,Glea Salmon As,Glea Salmon As,"Gleaveien 11a, 8064.0 Røst, Norway",Røst,Norway,FFPP-P,,933690741.0
+N2410,Kleppstadfisk As,Kleppstadfisk As,"J.M.Johansens Vei 19, 8340.0 Stamsund, Norway",Stamsund,Norway,FFPP-P,,986414061.0
+N 869,Engeløya Fiskemottak A/L  V/Ståle Kjelstrup,Engeløya Fiskemottak A/L  V/Ståle Kjelstrup,"nan, 8289.0 Engeløya, Norway",Engeløya,Norway,"FFPP, PP-ST",,974049899.0
+NT92,Gutvik Fiskemottak A/L,Gutvik Fiskemottak A/L,"nan, 7993.0 Gutvik, Norway",Gutvik,Norway,FFPP,,972591106.0
+NT143,Rørvik Fisk As,Rørvik Fisk As,"Avd. Vandsøya Postboks 213, 7901.0 Rørvik, Norway",Rørvik,Norway,"FFPP, FFPP-P",,884084652.0
+NT145,Sinkaberg Drift As Fabrikk,Sinkaberg Drift As Fabrikk,"Marøyvegen 110, 7900.0 Rørvik, Norway",Rørvik,Norway,"FFPP-P, FFPP-SA",,976544366.0
+NT168,Rørvik Fiskemat As,Rørvik Fiskemat As,"Nyvegen 62, 7900.0 Rørvik, Norway",Rørvik,Norway,PP,,979848374.0
+NT169,Rørvik Fisk As,Rørvik Fisk As,"Fryseriet, 7900.0 Rørvik, Norway",Rørvik,Norway,"FFPP, FFPP-P, PP-SA",,884084652.0
+NT171,Rørvik Fisk As,Rørvik Fisk As,"Fryseriet, 7900.0 Rørvik, Norway",Rørvik,Norway,"FFPP, FFPP-P, PP, RW",,884084652.0
+NT200,Aakervik M As,Aakervik M As,"Havnegata 16, 7800.0 Namsos, Norway",Namsos,Norway,FFPP,,971654910.0
+NT290,Sagamat As,Sagamat As,"Smibekkv.2, 7717.0 Steinkjer, Norway",Steinkjer,Norway,PP,,979709994.0
+NT330,Aakervik M As,Aakervik M As,"Havnegata 16, 7800.0 Namsos, Norway",Namsos,Norway,FFPP,,971654910.0
+NT814,Gjert'S Gourmet As,Gjert'S Gourmet As,"Lauvøyvågveien 11, 7900.0 Rørvik, Norway",Rørvik,Norway,PP,,913841042.0
+NT815,Havfruene.  As,Havfruene.  As,"Sundsøya 20, 7670.0 Inderøy, Norway",Inderøy,Norway,PP-MA,,888173552.0
+NT817,Namdal Seafood As,Namdal Seafood As,"Skorstadvegen 558, 7819.0 Fosslandsosen, Norway",Fosslandsosen,Norway,"FFPP, FFPP-P, FFPP-S",,919072415.0
+O57,Ph Thorstensen As,Ph Thorstensen As,"Akershusstranda 23, 150.0 Oslo, Norway",Oslo,Norway,"FFPP-P, PP-C, PP-M",,971781505.0
+O70,Lerøy Norge As Avd Laks&Vilt Oslo,Lerøy Norge As Avd Laks&Vilt Oslo,"Stanseveien 33, 976.0 Oslo, Norway",Oslo,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA, RW",,971725044.0
+O98,Orkla Health As  Avd Peter Møller,Orkla Health As  Avd Peter Møller,"Peter Møllers Vei 13, 585.0 Oslo, Norway",Oslo,Norway,PP-MA,,973062255.0
+O107,Lofotprodukt Oslo Produksjon As,Lofotprodukt Oslo Produksjon As,"Akerhusstranda 1, 150.0 Oslo, Norway",Oslo,Norway,"FFPP, FFPP-P, PP, PP-C, RW",,971687282.0
+O109,Sjømathuset As Avd Produksjon Oslo,Sjømathuset As Avd Produksjon Oslo,"Sven Oftedalsvei 10, 950.0 Oslo, Norway",Oslo,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA, RW",,986518533.0
+O209,Sjømat As,Sjømat As,"Akershusstranda 23, 150.0 Oslo, Norway",Oslo,Norway,"FFPP, FFPP-P, PP",,982756510.0
+O264,Ambo Europe As,Ambo Europe As,"Vestjordet 14, 1361.0 Østerås, Norway",Østerås,Norway,PP-MA,,890062512.0
+O269,Fredriks Røkeri As,Fredriks Røkeri As,"Akershusstranda 23, 150.0 Oslo, Norway",Oslo,Norway,PP,,921346387.0
+O270,Vippetangen Fisk & Kolonial As,Vippetangen Fisk & Kolonial As,"Akershusstranda 23, 150.0 Oslo, Norway",Oslo,Norway,RW,,920702880.0
+O273,Umami Lab Oslo As,Umami Lab Oslo As,"Akershusstranda 23, 150.0 Oslo, Norway",Oslo,Norway,PP,,932829762.0
+OP213,Smakfullt Storkjøkken As,Smakfullt Storkjøkken As,"Damsletta 7, 2827.0 Hunndalen, Norway",Hunndalen,Norway,"FFPP, FFPP-P, MSM, PP, PP-C, PP-KL, PP-M, PP-SA, PP-ST, RW",,992278528.0
+OP214,Zymtech Life Science As,Zymtech Life Science As,"Jakup B. Klukstads Veg 16, 2665.0 Lesja, Norway",Lesja,Norway,PP-MA,,920670261.0
+R12,Seagarden As Avd Avaldsnes,Seagarden As Avd Avaldsnes,"Husøyvegen 278, 4262.0 Avaldsnes, Norway",Avaldsnes,Norway,PP-MA,,977253179.0
+R13,Pelagia Karmsund Fiskemel,Pelagia Karmsund Fiskemel,"Husøyvegen 283, 4262.0 Avaldsnes, Norway",Avaldsnes,Norway,FFPP,,971654945.0
+R16,Mowi Nutrition Hjelmeland,Mowi Nutrition Hjelmeland,"Hundsnesveien 151, 4130.0 Hjelmeland, Norway",Hjelmeland,Norway,"FFPP-P, PP-MA",,973519034.0
+R40,Fonn Egersund As,Fonn Egersund As,"Kleivastø 15, 5538.0 Haugesund, Norway",Haugesund,Norway,FFPP,,974100290.0
+R51,Domstein Sjømat As Avd Stavanger,Domstein Sjømat As Avd Stavanger,"Tangen 6, 4072.0 Randaberg, Norway",Randaberg,Norway,"FFPP, FFPP-P, PP-C, RW",,875969692.0
+R57,K-Fisk As,K-Fisk As,"Sveholmvegen 10, 4275.0 Sævelandsvik, Norway",Sævelandsvik,Norway,"FFPP, FFPP-P, PP-C",,984673981.0
+R63,Yrkje Fiskemottak As,Yrkje Fiskemottak As,"Yrkje, 5567.0 Skjoldastraumen, Norway",Skjoldastraumen,Norway,FFPP,,973314416.0
+R68,Sildakongen Produksjon As,Sildakongen Produksjon As,"Husøyvegen 163c, 4262.0 Avaldsnes, Norway",Avaldsnes,Norway,PP,,972149608.0
+R79,Pelagia Karmøy,Pelagia Karmøy,"Husøyvegen 265, 4262.0 Avaldsnes, Norway",Avaldsnes,Norway,"FFPP, FFPP-P",,972173487.0
+R87,Karmsund Næringsmiddelbygg As,Karmsund Næringsmiddelbygg As,"Husøyvegen 228, 4262.0 Avaldsnes, Norway",Avaldsnes,Norway,"FFPP, FFPP-P, PP, PP-C",,987057998.0
+R88,Skude Fryseri As,Skude Fryseri As,"Kaigata 102, 4280.0 Skudeneshavn, Norway",Skudeneshavn,Norway,"FFPP, PP, PP-C",,971768762.0
+R92,Rennesøy Reker As,Rennesøy Reker As,"Daleveien 47, 4150.0 Rennesøy, Norway",Rennesøy,Norway,FFPP,,979192479.0
+R98,Mikals Laks As,Mikals Laks As,"Jøsnesvegen 142, 4146.0 Skiftun, Norway",Skiftun,Norway,PP,,982037859.0
+R106,"Grieg Seafood Rogaland As, Avd Erfjord Stamfisk","Grieg Seafood Rogaland As, Avd Erfjord Stamfisk","Kilavågen, 4233.0 Erfjord, Norway",Erfjord,Norway,"FFPP, FFPP-SA",,972117269.0
+R107,Rennesøy Fisk Og Skalldyr Mottak,Rennesøy Fisk Og Skalldyr Mottak,"V/Tor Bernhard Harestad, 4158.0 Bru, Norway",Bru,Norway,FFPP,,978001092.0
+R110,Mowi Avd Ryfisk,Mowi Avd Ryfisk,"Hundsnesvegen 151, 4130.0 Hjelmeland, Norway",Hjelmeland,Norway,"FFPP-P, FFPP-SA",,972347256.0
+R111,Sterling Processing As,Sterling Processing As,"Mekjarvik 20, 4072.0 Randaberg, Norway",Randaberg,Norway,"FFPP-P, PP",,927492938.0
+R114,Grieg Seafood Rogaland As Avd Stjernelaks,Grieg Seafood Rogaland As Avd Stjernelaks,"Sjernarøyvegen 22, 4170.0 Sjernarøy, Norway",Sjernarøy,Norway,FFPP-SA,,972079561.0
+R129,Sirevaag As,Sirevaag As,"Vågen 42, 4364.0 Sirevåg, Norway",Sirevåg,Norway,"FFPP, FFPP-P, PP",,974102374.0
+R131,Pelagia Sirevåg,Pelagia Sirevåg,"Oddane 2, 4364.0 Sirevåg, Norway",Sirevåg,Norway,"FFPP, FFPP-P, PP",,972291005.0
+R141,Fonn Egersund As,Fonn Egersund As,"Lindøyveien 92, 4373.0 Egersund, Norway",Egersund,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA",,974100290.0
+R146,Løining As,Løining As,"Skadberg, 4370.0 Egersund, Norway",Egersund,Norway,"FFPP-P, PP",,974102560.0
+R150,Pelagia Egersund Seafood,Pelagia Egersund Seafood,"Kaupanes, 4374.0 Egersund, Norway",Egersund,Norway,"FFPP, FFPP-P, PP",,972323888.0
+R205,Grilstad As Avd Stavanger,Grilstad As Avd Stavanger,"Slettestrandveien 15, 4032.0 Stavanger, Norway",Stavanger,Norway,PP,,874166502.0
+R210,Fjordkjøkken As,Fjordkjøkken As,"Djuphodl 2, 4360.0 Varhaug, Norway",Varhaug,Norway,"FFPP-P, PP",,976509331.0
+R214,Lerøy Norge As Avd Stavanger,Lerøy Norge As Avd Stavanger,"Varabergmyra 2, 4050.0 Sola, Norway",Sola,Norway,"FFPP-P, PP, RW",,982687004.0
+R808,Aquazyme Technology As,Aquazyme Technology As,"Iris, Professor Olav Hanssens Vei 15,, 4021.0 Stavanger, Norway",Stavanger,Norway,PP-MA,,989603841.0
+R941,Sterling White Halibut As Avd Hjelmeland,Sterling White Halibut As Avd Hjelmeland,"Svadbergvegen 41, 4137.0 Årdal I Ryfylke, Norway",Årdal I Ryfylke,Norway,FFPP-S,,983424732.0
+R945,Hoa Nhu,Hoa Nhu,"Skasvegen 160 (V/Driftsbygning, 4354.0 Voll, Norway",Voll,Norway,"PP, PP-MA",,918911855.0
+R946,Prima Protein As,Prima Protein As,"Hovlandsveien 64, 4374.0 Egersund, Norway",Egersund,Norway,"FFPP, PP-MA",,918842063.0
+R947,Prima Seafood As,Prima Seafood As,"Lindøyveien 92, 4373.0 Egersund, Norway",Egersund,Norway,"FFPP, FFPP-P, PP",,922018979.0
+R950,Bokn Sjømat As,Bokn Sjømat As,"Jøsenvågen 44, 5561.0 Bokn, Norway",Bokn,Norway,"FFPP, FFPP-P, PP-C",,924386320.0
+R953,Storøy Tankservice As Avd Kopervik,Storøy Tankservice As Avd Kopervik,"Kaien 11, 4250.0 Kopervik, Norway",Kopervik,Norway,"FFPP-S, FFPP-SA",,996273032.0
+R956,Norwegian King Prawns Farming As,Norwegian King Prawns Farming As,"Vågen 42, 4364.0 Sirevåg, Norway",Sirevåg,Norway,FFPP-S,,932822679.0
+R958,Norwegian King Prawns As,Norwegian King Prawns As,"Vågen 42, 4364.0 Sirevåg, Norway",Sirevåg,Norway,FFPP-S,,919272848.0
+R960,Karmsund Maritime Kvitsøy As,Karmsund Maritime Kvitsøy As,"nan, 4180.0 Kvitsøy, Norway",Kvitsøy,Norway,"FFPP, FFPP-P, PP-C",,999292666.0
+R962,Ombo Fisk As,Ombo Fisk As,"Austre Ombovegen 275, 4187.0 Ombo, Norway",Ombo,Norway,FFPP,,930355178.0
+R972,Vikingkrabben As,Vikingkrabben As,"Årabrotholmen 13, 4270.0 Åkrehamn, Norway",Åkrehamn,Norway,"FFPP, FFPP-P, PP-C, RW",,931751352.0
+R973,Karmsund Protein As,Karmsund Protein As,"Husøyvegen 141, 4262.0 Avaldsnes, Norway",Avaldsnes,Norway,PP-MA,,916782039.0
+SF62,P Stave As,P Stave As,"Postboks 24, 6750.0 Stadlandet, Norway",Stadlandet,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-ST",,829350602.0
+SF72,Pelagia Selje,Pelagia Selje,"Seljevegen 2815, 6740.0 Selje, Norway",Selje,Norway,"FFPP, FFPP-P",,971935545.0
+SF98,Snorre Seafood As,Snorre Seafood As,"Nedrevegen 158, 6710.0 Raudeberg, Norway",Raudeberg,Norway,"FFPP, FFPP-P, PP, PP-SA",,979542496.0
+SF104,Pelagia Måløy,Pelagia Måløy,"Ulvesundvegen 85, 6718.0 Deknepollen, Norway",Deknepollen,Norway,"FFPP, FFPP-P, PP",,972231606.0
+SF122,Maaløy Seafood As,Maaløy Seafood As,"nan, 6701.0 Måløy, Norway",Måløy,Norway,"FFPP, FFPP-P",,973167510.0
+SF189,Pelagia Kalvåg,Pelagia Kalvåg,"Kalvøyna 10, 6729.0 Kalvåg, Norway",Kalvåg,Norway,"FFPP, FFPP-P, PP, PP-SA",,971953357.0
+SF200,Sognefjord Naturkjøkken Drift As,Sognefjord Naturkjøkken Drift As,"Skjær, Sogndal, 6879.0 Solvorn, Norway",Solvorn,Norway,"FFPP, FFPP-P, PP, PP-C, PP-ST",,926451944.0
+SF222,Slakteriet As,Slakteriet As,"Hamregt 1, 6900.0 Florø, Norway",Florø,Norway,"FFPP-P, FFPP-SA, PP",,971688661.0
+SF225,Global Florø As,Global Florø As,"Kyllervegen 4, 6906.0 Florø, Norway",Florø,Norway,"FFPP, FFPP-P, PP",,911761785.0
+SF244,Byrknes Servicesenter As,Byrknes Servicesenter As,"Byrknesøy, 5970.0 Byrknesøy, Norway",Byrknesøy,Norway,FFPP,,993488704.0
+SF320,Lerøy Bulandet As,Lerøy Bulandet As,"Hellersøyvegen 88, 6987.0 Bulandet, Norway",Bulandet,Norway,"FFPP, FFPP-P, PP",,971866802.0
+SF364,Martin E Birknes Eftf As,Martin E Birknes Eftf As,"Kalvøyna 75, 5970.0 Byrknesøy, Norway",Byrknesøy,Norway,"FFPP-P, FFPP-S, FFPP-SA, PP",,971666323.0
+SF371,Slakteriet Brekke As,Slakteriet Brekke As,"Sognefjordvegen 47, 5961.0 Brekke, Norway",Brekke,Norway,"FFPP-P, FFPP-S, FFPP-SA",,979653514.0
+SF400,Firda Sjøfarmer As Avd Firda Savior,Firda Sjøfarmer As Avd Firda Savior,"Kalvøyna 75, 5970.0 Byrknesøy, Norway",Byrknesøy,Norway,FFPP-SA,,919558229.0
+SF813,Jølsterlia Finn Årdal,Jølsterlia Finn Årdal,"nan, 6843.0 Skei I Jølster, Norway",Skei I Jølster,Norway,"FFPP, FFPP-P, PP",,973298739.0
+SF868,Svanøy Røykeri As,Svanøy Røykeri As,"nan, 6914.0 Svanøybukt, Norway",Svanøybukt,Norway,PP,,972308323.0
+SF917,Ervik Seafood Avd Måløy,Ervik Seafood Avd Måløy,"Øyna 41, 6700.0 Måløy, Norway",Måløy,Norway,"FFPP-P, PP-SA",,921018673.0
+SF920,Bulandet Fiskemottak As,Bulandet Fiskemottak As,"Nikøy, 6987.0 Bulandet, Norway",Bulandet,Norway,FFPP,,819907722.0
+SF925,Sjøprodukt As,Sjøprodukt As,"Kalvøyna 8, 6729.0 Kalvåg, Norway",Kalvåg,Norway,FFPP-SA,,920424201.0
+SF926,Pelagia Måløy Health,Pelagia Måløy Health,"nan, 6718.0 Deknepollen, Norway",Deknepollen,Norway,PP-MA,,923447768.0
+ST72,Vågen Aqua As,Vågen Aqua As,"Einarsdal Havn 11, 7194.0 Brandsfjord, Norway",Brandsfjord,Norway,FFPP,,982640970.0
+ST106,Kråkøy Slakteri As,Kråkøy Slakteri As,"Kråkøyveien 59, 7180.0 Roan, Norway",Roan,Norway,"FFPP-P, FFPP-S, FFPP-SA",,985885540.0
+ST112,Norgeskjell As Avd Åfjord,Norgeskjell As Avd Åfjord,"Austdalsveien 258, 7170.0 Åfjord, Norway",Åfjord,Norway,FFPP,,972114979.0
+ST131,Grøntvedt Pelagic As Avd Uthaug,Grøntvedt Pelagic As Avd Uthaug,"Havneveien 1, 7142.0 Uthaug, Norway",Uthaug,Norway,"FFPP, FFPP-P, PP",,974158930.0
+ST135,Fosenskalldyr As,Fosenskalldyr As,"Nordnesveien 39, 7167.0 Vallersund, Norway",Vallersund,Norway,"FFPP, FFPP-P, PP, PP-C, PP-M",,971818107.0
+ST137,Coop Vallersund Sa,Coop Vallersund Sa,"nan, 7167.0 Vallersund, Norway",Vallersund,Norway,FFPP,,971787244.0
+ST145,Uthaug Fisk As,Uthaug Fisk As,"Havneveien, 7142.0 Uthaug, Norway",Uthaug,Norway,FFPP,,989624350.0
+ST150,Grande Sjømat As,Grande Sjømat As,"Havneveien 55, 7142.0 Uthaug, Norway",Uthaug,Norway,"FFPP, FFPP-P, FFPP-S, FFPP-SA, PP",,972109290.0
+ST151,Grøntvedt Pelagic As Avd Kråkvåg,Grøntvedt Pelagic As Avd Kråkvåg,"Kråkvåg, 7152.0 Kråkvåg, Norway",Kråkvåg,Norway,PP,,972377481.0
+ST158,Norgeskjell As Avd Rissa,Norgeskjell As Avd Rissa,"Kvithyllveien 199, 7100.0 Rissa, Norway",Rissa,Norway,FFPP,,972114669.0
+ST203,Jan Inge Standahl,Jan Inge Standahl,"Vardesvingen 13, 7165.0 Oksvoll, Norway",Oksvoll,Norway,FFPP,,978375626.0
+ST204,Isfjord Norway As,Isfjord Norway As,"Grønørveien 30, 7300.0 Orkanger, Norway",Orkanger,Norway,"FFPP-P, PP",,981662180.0
+ST223,Matpartner As,Matpartner As,"Hofstadveien 89, 7224.0 Melhus, Norway",Melhus,Norway,FFPP-P,,978678572.0
+ST245,Magnus Engzelius,Magnus Engzelius,"Pinstiveien 95, 7375.0 Røros, Norway",Røros,Norway,PP,,985238189.0
+ST309,Lerøy Midt As,Lerøy Midt As,"Hestvikveien 263, 7247.0 Hestvika, Norway",Hestvika,Norway,"FFPP-P, PP",,976852664.0
+ST334,Fisken Ko As,Fisken Ko As,"Kjerringvågveien 43, 7252.0 Dolmøy, Norway",Dolmøy,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,919485280.0
+ST337,Lerøy Midt As,Lerøy Midt As,"Industriparkveien 31, 7246.0 Sandstad, Norway",Sandstad,Norway,"FFPP-P, FFPP-SA",,976852664.0
+ST343,Hitramat As,Hitramat As,"Knarrlagsundveien 325, 7241.0 Ansnes, Norway",Ansnes,Norway,"FFPP, FFPP-P, MSM, PP, PP-C, PP-M",,974079682.0
+ST400,Mowi Avd Jøsnøya,Mowi Avd Jøsnøya,"Industriparkveien 41, 7246.0 Sandstad, Norway",Sandstad,Norway,"FFPP-P, FFPP-SA",,932401231.0
+ST423,Salmar As,Salmar As,"Industriveien 51, 7266.0 Kverva, Norway",Kverva,Norway,"FFPP-P, FFPP-SA, PP",,971744502.0
+ST460,Seashell As,Seashell As,"Strandaveien 25, 7273.0 Norddyrøy, Norway",Norddyrøy,Norway,FFPP,,979628536.0
+ST462,Frøya Fryseri As,Frøya Fryseri As,"Frøya Næringspark, 7270.0 Dyrvik, Norway",Dyrvik,Norway,PP,,986501851.0
+ST479,Mausund Fiskemottak As,Mausund Fiskemottak As,"nan, 7284.0 Mausund, Norway",Mausund,Norway,FFPP,,976964071.0
+ST490,Froan Forretningsdrift As,Froan Forretningsdrift As,"nan, 7286.0 Sørburøy, Norway",Sørburøy,Norway,FFPP,,872238182.0
+ST845,Ila Fiskemottak As,Ila Fiskemottak As,"Nedre Ila 68, 7018.0 Trondheim, Norway",Trondheim,Norway,FFPP,,995836602.0
+ST860,Domstein Sjømat As Avd Trondheim,Domstein Sjømat As Avd Trondheim,"Trondheim Havn - Pir 1. Nr.7, 7010.0 Trondheim, Norway",Trondheim,Norway,"FFPP-P, PP",,980513475.0
+ST861,Garnvik As,Garnvik As,"Leirvikveien 276, 7273.0 Norddyrøy, Norway",Norddyrøy,Norway,"FFPP-P, PP, PP-ST",,913143361.0
+ST862,Stensaas Reinsdyrslakteri As,Stensaas Reinsdyrslakteri As,"Feragsveien 11, 7375.0 Røros, Norway",Røros,Norway,PP,,971773510.0
+ST874,Vågen Aqua As,Vågen Aqua As,"Peter Hepsøs Vei 89, 7740.0 Steinsdalen, Norway",Steinsdalen,Norway,FFPP,,982640970.0
+ST875,Vatn Fisk As,Vatn Fisk As,"Værnesveien 453, 7318.0 Agdenes, Norway",Agdenes,Norway,FFPP,,912398986.0
+ST875,Vatn Fisk As,Vatn Fisk As,"Hegg, 7318.0 Agdenes, Norway",Agdenes,Norway,"FFPP, FFPP-P, PP",,912398986.0
+ST877,Statsnail As,Statsnail As,"Steinvikveien 75, 7165.0 Oksvoll, Norway",Oksvoll,Norway,FFPP,,915148522.0
+T52,Mowi   Avd Jøkelfjord,Mowi   Avd Jøkelfjord,"Mowi Norway T-52 Slakteri, 9163.0 Jøkelfjord, Norway",Jøkelfjord,Norway,"FFPP-P, FFPP-SA",,913715268.0
+T63,Karls Fisk & Skalldyr As,Karls Fisk & Skalldyr As,"nan, 9161.0 Burfjord, Norway",Burfjord,Norway,FFPP,,985811008.0
+T82,Skjervøy Fisk Og Skalldyr As,Skjervøy Fisk Og Skalldyr As,"Havnegata 38, 9180.0 Skjervøy, Norway",Skjervøy,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,913280024.0
+T105,Årvikbruket As,Årvikbruket As,"Årviksand, 9195.0 Årviksand, Norway",Årviksand,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,974120909.0
+T107,Arnøy Laks Slakteri As,Arnøy Laks Slakteri As,"Lauksundveien 139, 9194.0 Lauksletta, Norway",Lauksletta,Norway,"FFPP-P, FFPP-SA",,995376911.0
+T119,Johs H Giæver As Avd Havnnes,Johs H Giæver As Avd Havnnes,"Postboks 1, 9159.0 Havnnes, Norway",Havnnes,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,973067427.0
+T125,Karls Fisk & Skalldyr As,Karls Fisk & Skalldyr As,"nan, 9144.0 Samuelsberg, Norway",Samuelsberg,Norway,FFPP,,985811008.0
+T126,Lerøy Aurora As Avd Skjervøy,Lerøy Aurora As Avd Skjervøy,"Strandveien 4, 9180.0 Skjervøy, Norway",Skjervøy,Norway,"FFPP-P, FFPP-SA",,991285660.0
+T127,Karls Fisk & Skalldyr As,Karls Fisk & Skalldyr As,"Tønsvikvegen 518, 9023.0 Krokelvdalen, Norway",Krokelvdalen,Norway,FFPP,,985811008.0
+T155,Torsvågbruket As,Torsvågbruket As,"nan, 9136.0 Vannareid, Norway",Vannareid,Norway,"FFPP, FFPP-P, PP-KL, PP-SA, PP-ST",,973003070.0
+T160,Volda Living As,Volda Living As,"Fishy Exports Kaspersen, 9136.0 Vannareid, Norway",Vannareid,Norway,"FFPP, FFPP-P",,996843165.0
+T165,Reinøy Sjømat As,Reinøy Sjømat As,"Stakkvik, 9132.0 Stakkvik, Norway",Stakkvik,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-ST",,985719780.0
+T181,Jensen Fisk As,Jensen Fisk As,"Resset 4, 9303.0 Silsand, Norway",Silsand,Norway,PP-ST,,976469143.0
+T184,Lyngen Reker As,Lyngen Reker As,"Lenangsøra, 9064.0 Svensby, Norway",Svensby,Norway,"FFPP, PP, PP-C",,992131950.0
+T210,Nordic Pharma Inc As Avd Tromsø,Nordic Pharma Inc As Avd Tromsø,"Ropnesveien 71, 9107.0 Kvaløya, Norway",Kvaløya,Norway,PP-MA,,992527137.0
+T212,Pelagia Tromsø,Pelagia Tromsø,"Solstrandanlegget Kaldslett, 9020.0 Tromsdalen, Norway",Tromsdalen,Norway,"FFPP, FFPP-P, PP",,975357732.0
+T220,Nofima As Avd Biotep,Nofima As Avd Biotep,"Ropnesvegen 71, 9107.0 Kvaløya, Norway",Kvaløya,Norway,PP-MA,,833599992.0
+T221,Oldervik Fiskeindustri As,Oldervik Fiskeindustri As,"Oldervikvegen 516, 9034.0 Oldervik, Norway",Oldervik,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,987674032.0
+T222,Dragøy Grossist As,Dragøy Grossist As,"Huldervegen 18, 9016.0 Tromsø, Norway",Tromsø,Norway,"FFPP, FFPP-P, PP, PP-C",,918486879.0
+T226,Arcticzymes Technologies Asa,Arcticzymes Technologies Asa,"Strandgt 3, 9008.0 Tromsø, Norway",Tromsø,Norway,PP-MA,,874864412.0
+T247,Aqua Drift As,Aqua Drift As,"Vengsøya 162, 9120.0 Vengsøy, Norway",Vengsøy,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,987630612.0
+T251,Joh H Pettersen As,Joh H Pettersen As,"Kvaløyvågvegen 1422, 9103.0 Kvaløya, Norway",Kvaløya,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,974136384.0
+T258,Lerøy Norway Seafoods As  Avd Tromvik,Lerøy Norway Seafoods As  Avd Tromvik,"Tromtindvegen 322, 9107.0 Kvaløya, Norway",Kvaløya,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,971796014.0
+T270,Lorentzen Fisk As,Lorentzen Fisk As,"Klubbvegen 15, 9118.0 Brensholmen, Norway",Brensholmen,Norway,"FFPP, FFPP-P, PP, PP-C, PP-SA, PP-ST",,973510223.0
+T273,Brødrene Sperre As Avd Sommarøy,Brødrene Sperre As Avd Sommarøy,"Hamnevegen 17, 9110.0 Sommarøy, Norway",Sommarøy,Norway,"FFPP, FFPP-P, PP",,934940245.0
+T299,Stella Polaris As,Stella Polaris As,"Kårvikveien 306, 9307.0 Finnsnes, Norway",Finnsnes,Norway,"FFPP, PP-C, PP-MA",,871830312.0
+T308,Brødrene Karlsen Senja,Brødrene Karlsen Senja,"Husøy, 9389.0 Husøy I Senja, Norway",Husøy I Senja,Norway,"FFPP, FFPP-P, PP, PP-MA, PP-SA, PP-ST",,973134868.0
+T314,Nergård Sild As,Nergård Sild As,"Senjahopen, 9386.0 Senjahopen, Norway",Senjahopen,Norway,"FFPP, FFPP-P, PP",,984781741.0
+T315,Nord Senja Fisk As,Nord Senja Fisk As,"Botnhamnveien 787, 9373.0 Botnhamn, Norway",Botnhamn,Norway,"FFPP, PP, PP-KL, PP-SA",,995724081.0
+T316,Nergård Fisk Senjahopen,Nergård Fisk Senjahopen,"Mefjordveien 1537, 9386.0 Senjahopen, Norway",Senjahopen,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-MA, PP-SA",,971696176.0
+T317,Coldwater Prawns Production As,Coldwater Prawns Production As,"Mefjordveien 1529, 9386.0 Senjahopen, Norway",Senjahopen,Norway,"FFPP, PP-C",,985094349.0
+T353,Nergård Fisk Gryllefjord,Nergård Fisk Gryllefjord,"nan, 9380.0 Gryllefjord, Norway",Gryllefjord,Norway,"FFPP, FFPP-P, PP",,996842991.0
+T359,Wilsgård Fiskeoppdrett As,Wilsgård Fiskeoppdrett As,"Værnesveien 105, 9381.0 Torsken, Norway",Torsken,Norway,"FFPP-P, FFPP-SA",,972002623.0
+T369,Nergård Fisk Grunnfarnes,Nergård Fisk Grunnfarnes,"Grunnfarnes, 9395.0 Kaldfarnes, Norway",Kaldfarnes,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,979277504.0
+T380,Flakstadvåg Laks As Avd Kaldfarnes,Flakstadvåg Laks As Avd Kaldfarnes,"nan, 9395.0 Kaldfarnes, Norway",Kaldfarnes,Norway,"FFPP-P, FFPP-SA",,973633716.0
+T398,Art Nor As,Art Nor As,"Naustveien 17, 9303.0 Silsand, Norway",Silsand,Norway,PP,,974497751.0
+T400,Salaks Slakteri As,Salaks Slakteri As,"Lavangsnesveien 793, 9350.0 Sjøvegan, Norway",Sjøvegan,Norway,"FFPP-P, FFPP-SA",,997721322.0
+T436,Breivoll Marine Produkter As,Breivoll Marine Produkter As,"Breivollveien 12, 9450.0 Hamnvik, Norway",Hamnvik,Norway,"FFPP-P, FFPP-SA",,972330965.0
+T468,Nordlaks Oppdrett As,Nordlaks Oppdrett As,"Avd. Gullesfjord, 8455.0 Stokmarknes, Norway",Stokmarknes,Norway,FFPP,,980183130.0
+T470,Astafjord Slakteri As,Astafjord Slakteri As,"Kystkulturveien 1747, 9470.0 Gratangen, Norway",Gratangen,Norway,"FFPP-P, FFPP-SA",,981140818.0
+T602,Tromsø Fiskemat As,Tromsø Fiskemat As,"Postboks 3366, 9276.0 Tromsø, Norway",Tromsø,Norway,"FFPP-P, PP, RW",,972258148.0
+T823,Straumvang As,Straumvang As,"V/ Arnt K. Simonsen, 9455.0 Engenes, Norway",Engenes,Norway,FFPP-P,,978364888.0
+T1065,Johansen Jan Ivar,Johansen Jan Ivar,"Ibestadveien 917, 9453.0 Kråkrøhamn, Norway",Kråkrøhamn,Norway,PP-ST,,978562086.0
+T1068,Jarle Kiil,Jarle Kiil,"Slottet, 9153.0 Rotsund, Norway",Rotsund,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,874063762.0
+T1073,Eide Handel As,Eide Handel As,"Eidkjosen, 9100.0 Kvaløysletta, Norway",Kvaløysletta,Norway,"FFPP, FFPP-P, PP",,971957816.0
+T1078,Seagarden As   Avd Senjahopen,Seagarden As   Avd Senjahopen,"Mefjordveien 1537, 9386.0 Senjahopen, Norway",Senjahopen,Norway,PP-MA,,989584758.0
+T1079,Karls Fisk & Skalldyr As,Karls Fisk & Skalldyr As,"Oldervikveien 451, 9034.0 Oldervik, Norway",Oldervik,Norway,"FFPP, FFPP-P, PP, PP-ST",,985811008.0
+T1080,Halvors Tradisjonsfisk As,Halvors Tradisjonsfisk As,"Håndverkerveien 7b, 9018.0 Tromsø, Norway",Tromsø,Norway,PP,,982494060.0
+T1081,Havbruksstasjonen I Tromsø As,Havbruksstasjonen I Tromsø As,"nan, 9131.0 Kårvik, Norway",Kårvik,Norway,"FFPP, FFPP-P",,980913147.0
+T1094,Karlsøybruket As,Karlsøybruket As,"Vannavalen, 9135.0 Vannvåg, Norway",Vannvåg,Norway,"FFPP, FFPP-P, PP-KL, PP-MA, PP-SA, PP-ST",,993376299.0
+T1095,Karlsøybruket As,Karlsøybruket As,"nan, 9135.0 Vannvåg, Norway",Vannvåg,Norway,"FFPP, PP, PP-SA",,993376299.0
+T1100,Servicenord Engros As,Servicenord Engros As,"Stangnesterminalen 2f, 9409.0 Harstad, Norway",Harstad,Norway,FFPP-P,,971880473.0
+T1107,Torfinn Hansen,Torfinn Hansen,"Smørsgård, 9310.0 Sørreisa, Norway",Sørreisa,Norway,PP-ST,,nan
+T1108,Lars Olai Johansen,Lars Olai Johansen,"Gloen 86, 9446.0 Grovfjord, Norway",Grovfjord,Norway,PP-ST,,nan
+T1110,Egil Antonsen,Egil Antonsen,"Tovikstrand, 9445.0 Tovik, Norway",Tovik,Norway,PP-ST,,923907769.0
+T1112,Ståle Pettersen,Ståle Pettersen,"Elvelund 24, 9310.0 Sørreisa, Norway",Sørreisa,Norway,PP-ST,,nan
+T1115,Jarle Cedly Johansen,Jarle Cedly Johansen,"Navaren 81, 9321.0 Moen, Norway",Moen,Norway,PP-ST,,nan
+T1116,Ole-Martin Karlsen,Ole-Martin Karlsen,"Storbergveien 13, 9402.0 Harstad, Norway",Harstad,Norway,PP-ST,,nan
+T1117,Per Inge Eliseussen,Per Inge Eliseussen,"Ibestadveien 362, 9453.0 Kråkrøhamn, Norway",Kråkrøhamn,Norway,PP-ST,,nan
+T1118,Norvald Nicolaisen,Norvald Nicolaisen,"Hågen 17, 9446.0 Grovfjord, Norway",Grovfjord,Norway,PP-ST,,980815579.0
+T1119,Evald Andreassen,Evald Andreassen,"Sifjord, 9395.0 Kaldfarnes, Norway",Kaldfarnes,Norway,PP-ST,,nan
+T1120,Sigfred Johannes Olsen,Sigfred Johannes Olsen,"Kåfjorddalen, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,nan
+T1123,Aronsen Odd-Verner,Aronsen Odd-Verner,"Toften, 9064.0 Svensby, Norway",Svensby,Norway,PP-ST,,977970563.0
+T1124,Arvid Sverre Johansen,Arvid Sverre Johansen,"Navaren, 9321.0 Moen, Norway",Moen,Norway,PP-ST,,nan
+T1128,Hansen Odd G,Hansen Odd G,"Nedre Jensvoll 11, 9060.0 Lyngseidet, Norway",Lyngseidet,Norway,PP-ST,,977943558.0
+T1130,Nordnesfisk As,Nordnesfisk As,"Nordnes, 9144.0 Samuelsberg, Norway",Samuelsberg,Norway,PP-ST,,980662365.0
+T1131,Jan Hansen,Jan Hansen,"Spellemannsdalen 20, 9180.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,977966779.0
+T1132,Willy Jensen,Willy Jensen,"Skavåsen 29, 9020.0 Tromsdalen, Norway",Tromsdalen,Norway,PP-ST,,nan
+T1134,Olsen Arne,Olsen Arne,"nan, 9161.0 Burfjord, Norway",Burfjord,Norway,PP-ST,,873700572.0
+T1136,Gamst Terje,Gamst Terje,"Boks 376, 9189.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,917560862.0
+T1139,John E Olsen,John E Olsen,"Vorterøy, 9180.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,993664375.0
+T1140,Kjell Nilsen,Kjell Nilsen,"Kjøtta 60, 9424.0 Kjøtta, Norway",Kjøtta,Norway,PP-ST,,978236197.0
+T1141,Kåre Olsen As,Kåre Olsen As,"nan, 9161.0 Burfjord, Norway",Burfjord,Norway,PP-ST,,919244461.0
+T1142,Karl Arne Olsen,Karl Arne Olsen,"nan, 9161.0 Burfjord, Norway",Burfjord,Norway,PP-ST,,994299999.0
+T1144,Jan Johansen Fiskebåt,Jan Johansen Fiskebåt,"Vorterøyveien 92, 9180.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,976119800.0
+T1147,Ansgar Eilif Hansen,Ansgar Eilif Hansen,"Løkvoll, 9144.0 Samuelsberg, Norway",Samuelsberg,Norway,PP-ST,,nan
+T1148,Nils Samuelsen,Nils Samuelsen,"nan, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,nan
+T1149,Gunnar Anton Fredlund,Gunnar Anton Fredlund,"Grønnmyrveien 1, 9144.0 Samuelsberg, Norway",Samuelsberg,Norway,PP-ST,,nan
+T1150,Kristoffersen Hugo,Kristoffersen Hugo,"Jøvik, 9302.0 Rossfjordstraumen, Norway",Rossfjordstraumen,Norway,PP-ST,,978150985.0
+T1153,Kjell Ivar Johan Lilleng,Kjell Ivar Johan Lilleng,"Straumbotnveien 38, 9455.0 Engenes, Norway",Engenes,Norway,PP-ST,,nan
+T1154,Hallgeir Noralf Nilsen,Hallgeir Noralf Nilsen,"Andørjaveien 2074, 9455.0 Engenes, Norway",Engenes,Norway,PP-ST,,nan
+T1155,Harry Konrad Adolfsen,Harry Konrad Adolfsen,"Verftsveien 16, 9180.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,nan
+T1157,Jarle Olsen,Jarle Olsen,"nan, 9185.0 Spildra, Norway",Spildra,Norway,PP-ST,,878135172.0
+T1158,Trond Hågensen As,Trond Hågensen As,"Postboks 286, 9189.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,978576974.0
+T1159,Larsen Olav Fredrik,Larsen Olav Fredrik,"Navaren, 9321.0 Moen, Norway",Moen,Norway,PP-ST,,978366015.0
+T1162,Jarle Myrhaug,Jarle Myrhaug,"nan, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,977539293.0
+T1164,Gamst Steinar,Gamst Steinar,"Langnesbukt, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,974067927.0
+T1165,Helge Magne Pedersen,Helge Magne Pedersen,"Langnes, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,nan
+T1167,Ole Leon Hanssen,Ole Leon Hanssen,"Dyrøyveien 588, 9311.0 Brøstadbotn, Norway",Brøstadbotn,Norway,PP-ST,,993922447.0
+T1170,Arnold Jensen,Arnold Jensen,"Myrslett, 9151.0 Storslett, Norway",Storslett,Norway,PP-ST,,969614960.0
+T1171,Terje Solås,Terje Solås,"Straumfjordnes, 9151.0 Storslett, Norway",Storslett,Norway,PP-ST,,nan
+T1173,Spindaj,Spindaj,"Dunvik, 9185.0 Spildra, Norway",Spildra,Norway,"FFPP, PP, PP-ST",,986163034.0
+T1176,Egil Andersen,Egil Andersen,"Badderen, 9162.0 Sørstraumen, Norway",Sørstraumen,Norway,PP-ST,,nan
+T1179,Odd Isaksen,Odd Isaksen,"Badderen, 9162.0 Sørstraumen, Norway",Sørstraumen,Norway,PP-ST,,980918963.0
+T1181,Arnold Mikkelsen,Arnold Mikkelsen,"Stornes, 9151.0 Storslett, Norway",Storslett,Norway,PP-ST,,969267632.0
+T1182,Arnt Torleif Johansen,Arnt Torleif Johansen,"Kåfjorddalen, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,878236092.0
+T1183,Gudmund H Samuelsen,Gudmund H Samuelsen,"nan, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,nan
+T1184,Arne Samuelsen,Arne Samuelsen,"Rotsundveien 988, 9153.0 Rotsund, Norway",Rotsund,Norway,PP-ST,,nan
+T1185,Bjørg Solveig Johansen,Bjørg Solveig Johansen,"Vorterøy, 9189.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,nan
+T1186,Simon Per Petter Fallmyr,Simon Per Petter Fallmyr,"Stornesveien 368, 9402.0 Harstad, Norway",Harstad,Norway,PP-ST,,nan
+T1187,Slottet Fiskebåtrederi As,Slottet Fiskebåtrederi As,"Slottet, 9153.0 Rotsund, Norway",Rotsund,Norway,PP-ST,,984211635.0
+T1188,Jan Kåre Karlsen,Jan Kåre Karlsen,"Skarpsno 14, 9151.0 Storslett, Norway",Storslett,Norway,PP-ST,,978115098.0
+T1189,Svein Asbjørn Berg,Svein Asbjørn Berg,"Øvre Baisit 7, 9152.0 Sørkjosen, Norway",Sørkjosen,Norway,PP-ST,,nan
+T1190,Steffensen Maritim As,Steffensen Maritim As,"Postboks 203, 9189.0 Skjervøy, Norway",Skjervøy,Norway,PP-ST,,986752323.0
+T1191,Po Myrvoll As,Po Myrvoll As,"Melen, 9147.0 Birtavarre, Norway",Birtavarre,Norway,PP-ST,,997986962.0
+T1192,Bioform As,Bioform As,"Bjørgaveien 2, 9310.0 Sørreisa, Norway",Sørreisa,Norway,"FFPP-P, PP-MA",,981549147.0
+T1195,Kasper Villiam Johannessen,Kasper Villiam Johannessen,"Oksfjordhamn, 9151.0 Storslett, Norway",Storslett,Norway,PP-ST,,nan
+T1198,Roger A Pedersen,Roger A Pedersen,"Dunvik, 9185.0 Spildra, Norway",Spildra,Norway,PP-ST,,978050352.0
+T1199,Kristian Ingolf Solstad,Kristian Ingolf Solstad,"Øvermyra, 9144.0 Samuelsberg, Norway",Samuelsberg,Norway,PP-ST,,nan
+T1200,Arnfinn Pedersen,Arnfinn Pedersen,"Langfjord, 9192.0 Arnøyhamn, Norway",Arnøyhamn,Norway,PP-ST,,978255612.0
+T1201,Pavel Vavrina,Pavel Vavrina,"Stajord, 9161.0 Burfjord, Norway",Burfjord,Norway,PP-ST,,998747457.0
+T1205,Arctic Filet As,Arctic Filet As,"Værnesveien 101, 9381.0 Torsken, Norway",Torsken,Norway,"FFPP-P, PP",,995345781.0
+T1208,Kjækan Gård - Trond Jensen,Kjækan Gård - Trond Jensen,"Kjækan, 9162.0 Sørstraumen, Norway",Sørstraumen,Norway,"FFPP, FFPP-P, PP-SA, PP-ST",,993702897.0
+T1210,Trond Bjørnar Johnsen,Trond Bjørnar Johnsen,"Dorras, 9162.0 Sørstraumen, Norway",Sørstraumen,Norway,PP-ST,,896914502.0
+T1229,Hans Tore Simonsen,Hans Tore Simonsen,"Tønsvikvegen 1174, 9022.0 Krokelvdalen, Norway",Krokelvdalen,Norway,PP-ST,,979879857.0
+T1231,Vatnan Slipp,Vatnan Slipp,"Vatnan, 9130.0 Hansnes, Norway",Hansnes,Norway,PP-ST,,973354205.0
+T1232,Pettersen Steinar,Pettersen Steinar,"Dåfjord, 9130.0 Hansnes, Norway",Hansnes,Norway,PP-ST,,972505021.0
+T1234,Alf Johan Hemmingsen,Alf Johan Hemmingsen,"Alf Johan Hemmingsen, 9100.0 Kvaløysletta, Norway",Kvaløysletta,Norway,PP-ST,,nan
+T1236,Myrnes Konrad A,Myrnes Konrad A,"Naustbuktveien 63, 9100.0 Kvaløysletta, Norway",Kvaløysletta,Norway,PP-ST,,969652005.0
+T1237,Reidar Eilif Pettersen,Reidar Eilif Pettersen,"Håkøyveien 309, 9100.0 Kvaløysletta, Norway",Kvaløysletta,Norway,PP-ST,,nan
+T1253,Arctic Food Lab As,Arctic Food Lab As,"Utsikten 131, 9018.0 Tromsø, Norway",Tromsø,Norway,"FFPP, PP",,834945592.0
+T1256,Kato Per Henriksen Løvstad,Kato Per Henriksen Løvstad,"Botnhamnveien 506, 9373.0 Botnhamn, Norway",Botnhamn,Norway,PP-ST,,nan
+T1260,Årvikbruket As,Årvikbruket As,"Årviksand, 9195.0 Årviksand, Norway",Årviksand,Norway,FFPP,,974120909.0
+T1265,Seabit As,Seabit As,"Tromsøysundvegen 38, 9020.0 Tromsdalen, Norway",Tromsdalen,Norway,"PP, PP-ST",,922714347.0
+T1273,Jensen Paul Oddgeir,Jensen Paul Oddgeir,"Dalvegen 6, 9107.0 Kvaløya, Norway",Kvaløya,Norway,FFPP,,978189261.0
+T1276,Chitinor As,Chitinor As,"Ringveien 100, 9018.0 Tromsø, Norway",Tromsø,Norway,PP-MA,,932508427.0
+T1284,Olsen Kystfiske,Olsen Kystfiske,"Spilderveien 563, 9185.0 Spildra, Norway",Spildra,Norway,PP-ST,,922557241.0
+T1289,Oldervik Fiskeindustri As,Oldervik Fiskeindustri As,"Oldervikvegen 516, 9034.0 Oldervik, Norway",Oldervik,Norway,"FFPP, RW",,987674032.0
+T2426,Finnsnes Dykk & Anleggsservice As,Finnsnes Dykk & Anleggsservice As,"Strandveien 112, 9300.0 Finnsnes, Norway",Finnsnes,Norway,FFPP-SA,,984339771.0
+T 1160,Domstein Sjømat As Avd Tromsø,Domstein Sjømat As Avd Tromsø,"Ropnesvegen 69, 9107.0 Kvaløya, Norway",Kvaløya,Norway,"FFPP, FFPP-P, PP, PP-C",,972186104.0
+TF4,Øksfjord Fiskeindustri As,Øksfjord Fiskeindustri As,"Njordveien 6, 9550.0 Øksfjord, Norway",Øksfjord,Norway,"FFPP, FFPP-P, PP, PP-SA",,924041773.0
+TF7,Amarin As,Amarin As,"Gottesjord, 9310.0 Sørreisa, Norway",Sørreisa,Norway,"FFPP, FFPP-P, PP-ST",,896536982.0
+TF9,Myre Fiskemottak As Avd Kamøyvær,Myre Fiskemottak As Avd Kamøyvær,"Risfjordveien 2, 9762.0 Kamøyvær, Norway",Kamøyvær,Norway,"FFPP, FFPP-P, PP, PP-SA",,924885556.0
+TF12,Leif-Ammon Länsman,Leif-Ammon Länsman,"Rávttebelgeainu 281, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,923098291.0
+TF14,Gunnar Klo As Avd Myre,Gunnar Klo As Avd Myre,"Havnegata 3, 8430.0 Myre, Norway",Myre,Norway,FFPP,,973186752.0
+TF18,Fjordfisker Olsen Inngår I Dødsbo,Fjordfisker Olsen Inngår I Dødsbo,"Seilandsveien 218, 9609.0 Nordre Seiland, Norway",Nordre Seiland,Norway,PP-ST,,924760249.0
+TF23,Myre Fiskemottak As Avd Honningsvåg,Myre Fiskemottak As Avd Honningsvåg,"Kobbhullveien 12, 9750.0 Honningsvåg, Norway",Honningsvåg,Norway,"FFPP, FFPP-P",,925519022.0
+TF24,Mathisen Fjord Og Kystfiske,Mathisen Fjord Og Kystfiske,"Rávttebelgeainu 1922, 9840.0 Varangerbotn, Norway",Varangerbotn,Norway,PP-ST,,919981687.0
+TF26,Sjøland As,Sjøland As,"Håndverkervegen 12, 9018.0 Tromsø, Norway",Tromsø,Norway,"FFPP, PP",,987792175.0
+TF33,Øksfjord Lakseindustri As,Øksfjord Lakseindustri As,"Njordveien 6, 9550.0 Øksfjord, Norway",Øksfjord,Norway,"FFPP, FFPP-P",,825004092.0
+TF48,Budiak Natalia Sin Fiskelykke,Budiak Natalia Sin Fiskelykke,"Rådhusveien 3, 9790.0 Kjøllefjord, Norway",Kjøllefjord,Norway,PP-ST,,925469394.0
+TF50,Trond Fjellsaune,Trond Fjellsaune,"Hammarveien 9, 9425.0 Sandsøy, Norway",Sandsøy,Norway,PP-ST,,913246713.0
+TF57,Arctic Catch As,Arctic Catch As,"Ørtangen 10, 9800.0 Vadsø, Norway",Vadsø,Norway,FFPP,,993277525.0
+TF61,Randi Ree,Randi Ree,"Kårhamnsvingen 1, 9657.0 Kårhamn, Norway",Kårhamn,Norway,PP-ST,,925402591.0
+TF62,Torsken Fiskeindustri As,Torsken Fiskeindustri As,"Værnesveien 105, 9381.0 Torsken, Norway",Torsken,Norway,"FFPP, FFPP-P, PP, PP-SA, PP-ST",,925631248.0
+TF64,Gamst Shilova As,Gamst Shilova As,"Svartnes, 9955.0 Svartnes, Norway",Svartnes,Norway,"FFPP, PP-C",,925805211.0
+TF66,Dragøy Grossist As,Dragøy Grossist As,"Huldervegen 18, 9016.0 Tromsø, Norway",Tromsø,Norway,"FFPP, FFPP-P, PP-SA",,918486879.0
+TF70,Havøysund Fisk As,Havøysund Fisk As,"Strandgata 157, 9690.0 Havøysund, Norway",Havøysund,Norway,"FFPP, FFPP-P, PP, PP-KL, PP-SA",,928521400.0
+TF73,Liholmen Produksjon As,Liholmen Produksjon As,"Liholmen, 9991.0 Båtsfjord, Norway",Båtsfjord,Norway,PP-MA,,986666931.0
+TF75,Meron As,Meron As,"Tanafjordveien 3032, 9841.0 Tana, Norway",Tana,Norway,PP-ST,,923198954.0
+TF76,Lyder Fisk Torhop,Lyder Fisk Torhop,"Børresenveien 63, 9841.0 Tana, Norway",Tana,Norway,FFPP,,928520188.0
+TF77,Jacobsens Fisk Og Fangst,Jacobsens Fisk Og Fangst,"Laukøyveien 801, 9193.0 Nikkeby, Norway",Nikkeby,Norway,PP-ST,,827235482.0
+TF79,Smalfjord Mottak As,Smalfjord Mottak As,"Masjokdalen 112, 9841.0 Tana, Norway",Tana,Norway,FFPP,,928282112.0
+TF83,Jan Gunnar Nilsen,Jan Gunnar Nilsen,"Sørstraumvegen 679, 9045.0 Lakselvbukt, Norway",Lakselvbukt,Norway,PP-ST,,nan
+TF95,Lyngsskjellan V/Arne Samuelsen,Lyngsskjellan V/Arne Samuelsen,"Gambukta 18, 9146.0 Olderdalen, Norway",Olderdalen,Norway,PP-MA,,913611098.0
+TF104,Tromsø Sentralkjøkken,Tromsø Sentralkjøkken,"Solstrandveien 1, 9020.0 Tromsdalen, Norway",Tromsdalen,Norway,FFPP-P,,928485528.0
+TF107,Sufi As Avd Bergsfjord,Sufi As Avd Bergsfjord,"Solveien 38, 9580.0 Bergsfjord, Norway",Bergsfjord,Norway,"FFPP, FFPP-P, PP, PP-ST",,932838036.0
+TF423,Salmar As Avd Slakterianlegg,Salmar As Avd Slakterianlegg,"Vikaveien 419, 9303.0 Silsand, Norway",Silsand,Norway,"FFPP-P, FFPP-SA",,921886772.0
+TK73,Kragerø Sjømat As,Kragerø Sjømat As,"Brygga 3, 3770.0 Kragerø, Norway",Kragerø,Norway,"FFPP, PP, PP-C",,971722363.0
+TK75,Langesundfisk As,Langesundfisk As,"Stoa 13, 3970.0 Langesund, Norway",Langesund,Norway,"FFPP, PP, PP-C",,914909856.0
+TK241,Norsk Fiskeeksport As,Norsk Fiskeeksport As,"Tinnegrendvegen 93, 3683.0 Notodden, Norway",Notodden,Norway,FFPP-P,,932994275.0
+TK243,Hima Seafood Rjukan As Avd Prod Av Matfisk,Hima Seafood Rjukan As Avd Prod Av Matfisk,"Svaddeveien 129, 3660.0 Rjukan, Norway",Rjukan,Norway,FFPP-SA,,915331823.0
+TK407,Lunde Arild,Lunde Arild,"Nystrandveien 86, 3944.0 Porsgrunn, Norway",Porsgrunn,Norway,PP-C,,978443095.0
+TK426,Espen Danielsen,Espen Danielsen,"Ugleveien 8, 3940.0 Porsgrunn, Norway",Porsgrunn,Norway,PP-C,,979328192.0
+TK427,Alf Thommesen,Alf Thommesen,"Vaterlands Gate 22, 3970.0 Langesund, Norway",Langesund,Norway,PP-C,,978345379.0
+TK429,Thomsen Thor-Olaf,Thomsen Thor-Olaf,"Ørvikveien 36, 3970.0 Langesund, Norway",Langesund,Norway,PP-C,,978102948.0
+TK430,Tverrån Arne Helge,Tverrån Arne Helge,"Frosteveien 251, 3967.0 Stathelle, Norway",Stathelle,Norway,PP-C,,986687459.0
+TK438,Telemarkrøye As,Telemarkrøye As,"Molandsmoen 3, 3870.0 Fyresdal, Norway",Fyresdal,Norway,FFPP-SA,,998141311.0
+TK440,Langesund Sjømat As,Langesund Sjømat As,"Stoa 7, 3970.0 Langesund, Norway",Langesund,Norway,"PP, RW",,971823003.0
+TL3,Blåfjell As,Blåfjell As,"Jule Industriområde, 7884.0 Sørli, Norway",Sørli,Norway,"FFPP-P, FFPP-SA",,816514932.0
+TL6,Vikahav As,Vikahav As,"Myrahaugen 19, 7180.0 Roan, Norway",Roan,Norway,FFPP-SA,,998635799.0
+TL7,Frøya Gourmet As,Frøya Gourmet As,"Norfrøyveien 957, 7270.0 Dyrvik, Norway",Dyrvik,Norway,"FFPP, FFPP-P",,920781918.0
+TL11,Abelvær Filetfabrikk As,Abelvær Filetfabrikk As,"Abelværvegen 1773, 7950.0 Abelvær, Norway",Abelvær,Norway,FFPP-P,,922560420.0
+TL15,Hbc Berkåk As,Hbc Berkåk As,"Postmyrveien 20, 7391.0 Rennebu, Norway",Rennebu,Norway,PP-MA,,899098382.0
+TL16,Hitra Salmon As,Hitra Salmon As,"Svenesveien 3, 7250.0 Melandsjø, Norway",Melandsjø,Norway,"PP, PP-C",,920841554.0
+TL17,Sintef Ocean As,Sintef Ocean As,"Brattørkaia 17c, 7010.0 Trondheim, Norway",Trondheim,Norway,PP-MA,,972130931.0
+TL23,Grøntvedt Pelagic As Avd Uthaug,Grøntvedt Pelagic As Avd Uthaug,"Vestre Brekstad, 7130.0 Brekstad, Norway",Brekstad,Norway,RW,,974158930.0
+TL25,Krifo Fisk Og Fiskmat As,Krifo Fisk Og Fiskmat As,"Roan Havn 37, 7180.0 Roan, Norway",Roan,Norway,"FFPP, FFPP-P, PP, PP-SA",,820424832.0
+TL26,Karmaceli As,Karmaceli As,"Strandaveien 264, 7740.0 Steinsdalen, Norway",Steinsdalen,Norway,"FFPP, FFPP-P, RW",,985209510.0
+TL29,Kime Akva Uttian As,Kime Akva Uttian As,"Hestøyveien 66, 7270.0 Dyrvik, Norway",Dyrvik,Norway,FFPP,,826427922.0
+TL33,Lerøy Norge As Avd Trondheim,Lerøy Norge As Avd Trondheim,"Pir I 7, 7010.0 Trondheim, Norway",Trondheim,Norway,FFPP-P,,976950666.0
+TL35,Hansson As,Hansson As,"Frøneshaugen, 7170.0 Åfjord, Norway",Åfjord,Norway,FFPP,,914348900.0
+TL36,Frøy Rederi As,Frøy Rederi As,"Nordfrøyveien 213, 7260.0 Sistranda, Norway",Sistranda,Norway,FFPP-SA,,911626675.0
+TL39,Thai Tham As,Thai Tham As,"Hallemvegen 20, 7715.0 Steinkjer, Norway",Steinkjer,Norway,PP,,920707882.0
+TL40,Grøntvedt Pelagic As Avd Uthaug Grøntvedt Nutri,Grøntvedt Pelagic As Avd Uthaug Grøntvedt Nutri,"Havneveien 1, 7142.0 Uthaug, Norway",Uthaug,Norway,PP-MA,,922711240.0
+TL41,Grande Sjømat As,Grande Sjømat As,"Havneveien 55, 7142.0 Uthaug, Norway",Uthaug,Norway,FFPP,,972109290.0
+TL42,Hyra Shellfish As,Hyra Shellfish As,"Eidshaugvegen 1650, 7940.0 Ottersøy, Norway",Ottersøy,Norway,"FFPP, PP-C",,931707795.0
+TL43,Nutrishell As,Nutrishell As,"Knarrlagsundveien 325, 7241.0 Ansnes, Norway",Ansnes,Norway,PP-MA,,926825348.0
+TL49,Hubert Weigold,Hubert Weigold,"Vingvågen 41, 7255.0 Sundlandet, Norway",Sundlandet,Norway,PP,,994349775.0
+TL50,Kokkeriet As,Kokkeriet As,"Tempeveien 33-35, 7031 Trondheim, 7031.0 Trondheim, Norway",Trondheim,Norway,RW,,818427492.0
+TL51,Roan Lakseslakteri As,Roan Lakseslakteri As,"Roan Havn 37, 7180.0 Roan, Norway",Roan,Norway,"FFPP-P, FFPP-SA",,932446545.0
+TL52,Måsøval Harvest As,Måsøval Harvest As,"Ulvøyveien 177, 7242.0 Knarrlagsund, Norway",Knarrlagsund,Norway,"FFPP-P, FFPP-SA",,933059863.0
+TL54,Rørosfisk As,Rørosfisk As,"Aursundveien 1272, 7372.0 Glåmos, Norway",Glåmos,Norway,"FFPP-P, PP",,933475107.0
+TL55,Grande Sjømat As,Grande Sjømat As,"Kvaløysæter Kai, 7770.0 Flatanger, Norway",Flatanger,Norway,FFPP,,972109290.0
+TL56,Produksjonskjøkken,Produksjonskjøkken,"Ranheimsvegen 91, 7060.0 Charlottenlund, Norway",Charlottenlund,Norway,FFPP-P,,985627576.0
+TL 37,Rørvik Fisk As,Rørvik Fisk As,"Ramstadlandveien 692, 7924.0 Austafjord, Norway",Austafjord,Norway,FFPP,,884084652.0
+VA2,Båly Fisk As,Båly Fisk As,"Båly, 4521.0 Spangereid, Norway",Spangereid,Norway,"FFPP, FFPP-P",,990629897.0
+VA62,Finny Sirevaag As,Finny Sirevaag As,"Midtbø 1, 4420.0 Åna-Sira, Norway",Åna-Sira,Norway,"PP, PP-MA",,984260016.0
+VA69,Hidra Fiskemottak As,Hidra Fiskemottak As,"Kirkehamnveien 154, 4432.0 Hidrasund, Norway",Hidrasund,Norway,"FFPP, FFPP-S, PP-C",,971785896.0
+VA90,Fiskelaget As,Fiskelaget As,"Gismerøyveien 150, 4515.0 Mandal, Norway",Mandal,Norway,"FFPP, FFPP-P, PP",,887263752.0
+VA94,Fiskesalg As Avd Gravane,Fiskesalg As Avd Gravane,"Gravane 8, 4610.0 Kristiansand S, Norway",Kristiansand S,Norway,"FFPP, FFPP-P, PP",,973210785.0
+VA96,Reinhartsen Engros As,Reinhartsen Engros As,"Gravane 8, 4610.0 Kristiansand S, Norway",Kristiansand S,Norway,"FFPP, FFPP-P, PP",,995729385.0
+VA202,Flykjøkkenet As,Flykjøkkenet As,"Lista Fly Og Næringspark, 4560.0 Vanse, Norway",Vanse,Norway,FFPP-P,,980526623.0
+VA207,Gorines As,Gorines As,"Skytterheia 7, 4790.0 Lillesand, Norway",Lillesand,Norway,PP,,994575511.0
+VA456,Stolt Sea Farm Turbot Norway As,Stolt Sea Farm Turbot Norway As,"Øyesletta 63, 4484.0 Øyestranda, Norway",Øyestranda,Norway,FFPP-S,,977359260.0
+VA 204,Domstein Sjømat As Avd Kristiansand,Domstein Sjømat As Avd Kristiansand,"Østerøya 242, 4625.0 Flekkerøy, Norway",Flekkerøy,Norway,"FFPP, FFPP-P",,979195095.0
+VF58,Brødr Berggren As,Brødr Berggren As,"Tollbodgt. 1, 3290.0 Stavern, Norway",Stavern,Norway,FFPP,,974073420.0
+VF60,Brødr Berggren As,Brødr Berggren As,"Brygga 11, 3210.0 Sandefjord, Norway",Sandefjord,Norway,"FFPP, FFPP-P, PP",,974073420.0
+VF64,Brødr Berggren As,Brødr Berggren As,"Fynveien 1, 3148.0 Hvasser, Norway",Hvasser,Norway,"FFPP, FFPP-P",,974073420.0
+VF203,Matbørsen As,Matbørsen As,"Borgeskogen, 3160.0 Stokke, Norway",Stokke,Norway,"PP, PP-C",,974274213.0
+VF242,Færder Fiskemottak As,Færder Fiskemottak As,"Tenvikveien 373, 3140.0 Nøtterøy, Norway",Nøtterøy,Norway,FFPP,,933169081.0
+VF246,Futurum Seafood As Avd Asker,Futurum Seafood As Avd Asker,"Borgeskogen 65, 3160.0 Stokke, Norway",Stokke,Norway,"FFPP-P, PP, PP-C",,917893705.0
+VF328,Basf As Avd Sandefjord,Basf As Avd Sandefjord,"Framnesveien 41, 3222.0 Sandefjord, Norway",Sandefjord,Norway,PP-MA,,873159502.0
+VF331,Nevlunghavn Brygge As,Nevlunghavn Brygge As,"Brunlanesveien 1505, 3296.0 Nevlunghavn, Norway",Nevlunghavn,Norway,FFPP,,914960703.0
+VI1,Troll Salmon As,Troll Salmon As,"Torvuttaket 78, 1540.0 Vestby, Norway",Vestby,Norway,"FFPP-P, PP",,924205180.0
+VI3,Live Seafood Center As Avd. Kløfta,Live Seafood Center As Avd. Kløfta,"Dyrskuevegen 3, 2040.0 Kløfta, Norway",Kløfta,Norway,RW,,924833718.0
+VI4,Healthpack As,Healthpack As,"Nypeveien 15, 3032.0 Drammen, Norway",Drammen,Norway,RW,,918863737.0
+VI6,Nordic Kingfish Fredrikstad As Avd Fiskeslakteri,Nordic Kingfish Fredrikstad As Avd Fiskeslakteri,"C/O Øra Industripark As, 1630.0 Gamle Fredrikstad, Norway",Gamle Fredrikstad,Norway,FFPP-SA,,926496980.0
+VI12,Nutritionlab As,Nutritionlab As,"Solgaard Skog 3, 1599.0 Moss, Norway",Moss,Norway,PP-MA,,918140603.0
+VI16,Hvaler Krabbe As,Hvaler Krabbe As,"Greåkerveien 145, 1718.0 Greåker, Norway",Greåker,Norway,PP-C,,825359532.0
+VI17,Domstein Sjømat As Avd Oslo,Domstein Sjømat As Avd Oslo,"Brennaveien 20b, 1481.0 Hagan, Norway",Hagan,Norway,"FFPP-P, RW",,996339025.0
+VI18,Filetfabrikken As,Filetfabrikken As,"Brennaveien 20b, 1481.0 Hagan, Norway",Hagan,Norway,FFPP-P,,929388879.0
+VI19,Domstein Sjømat Produksjon As,Domstein Sjømat Produksjon As,"Brenneaveien 20b, 1481.0 Hagan, Norway",Hagan,Norway,PP,,999105467.0
+VI20,1814salmon As,1814salmon As,"Industrivegen 82, 2072.0 Dal, Norway",Dal,Norway,FFPP-P,,929508998.0
+VI21,Aker Biomarine Understory As Avd Lysaker,Aker Biomarine Understory As Avd Lysaker,"Anolitveien 1-3, 1400.0 Ski, Norway",Ski,Norway,PP-MA,,932572249.0
+VL2,Taumar As,Taumar As,"Hovlandsvegen 18, 5443.0 Bømlo, Norway",Bømlo,Norway,FFPP-SA,,924657820.0
+VL16,Thermo Service As,Thermo Service As,"Alfabygget, 5392.0 Storebø, Norway",Storebø,Norway,FFPP-SA,,915561640.0
+VL19,Sjøprodukt As,Sjøprodukt As,"Kalvøyna 8, 6729.0 Kalvåg, Norway",Kalvåg,Norway,FFPP-SA,,920424201.0
+VL25,Kloster Laks As,Kloster Laks As,"Eidsnesvegen 22, 5455.0 Halsnøy Kloster, Norway",Halsnøy Kloster,Norway,"FFPP-P, PP",,926032208.0
+VL26,Eplenakkjen Røykeri As,Eplenakkjen Røykeri As,"Apalehaugen23b, 5412.0 Stord, Norway",Stord,Norway,"FFPP-P, PP",,925754196.0
+VL29,Babord Pure As,Babord Pure As,"Nedrevegen 108, 6710.0 Raudeberg, Norway",Raudeberg,Norway,FFPP-P,,929997239.0
+VL33,Seibas As,Seibas As,"Økland 12, 5384.0 Torangsvåg, Norway",Torangsvåg,Norway,"FFPP-P, FFPP-SA",,930508586.0
+VL34,Seistar Prosessfartøy As,Seistar Prosessfartøy As,"Austevollshellevegen 67, 5384.0 Torangsvåg, Norway",Torangsvåg,Norway,FFPP-SA,,994212923.0
+VL35,Frøy Akvaressurs As,Frøy Akvaressurs As,"Nordfrøyveien 213, 7260.0 Sistranda, Norway",Sistranda,Norway,FFPP-SA,,913050967.0
+VL36,Modesta Mat As,Modesta Mat As,"Skuteviksbodene 1, 5035.0 Bergen, Norway",Bergen,Norway,PP,,926532243.0
+VL43,Firda Harvest,Firda Harvest,"Grimevegen 234, 5970.0 Byrknesøy, Norway",Byrknesøy,Norway,FFPP-SA,,926900889.0
+VL56,Vestbjørn As,Vestbjørn As,"C/O Morten Lysvold Nilsen, 5397.0 Bekkjarvik, Norway",Bekkjarvik,Norway,"FFPP-S, FFPP-SA",,929256395.0
+VL59,Hardanger Seafood As Avd Bømlo,Hardanger Seafood As Avd Bømlo,"Hovlandsvegen 270, 5443.0 Bømlo, Norway",Bømlo,Norway,"FFPP-P, FFPP-SA, RW",,976173074.0
+VL64,Samlaks As,Samlaks As,"Leiro 33, 5640.0 Eikelandsosen, Norway",Eikelandsosen,Norway,FFPP-SA,,926511483.0
+VL65,Sjøprodukt As,Sjøprodukt As,"Kalvøyna 8, 6729.0 Kalvåg, Norway",Kalvåg,Norway,FFPP-SA,,920424201.0
+VL70,First Seafood As Avd Godvik,First Seafood As Avd Godvik,"Leirvikflaten 13, 5179.0 Godvik, Norway",Godvik,Norway,FFPP-P,,932493721.0
+VL71,Sjøprodukt As,Sjøprodukt As,"Kalvøyna 8, 6729.0 Kalvåg, Norway",Kalvåg,Norway,"FFPP-S, FFPP-SA",,920424201.0
+VL76,Eide Brandasund As Avd Brandasund,Eide Brandasund As Avd Brandasund,"Brandasundvegen 359, 5423.0 Brandasund, Norway",Brandasund,Norway,"FFPP-P, FFPP-SA",,872084142.0
+VL77,Tauroa As,Tauroa As,"Hovlandsvegen 18, 5443.0 Bømlo, Norway",Bømlo,Norway,FFPP-SA,,936422934.0
+VL114,Domstein Fish As,Domstein Fish As,"Sjøgata 44, 6700.0 Måløy, Norway",Måløy,Norway,"FFPP, FFPP-P",,985152012.0
+VL187,Nordhordland Fisk As   Avd Brødrene Larsen,Nordhordland Fisk As   Avd Brødrene Larsen,"Kalvøyna 10, 6729.0 Kalvåg, Norway",Kalvåg,Norway,"FFPP, FFPP-P, PP",,930261807.0
+VT12,Sjøkrepsen As,Sjøkrepsen As,"Ormeletveien 89, 3145.0 Tjøme, Norway",Tjøme,Norway,FFPP-P,,916887949.0
+ØF50,Fjordfisk As Avd Utgårdskilen,Fjordfisk As Avd Utgårdskilen,"Utgårdskilen 4-6, 1684.0 Vesterøy, Norway",Vesterøy,Norway,"FFPP, FFPP-P",,974994046.0
+ØF55,Brødrene Skogen Fiskehandel As,Brødrene Skogen Fiskehandel As,"Engelsvikenveien 6, 1628.0 Engelsviken, Norway",Engelsviken,Norway,FFPP,,971612487.0
+ØF56,Fjordfisk As   Avd Skjærhalden,Fjordfisk As   Avd Skjærhalden,"Båthavna 12, 1680.0 Skjærhalden, Norway",Skjærhalden,Norway,FFPP,,914474329.0
+ØF70,Tistedal Delikatesse As,Tistedal Delikatesse As,"Georg Feydts Gate 20, 1792.0 Tistedal, Norway",Tistedal,Norway,FFPP-P,,975390594.0
+ØF220,Salatmestern As,Salatmestern As,"Pancoveien 16, 1624.0 Gressvik, Norway",Gressvik,Norway,PP,,971629533.0
+ØF468,Pharmatech As,Pharmatech As,"Vallehellene 4, 1664.0 Rolvsøy, Norway",Rolvsøy,Norway,PP-MA,,984388314.0
+ØF474,Mills As Avd Fredrikstad,Mills As Avd Fredrikstad,"Borgarveien 24, 1633.0 Gamle Fredrikstad, Norway",Gamle Fredrikstad,Norway,PP,,973083082.0
+ØF477,Constellation Cln Fredrikstad,Constellation Cln Fredrikstad,"Borg Havnevei 12, 1630.0 Gamle Fredrikstad, Norway",Gamle Fredrikstad,Norway,RW,,993937819.0
+ØF485,Orkla Foods Norge As Avd Stabburet Fredrikstad,Orkla Foods Norge As Avd Stabburet Fredrikstad,"Stabburveien 22, 1617.0 Fredrikstad, Norway",Fredrikstad,Norway,PP,,973072927.0
+440,Findus Norge As Avd Gro Industrier Fabrikk Hedrum,Findus Norge As Avd Gro Industrier Fabrikk Hedrum,"Elveveien 110, 3271.0 Larvik, Norway",Larvik,Norway,PP,,973100319.0
+450,Orkla Foods Norge As Avd Elverum,Orkla Foods Norge As Avd Elverum,"Fasanvegen 41, 2406.0 Elverum, Norway",Elverum,Norway,PP,,973088866.0
+1874,Matprodusenten As,Matprodusenten As,"Borgeskogen 45c, 3160.0 Stokke, Norway",Stokke,Norway,PP,,992260580.0
+1876,Miss Gin Garden As,Miss Gin Garden As,"Hofveien 6, 3092.0 Sundbyfoss, Norway",Sundbyfoss,Norway,PP,,920621163.0
+2701,Trenogmat As,Trenogmat As,"Kaarbyveien 35, 3092.0 Sundbyfoss, Norway",Sundbyfoss,Norway,PP,,818161042.0
+2825,Gate Gorumet Norway As Unit Bergen,Gate Gorumet Norway As Unit Bergen,"Flyplassvegen 439, 5258.0 Blomsterdalen, Norway",Blomsterdalen,Norway,"PP, PP-C, PP-M",,974225484.0
+2860,Helse Førde Hf Førde Sentralsjukehus,Helse Førde Hf Førde Sentralsjukehus,"Svanehaugvegen 2, 6812.0 Førde, Norway",Førde,Norway,PP,,974744570.0
+2868,Newrest Norway As,Newrest Norway As,"Thor Heyerdahls Veg 138, 2060.0 Gardermoen, Norway",Gardermoen,Norway,PP,,912540197.0
+2903,Gate Gourmet Norway As Avd Gardermoen,Gate Gourmet Norway As Avd Gardermoen,"Tryggve Grans Veg 15, 2060.0 Gardermoen, Norway",Gardermoen,Norway,"PP, PP-C, PP-M",,973066137.0
+2996,Kirkens Bymisjon Storkjøkken Sandnes,Kirkens Bymisjon Storkjøkken Sandnes,"Hoveveien 9, 4306.0 Sandnes, Norway",Sandnes,Norway,"FFPP-P, PP",,934295498.0
+3012,Ssp Gardermoen,Ssp Gardermoen,"Edvard Munchs Veg, 2060.0 Gardermoen, Norway",Gardermoen,Norway,PP,,973550136.0
+3031,Bordgleder Kinn Kommune Kf,Bordgleder Kinn Kommune Kf,"Hjellegata 2, 6905.0 Florø, Norway",Florø,Norway,PP,,986836136.0
+3055,Unikum Inkludering As,Unikum Inkludering As,"Waldemar Thranes Gate 98, 175.0 Oslo, Norway",Oslo,Norway,PP,,926115138.0

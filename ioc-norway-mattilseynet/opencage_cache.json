@@ -1,0 +1,4712 @@
+{
+  "Storgata 23, 1555 Son, Norway": {
+    "lat": 59.523989,
+    "lng": 10.686404,
+    "confidence": 10,
+    "formatted": "Storgata 23, 1555 Son, Norway"
+  },
+  "Kurillvegen 8, 2060 Gardermoen, Norway": {
+    "lat": 60.175377,
+    "lng": 11.133497,
+    "confidence": 10,
+    "formatted": "Kurillvegen 8, 2060 Gardermoen, Norway"
+  },
+  "Støttumveien 9, 1543 Vestby, Norway": {
+    "lat": 59.605947,
+    "lng": 10.750712,
+    "confidence": 10,
+    "formatted": "Støttumveien 9B, 1543 Vestby, Norway"
+  },
+  "Industrivegen 27, 2166 Oppaker, Norway": {
+    "lat": 60.190479,
+    "lng": 11.545815,
+    "confidence": 10,
+    "formatted": "Industrivegen 27, 2166 Oppaker, Norway"
+  },
+  "Jeksleveien 2, 2016 Frogner, Norway": {
+    "lat": 60.040379,
+    "lng": 11.12043,
+    "confidence": 10,
+    "formatted": "Jeksleveien 2, 2016 Frogner, Norway"
+  },
+  "Drengsrudhagen 6, 1385 Asker, Norway": {
+    "lat": 59.8248152,
+    "lng": 10.401294,
+    "confidence": 10,
+    "formatted": "Drengsrudhagen 6, 1385 Asker, Norway"
+  },
+  "Sagaveien 50, 1555 Son, Norway": {
+    "lat": 59.5245067,
+    "lng": 10.6887706,
+    "confidence": 10,
+    "formatted": "Sagaveien 50, 1555 Son, Norway"
+  },
+  "Johan Follestads Vei 18, 3474 Åros, Norway": {
+    "lat": 59.695543,
+    "lng": 10.492434,
+    "confidence": 10,
+    "formatted": "Johan Follestads vei 18, 3474 Åros, Norway"
+  },
+  "Maren Furulunds Veg 20b, 2060 Gardermoen, Norway": {
+    "lat": 60.174736,
+    "lng": 11.136295,
+    "confidence": 10,
+    "formatted": "Maren Furulunds veg 20B, 2060 Gardermoen, Norway"
+  },
+  "Storg 2, 4876 Grimstad, Norway": {
+    "lat": 58.3405,
+    "lng": 8.5934,
+    "confidence": 7,
+    "formatted": "4876 Nordland, Norway"
+  },
+  "Kystveien 28, 4841 Arendal, Norway": {
+    "lat": 58.461733,
+    "lng": 8.777141,
+    "confidence": 10,
+    "formatted": "Kystveien 28, 4841 Arendal, Norway"
+  },
+  "Holmen 6, 4842 Arendal, Norway": {
+    "lat": 58.4713264,
+    "lng": 8.7982881,
+    "confidence": 10,
+    "formatted": "Holmen 6, 4842 Arendal, Norway"
+  },
+  "Langodden 14, 4816 Kolbjørnsvik, Norway": {
+    "lat": 58.4475694,
+    "lng": 8.7757749,
+    "confidence": 10,
+    "formatted": "Langodden 14, 4816 Kolbjørnsvik, Norway"
+  },
+  "Havnegata 3, 4790 Lillesand, Norway": {
+    "lat": 58.2477141,
+    "lng": 8.3779554,
+    "confidence": 10,
+    "formatted": "Havnegata 3, 4790 Lillesand, Norway"
+  },
+  "Stålveien 9, 4629 Kristiansand S, Norway": {
+    "lat": 58.1465135,
+    "lng": 7.9599529,
+    "confidence": 10,
+    "formatted": "Stålveien 9, 4629 Kristiansand, Norway"
+  },
+  "Abelnes 60, 4404 Flekkefjord, Norway": {
+    "lat": 58.238769,
+    "lng": 6.655206,
+    "confidence": 10,
+    "formatted": "Abelnes 60, 4404 Flekkefjord, Norway"
+  },
+  "Sommerkroveien 5a, 4515 Mandal, Norway": {
+    "lat": 58.026739,
+    "lng": 7.473829,
+    "confidence": 10,
+    "formatted": "Sommerkroveien 5A, 4515 Mandal, Norway"
+  },
+  "Tonstadveien 9, 4440 Tonstad, Norway": {
+    "lat": 58.6673065,
+    "lng": 6.7160264,
+    "confidence": 10,
+    "formatted": "Tonstadveien 9, 4440 Tonstad, Norway"
+  },
+  "Østerøya 242, 4625 Flekkerøy, Norway": {
+    "lat": 58.0780535,
+    "lng": 8.0136497,
+    "confidence": 10,
+    "formatted": "Østerøya 242, 4625 Flekkerøy, Norway"
+  },
+  "Hestemyrveien 24, 4950 Risør, Norway": {
+    "lat": 58.713776,
+    "lng": 9.174089,
+    "confidence": 10,
+    "formatted": "Hestemyrveien 24B, 4950 Risør, Norway"
+  },
+  "Kastoddveien 32, 4770 Høvåg, Norway": {
+    "lat": 58.1699,
+    "lng": 8.2474,
+    "confidence": 7,
+    "formatted": "4770 Nordland, Norway"
+  },
+  "Frydenhaugveien 2, 3041 Drammen, Norway": {
+    "lat": 59.730042,
+    "lng": 10.218971,
+    "confidence": 10,
+    "formatted": "Frydenhaugveien 2, 3041 Drammen, Norway"
+  },
+  "Stasjonsgata 34, 3300 Hokksund, Norway": {
+    "lat": 59.7703017,
+    "lng": 9.9096067,
+    "confidence": 10,
+    "formatted": "Stasjonsgata 34, 3300 Hokksund, Norway"
+  },
+  "Dølasletta 3, 3408 Tranby, Norway": {
+    "lat": 59.8178209,
+    "lng": 10.2737468,
+    "confidence": 10,
+    "formatted": "Dølasletta 3, 3408 Tranby, Norway"
+  },
+  "Høgkastveien 24, 3531 Krokkleiva, Norway": {
+    "lat": 60.0422731,
+    "lng": 10.2724531,
+    "confidence": 10,
+    "formatted": "Høgkastveien 24, 3531 Krokkleiva, Norway"
+  },
+  "V/Kirsti Skrattegard, 3570 Ål, Norway": {
+    "lat": 60.6282,
+    "lng": 8.5628,
+    "confidence": 7,
+    "formatted": "3570 Hedmark, Norway"
+  },
+  "Tufteveien 7, 9840 Varangerbotn, Norway": {
+    "lat": 70.1559778,
+    "lng": 28.8552953,
+    "confidence": 10,
+    "formatted": "Tufteveien 7, 9840 Varangerbotn, Norway"
+  },
+  "Timberveien 85, 9911 Jarfjord, Norway": {
+    "lat": 69.732419,
+    "lng": 30.107761,
+    "confidence": 10,
+    "formatted": "Timberveien 85, 9911 Jarfjord, Norway"
+  },
+  "Storekorsnesveien 230, 9519 Kviby, Norway": {
+    "lat": 70.2190276,
+    "lng": 23.2336589,
+    "confidence": 10,
+    "formatted": "Storekorsnesveien 230, 9519 Kviby, Norway"
+  },
+  "nan, 9935 Bugøynes, Norway": {
+    "lat": 69.972965,
+    "lng": 29.6420545,
+    "confidence": 7,
+    "formatted": "Bugøynes - Buođggák - Pykeijä, Finnmark, Norway"
+  },
+  "Strandgaten 21, 9593 Breivikbotn, Norway": {
+    "lat": 70.5887,
+    "lng": 22.2849,
+    "confidence": 7,
+    "formatted": "9593 Vestfold, Norway"
+  },
+  "Kaigata 6, 9952 Vardø, Norway": {
+    "lat": 70.371646,
+    "lng": 31.103855,
+    "confidence": 10,
+    "formatted": "Kaigata 6, 9952 Vardø, Norway"
+  },
+  "Havnegata 16, 9990 Båtsfjord, Norway": {
+    "lat": 70.63797,
+    "lng": 29.731743,
+    "confidence": 10,
+    "formatted": "Havnegata 16, 9990 Båtsfjord, Norway"
+  },
+  "Svartneset, 9950 Vardø, Norway": {
+    "lat": 70.3705,
+    "lng": 31.1107,
+    "confidence": 7,
+    "formatted": "9950 Vestfold, Norway"
+  },
+  "Vestersandveien 4, 9935 Bugøynes, Norway": {
+    "lat": 69.971786,
+    "lng": 29.632924,
+    "confidence": 10,
+    "formatted": "Vestersandveien 4, 9935 Bugøynes, Norway"
+  },
+  "Holmen, 9990 Båtsfjord, Norway": {
+    "lat": 70.6313012,
+    "lng": 29.7213964,
+    "confidence": 9,
+    "formatted": "Nedre Holmen, 9990 Båtsfjord, Norway"
+  },
+  "Fomavegen 7, 9990 Båtsfjord, Norway": {
+    "lat": 70.633539,
+    "lng": 29.719066,
+    "confidence": 10,
+    "formatted": "Fomavegen 7, 9990 Båtsfjord, Norway"
+  },
+  "Samfunnsgata 12, 9981 Berlevåg, Norway": {
+    "lat": 70.8553781,
+    "lng": 29.0823382,
+    "confidence": 9,
+    "formatted": "Samfunnsgata, 9980 Berlevåg, Norway"
+  },
+  "Storgata 18a, 9980 Berlevåg, Norway": {
+    "lat": 70.8584072,
+    "lng": 29.087707,
+    "confidence": 10,
+    "formatted": "Storgata 18A, 9980 Berlevåg, Norway"
+  },
+  "Storgata 22 Postboks 310, 9980 Berlevåg, Norway": {
+    "lat": 70.8588098,
+    "lng": 29.0911219,
+    "confidence": 10,
+    "formatted": "Storgata 22, 9980 Berlevåg, Norway"
+  },
+  "Skjånes Kai, 9771 Skjånes, Norway": {
+    "lat": 70.800956,
+    "lng": 28.099633,
+    "confidence": 9,
+    "formatted": "Skjånes kai, 8074, 9771 Skjånes, Norway"
+  },
+  "Kobbenesvegen 4, 9765 Gjesvær, Norway": {
+    "lat": 71.098914,
+    "lng": 25.3923062,
+    "confidence": 10,
+    "formatted": "Kobbenesvegen 4, 9765 Gjesvær, Norway"
+  },
+  "Ørtangen 12, 9800 Vadsø, Norway": {
+    "lat": 70.070481,
+    "lng": 29.749856,
+    "confidence": 10,
+    "formatted": "Ørtangen 12, 9800 Vadsø, Norway"
+  },
+  "Industriveien, 9770 Mehamn, Norway": {
+    "lat": 71.0357,
+    "lng": 27.8492,
+    "confidence": 7,
+    "formatted": "9770 Vestfold, Norway"
+  },
+  "Strandveien 79/81, 9790 Kjøllefjord, Norway": {
+    "lat": 70.9457025,
+    "lng": 27.3420104,
+    "confidence": 9,
+    "formatted": "Strandvegen, 9790 Kjøllefjord, Norway"
+  },
+  "Værveien 71, 9770 Mehamn, Norway": {
+    "lat": 71.037166,
+    "lng": 27.8490383,
+    "confidence": 10,
+    "formatted": "Værveien 71, 9770 Mehamn, Norway"
+  },
+  "Nordkappveien 2b, 9750 Honningsvåg, Norway": {
+    "lat": 70.9919882,
+    "lng": 25.9670145,
+    "confidence": 10,
+    "formatted": "Nordkappveien 2B, 9750 Honningsvåg, Norway"
+  },
+  "Strandveien 16, 9775 Gamvik, Norway": {
+    "lat": 71.0630828,
+    "lng": 28.2600867,
+    "confidence": 10,
+    "formatted": "Strandveien 16, 9775 Gamvik, Norway"
+  },
+  "Hovedveien 45, 9760 Nordvågen, Norway": {
+    "lat": 70.9838186,
+    "lng": 26.0305957,
+    "confidence": 10,
+    "formatted": "Hovedveien 45, 9760 Nordvågen, Norway"
+  },
+  "Kobbenesvegen 27, 9765 Gjesvær, Norway": {
+    "lat": 71.0972662,
+    "lng": 25.398429,
+    "confidence": 10,
+    "formatted": "Kobbenesvegen 27, 9765 Gjesvær, Norway"
+  },
+  "Mortensnes, 9840 Varangerbotn, Norway": {
+    "lat": 70.1728,
+    "lng": 28.556,
+    "confidence": 7,
+    "formatted": "9840 Vestfold, Norway"
+  },
+  "Strandgata 105, 9690 Havøysund, Norway": {
+    "lat": 70.9949737,
+    "lng": 24.6827739,
+    "confidence": 10,
+    "formatted": "Strandgata 105, 9690 Havøysund, Norway"
+  },
+  "Børnesveien 52, 9763 Skarsvåg, Norway": {
+    "lat": 71.1141162,
+    "lng": 25.8321214,
+    "confidence": 10,
+    "formatted": "Børnesveien 52, 9763 Skarsvåg, Norway"
+  },
+  "nan, 9670 Tufjord, Norway": {
+    "lat": 71.0050632,
+    "lng": 23.9089886,
+    "confidence": 7,
+    "formatted": "Tufjord, Finnmark, Norway"
+  },
+  "Perlarsenvik, 9840 Varangerbotn, Norway": {
+    "lat": 70.1728,
+    "lng": 28.556,
+    "confidence": 7,
+    "formatted": "9840 Vestfold, Norway"
+  },
+  "Havneveien 44, 9610 Rypefjord, Norway": {
+    "lat": 70.6347734,
+    "lng": 23.6640032,
+    "confidence": 10,
+    "formatted": "Havneveien 44, 9610 Rypefjord, Norway"
+  },
+  "Akkarfjord 36, 9650 Akkarfjord, Norway": {
+    "lat": 70.7936208,
+    "lng": 23.4075774,
+    "confidence": 10,
+    "formatted": "Akkarfjord 36, 9650 Akkarfjord, Norway"
+  },
+  "Havneveien 36, 9610 Rypefjord, Norway": {
+    "lat": 70.6340252,
+    "lng": 23.6667787,
+    "confidence": 10,
+    "formatted": "Havneveien 36, 9610 Rypefjord, Norway"
+  },
+  "Strandgata 40, 9593 Breivikbotn, Norway": {
+    "lat": 70.589777,
+    "lng": 22.282136,
+    "confidence": 10,
+    "formatted": "Strandgata 40, 9593 Breivikbotn, Norway"
+  },
+  "Nedre Holmen 18, 9990 Båtsfjord, Norway": {
+    "lat": 70.6328,
+    "lng": 29.726276,
+    "confidence": 10,
+    "formatted": "Nedre Holmen 18, 9990 Båtsfjord, Norway"
+  },
+  "Tyttebærveien 8b, 9935 Bugøynes, Norway": {
+    "lat": 69.971307,
+    "lng": 29.607296,
+    "confidence": 10,
+    "formatted": "Tyttebærveien 8B, 9935 Bugøynes, Norway"
+  },
+  "Havneveien 13, 9595 Sørvær, Norway": {
+    "lat": 70.6297701,
+    "lng": 21.9797552,
+    "confidence": 10,
+    "formatted": "Havneveien 13, 9595 Sørvær, Norway"
+  },
+  "C/O 4/1/92/3, 9935 Bugøynes, Norway": {
+    "lat": 69.9739,
+    "lng": 29.6378,
+    "confidence": 7,
+    "formatted": "9935 Vestfold, Norway"
+  },
+  "Kvenvikveien 99, 9541 Alta, Norway": {
+    "lat": 69.946891,
+    "lng": 23.095627,
+    "confidence": 10,
+    "formatted": "Kvenvikveien 99, 9541 Alta, Norway"
+  },
+  "Kobbenesveien 8, 9765 Gjesvær, Norway": {
+    "lat": 71.0981268,
+    "lng": 25.3950507,
+    "confidence": 10,
+    "formatted": "Kobbenesvegen 8, 9765 Gjesvær, Norway"
+  },
+  "Skjåholmveien 192, 9620 Kvalsund, Norway": {
+    "lat": 70.562396,
+    "lng": 23.696506,
+    "confidence": 10,
+    "formatted": "Skjåholmveien 192, 9620 Kvalsund, Norway"
+  },
+  "Terje Wolds Gate 22, 9803 Vadsø, Norway": {
+    "lat": 70.080141,
+    "lng": 29.722469,
+    "confidence": 10,
+    "formatted": "Terje Wolds gate 22, 9803 Vadsø, Norway"
+  },
+  "Suovka 48, 9840 Varangerbotn, Norway": {
+    "lat": 70.18388,
+    "lng": 28.588902,
+    "confidence": 10,
+    "formatted": "Suovka 48, 9840 Varangerbotn, Norway"
+  },
+  "Nesseveien 16, 9935 Bugøynes, Norway": {
+    "lat": 69.972174,
+    "lng": 29.644457,
+    "confidence": 10,
+    "formatted": "Nesseveien 16, 9935 Bugøynes, Norway"
+  },
+  "Kobbhullveien 12, 9750 Honningsvåg, Norway": {
+    "lat": 70.9961824,
+    "lng": 25.9594309,
+    "confidence": 10,
+    "formatted": "Kobbhullveien 12, 9750 Honningsvåg, Norway"
+  },
+  "Tangnesveien 10, 9840 Varangerbotn, Norway": {
+    "lat": 70.166641,
+    "lng": 28.568368,
+    "confidence": 10,
+    "formatted": "Tangnesveien 10, 9840 Varangerbotn, Norway"
+  },
+  "Raigressveien 1, 9516 Alta, Norway": {
+    "lat": 69.9553738,
+    "lng": 23.3678541,
+    "confidence": 10,
+    "formatted": "Raigressveien 1, 9516 Alta, Norway"
+  },
+  "Várjjatgeaidnu 42, 9840 Varangerbotn, Norway": {
+    "lat": 70.174182,
+    "lng": 28.566265,
+    "confidence": 10,
+    "formatted": "Várjjatgeaidnu 42, 9840 Varangerbotn, Norway"
+  },
+  "Odden 8, 9771 Skjånes, Norway": {
+    "lat": 70.7987155,
+    "lng": 28.092924,
+    "confidence": 10,
+    "formatted": "Odden 8, 9771 Skjånes, Norway"
+  },
+  "Smibakken 10, 9515 Alta, Norway": {
+    "lat": 69.973154,
+    "lng": 23.373179,
+    "confidence": 10,
+    "formatted": "Smibakken 10, 9515 Alta, Norway"
+  },
+  "Njidgogáddi 36, 9840 Varangerbotn, Norway": {
+    "lat": 70.155018,
+    "lng": 28.56687,
+    "confidence": 10,
+    "formatted": "Njiđgogáddi 36, 9840 Varangerbotn, Norway"
+  },
+  "Langnesveien 343, 9540 Talvik, Norway": {
+    "lat": 70.1123246,
+    "lng": 22.9863202,
+    "confidence": 10,
+    "formatted": "Langnesveien 343, 9540 Talvik, Norway"
+  },
+  "nan, 9773 Nervei, Norway": {
+    "lat": 70.665933,
+    "lng": 27.8512472,
+    "confidence": 7,
+    "formatted": "Nervei - Njereveadji, Finnmark, Norway"
+  },
+  "Smalfjordveien 111, 9845 Tana, Norway": {
+    "lat": 70.441325,
+    "lng": 28.063649,
+    "confidence": 10,
+    "formatted": "Smalfjordveien 111, 9841 Tana, Norway"
+  },
+  "nan, 9771 Skjånes, Norway": {
+    "lat": 70.7998884,
+    "lng": 28.0975593,
+    "confidence": 7,
+    "formatted": "Skjånes, 9771 Skjånes, Norway"
+  },
+  "Smalfjordveien 111, 9841 Tana, Norway": {
+    "lat": 70.441325,
+    "lng": 28.063649,
+    "confidence": 10,
+    "formatted": "Smalfjordveien 111, 9841 Tana, Norway"
+  },
+  "nan, 9717 Veidnesklubben, Norway": {
+    "lat": 70.6574907,
+    "lng": 26.5882346,
+    "confidence": 7,
+    "formatted": "Veidnes - Sáltesávju, Finnmark, Norway"
+  },
+  "Øksfjordveien 265, 9552 Øksfjorden, Norway": {
+    "lat": 70.164203,
+    "lng": 22.302475,
+    "confidence": 10,
+    "formatted": "Øksfjordveien 265, 9552 Loppa, Norway"
+  },
+  "Marienlund 5, 9511 Alta, Norway": {
+    "lat": 69.9688406,
+    "lng": 23.2565476,
+    "confidence": 10,
+    "formatted": "Marienlund 5, 9511 Alta, Norway"
+  },
+  "Årøyveien 43, 9533 Kongshus, Norway": {
+    "lat": 70.1395994,
+    "lng": 23.2410372,
+    "confidence": 10,
+    "formatted": "Årøyveien 43, 9533 Kongshus, Norway"
+  },
+  "Elvebukt 14, 9536 Korsfjorden, Norway": {
+    "lat": 70.2827281,
+    "lng": 23.5456401,
+    "confidence": 10,
+    "formatted": "Elvebukt 14, 9536 Korsfjorden, Norway"
+  },
+  "Rakaluftveien 33, 9536 Korsfjorden, Norway": {
+    "lat": 70.2672001,
+    "lng": 23.363253,
+    "confidence": 10,
+    "formatted": "Rakaluftveien 33, 9536 Korsfjorden, Norway"
+  },
+  "Lamvikveien 69, 9536 Korsfjorden, Norway": {
+    "lat": 70.242387,
+    "lng": 23.334482,
+    "confidence": 10,
+    "formatted": "Lamvikveien 69, 9536 Korsfjorden, Norway"
+  },
+  "Nyvollveien 236, 9519 Kviby, Norway": {
+    "lat": 70.225573,
+    "lng": 23.383576,
+    "confidence": 10,
+    "formatted": "Nyvollveien 236, 9519 Kviby, Norway"
+  },
+  "Vestre Porsangerveien 6808, 9713 Russenes, Norway": {
+    "lat": 70.524656,
+    "lng": 25.08326,
+    "confidence": 10,
+    "formatted": "Vestre Porsangerveien 6808, 9713 Porsanger, Norway"
+  },
+  "Nordre Ringvei 10, 9511 Alta, Norway": {
+    "lat": 69.967395,
+    "lng": 23.261264,
+    "confidence": 10,
+    "formatted": "Nordre ringvei 10, 9511 Alta, Norway"
+  },
+  "Jupiters Vei 3, 9602 Hammerfest, Norway": {
+    "lat": 70.6890296,
+    "lng": 23.6894658,
+    "confidence": 10,
+    "formatted": "Jupiters vei 3, 9602 Hammerfest, Norway"
+  },
+  "Markveien 18, 9610 Rypefjord, Norway": {
+    "lat": 70.644709,
+    "lng": 23.679543,
+    "confidence": 10,
+    "formatted": "Markveien 18, 9610 Rypefjord, Norway"
+  },
+  "Aronnesveien 84 A, 9514 Alta, Norway": {
+    "lat": 69.9666623,
+    "lng": 23.3275155,
+    "confidence": 10,
+    "formatted": "Aronnesveien 84A, 9514 Alta, Norway"
+  },
+  "Breverudsvingen 17, 9513 Alta, Norway": {
+    "lat": 69.9578462,
+    "lng": 23.2302172,
+    "confidence": 10,
+    "formatted": "Breverudsvingen 17, 9513 Alta, Norway"
+  },
+  "Evertsveien 5, 9935 Bugøynes, Norway": {
+    "lat": 69.973328,
+    "lng": 29.636983,
+    "confidence": 10,
+    "formatted": "Evertsveien 5, 9935 Bugøynes, Norway"
+  },
+  "Havnegata 14, 9960 Kiberg, Norway": {
+    "lat": 70.284562,
+    "lng": 31.000074,
+    "confidence": 10,
+    "formatted": "Havnegata 14, 9960 Kiberg, Norway"
+  },
+  "Postboks 1, 9846 Tana, Norway": {
+    "lat": 70.1986333,
+    "lng": 28.1881116,
+    "confidence": 7,
+    "formatted": "9845 Tana, Norway"
+  },
+  "nan, 9716 Børselv, Norway": {
+    "lat": 70.3179105,
+    "lng": 25.5658813,
+    "confidence": 7,
+    "formatted": "Bissojohka - Børselv - Pyssyjoki, Finnmark, Norway"
+  },
+  "nan, 9710 Indre Billefjord, Norway": {
+    "lat": 70.3153099,
+    "lng": 25.0462155,
+    "confidence": 7,
+    "formatted": "9710 Billávuotna - Indre Billefjord - Pillavuono, Norway"
+  },
+  "Smørfjord, 9713 Russenes, Norway": {
+    "lat": 70.5,
+    "lng": 25.0667,
+    "confidence": 7,
+    "formatted": "9713 Vestfold, Norway"
+  },
+  "Repvåg 47, 9768 Repvåg, Norway": {
+    "lat": 70.7478392,
+    "lng": 25.6738853,
+    "confidence": 10,
+    "formatted": "Repvåg 47, 9768 Repvåg, Norway"
+  },
+  "Karkoveien 5, 9700 Lakselv, Norway": {
+    "lat": 70.0618424,
+    "lng": 24.9458454,
+    "confidence": 10,
+    "formatted": "Karkoveien 5, 9700 Lakselv, Norway"
+  },
+  "Bukta, 9550 Øksfjord, Norway": {
+    "lat": 70.2396,
+    "lng": 22.3479,
+    "confidence": 7,
+    "formatted": "9550 Vestfold, Norway"
+  },
+  "Ropelv, 9900 Kirkenes, Norway": {
+    "lat": 69.7271,
+    "lng": 30.0458,
+    "confidence": 7,
+    "formatted": "9900 Vestfold, Norway"
+  },
+  "Abelsborg, 9840 Varangerbotn, Norway": {
+    "lat": 70.1728,
+    "lng": 28.556,
+    "confidence": 7,
+    "formatted": "9840 Vestfold, Norway"
+  },
+  "nan, 9586 Loppa, Norway": {
+    "lat": 70.3400618,
+    "lng": 21.4457015,
+    "confidence": 7,
+    "formatted": "9586 Loppa, Norway"
+  },
+  "nan, nan nan, Norway": {
+    "lat": 61.1529386,
+    "lng": 8.7876653,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Revsneshamn, 9624 Revsneshamn, Norway": {
+    "lat": 70.6849995,
+    "lng": 24.349034,
+    "confidence": 9,
+    "formatted": "Revsneshamn, Revsneshamn - Áhpenjárgohppi, 9624 Revsneshamn, Norway"
+  },
+  "Langstrand, 9600 Hammerfest, Norway": {
+    "lat": 70.6923578,
+    "lng": 23.1745604,
+    "confidence": 7,
+    "formatted": "Langstrand, Finnmark, Norway"
+  },
+  "Kvalfjordveien 14, 9531 Kvalfjord, Norway": {
+    "lat": 64.907633,
+    "lng": 11.0417011,
+    "confidence": 8,
+    "formatted": "Kvalfjordveien, Nærøysund, Norway"
+  },
+  "Kvalfjordveien 11, 9531 Kvalfjord, Norway": {
+    "lat": 64.907633,
+    "lng": 11.0417011,
+    "confidence": 8,
+    "formatted": "Kvalfjordveien, Nærøysund, Norway"
+  },
+  "Rektindveien 154, 9586 Loppa, Norway": {
+    "lat": 70.34243,
+    "lng": 21.442179,
+    "confidence": 10,
+    "formatted": "Rektindveien 154, 9586 Loppa, Norway"
+  },
+  "Kvenvikveien 88, 9541 Alta, Norway": {
+    "lat": 69.946175,
+    "lng": 23.099321,
+    "confidence": 10,
+    "formatted": "Kvenvikveien 88, 9541 Alta, Norway"
+  },
+  "Mønesveien 23, 9586 Loppa, Norway": {
+    "lat": 70.341701,
+    "lng": 21.446951,
+    "confidence": 10,
+    "formatted": "Mønesveien 23, 9586 Loppa, Norway"
+  },
+  "nan, 9587 Skavnakk, Norway": {
+    "lat": 70.2357404,
+    "lng": 21.4225814,
+    "confidence": 8,
+    "formatted": "Skavnakk, 9587 Loppa, Norway"
+  },
+  "Hovedveien 29, 9760 Nordvågen, Norway": {
+    "lat": 70.9856483,
+    "lng": 26.0304265,
+    "confidence": 10,
+    "formatted": "Hovedveien 29, 9760 Nordvågen, Norway"
+  },
+  "Øvreveien 62, 9515 Alta, Norway": {
+    "lat": 69.9738893,
+    "lng": 23.3408677,
+    "confidence": 10,
+    "formatted": "Øvreveien 62, 9515 Alta, Norway"
+  },
+  "Elveveien 1, 9536 Korsfjorden, Norway": {
+    "lat": 70.3248264,
+    "lng": 23.513187,
+    "confidence": 10,
+    "formatted": "Elveveien 1, 9536 Korsfjorden, Norway"
+  },
+  "Lomvannsveien 60, 9690 Havøysund, Norway": {
+    "lat": 71.0023453,
+    "lng": 24.6558716,
+    "confidence": 10,
+    "formatted": "Lomvannsveien 60, 9690 Havøysund, Norway"
+  },
+  "Nuvsvågveien 1357, 9582 Nuvsvåg, Norway": {
+    "lat": 70.283286,
+    "lng": 22.139226,
+    "confidence": 10,
+    "formatted": "Nuvsvågveien 1357, 9582 Nuvsvåg, Norway"
+  },
+  "Leirbuktveien 40, 9612 Forsøl, Norway": {
+    "lat": 70.7212922,
+    "lng": 23.8092741,
+    "confidence": 10,
+    "formatted": "Leirbuktveien 40, 9612 Forsøl, Norway"
+  },
+  "Hasfjordveien 65, 9590 Hasvik, Norway": {
+    "lat": 70.520052,
+    "lng": 22.255236,
+    "confidence": 10,
+    "formatted": "Hasfjordveien 65, 9590 Hasvik, Norway"
+  },
+  "Tanafjordveien 5431, 9841 Tana, Norway": {
+    "lat": 70.442679,
+    "lng": 27.822542,
+    "confidence": 10,
+    "formatted": "Tanafjordveien 5431, 9841 Tana, Norway"
+  },
+  "Klokkarøya 2, 9610 Rypefjord, Norway": {
+    "lat": 70.5995108,
+    "lng": 23.6259076,
+    "confidence": 10,
+    "formatted": "Klokkarøya 2, 9610 Rypefjord, Norway"
+  },
+  "Holmbuktveien 247, 9717 Veidnesklubben, Norway": {
+    "lat": 70.65502,
+    "lng": 26.60953,
+    "confidence": 9,
+    "formatted": "Lebesby, Finnmark, Norway"
+  },
+  "nan, 9740 Lebesby, Norway": {
+    "lat": 70.5596323,
+    "lng": 27.0988009,
+    "confidence": 7,
+    "formatted": "9740 Lebesby, Norway"
+  },
+  "Vestkaiveien 22, 9710 Indre Billefjord, Norway": {
+    "lat": 70.323091,
+    "lng": 25.061932,
+    "confidence": 10,
+    "formatted": "Vestkaiveien 22, 9710 Billávuotna - Indre Billefjord - Pillavuono, Norway"
+  },
+  "Moloveien 10, 9790 Kjøllefjord, Norway": {
+    "lat": 70.94892,
+    "lng": 27.335738,
+    "confidence": 10,
+    "formatted": "Moloveien 10, 9790 Kjøllefjord, Norway"
+  },
+  "Strandgata 21, 9690 Havøysund, Norway": {
+    "lat": 70.9987201,
+    "lng": 24.6995971,
+    "confidence": 10,
+    "formatted": "Strandgata 21, 9690 Havøysund, Norway"
+  },
+  "Mollaveien 6, 9790 Kjøllefjord, Norway": {
+    "lat": 70.946306,
+    "lng": 27.322999,
+    "confidence": 10,
+    "formatted": "Mollavegen 6, 9790 Kjøllefjord, Norway"
+  },
+  "Nervei Mellom 1, 9773 Nervei, Norway": {
+    "lat": 70.6674,
+    "lng": 27.8514,
+    "confidence": 7,
+    "formatted": "9773 Vestfold, Norway"
+  },
+  "Lismaveien 35, 9845 Tana, Norway": {
+    "lat": 70.1967508,
+    "lng": 28.1781119,
+    "confidence": 10,
+    "formatted": "Lismaveien 35, 9845 Tana, Norway"
+  },
+  "Svartnes Havnelageret, 9950 Vardø, Norway": {
+    "lat": 70.3705,
+    "lng": 31.1107,
+    "confidence": 7,
+    "formatted": "9950 Vestfold, Norway"
+  },
+  "Værveien 93, 9770 Mehamn, Norway": {
+    "lat": 71.035631,
+    "lng": 27.8473408,
+    "confidence": 10,
+    "formatted": "Værveien 93, 9770 Mehamn, Norway"
+  },
+  "Masjokdalen 131, 9841 Tana, Norway": {
+    "lat": 70.2875,
+    "lng": 28.117136,
+    "confidence": 10,
+    "formatted": "Masjokdalen 131, 9841 Tana, Norway"
+  },
+  "nan, 9982 Kongsfjord, Norway": {
+    "lat": 70.7202395,
+    "lng": 29.3191592,
+    "confidence": 7,
+    "formatted": "9982 Kongsfjord, Norway"
+  },
+  "Fjordvegen 21, 9990 Båtsfjord, Norway": {
+    "lat": 70.621949,
+    "lng": 29.6921945,
+    "confidence": 10,
+    "formatted": "Fjordvegen 21, 9990 Båtsfjord, Norway"
+  },
+  "Christian Horsts Vei 15, 9790 Kjøllefjord, Norway": {
+    "lat": 70.944414,
+    "lng": 27.3539,
+    "confidence": 10,
+    "formatted": "Christian Horsts vei 15, 9790 Kjøllefjord, Norway"
+  },
+  "Blåbærnes, 9800 Vadsø, Norway": {
+    "lat": 70.0744,
+    "lng": 29.7487,
+    "confidence": 7,
+    "formatted": "9800 Vestfold, Norway"
+  },
+  "Tørrfiskveien 18, 9782 Dyfjord, Norway": {
+    "lat": 70.898707,
+    "lng": 27.226401,
+    "confidence": 10,
+    "formatted": "Tørrfiskveien 18, 9782 Dyfjord, Norway"
+  },
+  "Korsnesveien 22, 9519 Kviby, Norway": {
+    "lat": 70.2151301,
+    "lng": 23.1916745,
+    "confidence": 10,
+    "formatted": "Korsnesveien 22, 9519 Kviby, Norway"
+  },
+  "Jenshaugen 16, 9536 Korsfjorden, Norway": {
+    "lat": 70.245152,
+    "lng": 23.38013,
+    "confidence": 10,
+    "formatted": "Jenshaugen 16, 9536 Korsfjorden, Norway"
+  },
+  "Bygdeveien 59, 9802 Vestre Jakobselv, Norway": {
+    "lat": 70.119869,
+    "lng": 29.333812,
+    "confidence": 10,
+    "formatted": "Bygdeveien 59, 9802 Vestre, Norway"
+  },
+  "Vestre Porsangerveien 3339, 9710 Indre Billefjord, Norway": {
+    "lat": 70.324496,
+    "lng": 25.064204,
+    "confidence": 10,
+    "formatted": "Vestre Porsangerveien 3339, 9710 Billávuotna - Indre Billefjord - Pillavuono, Norway"
+  },
+  "Værveien 48, 9770 Mehamn, Norway": {
+    "lat": 71.0395715,
+    "lng": 27.8522822,
+    "confidence": 10,
+    "formatted": "Værveien 48, 9770 Mehamn, Norway"
+  },
+  "Deanugeaidnu 2199, 9843 Tana, Norway": {
+    "lat": 70.090847,
+    "lng": 27.923223,
+    "confidence": 10,
+    "formatted": "Deanugeaidnu 2199, 9843 Buolbmát - Polmak - Pulmanki, Norway"
+  },
+  "Oslovegen 749, 2910 Aurdal, Norway": {
+    "lat": 60.9447956,
+    "lng": 9.3542037,
+    "confidence": 10,
+    "formatted": "Oslovegen 749, 2910 Aurdal, Norway"
+  },
+  "Gammelmeieriet, 6657 Rindal, Norway": {
+    "lat": 63.0565,
+    "lng": 9.2124,
+    "confidence": 7,
+    "formatted": "6657 Sogn og Fjordane, Norway"
+  },
+  "Elvebakken, 2920 Leira I Valdres, Norway": {
+    "lat": 60.91667,
+    "lng": 9.16667,
+    "confidence": 9,
+    "formatted": "Nord-Aurdal, Innlandet, Norway"
+  },
+  "nan, 2920 Leira I Valdres, Norway": {
+    "lat": 60.9712844,
+    "lng": 9.2915438,
+    "confidence": 7,
+    "formatted": "2920 Leira, Norway"
+  },
+  "nan, 2967 Lomen, Norway": {
+    "lat": 61.1342978,
+    "lng": 8.8917686,
+    "confidence": 8,
+    "formatted": "Lomen, Stee, Innlandet, Norway"
+  },
+  "nan, 2960 Røn, Norway": {
+    "lat": 61.0332412,
+    "lng": 9.0566533,
+    "confidence": 7,
+    "formatted": "Røn, Innlandet, Norway"
+  },
+  "nan, 5281 Valestrandsfossen, Norway": {
+    "lat": 60.5057028,
+    "lng": 5.4327556,
+    "confidence": 7,
+    "formatted": "5281 Valestrandsfossen, Norway"
+  },
+  "Skaganeset, 5382 Skogsvåg, Norway": {
+    "lat": 60.2679157,
+    "lng": 5.1051972,
+    "confidence": 9,
+    "formatted": "Skaganeset, 5382 Skogsvåg, Norway"
+  },
+  "Apalvågvegen 42, 5357 Fjell, Norway": {
+    "lat": 60.3513696,
+    "lng": 4.9860669,
+    "confidence": 10,
+    "formatted": "Apalvågvegen 42, 5357 Fjell, Norway"
+  },
+  "Porsvika 57a, 5381 Glesvær, Norway": {
+    "lat": 60.2113802,
+    "lng": 5.052629,
+    "confidence": 10,
+    "formatted": "Porsvika 57A, 5381 Glesvær, Norway"
+  },
+  "Bjånesøyvegen 13, 5392 Storebø, Norway": {
+    "lat": 60.091956,
+    "lng": 5.2248,
+    "confidence": 10,
+    "formatted": "Bjånesøyvegen 13, 5392 Storebø, Norway"
+  },
+  "Mangersnesvegen 91, 5936 Manger, Norway": {
+    "lat": 60.6343904,
+    "lng": 5.0296523,
+    "confidence": 10,
+    "formatted": "Mangersnesvegen 91, 5936 Manger, Norway"
+  },
+  "Espehaugen 55, 5258 Blomsterdalen, Norway": {
+    "lat": 60.2741852,
+    "lng": 5.2325078,
+    "confidence": 10,
+    "formatted": "Espehaugen 55, 5258 Blomsterdalen, Norway"
+  },
+  "Bøvågen 31, 5937 Bøvågen, Norway": {
+    "lat": 60.6997446,
+    "lng": 4.9229339,
+    "confidence": 10,
+    "formatted": "Bøvågen 31, 5937 Bøvågen, Norway"
+  },
+  "Kvarven, 5423 Brandasund, Norway": {
+    "lat": 59.89722,
+    "lng": 5.08778,
+    "confidence": 7,
+    "formatted": "Hordaland, Norway"
+  },
+  "Øklandsvegen 90, 5430 Bremnes, Norway": {
+    "lat": 59.800288,
+    "lng": 5.132359,
+    "confidence": 10,
+    "formatted": "Øklandsvegen 90, 5430 Bremnes, Norway"
+  },
+  "Røtingavegen 244, 5216 Lepsøy, Norway": {
+    "lat": 60.1397267,
+    "lng": 5.3753271,
+    "confidence": 10,
+    "formatted": "Røtingavegen 244, 5216 Lepsøy, Norway"
+  },
+  "Bøvågen, 5936 Manger, Norway": {
+    "lat": 60.6414,
+    "lng": 5.0414,
+    "confidence": 7,
+    "formatted": "5936 Oslo County, Norway"
+  },
+  "Hillesdalen 21, 5427 Urangsvåg, Norway": {
+    "lat": 59.8070757,
+    "lng": 5.1776037,
+    "confidence": 10,
+    "formatted": "Hillesdalen 21, 5427 Urangsvåg, Norway"
+  },
+  "nan, 5443 Bømlo, Norway": {
+    "lat": 59.6065082,
+    "lng": 5.2101297,
+    "confidence": 7,
+    "formatted": "5443 Bømlo, Norway"
+  },
+  "Espevær, 5444 Espevær, Norway": {
+    "lat": 59.5894396,
+    "lng": 5.1478481,
+    "confidence": 9,
+    "formatted": "Espeværvegen, 5444 Espevær, Norway"
+  },
+  "Ekrevegen 60, 5261 Indre Arna, Norway": {
+    "lat": 60.411219,
+    "lng": 5.4692286,
+    "confidence": 10,
+    "formatted": "Ekrevegen 60, 5261 Indre, Norway"
+  },
+  "Stamnes, 5727 Stamnes, Norway": {
+    "lat": 64.4984942,
+    "lng": 10.8626223,
+    "confidence": 9,
+    "formatted": "Stamnes, 7770 Flatanger, Norway"
+  },
+  "Sundsvegen 119, 5450 Sunde I Sunnhordland, Norway": {
+    "lat": 59.8349102,
+    "lng": 5.7108025,
+    "confidence": 10,
+    "formatted": "Sundsvegen 119, 5450 Sunde, Norway"
+  },
+  "Christian Michelsens Gate 6b, 5012 Bergen, Norway": {
+    "lat": 60.3930996,
+    "lng": 5.3219706,
+    "confidence": 10,
+    "formatted": "Christian Michelsens gate 6B, 5012 Bergen, Norway"
+  },
+  "Toft, 5379 Steinsland, Norway": {
+    "lat": 60.1959,
+    "lng": 5.099,
+    "confidence": 7,
+    "formatted": "5379 Oslo County, Norway"
+  },
+  "Sardinfabrikken, 5593 Skånevik, Norway": {
+    "lat": 59.7333,
+    "lng": 5.9833,
+    "confidence": 7,
+    "formatted": "5593 Oslo County, Norway"
+  },
+  "Halstensen Granit As, 5399 Bekkjarvik, Norway": {
+    "lat": 60.0028,
+    "lng": 5.2003,
+    "confidence": 7,
+    "formatted": "5399 Oslo County, Norway"
+  },
+  "Skuteviksboder 1-2, 5035 Bergen, Norway": {
+    "lat": 60.393,
+    "lng": 5.3242,
+    "confidence": 7,
+    "formatted": "5035 Oslo County, Norway"
+  },
+  "Naustbakken 3, 5770 Tyssedal, Norway": {
+    "lat": 60.1191434,
+    "lng": 6.5560633,
+    "confidence": 10,
+    "formatted": "Naustbakken 3, 5770 Tyssedal, Norway"
+  },
+  "Børnes 20, 5463 Uskedalen, Norway": {
+    "lat": 59.9328727,
+    "lng": 5.8340442,
+    "confidence": 10,
+    "formatted": "Børnes 20, 5463 Uskedalen, Norway"
+  },
+  "Svartevikvegen 5, 5337 Rong, Norway": {
+    "lat": 60.5173167,
+    "lng": 4.9045178,
+    "confidence": 10,
+    "formatted": "Svartevikvegen 5, 5337 Rong, Norway"
+  },
+  "Hovlandsvegen 18, 5443 Bømlo, Norway": {
+    "lat": 59.6020566,
+    "lng": 5.2107271,
+    "confidence": 10,
+    "formatted": "Hovlandsvegen 18, 5443 Bømlo, Norway"
+  },
+  "Stavlandsveien 5, 5430 Bremnes, Norway": {
+    "lat": 59.7933732,
+    "lng": 5.1715147,
+    "confidence": 10,
+    "formatted": "Stavlandsvegen 5, 5430 Bremnes, Norway"
+  },
+  "Alfabygget, 5392 Storebø, Norway": {
+    "lat": 60.0928583,
+    "lng": 5.2238832,
+    "confidence": 9,
+    "formatted": "Alfabygget, 5392 Storebø, Norway"
+  },
+  "Austevollshellevegen 67, 5384 Torangsvåg, Norway": {
+    "lat": 60.106058,
+    "lng": 5.17567,
+    "confidence": 10,
+    "formatted": "Austevollshellevegen 67, 5384 Torangsvåg, Norway"
+  },
+  "Fylkesnesvegen 164, 5430 Bremnes, Norway": {
+    "lat": 59.7623419,
+    "lng": 5.1745599,
+    "confidence": 10,
+    "formatted": "Fylkesnesvegen 164, 5430 Bremnes, Norway"
+  },
+  "Folldal Industriområde, 2580 Folldal, Norway": {
+    "lat": 62.1325,
+    "lng": 9.9968,
+    "confidence": 7,
+    "formatted": "2580 Buskerud, Norway"
+  },
+  "Elgå, 2446 Elgå, Norway": {
+    "lat": 62.1658989,
+    "lng": 11.9449513,
+    "confidence": 9,
+    "formatted": "Elgå, Femundveien, 2446 Elgå, Norway"
+  },
+  "Norvald Strands Veg 162, 2212 Kongsvinger, Norway": {
+    "lat": 60.2085386,
+    "lng": 11.9328316,
+    "confidence": 10,
+    "formatted": "Norvald Strands veg 162, 2212 Kongsvinger, Norway"
+  },
+  "Anders Sandvigs Gate 17, 2609 Lillehammer, Norway": {
+    "lat": 61.1124326,
+    "lng": 10.4736491,
+    "confidence": 10,
+    "formatted": "Anders Sandvigs gate 17, 2609 Lillehammer, Norway"
+  },
+  "Stømnervegen 1, 2212 Kongsvinger, Norway": {
+    "lat": 60.2073759,
+    "lng": 11.9536342,
+    "confidence": 10,
+    "formatted": "Stømnervegen 1, 2212 Kongsvinger, Norway"
+  },
+  "Ystenesgata 6b, 6003 Ålesund, Norway": {
+    "lat": 62.4708584,
+    "lng": 6.1719356,
+    "confidence": 10,
+    "formatted": "Ystenesgata 6B, 6003 Ålesund, Norway"
+  },
+  "Skjærsgårdsveien 789, 6570 Smøla, Norway": {
+    "lat": 63.3304,
+    "lng": 8.0793,
+    "confidence": 7,
+    "formatted": "6570 Sogn og Fjordane, Norway"
+  },
+  "Vikan Industriområde 98, 6570 Smøla, Norway": {
+    "lat": 63.3755111,
+    "lng": 8.2030725,
+    "confidence": 8,
+    "formatted": "Vikan industriområde, Vikan, Møre og Romsdal, Norway"
+  },
+  "Vikan Industriområde 96, 6570 Smøla, Norway": {
+    "lat": 63.3755111,
+    "lng": 8.2030725,
+    "confidence": 8,
+    "formatted": "Vikan industriområde, Vikan, Møre og Romsdal, Norway"
+  },
+  "Hestøya, 6570 Smøla, Norway": {
+    "lat": 63.3042699,
+    "lng": 8.0837948,
+    "confidence": 8,
+    "formatted": "Hestøya, Smøla, Møre og Romsdal, Norway"
+  },
+  "Skippergata 27, 6507 Kristiansund N, Norway": {
+    "lat": 63.108473,
+    "lng": 7.74203,
+    "confidence": 10,
+    "formatted": "Skippergata 27, 6507 Kristiansund, Norway"
+  },
+  "Vågahammeren 6, 6520 Frei, Norway": {
+    "lat": 63.0895679,
+    "lng": 7.8037861,
+    "confidence": 10,
+    "formatted": "Vågahammeren 6, 6520 Frei, Norway"
+  },
+  "Fiskeribasen 5, 6512 Kristiansund N, Norway": {
+    "lat": 63.121433,
+    "lng": 7.760072,
+    "confidence": 10,
+    "formatted": "Fiskeribasen 5, 6512 Kristiansund, Norway"
+  },
+  "Reksundveien 424, 6533 Averøy, Norway": {
+    "lat": 63.0726638,
+    "lng": 7.4922108,
+    "confidence": 10,
+    "formatted": "Reksundveien 424, 6533 Averøy, Norway"
+  },
+  "Langøyneset, 6530 Averøy, Norway": {
+    "lat": 63.0638045,
+    "lng": 7.4980139,
+    "confidence": 7,
+    "formatted": "6533 Averøy, Norway"
+  },
+  "Reksundveien 207, 6533 Averøy, Norway": {
+    "lat": 63.0685458,
+    "lng": 7.4901615,
+    "confidence": 10,
+    "formatted": "Reksundveien 207, 6533 Averøy, Norway"
+  },
+  "nan, 6530 Averøy, Norway": {
+    "lat": 63.0808202,
+    "lng": 7.6314048,
+    "confidence": 7,
+    "formatted": "6530 Averøy, Norway"
+  },
+  "Tømmervåg, 6590 Tustna, Norway": {
+    "lat": 63.16172,
+    "lng": 8.10915,
+    "confidence": 9,
+    "formatted": "Tustna, Aure, Møre og Romsdal fylke, Norway"
+  },
+  "Hendnesveien 99, 6533 Averøy, Norway": {
+    "lat": 63.0575569,
+    "lng": 7.5135747,
+    "confidence": 10,
+    "formatted": "Hendnesveien 99, 6533 Averøy, Norway"
+  },
+  "Utsidevegen 21, 6475 Midsund, Norway": {
+    "lat": 62.6730752,
+    "lng": 6.6669135,
+    "confidence": 10,
+    "formatted": "Utsidevegen 21, 6475 Midsund, Norway"
+  },
+  "Kaivegen 12, 6430 Bud, Norway": {
+    "lat": 62.9058193,
+    "lng": 6.9096652,
+    "confidence": 10,
+    "formatted": "Kaivegen 12, 6430 Bud, Norway"
+  },
+  "Indre Harøyvegen 32, 6430 Bud, Norway": {
+    "lat": 62.883661,
+    "lng": 6.965134,
+    "confidence": 10,
+    "formatted": "Indre Harøyvegen 32, 6430 Bud, Norway"
+  },
+  "Rindarøyvegen 383, 6480 Aukra, Norway": {
+    "lat": 62.845519,
+    "lng": 6.7752623,
+    "confidence": 10,
+    "formatted": "Rindarøyvegen 383, 6480 Aukra, Norway"
+  },
+  "Håsundvegen 81, 6430 Bud, Norway": {
+    "lat": 62.8923057,
+    "lng": 6.9562,
+    "confidence": 10,
+    "formatted": "Håsundvegen 81, 6430 Bud, Norway"
+  },
+  "Hamnegata 43, 6413 Molde, Norway": {
+    "lat": 62.73684,
+    "lng": 7.161728,
+    "confidence": 10,
+    "formatted": "Hamnegata 43, 6413 Molde, Norway"
+  },
+  "Sætrehamna 9, 6050 Valderøya, Norway": {
+    "lat": 62.527189,
+    "lng": 6.1245064,
+    "confidence": 10,
+    "formatted": "Sætrehamna 9, 6050 Valderøya, Norway"
+  },
+  "Blomvika 102, 6050 Valderøya, Norway": {
+    "lat": 62.5239459,
+    "lng": 6.136289,
+    "confidence": 10,
+    "formatted": "Blomvika 102, 6050 Valderøya, Norway"
+  },
+  "Malmefjordvegen 18, 6440 Elnesvågen, Norway": {
+    "lat": 62.8355262,
+    "lng": 7.2354108,
+    "confidence": 10,
+    "formatted": "Malmefjordvegen 18, 6440 Elnesvågen, Norway"
+  },
+  "Fjordgata 52, 6005 Ålesund, Norway": {
+    "lat": 62.4717044,
+    "lng": 6.1319053,
+    "confidence": 10,
+    "formatted": "Fjordgata 52, 6005 Ålesund, Norway"
+  },
+  "Aarsæthervegen 41, 6006 Ålesund, Norway": {
+    "lat": 62.4620895,
+    "lng": 6.1252227,
+    "confidence": 10,
+    "formatted": "Aarsæthervegen 41, 6006 Ålesund, Norway"
+  },
+  "Liavaagen, 6063 Hjørungavåg, Norway": {
+    "lat": 62.35,
+    "lng": 6.0667,
+    "confidence": 7,
+    "formatted": "6063 Sogn og Fjordane, Norway"
+  },
+  "Postboks 383, 6001 Ålesund, Norway": {
+    "lat": 62.4711412,
+    "lng": 6.1551755,
+    "confidence": 4,
+    "formatted": "6004 Ålesund, Norway"
+  },
+  "Aarsæthervegen 17, 6006 Ålesund, Norway": {
+    "lat": 62.4633951,
+    "lng": 6.1165899,
+    "confidence": 10,
+    "formatted": "Aarsæthervegen 17, 6006 Ålesund, Norway"
+  },
+  "Fiskarstrandvegen 262, 6035 Fiskarstrand, Norway": {
+    "lat": 62.4399138,
+    "lng": 6.250643,
+    "confidence": 10,
+    "formatted": "Fiskarstrandvegen 262, 6035 Fiskarstrand, Norway"
+  },
+  "Fiskarstrandvegen 168, 6035 Fiskarstrand, Norway": {
+    "lat": 62.442943,
+    "lng": 6.2726007,
+    "confidence": 10,
+    "formatted": "Fiskarstrandvegen 168, 6035 Fiskarstrand, Norway"
+  },
+  "Tranvågen 6, 6035 Fiskarstrand, Norway": {
+    "lat": 62.4382873,
+    "lng": 6.2791632,
+    "confidence": 10,
+    "formatted": "Tranvågen 6, 6035 Fiskarstrand, Norway"
+  },
+  "Lyngholmvegen 8, 6057 Ellingsøy, Norway": {
+    "lat": 62.4969821,
+    "lng": 6.3615178,
+    "confidence": 10,
+    "formatted": "Lyngholmvegen 8, 6057 Ellingsøy, Norway"
+  },
+  "Bjørge Industriveg 7, 6057 Ellingsøy, Norway": {
+    "lat": 62.4968691,
+    "lng": 6.3594426,
+    "confidence": 10,
+    "formatted": "Bjørge industriveg 7, 6057 Ellingsøy, Norway"
+  },
+  "Lyngholmvegen 96, 6057 Ellingsøy, Norway": {
+    "lat": 62.4966238,
+    "lng": 6.3790412,
+    "confidence": 10,
+    "formatted": "Lyngholmvegen 96, 6057 Ellingsøy, Norway"
+  },
+  "Årset, 6057 Ellingsøy, Norway": {
+    "lat": 62.51667,
+    "lng": 6.33333,
+    "confidence": 9,
+    "formatted": "Ellingsøya, Ålesund, Møre og Romsdal fylke, Norway"
+  },
+  "Gustav Stokkes Veg 21, 6057 Ellingsøy, Norway": {
+    "lat": 62.5024524,
+    "lng": 6.4017692,
+    "confidence": 10,
+    "formatted": "Gustav Stokkes veg 21, 6057 Ellingsøy, Norway"
+  },
+  "Ellingsøyvegen 680, 6057 Ellingsøy, Norway": {
+    "lat": 62.491998,
+    "lng": 6.3017473,
+    "confidence": 10,
+    "formatted": "Ellingsøyvegen 680, 6057 Ellingsøy, Norway"
+  },
+  "Ellingsøyvegen 920, 6057 Ellingsøy, Norway": {
+    "lat": 62.4964254,
+    "lng": 6.3462183,
+    "confidence": 10,
+    "formatted": "Ellingsøyvegen 920, 6057 Ellingsøy, Norway"
+  },
+  "Ellingsøyvegen 700, 6057 Ellingsøy, Norway": {
+    "lat": 62.4917943,
+    "lng": 6.3068102,
+    "confidence": 10,
+    "formatted": "Ellingsøyvegen 700, 6057 Ellingsøy, Norway"
+  },
+  "Hagemannsvegen 6, 6070 Tjørvåg, Norway": {
+    "lat": 62.3060392,
+    "lng": 5.7263699,
+    "confidence": 10,
+    "formatted": "Hagemannsvegen 6, 6070 Tjørvåg, Norway"
+  },
+  "Nærøy, 6094 Leinøy, Norway": {
+    "lat": 62.3404695,
+    "lng": 5.681118,
+    "confidence": 9,
+    "formatted": "Nærøyvegen, 6094 Leinøy, Norway"
+  },
+  "Eggesbønes, 6092 Fosnavåg, Norway": {
+    "lat": 62.3419,
+    "lng": 5.634,
+    "confidence": 7,
+    "formatted": "6092 Sogn og Fjordane, Norway"
+  },
+  "Longvafjordvegen 249, 6293 Longva, Norway": {
+    "lat": 62.6802215,
+    "lng": 6.239852,
+    "confidence": 10,
+    "formatted": "Longvafjordvegen 249, 6293 Longva, Norway"
+  },
+  "Gjerdsvikvegen 208, 6083 Gjerdsvika, Norway": {
+    "lat": 62.254577,
+    "lng": 5.569517,
+    "confidence": 10,
+    "formatted": "Gjerdsvikvegen 208, 6083 Gjerdsvika, Norway"
+  },
+  "Sandshamna 91, 6089 Sandshamn, Norway": {
+    "lat": 62.252209,
+    "lng": 5.486071,
+    "confidence": 10,
+    "formatted": "Sandshamna 91, 6089 Sandshamn, Norway"
+  },
+  "Sjukenesstranda 62, 6037 Eidsnes, Norway": {
+    "lat": 62.4295629,
+    "lng": 6.3337751,
+    "confidence": 10,
+    "formatted": "Sjukenesstranda 62, 6037 Eidsnes, Norway"
+  },
+  "Korsnesveien, 6035 Fiskarstrand, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Tingstadvika 5, 6035 Fiskarstrand, Norway": {
+    "lat": 62.4420055,
+    "lng": 6.2580881,
+    "confidence": 10,
+    "formatted": "Tingstadvika 5, 6035 Fiskarstrand, Norway"
+  },
+  "Tingstadvika 3, 6035 Fiskarstrand, Norway": {
+    "lat": 62.4421882,
+    "lng": 6.2573186,
+    "confidence": 10,
+    "formatted": "Tingstadvika 3, 6035 Fiskarstrand, Norway"
+  },
+  "Nordstrand, 6050 Valderøya, Norway": {
+    "lat": 62.4974,
+    "lng": 6.11893,
+    "confidence": 9,
+    "formatted": "Valderøya, Giske, Møre og Romsdal fylke, Norway"
+  },
+  "Sætrehamna 15, 6050 Valderøya, Norway": {
+    "lat": 62.5290083,
+    "lng": 6.1217069,
+    "confidence": 10,
+    "formatted": "Sætrehamna 15, 6050 Valderøya, Norway"
+  },
+  "Grytafjordvegen 762, 6265 Vatne, Norway": {
+    "lat": 62.53388,
+    "lng": 6.3634951,
+    "confidence": 10,
+    "formatted": "Grytafjordvegen 762, 6265 Vatne, Norway"
+  },
+  "Grytafjordvegen 926, 6265 Vatne, Norway": {
+    "lat": 62.530886,
+    "lng": 6.334926,
+    "confidence": 10,
+    "formatted": "Grytafjordvegen 926, 6265 Vatne, Norway"
+  },
+  "Furene Industriområde, 6100 Volda, Norway": {
+    "lat": 62.1476,
+    "lng": 6.0741,
+    "confidence": 7,
+    "formatted": "6100 Sogn og Fjordane, Norway"
+  },
+  "Fiskerihavna Rovde, Co/ Volda Fiskemat As, 6100 Volda, Norway": {
+    "lat": 62.1476,
+    "lng": 6.0741,
+    "confidence": 7,
+    "formatted": "6100 Sogn og Fjordane, Norway"
+  },
+  "Svemorka 26, 6200 Stranda, Norway": {
+    "lat": 62.2694191,
+    "lng": 6.8750892,
+    "confidence": 10,
+    "formatted": "Svemorka 26, 6200 Stranda, Norway"
+  },
+  "Hamnevegen 85, 6170 Vartdal, Norway": {
+    "lat": 62.3065781,
+    "lng": 6.0936581,
+    "confidence": 10,
+    "formatted": "Hamnevegen 85, 6170 Vartdal, Norway"
+  },
+  "Syvdefjordvegen 432, 6140 Syvde, Norway": {
+    "lat": 62.087033,
+    "lng": 5.725724,
+    "confidence": 10,
+    "formatted": "Syvdefjordvegen 432, 6140 Syvde, Norway"
+  },
+  "Kongshaugstranda 101, 6037 Eidsnes, Norway": {
+    "lat": 62.4240794,
+    "lng": 6.3628809,
+    "confidence": 10,
+    "formatted": "Kongshaugstranda 101, 6037 Eidsnes, Norway"
+  },
+  "Hellandshamna 88, 6270 Brattvåg, Norway": {
+    "lat": 62.6126766,
+    "lng": 6.4593656,
+    "confidence": 10,
+    "formatted": "Hellandshamna 88, 6270 Brattvåg, Norway"
+  },
+  "Stormyrvegen 52, 6475 Midsund, Norway": {
+    "lat": 62.6911647,
+    "lng": 6.669804,
+    "confidence": 10,
+    "formatted": "Stormyrvegen 52, 6475 Midsund, Norway"
+  },
+  "Terøy Industriområde 3, 6280 Søvik, Norway": {
+    "lat": 62.5581807,
+    "lng": 6.2647181,
+    "confidence": 10,
+    "formatted": "Terøy industriområde 3, 6280 Søvik, Norway"
+  },
+  "nan, 6089 Sandshamn, Norway": {
+    "lat": 62.2530933,
+    "lng": 5.4801807,
+    "confidence": 7,
+    "formatted": "6089 Sandshamn, Norway"
+  },
+  "Kokkervika 11, 6057 Ellingsøy, Norway": {
+    "lat": 62.5000984,
+    "lng": 6.3909439,
+    "confidence": 10,
+    "formatted": "Kokkervika 11, 6057 Ellingsøy, Norway"
+  },
+  "Ellingsøyvegen 172, 6057 Ellingsøy, Norway": {
+    "lat": 62.4951541,
+    "lng": 6.2083864,
+    "confidence": 10,
+    "formatted": "Ellingsøyvegen 172, 6057 Ellingsøy, Norway"
+  },
+  "6055 Godøya, 6055 Godøya, Norway": {
+    "lat": 67.2360939,
+    "lng": 14.6911147,
+    "confidence": 8,
+    "formatted": "Godøya, Bodø, Nordland, Norway"
+  },
+  "Vølvegen 78, 6475 Midsund, Norway": {
+    "lat": 62.696506,
+    "lng": 6.6420593,
+    "confidence": 10,
+    "formatted": "Vølvegen 78, 6475 Midsund, Norway"
+  },
+  "Kjøpmannsgata 37, 6005 Ålesund, Norway": {
+    "lat": 62.468035,
+    "lng": 6.121634,
+    "confidence": 10,
+    "formatted": "Kjøpmannsgata 37, 6005 Ålesund, Norway"
+  },
+  "nan, 6174 Barstadvik, Norway": {
+    "lat": 62.3596702,
+    "lng": 6.2676938,
+    "confidence": 7,
+    "formatted": "6174 Barstadvik, Norway"
+  },
+  "Teistholmsundet 6, 6512 Kristiansund N, Norway": {
+    "lat": 63.1193735,
+    "lng": 7.757612,
+    "confidence": 10,
+    "formatted": "Teistholmsundet 6, 6512 Kristiansund, Norway"
+  },
+  "Svingen 7, 6036 Mauseidvåg, Norway": {
+    "lat": 62.4221473,
+    "lng": 6.2755471,
+    "confidence": 10,
+    "formatted": "Svingen 7, 6036 Mauseidvåg, Norway"
+  },
+  "Drågen, 6430 Bud, Norway": {
+    "lat": 62.9167,
+    "lng": 6.9167,
+    "confidence": 7,
+    "formatted": "6430 Sogn og Fjordane, Norway"
+  },
+  "Geilereset 7, 6055 Godøya, Norway": {
+    "lat": 62.4669143,
+    "lng": 6.0145736,
+    "confidence": 10,
+    "formatted": "Geilereset 7, 6055 Godøya, Norway"
+  },
+  "Nørvågvegen 7, 6090 Fosnavåg, Norway": {
+    "lat": 62.338438,
+    "lng": 5.6415532,
+    "confidence": 10,
+    "formatted": "Nørvågvegen 7, 6090 Fosnavåg, Norway"
+  },
+  "Strandgata 60, 6270 Brattvåg, Norway": {
+    "lat": 62.595485,
+    "lng": 6.446669,
+    "confidence": 10,
+    "formatted": "Strandgata 60, 6270 Brattvåg, Norway"
+  },
+  "Havnegata 11, 6005 Ålesund, Norway": {
+    "lat": 62.4700307,
+    "lng": 6.1233042,
+    "confidence": 10,
+    "formatted": "Havnegata 11, 6005 Ålesund, Norway"
+  },
+  "Juvikvegen 34, 6480 Aukra, Norway": {
+    "lat": 62.8451469,
+    "lng": 6.8890856,
+    "confidence": 10,
+    "formatted": "Juvikvegen 34, 6480 Aukra, Norway"
+  },
+  "Øygarden, 6052 Giske, Norway": {
+    "lat": 62.5048,
+    "lng": 6.0481,
+    "confidence": 7,
+    "formatted": "6052 Sogn og Fjordane, Norway"
+  },
+  "Bjørge Industriveg 41, 6057 Ellingsøy, Norway": {
+    "lat": 62.4964394,
+    "lng": 6.3510751,
+    "confidence": 10,
+    "formatted": "Bjørge industriveg 41, 6057 Ellingsøy, Norway"
+  },
+  "Omagata 115, 6517 Kristiansund N, Norway": {
+    "lat": 63.107898,
+    "lng": 7.7795272,
+    "confidence": 10,
+    "formatted": "Omagata 115, 6517 Kristiansund, Norway"
+  },
+  "Eggesbøvegen 40, 6092 Fosnavåg, Norway": {
+    "lat": 62.3238654,
+    "lng": 5.654332,
+    "confidence": 10,
+    "formatted": "Eggesbøvegen 40, 6092 Fosnavåg, Norway"
+  },
+  "Strandgata 60, 6512 Kristiansund N, Norway": {
+    "lat": 63.11625,
+    "lng": 7.754679,
+    "confidence": 10,
+    "formatted": "Strandgata 60, 6512 Kristiansund, Norway"
+  },
+  "Myrane 26, 6094 Leinøy, Norway": {
+    "lat": 62.37079,
+    "lng": 5.670288,
+    "confidence": 10,
+    "formatted": "Myrane 26, 6094 Leinøy, Norway"
+  },
+  "Sjøvikvegen 55, 6475 Midsund, Norway": {
+    "lat": 62.6923688,
+    "lng": 6.6398201,
+    "confidence": 10,
+    "formatted": "Sjøvikvegen 55, 6475 Midsund, Norway"
+  },
+  "Geilevika, 6055 Godøya, Norway": {
+    "lat": 62.47639,
+    "lng": 6.04038,
+    "confidence": 7,
+    "formatted": "Godøya, Giske, Møre og Romsdal fylke, Norway"
+  },
+  "Kildehaugen 10, 6037 Eidsnes, Norway": {
+    "lat": 62.4306246,
+    "lng": 6.3537395,
+    "confidence": 10,
+    "formatted": "Kildehaugen 10, 6037 Eidsnes, Norway"
+  },
+  "Skansekaia 4b, 6002 Ålesund, Norway": {
+    "lat": 62.475168,
+    "lng": 6.1513847,
+    "confidence": 10,
+    "formatted": "Skansekaia 4B, 6002 Ålesund, Norway"
+  },
+  "Lausundvegen 112, 6292 Kjerstad, Norway": {
+    "lat": 62.600805,
+    "lng": 6.222075,
+    "confidence": 10,
+    "formatted": "Lausundvegen 112, 6292 Kjerstad, Norway"
+  },
+  "Grøthaugvegen 12, 6037 Eidsnes, Norway": {
+    "lat": 62.427379,
+    "lng": 6.3030501,
+    "confidence": 10,
+    "formatted": "Grøthaugvegen 12, 6037 Eidsnes, Norway"
+  },
+  "Kongshaugstranda 3, 6037 Eidsnes, Norway": {
+    "lat": 62.4303547,
+    "lng": 6.3527751,
+    "confidence": 10,
+    "formatted": "Kongshaugstranda 3, 6037 Eidsnes, Norway"
+  },
+  "Øvre Veg 24, 6415 Molde, Norway": {
+    "lat": 62.738524,
+    "lng": 7.1665992,
+    "confidence": 10,
+    "formatted": "Øvre veg 24, 6415 Molde, Norway"
+  },
+  "Legemyrane 4, 6076 Moltustranda, Norway": {
+    "lat": 62.2987408,
+    "lng": 5.6605997,
+    "confidence": 10,
+    "formatted": "Legemyrane 4, 6076 Moltustranda, Norway"
+  },
+  "Årsbogvegen 115, 6494 Vevang, Norway": {
+    "lat": 62.9985771,
+    "lng": 7.3134693,
+    "confidence": 10,
+    "formatted": "Årsbogvegen 115, 6494 Vevang, Norway"
+  },
+  "Fjordgata 50, 6005 Ålesund, Norway": {
+    "lat": 62.4720632,
+    "lng": 6.13453,
+    "confidence": 10,
+    "formatted": "Fjordgata 50, 6005 Ålesund, Norway"
+  },
+  "Nordstrandfjørå 71, 6050 Valderøya, Norway": {
+    "lat": 62.5169809,
+    "lng": 6.1352293,
+    "confidence": 10,
+    "formatted": "Nordstrandfjørå 71, 6050 Valderøya, Norway"
+  },
+  "Havnegata 19, 8400 Sortland, Norway": {
+    "lat": 68.6995047,
+    "lng": 15.4189016,
+    "confidence": 10,
+    "formatted": "Havnegata 19B, 8400 Sortland, Norway"
+  },
+  "Fiskeværsveien 118, 8481 Bleik, Norway": {
+    "lat": 69.272929,
+    "lng": 15.947779,
+    "confidence": 10,
+    "formatted": "Fiskeværsveien 118, 8481 Bleik, Norway"
+  },
+  "H. Chr. Størmers Gate 22, 8300 Svolvær, Norway": {
+    "lat": 68.2348073,
+    "lng": 14.5720934,
+    "confidence": 10,
+    "formatted": "H. Chr. Størmers gate 22, 8300 Svolvær, Norway"
+  },
+  "Hamnegata 69, 8480 Andenes, Norway": {
+    "lat": 69.3225416,
+    "lng": 16.1235903,
+    "confidence": 9,
+    "formatted": "Hamnegata, 8480 Andenes, Norway"
+  },
+  "nan, 8480 Andenes, Norway": {
+    "lat": 69.3122989,
+    "lng": 16.1057085,
+    "confidence": 7,
+    "formatted": "Merket, Andenes, Nordland, Norway"
+  },
+  "Hamnegata 71a, 8480 Andenes, Norway": {
+    "lat": 69.3258297,
+    "lng": 16.1339947,
+    "confidence": 10,
+    "formatted": "Hamnegata 71A, 8480 Andenes, Norway"
+  },
+  "Hamnegata 2a, 8480 Andenes, Norway": {
+    "lat": 69.3240323,
+    "lng": 16.1165905,
+    "confidence": 10,
+    "formatted": "Hamnegata 2A, 8480 Andenes, Norway"
+  },
+  "nan, 8489 Nordmela, Norway": {
+    "lat": 69.1364699,
+    "lng": 15.6770842,
+    "confidence": 7,
+    "formatted": "Nordmela, Nordland, Norway"
+  },
+  "Gammelveien 16, 8150 Ørnes, Norway": {
+    "lat": 66.874799,
+    "lng": 13.705878,
+    "confidence": 10,
+    "formatted": "Gammelveien 16, 8150 Ørnes, Norway"
+  },
+  "Bårdholmen, 8438 Stø, Norway": {
+    "lat": 69.0167,
+    "lng": 15.1333,
+    "confidence": 7,
+    "formatted": "8438 Troms, Norway"
+  },
+  "Havnegata 25, 8430 Myre, Norway": {
+    "lat": 68.9123151,
+    "lng": 15.0810206,
+    "confidence": 9,
+    "formatted": "Havnegata, 8430 Myre, Norway"
+  },
+  "Havnegata 3, 8430 Myre, Norway": {
+    "lat": 68.9123432,
+    "lng": 15.0769548,
+    "confidence": 10,
+    "formatted": "Havnegata 3, 8430 Myre, Norway"
+  },
+  "Anna Eriksens Vei 8, 8432 Alsvåg, Norway": {
+    "lat": 68.901971,
+    "lng": 15.284451,
+    "confidence": 10,
+    "formatted": "Anna Eriksens vei 8, 8432 Alsvåg, Norway"
+  },
+  "Bolstad Vei 7, 8430 Myre, Norway": {
+    "lat": 68.9152,
+    "lng": 15.0716,
+    "confidence": 7,
+    "formatted": "8430 Troms, Norway"
+  },
+  "Bolstads Vei 7, 8430 Myre, Norway": {
+    "lat": 68.910419,
+    "lng": 15.066315,
+    "confidence": 10,
+    "formatted": "Bolstads vei 7, 8430 Myre, Norway"
+  },
+  "Bolstads Vei 15, 8430 Myre, Norway": {
+    "lat": 68.911694,
+    "lng": 15.0636291,
+    "confidence": 10,
+    "formatted": "Bolstads vei 15, 8430 Myre, Norway"
+  },
+  "Terminalveien 2, 8430 Myre, Norway": {
+    "lat": 68.9111406,
+    "lng": 15.056032,
+    "confidence": 10,
+    "formatted": "Terminalveien 2, 8430 Myre, Norway"
+  },
+  "Terminalveien 3, 8430 Myre, Norway": {
+    "lat": 68.911942,
+    "lng": 15.058241,
+    "confidence": 10,
+    "formatted": "Terminalveien 3, 8430 Myre, Norway"
+  },
+  "Havnegata 17, 8400 Sortland, Norway": {
+    "lat": 68.6996628,
+    "lng": 15.4166351,
+    "confidence": 10,
+    "formatted": "Havnegata 17, 8400 Sortland, Norway"
+  },
+  "Sigerfjordveien 425, 8406 Sortland, Norway": {
+    "lat": 68.642089,
+    "lng": 15.528434,
+    "confidence": 10,
+    "formatted": "Sigerfjordveien 425, 8406 Sortland, Norway"
+  },
+  "Handkleppveien 8, 8475 Straumsjøen, Norway": {
+    "lat": 68.6970085,
+    "lng": 14.468073,
+    "confidence": 10,
+    "formatted": "Handkleppveien 8, 8475 Straumsjøen, Norway"
+  },
+  "Villaveien 1, 8445 Melbu, Norway": {
+    "lat": 68.497923,
+    "lng": 14.79928,
+    "confidence": 10,
+    "formatted": "Villaveien 1, 8445 Melbu, Norway"
+  },
+  "Industriveien 14, 8450 Stokmarknes, Norway": {
+    "lat": 68.5737389,
+    "lng": 14.9542038,
+    "confidence": 10,
+    "formatted": "Industriveien 14, 8450 Stokmarknes, Norway"
+  },
+  "Skårvågen Postboks 14, 8475 Straumsjøen, Norway": {
+    "lat": 68.6947074,
+    "lng": 14.4658427,
+    "confidence": 8,
+    "formatted": "Straumsjøen, Straume, Nordland, Norway"
+  },
+  "Straumsjøveien 30, 8475 Straumsjøen, Norway": {
+    "lat": 68.6950364,
+    "lng": 14.4602104,
+    "confidence": 10,
+    "formatted": "Straumsjøveien 30, 8475 Straumsjøen, Norway"
+  },
+  "Jernskarveien 52, 8475 Straumsjøen, Norway": {
+    "lat": 68.6888,
+    "lng": 14.472,
+    "confidence": 7,
+    "formatted": "8475 Troms, Norway"
+  },
+  "Storgata 30, 8430 Myre, Norway": {
+    "lat": 68.9144758,
+    "lng": 15.0809723,
+    "confidence": 10,
+    "formatted": "Storgata 30, 8430 Myre, Norway"
+  },
+  "Barstrandveien 274, 8314 Gimsøysand, Norway": {
+    "lat": 68.283596,
+    "lng": 14.267758,
+    "confidence": 10,
+    "formatted": "Barstrandveien 274, 8314 Gimsøysand, Norway"
+  },
+  "Mærvollveien 73, 8360 Bøstad, Norway": {
+    "lat": 68.249748,
+    "lng": 13.628764,
+    "confidence": 10,
+    "formatted": "Mærvollveien 73, 8360 Bøstad, Norway"
+  },
+  "Tangstad, 8360 Bøstad, Norway": {
+    "lat": 68.25,
+    "lng": 13.7667,
+    "confidence": 7,
+    "formatted": "8360 Troms, Norway"
+  },
+  "nan, 8382 Napp, Norway": {
+    "lat": 68.1331694,
+    "lng": 13.4319333,
+    "confidence": 7,
+    "formatted": "8382 Napp, Norway"
+  },
+  "C/O Vestvågøy Regnskap As, 8370 Leknes, Norway": {
+    "lat": 68.1475,
+    "lng": 13.6115,
+    "confidence": 7,
+    "formatted": "8370 Troms, Norway"
+  },
+  "Leknes Havn, 8370 Leknes, Norway": {
+    "lat": 68.1475,
+    "lng": 13.6115,
+    "confidence": 7,
+    "formatted": "8370 Troms, Norway"
+  },
+  "Eggumsveien, 8360 Bøstad, Norway": {
+    "lat": 68.2594029,
+    "lng": 13.778099,
+    "confidence": 9,
+    "formatted": "Eggumsveien, 8360 Bøstad, Norway"
+  },
+  "Kræmmervika, 8373 Ballstad, Norway": {
+    "lat": 68.0690897,
+    "lng": 13.5343217,
+    "confidence": 9,
+    "formatted": "Kræmmervika Rorbuer, Ballstadlandet, 8373 Ballstad, Norway"
+  },
+  "Moloveien 95, 8373 Ballstad, Norway": {
+    "lat": 68.0732047,
+    "lng": 13.5488327,
+    "confidence": 9,
+    "formatted": "Moloveien, 8373 Ballstad, Norway"
+  },
+  "Jacob Jentofts Vei 45, 8373 Ballstad, Norway": {
+    "lat": 68.07314,
+    "lng": 13.540865,
+    "confidence": 10,
+    "formatted": "Jacob Jentofts vei 45, 8373 Ballstad, Norway"
+  },
+  "Ballstadlandet 100, 8373 Ballstad, Norway": {
+    "lat": 68.0756355,
+    "lng": 13.5299414,
+    "confidence": 10,
+    "formatted": "Ballstadlandet 100, 8373 Ballstad, Norway"
+  },
+  "Ballstadlandet 200, 8373 Ballstad, Norway": {
+    "lat": 68.069645,
+    "lng": 13.537935,
+    "confidence": 10,
+    "formatted": "Ballstadlandet 200, 8373 Ballstad, Norway"
+  },
+  "Havet 45, 8370 Leknes, Norway": {
+    "lat": 68.128116,
+    "lng": 13.563504,
+    "confidence": 10,
+    "formatted": "Havet 45, 8370 Leknes, Norway"
+  },
+  "Mortsund, 8370 Leknes, Norway": {
+    "lat": 68.1475,
+    "lng": 13.6115,
+    "confidence": 7,
+    "formatted": "8370 Troms, Norway"
+  },
+  "Mortsundveien 379, 8370 Leknes, Norway": {
+    "lat": 68.086236,
+    "lng": 13.635126,
+    "confidence": 10,
+    "formatted": "Mortsundveien 379, 8370 Leknes, Norway"
+  },
+  "J.M.Johansens Vei 99, 8340 Stamsund, Norway": {
+    "lat": 68.1259594,
+    "lng": 13.8513649,
+    "confidence": 10,
+    "formatted": "J.M. Johansens vei 99, 8340 Stamsund, Norway"
+  },
+  "Buøyveien 27, 8340 Stamsund, Norway": {
+    "lat": 68.124786,
+    "lng": 13.857475,
+    "confidence": 10,
+    "formatted": "Buøyveien 27, 8340 Stamsund, Norway"
+  },
+  "Buøyveien 7, 8340 Stamsund, Norway": {
+    "lat": 68.126398,
+    "lng": 13.856861,
+    "confidence": 10,
+    "formatted": "Buøyveien 7, 8340 Stamsund, Norway"
+  },
+  "Fredvang, 8387 Fredvang, Norway": {
+    "lat": 68.08322,
+    "lng": 13.166629,
+    "confidence": 9,
+    "formatted": "Fredvang, Hovdanveien, 8387 Fredvang, Norway"
+  },
+  "Lilandveien 10, 8407 Sortland, Norway": {
+    "lat": 68.733531,
+    "lng": 15.518725,
+    "confidence": 10,
+    "formatted": "Lilandveien 10, 8407 Sortland, Norway"
+  },
+  "Sundveien 157, 8384 Sund I Lofoten, Norway": {
+    "lat": 68.001918,
+    "lng": 13.2024532,
+    "confidence": 10,
+    "formatted": "Sundveien 157, 8384 Sund, Norway"
+  },
+  "Sundveien 86, 8384 Sund I Lofoten, Norway": {
+    "lat": 68.007147,
+    "lng": 13.211179,
+    "confidence": 10,
+    "formatted": "Sundveien 86, 8384 Sund, Norway"
+  },
+  "Justadbakken 10, 8340 Stamsund, Norway": {
+    "lat": 68.136494,
+    "lng": 13.842226,
+    "confidence": 10,
+    "formatted": "Justadbakken 10, 8340 Stamsund, Norway"
+  },
+  "Reineveien 170, 8390 Reine, Norway": {
+    "lat": 67.935486,
+    "lng": 13.086847,
+    "confidence": 10,
+    "formatted": "Reineveien 170, 8390 Reine, Norway"
+  },
+  "Kvalvik, 8390 Reine, Norway": {
+    "lat": 67.940972,
+    "lng": 13.095966,
+    "confidence": 9,
+    "formatted": "Kvalvik, Moskenesveien, 8390 Reine, Norway"
+  },
+  "Postboks 28, 8392 Sørvågen, Norway": {
+    "lat": 70.9802638,
+    "lng": 25.977841,
+    "confidence": 7,
+    "formatted": "9750 Honningsvåg, Norway"
+  },
+  "Hellandsgata 85, 8312 Henningsvær, Norway": {
+    "lat": 68.1552406,
+    "lng": 14.2100518,
+    "confidence": 10,
+    "formatted": "Hellandsgata 85, 8312 Henningsvær, Norway"
+  },
+  "Venes, 8063 Værøy, Norway": {
+    "lat": 67.6585472,
+    "lng": 12.7148556,
+    "confidence": 8,
+    "formatted": "Røssnesvågen, 8063 Værøy, Norway"
+  },
+  "nan, 8063 Værøy, Norway": {
+    "lat": 67.6642456,
+    "lng": 12.6974773,
+    "confidence": 7,
+    "formatted": "8063 Værøy, Norway"
+  },
+  "Nedre Vågen 16, 8063 Værøy, Norway": {
+    "lat": 67.6561934,
+    "lng": 12.7115405,
+    "confidence": 10,
+    "formatted": "Nedre Vågen 16, 8063 Værøy, Norway"
+  },
+  "Vågen 6, 8063 Værøy, Norway": {
+    "lat": 67.6547788,
+    "lng": 12.7168898,
+    "confidence": 10,
+    "formatted": "Nedre Vågen 6, 8063 Værøy, Norway"
+  },
+  "Røstnesvågen, 8063 Værøy, Norway": {
+    "lat": 67.6561835,
+    "lng": 12.7220988,
+    "confidence": 9,
+    "formatted": "Røstnesvågen, 8063 Værøy, Norway"
+  },
+  "Gleaveien 4b, 8064 Røst, Norway": {
+    "lat": 67.507362,
+    "lng": 12.065172,
+    "confidence": 10,
+    "formatted": "Gleaveien 4B, 8064 Røst, Norway"
+  },
+  "Tyvsøyveien 1, 8064 Røst, Norway": {
+    "lat": 67.5054046,
+    "lng": 12.0715802,
+    "confidence": 10,
+    "formatted": "Tyvsøyveien 1, 8064 Røst, Norway"
+  },
+  "Glea, 8064 Røst, Norway": {
+    "lat": 67.5082287,
+    "lng": 12.0742844,
+    "confidence": 9,
+    "formatted": "Gleaveien, 8064 Røst, Norway"
+  },
+  "Tyvsøy, 8064 Røst, Norway": {
+    "lat": 67.5076763,
+    "lng": 12.0810674,
+    "confidence": 9,
+    "formatted": "Tyvsøyveien, 8064 Røst, Norway"
+  },
+  "Gleaveien 6, 8064 Røst, Norway": {
+    "lat": 67.507336,
+    "lng": 12.068039,
+    "confidence": 10,
+    "formatted": "Gleaveien 6, 8064 Røst, Norway"
+  },
+  "Tyvsøyveien 15, 8064 Røst, Norway": {
+    "lat": 67.5074508,
+    "lng": 12.079979,
+    "confidence": 10,
+    "formatted": "Tyvsøyveien 15, 8064 Røst, Norway"
+  },
+  "Gleaveien 9, 8064 Røst, Norway": {
+    "lat": 67.5083986,
+    "lng": 12.0777756,
+    "confidence": 10,
+    "formatted": "Gleaveien 9, 8064 Røst, Norway"
+  },
+  "Gleaveien 12, 8064 Røst, Norway": {
+    "lat": 67.506199,
+    "lng": 12.065856,
+    "confidence": 10,
+    "formatted": "Gleaveien 12, 8064 Røst, Norway"
+  },
+  "Sauøya 1, 8312 Henningsvær, Norway": {
+    "lat": 68.1609026,
+    "lng": 14.2196785,
+    "confidence": 9,
+    "formatted": "Sauøya, 8312 Henningsvær, Norway"
+  },
+  "Postboks 117, 8151 Ørnes, Norway": {
+    "lat": 66.8730775,
+    "lng": 13.7060869,
+    "confidence": 7,
+    "formatted": "8150 Ørnes, Norway"
+  },
+  "nan, 8312 Henningsvær, Norway": {
+    "lat": 68.152888,
+    "lng": 14.2007245,
+    "confidence": 7,
+    "formatted": "8312 Henningsvær, Norway"
+  },
+  "Hopsveien 42, 8310 Kabelvåg, Norway": {
+    "lat": 68.1937869,
+    "lng": 14.3474329,
+    "confidence": 10,
+    "formatted": "Hopsveien 42, 8310 Kabelvåg, Norway"
+  },
+  "Bernt Salvesens Vei 31, 8300 Svolvær, Norway": {
+    "lat": 68.2347411,
+    "lng": 14.5849197,
+    "confidence": 10,
+    "formatted": "Bernt Salvesens vei 31, 8300 Svolvær, Norway"
+  },
+  "Storgata 2, 8300 Svolvær, Norway": {
+    "lat": 68.2289419,
+    "lng": 14.5599418,
+    "confidence": 10,
+    "formatted": "Storgata 2, 8300 Svolvær, Norway"
+  },
+  "Været 2, 8320 Skrova, Norway": {
+    "lat": 68.1666673,
+    "lng": 14.6611872,
+    "confidence": 10,
+    "formatted": "Været 2, 8320 Skrova, Norway"
+  },
+  "Industrivegen 4a, 8410 Lødingen, Norway": {
+    "lat": 68.4178978,
+    "lng": 15.9962678,
+    "confidence": 10,
+    "formatted": "Industrivegen 4A, 8410 Lødingen, Norway"
+  },
+  "Korsnesveien 177, 8275 Storjorda I Tysfjorden, Norway": {
+    "lat": 68.252266,
+    "lng": 16.057233,
+    "confidence": 10,
+    "formatted": "Korsnesveien 177, 8275 Storjord, Norway"
+  },
+  "Nordfold, 8286 Nordfold, Norway": {
+    "lat": 67.764317,
+    "lng": 15.241904,
+    "confidence": 9,
+    "formatted": "Nordfold, Nordfoldveien, 8286 Nordfold, Norway"
+  },
+  "Helnessund, 8285 Leines, Norway": {
+    "lat": 67.732175,
+    "lng": 14.772899,
+    "confidence": 9,
+    "formatted": "Helnessund, Helnesveien, Leines, Norway"
+  },
+  "Dyping, 8288 Bogøy, Norway": {
+    "lat": 67.90329,
+    "lng": 15.18314,
+    "confidence": 9,
+    "formatted": "Bogøya, Steigen, Nordland, Norway"
+  },
+  "Sørværveien 2, 8095 Helligvær, Norway": {
+    "lat": 67.406431,
+    "lng": 13.902653,
+    "confidence": 10,
+    "formatted": "Sørværveien 2, 8095 Helligvær, Norway"
+  },
+  "Prinsens Gate 148 A, 8003 Bodø, Norway": {
+    "lat": 67.2835247,
+    "lng": 14.3930645,
+    "confidence": 10,
+    "formatted": "Prinsens gate 148A, 8005 Bodø, Norway"
+  },
+  "Styrkesnes, 8264 Engan, Norway": {
+    "lat": 67.5833,
+    "lng": 15.8167,
+    "confidence": 7,
+    "formatted": "8264 Troms, Norway"
+  },
+  "Arnøyveien 1, 8135 Sørarnøy, Norway": {
+    "lat": 67.137514,
+    "lng": 13.979527,
+    "confidence": 10,
+    "formatted": "Arnøyveien 1, 8135 Sørarnøy, Norway"
+  },
+  "Slenesveien 3, 8762 Sleneset, Norway": {
+    "lat": 66.361666,
+    "lng": 12.610944,
+    "confidence": 10,
+    "formatted": "Slenesveien 3, 8762 Sleneset, Norway"
+  },
+  "Postboks 13, 8193 Rødøy, Norway": {
+    "lat": 66.6640608,
+    "lng": 13.06153,
+    "confidence": 7,
+    "formatted": "8193 Rødøy, Norway"
+  },
+  "Napp, 8382 Napp, Norway": {
+    "lat": 68.132168,
+    "lng": 13.42825,
+    "confidence": 9,
+    "formatted": "Napp, Flakstadveien, 8382 Napp, Norway"
+  },
+  "Stongveien 18, 8742 Selvær, Norway": {
+    "lat": 66.5868286,
+    "lng": 12.2310434,
+    "confidence": 9,
+    "formatted": "Stongveien, 8742 Selvær, Norway"
+  },
+  "nan, 8198 Nordnesøy, Norway": {
+    "lat": 66.5903416,
+    "lng": 12.6493339,
+    "confidence": 9,
+    "formatted": "Nordnesøy kapell, Nesøyveien, 8198 Nordnesøy, Norway"
+  },
+  "Lyngvågen, 8195 Gjerøy, Norway": {
+    "lat": 66.61667,
+    "lng": 13.03333,
+    "confidence": 9,
+    "formatted": "Gjerdøya, Rødøy, Nordland, Norway"
+  },
+  "Kvina, 8752 Konsvikosen, Norway": {
+    "lat": 66.5,
+    "lng": 13.1,
+    "confidence": 7,
+    "formatted": "8752 Troms, Norway"
+  },
+  "Aldersundveien 404, 8730 Bratland, Norway": {
+    "lat": 66.4113784,
+    "lng": 13.1585352,
+    "confidence": 9,
+    "formatted": "Aldersundveien, 8730 Bratland, Norway"
+  },
+  "nan, 8743 Indre Kvarøy, Norway": {
+    "lat": 66.4883903,
+    "lng": 12.9608765,
+    "confidence": 7,
+    "formatted": "Innerkvarøy, 8743 Indre, Norway"
+  },
+  "Galtneset, 8770 Træna, Norway": {
+    "lat": 66.5031092,
+    "lng": 12.0999926,
+    "confidence": 9,
+    "formatted": "Galtneset, 8770 Træna, Norway"
+  },
+  "nan, 8764 Lovund, Norway": {
+    "lat": 66.3689944,
+    "lng": 12.3643502,
+    "confidence": 7,
+    "formatted": "8764 Lovund, Norway"
+  },
+  "Sæterstad, 8695 Hattfjelldal, Norway": {
+    "lat": 65.799175,
+    "lng": 14.2328444,
+    "confidence": 8,
+    "formatted": "Sæterstad, Hattfjelldal, Nordland, Norway"
+  },
+  "Vågstranda 64, 8063 Værøy, Norway": {
+    "lat": 67.6648665,
+    "lng": 12.7073239,
+    "confidence": 10,
+    "formatted": "Vågstranda 64, 8063 Værøy, Norway"
+  },
+  "nan, 8642 Finneidsfjord, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Hølaveien 48, 8820 Dønna, Norway": {
+    "lat": 66.0850393,
+    "lng": 12.4487096,
+    "confidence": 10,
+    "formatted": "Hølaveien 48, 8820 Dønna, Norway"
+  },
+  "Seløy, 8850 Herøy, Norway": {
+    "lat": 66.027322,
+    "lng": 12.223271,
+    "confidence": 9,
+    "formatted": "Seløy, Yttersidveien, 8845 Herøy, Norway"
+  },
+  "nan, 8158 Bolga, Norway": {
+    "lat": 66.8049903,
+    "lng": 13.2342345,
+    "confidence": 7,
+    "formatted": "8158 Bolga, Norway"
+  },
+  "Øksningsveien 43, 8850 Herøy, Norway": {
+    "lat": 65.999888,
+    "lng": 12.269431,
+    "confidence": 10,
+    "formatted": "Øksningsveien 43, 8850 Herøy, Norway"
+  },
+  "Hongsetveien 106, 8960 Velfjord, Norway": {
+    "lat": 65.339783,
+    "lng": 12.511025,
+    "confidence": 10,
+    "formatted": "Hongsetveien 106, 8960 Velfjord, Norway"
+  },
+  "Haukenesveien 45, 7982 Bindalseidet, Norway": {
+    "lat": 65.1153757,
+    "lng": 12.0051359,
+    "confidence": 10,
+    "formatted": "Haukenesveien 45, 7982 Bindalseidet, Norway"
+  },
+  "Kvitnes, 8414 Hennes, Norway": {
+    "lat": 68.5333,
+    "lng": 15.2167,
+    "confidence": 7,
+    "formatted": "8414 Troms, Norway"
+  },
+  "Igerøy, 8980 Vega, Norway": {
+    "lat": 65.6829417,
+    "lng": 12.1257028,
+    "confidence": 7,
+    "formatted": "Igerøy, Nordland, Norway"
+  },
+  "Kjeldal 95, 8170 Engavågen, Norway": {
+    "lat": 66.766777,
+    "lng": 13.66772,
+    "confidence": 10,
+    "formatted": "Kjeldal 95, 8170 Engavågen, Norway"
+  },
+  "Skogmo 9, 8178 Halsa, Norway": {
+    "lat": 66.742528,
+    "lng": 13.573694,
+    "confidence": 10,
+    "formatted": "Skogmo 9, 8178 Halsa, Norway"
+  },
+  "Nyveien 23, 8149 Neverdal, Norway": {
+    "lat": 66.847777,
+    "lng": 13.745341,
+    "confidence": 10,
+    "formatted": "Nyveien 23, 8149 Neverdal, Norway"
+  },
+  "Vikran 11, 8198 Nordnesøy, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Bergvn. 69, 8520 Ankenesstrand, Norway": {
+    "lat": 68.4167,
+    "lng": 17.3833,
+    "confidence": 7,
+    "formatted": "8520 Troms, Norway"
+  },
+  "Fleinvær, 8094 Fleinvær, Norway": {
+    "lat": 67.1710376,
+    "lng": 13.7752422,
+    "confidence": 9,
+    "formatted": "Mevær hurtigbåtkai Fleinvær, Mevær, 8094 Fleinvær, Norway"
+  },
+  "nan, 8750 Tonnes, Norway": {
+    "lat": 66.5137635,
+    "lng": 13.0143189,
+    "confidence": 7,
+    "formatted": "8750 Tonnes, Norway"
+  },
+  "O.T. Olsens Vei 2 D, 8690 Hattfjelldal, Norway": {
+    "lat": 65.596719,
+    "lng": 13.989446,
+    "confidence": 10,
+    "formatted": "O.T. Olsens vei 2D, 8692 Aarborte - Hattfjelldal, Norway"
+  },
+  "Håvard Reløy, 8766 Lurøy, Norway": {
+    "lat": 66.4189,
+    "lng": 12.8425,
+    "confidence": 7,
+    "formatted": "8766 Troms, Norway"
+  },
+  "Onøy, 8766 Lurøy, Norway": {
+    "lat": 66.3952571,
+    "lng": 12.8450783,
+    "confidence": 8,
+    "formatted": "Onøyveien, 8766 Lurøy, Norway"
+  },
+  "Drag, 8270 Drag, Norway": {
+    "lat": 68.0494815,
+    "lng": 16.0574839,
+    "confidence": 8,
+    "formatted": "Drag, 8270 Drag, Norway"
+  },
+  "Breivik, 8186 Tjongsfjorden, Norway": {
+    "lat": 66.6833,
+    "lng": 13.4667,
+    "confidence": 7,
+    "formatted": "8186 Troms, Norway"
+  },
+  "Sunset, 8185 Vågaholmen, Norway": {
+    "lat": 66.7137,
+    "lng": 13.2871,
+    "confidence": 7,
+    "formatted": "8185 Troms, Norway"
+  },
+  "nan, 8187 Jektvik, Norway": {
+    "lat": 66.6258352,
+    "lng": 13.2918532,
+    "confidence": 7,
+    "formatted": "8187 Jektvik, Norway"
+  },
+  "Fryseriet, 7900 Rørvik, Norway": {
+    "lat": 64.9162,
+    "lng": 10.9387,
+    "confidence": 7,
+    "formatted": "7900 Telemark, Norway"
+  },
+  "Inndyr 455, 8140 Inndyr, Norway": {
+    "lat": 67.0390457,
+    "lng": 14.0373504,
+    "confidence": 9,
+    "formatted": "Inndyrveien, 8140 Inndyr, Norway"
+  },
+  "nan, 8732 Aldra, Norway": {
+    "lat": 66.401041,
+    "lng": 13.1153457,
+    "confidence": 7,
+    "formatted": "Aldra, 8732 Aldra, Norway"
+  },
+  "Flostrandveien 342, 8725 Utskarpen, Norway": {
+    "lat": 66.3453535,
+    "lng": 13.4588652,
+    "confidence": 10,
+    "formatted": "Flostrandveien 342, 8725 Utskarpen, Norway"
+  },
+  "Selhaugveien 6, 8093 Kjerringøy, Norway": {
+    "lat": 67.5167,
+    "lng": 14.7667,
+    "confidence": 7,
+    "formatted": "8093 Troms, Norway"
+  },
+  "Sperstadveien 152, 8187 Jektvik, Norway": {
+    "lat": 66.47346,
+    "lng": 13.28009,
+    "confidence": 9,
+    "formatted": "Rødøy, Nordland, Norway"
+  },
+  "Mærvollveien 75, 8360 Bøstad, Norway": {
+    "lat": 68.249631,
+    "lng": 13.627765,
+    "confidence": 10,
+    "formatted": "Mærvollveien 75, 8360 Bøstad, Norway"
+  },
+  "Losbakken 1, 8320 Skrova, Norway": {
+    "lat": 68.1669984,
+    "lng": 14.6599511,
+    "confidence": 10,
+    "formatted": "Losbakken 1, 8320 Skrova, Norway"
+  },
+  "Mellomveien 13, 8430 Myre, Norway": {
+    "lat": 68.9176597,
+    "lng": 15.0978732,
+    "confidence": 10,
+    "formatted": "Mellomveien 13, 8430 Myre, Norway"
+  },
+  "Sperstadveien 34, 8187 Jektvik, Norway": {
+    "lat": 66.47346,
+    "lng": 13.28009,
+    "confidence": 9,
+    "formatted": "Rødøy, Nordland, Norway"
+  },
+  "Dreyers Gate 17, 8312 Henningsvær, Norway": {
+    "lat": 68.1542252,
+    "lng": 14.2034688,
+    "confidence": 10,
+    "formatted": "Dreyers gate 17, 8312 Henningsvær, Norway"
+  },
+  "Havnegaten 1, 8430 Myre, Norway": {
+    "lat": 68.9152,
+    "lng": 15.0716,
+    "confidence": 7,
+    "formatted": "8430 Troms, Norway"
+  },
+  "Bogøyveien 153, 8288 Bogøy, Norway": {
+    "lat": 67.90108,
+    "lng": 15.187016,
+    "confidence": 10,
+    "formatted": "Bogøyveien 153, 8288 Bogøy, Norway"
+  },
+  "Hestøysundet 35, 8135 Sørarnøy, Norway": {
+    "lat": 67.130773,
+    "lng": 13.961576,
+    "confidence": 10,
+    "formatted": "Hestøysundet 35, 8135 Sørarnøy, Norway"
+  },
+  "Strandveien 30, 8904 Brønnøysund, Norway": {
+    "lat": 65.4705231,
+    "lng": 12.2021987,
+    "confidence": 10,
+    "formatted": "Strandveien 30, 8904 Brønnøysund, Norway"
+  },
+  "Dreyfushammarn 30, 8012 Bodø, Norway": {
+    "lat": 67.2950767,
+    "lng": 14.4030737,
+    "confidence": 10,
+    "formatted": "Dreyfushammarn 30, 8012 Bodø, Norway"
+  },
+  "Igerøy, 8986 Vega, Norway": {
+    "lat": 65.6829417,
+    "lng": 12.1257028,
+    "confidence": 7,
+    "formatted": "Igerøy, Nordland, Norway"
+  },
+  "Steinesjøveien 73, 8470 Bø I Vesterålen, Norway": {
+    "lat": 68.60615,
+    "lng": 14.4587847,
+    "confidence": 10,
+    "formatted": "Steinesjøveien 73, 8470 Bø, Norway"
+  },
+  "Vestre Beiarveien 1042, 8114 Tollå, Norway": {
+    "lat": 66.921635,
+    "lng": 14.772648,
+    "confidence": 10,
+    "formatted": "Vestre Beiarveien 1042, 8114 Tollå, Norway"
+  },
+  "Mærvollveien 187, 8360 Bøstad, Norway": {
+    "lat": 68.246925,
+    "lng": 13.603475,
+    "confidence": 10,
+    "formatted": "Mærvollveien 187, 8360 Bøstad, Norway"
+  },
+  "Oddaveien 22, 8762 Sleneset, Norway": {
+    "lat": 66.366827,
+    "lng": 12.591021,
+    "confidence": 10,
+    "formatted": "Oddaveien 22, 8762 Sleneset, Norway"
+  },
+  "Straumen 23, 8762 Sleneset, Norway": {
+    "lat": 66.360035,
+    "lng": 12.601736,
+    "confidence": 10,
+    "formatted": "Straumen 23, 8762 Sleneset, Norway"
+  },
+  "Steinslandsveien 100, 8754 Øresvik, Norway": {
+    "lat": 66.501254,
+    "lng": 13.210728,
+    "confidence": 10,
+    "formatted": "Steinslandsveien 100, 8754 Øresvik, Norway"
+  },
+  "Steinslandsveien 13, 8754 Øresvik, Norway": {
+    "lat": 66.488538,
+    "lng": 13.220202,
+    "confidence": 10,
+    "formatted": "Steinslandsveien 13, 8754 Øresvik, Norway"
+  },
+  "Foreveien 135, 8146 Reipå, Norway": {
+    "lat": 66.909175,
+    "lng": 13.605938,
+    "confidence": 10,
+    "formatted": "Foreveien 135, 8146 Reipå, Norway"
+  },
+  "Lilandveien 20, 8407 Sortland, Norway": {
+    "lat": 68.735538,
+    "lng": 15.51914,
+    "confidence": 10,
+    "formatted": "Lilandveien 20, 8407 Sortland, Norway"
+  },
+  "Flakstadveien 487, 8380 Ramberg, Norway": {
+    "lat": 68.0875498,
+    "lng": 13.2280873,
+    "confidence": 10,
+    "formatted": "Flakstadveien 487, 8380 Ramberg, Norway"
+  },
+  "Sommarøy, 8430 Myre, Norway": {
+    "lat": 68.9055138,
+    "lng": 15.0628639,
+    "confidence": 8,
+    "formatted": "8430 Myre, Norway"
+  },
+  "Hellandsgata 77, 8312 Henningsvær, Norway": {
+    "lat": 68.1546685,
+    "lng": 14.2083784,
+    "confidence": 10,
+    "formatted": "Hellandsgata 77, 8312 Henningsvær, Norway"
+  },
+  "Kloneset 35a, 8430 Myre, Norway": {
+    "lat": 68.977493,
+    "lng": 15.187735,
+    "confidence": 10,
+    "formatted": "Kloneset 35A, 8430 Myre, Norway"
+  },
+  "Nymo Gård, 8647 Bleikvasslia, Norway": {
+    "lat": 65.9,
+    "lng": 13.8167,
+    "confidence": 7,
+    "formatted": "8647 Troms, Norway"
+  },
+  "Hamnegt 87, 8480 Andenes, Norway": {
+    "lat": 69.3143,
+    "lng": 16.1194,
+    "confidence": 7,
+    "formatted": "8480 Troms, Norway"
+  },
+  "Steinslandsveien 6, 8754 Øresvik, Norway": {
+    "lat": 66.48795,
+    "lng": 13.223008,
+    "confidence": 10,
+    "formatted": "Steinslandsveien 6, 8754 Øresvik, Norway"
+  },
+  "Trålveien 6, 8013 Bodø, Norway": {
+    "lat": 67.2728759,
+    "lng": 14.4553817,
+    "confidence": 10,
+    "formatted": "Trålveien 6, 8013 Bodø, Norway"
+  },
+  "Flottingveien 26, 8770 Træna, Norway": {
+    "lat": 66.495018,
+    "lng": 12.087767,
+    "confidence": 10,
+    "formatted": "Fløttingveien 26, 8770 Træna, Norway"
+  },
+  "Havnekvartalet 4, 8370 Leknes, Norway": {
+    "lat": 68.130532,
+    "lng": 13.573647,
+    "confidence": 10,
+    "formatted": "Havnekvartalet 4, 8370 Leknes, Norway"
+  },
+  "Osbakken 10, 8145 Storvik, Norway": {
+    "lat": 66.963553,
+    "lng": 13.814488,
+    "confidence": 10,
+    "formatted": "Osbakken 10, 8145 Storvik, Norway"
+  },
+  "Gamle Skutvik Vei 36, 8290 Skutvik, Norway": {
+    "lat": 68.015895,
+    "lng": 15.337587,
+    "confidence": 10,
+    "formatted": "Gamle Skutvik vei 36, 8290 Skutvik, Norway"
+  },
+  "Skolbakken 2, 8752 Konsvikosen, Norway": {
+    "lat": 66.498983,
+    "lng": 13.091473,
+    "confidence": 10,
+    "formatted": "Skolbakken 2, 8752 Konsvikosen, Norway"
+  },
+  "Naustholmveien 13, 8764 Lovund, Norway": {
+    "lat": 66.367439,
+    "lng": 12.377492,
+    "confidence": 10,
+    "formatted": "Naustholmveien 13, 8764 Lovund, Norway"
+  },
+  "Gleaveien 11a, 8064 Røst, Norway": {
+    "lat": 67.505883,
+    "lng": 12.069739,
+    "confidence": 10,
+    "formatted": "Gleaveien 11A, 8064 Røst, Norway"
+  },
+  "J.M.Johansens Vei 19, 8340 Stamsund, Norway": {
+    "lat": 68.122022,
+    "lng": 13.845108,
+    "confidence": 10,
+    "formatted": "J.M. Johansens vei 19, 8340 Stamsund, Norway"
+  },
+  "nan, 8289 Engeløya, Norway": {
+    "lat": 67.9638139,
+    "lng": 15.0319408,
+    "confidence": 7,
+    "formatted": "Bø, Nordland, Norway"
+  },
+  "nan, 7993 Gutvik, Norway": {
+    "lat": 65.0835525,
+    "lng": 11.8351851,
+    "confidence": 7,
+    "formatted": "7993 Gutvik, Norway"
+  },
+  "Avd. Vandsøya Postboks 213, 7901 Rørvik, Norway": {
+    "lat": 64.8621,
+    "lng": 11.2373,
+    "confidence": 7,
+    "formatted": "7901 Telemark, Norway"
+  },
+  "Marøyvegen 110, 7900 Rørvik, Norway": {
+    "lat": 64.854023,
+    "lng": 11.247196,
+    "confidence": 10,
+    "formatted": "Marøyvegen 110, 7900 Rørvik, Norway"
+  },
+  "Nyvegen 62, 7900 Rørvik, Norway": {
+    "lat": 64.8533089,
+    "lng": 11.2179938,
+    "confidence": 10,
+    "formatted": "Nyvegen 62, 7900 Rørvik, Norway"
+  },
+  "Havnegata 16, 7800 Namsos, Norway": {
+    "lat": 64.4669072,
+    "lng": 11.4943847,
+    "confidence": 10,
+    "formatted": "Havnegata 16, 7800 Namsos, Norway"
+  },
+  "Smibekkv.2, 7717 Steinkjer, Norway": {
+    "lat": 64.0819,
+    "lng": 11.6392,
+    "confidence": 7,
+    "formatted": "7717 Telemark, Norway"
+  },
+  "Lauvøyvågveien 11, 7900 Rørvik, Norway": {
+    "lat": 64.9199194,
+    "lng": 11.3162861,
+    "confidence": 10,
+    "formatted": "Lauvøyvågveien 11, 7900 Rørvik, Norway"
+  },
+  "Sundsøya 20, 7670 Inderøy, Norway": {
+    "lat": 63.8660689,
+    "lng": 11.303449,
+    "confidence": 10,
+    "formatted": "Sundsøya 20, 7670 Inderøy, Norway"
+  },
+  "Skorstadvegen 558, 7819 Fosslandsosen, Norway": {
+    "lat": 64.5804466,
+    "lng": 11.1884526,
+    "confidence": 10,
+    "formatted": "Skorstadvegen 558, 7819 Fosslandsosen, Norway"
+  },
+  "Akershusstranda 23, 150.0 Oslo, Norway": {
+    "lat": 59.902974,
+    "lng": 10.740326,
+    "confidence": 10,
+    "formatted": "Akershusstranda 23, 0150 Oslo, Norway"
+  },
+  "Stanseveien 33, 976.0 Oslo, Norway": {
+    "lat": 59.950352,
+    "lng": 10.884123,
+    "confidence": 10,
+    "formatted": "Stanseveien 33, 0976 Oslo, Norway"
+  },
+  "Peter Møllers Vei 13, 585.0 Oslo, Norway": {
+    "lat": 59.931983,
+    "lng": 10.794692,
+    "confidence": 10,
+    "formatted": "Peter Møllers vei 13, 0585 Oslo, Norway"
+  },
+  "Akerhusstranda 1, 150.0 Oslo, Norway": {
+    "lat": 59.91273,
+    "lng": 10.74609,
+    "confidence": 3,
+    "formatted": "Oslo, Oslo County, Norway"
+  },
+  "Sven Oftedalsvei 10, 950.0 Oslo, Norway": {
+    "lat": 59.943478,
+    "lng": 10.85795,
+    "confidence": 10,
+    "formatted": "Sven Oftedals vei 10, 0950 Oslo, Norway"
+  },
+  "Vestjordet 14, 1361 Østerås, Norway": {
+    "lat": 59.946291,
+    "lng": 10.610276,
+    "confidence": 10,
+    "formatted": "Vestjordet 14, 1361 Østerås, Norway"
+  },
+  "Damsletta 7, 2827 Hunndalen, Norway": {
+    "lat": 60.776495,
+    "lng": 10.6391121,
+    "confidence": 10,
+    "formatted": "Damsletta 7, 2827 Hunndalen, Norway"
+  },
+  "Jakup B. Klukstads Veg 16, 2665 Lesja, Norway": {
+    "lat": 62.1182183,
+    "lng": 8.8659472,
+    "confidence": 10,
+    "formatted": "Jakup B. Klukstads veg 16, 2665 Lesja, Norway"
+  },
+  "Husøyvegen 278, 4262 Avaldsnes, Norway": {
+    "lat": 59.336505,
+    "lng": 5.303551,
+    "confidence": 10,
+    "formatted": "Husøyvegen 278, 4262 Avaldsnes, Norway"
+  },
+  "Husøyvegen 283, 4262 Avaldsnes, Norway": {
+    "lat": 59.3441759,
+    "lng": 5.2834811,
+    "confidence": 9,
+    "formatted": "Husøyvegen, 4262 Avaldsnes, Norway"
+  },
+  "Hundsnesveien 151, 4130 Hjelmeland, Norway": {
+    "lat": 59.2205162,
+    "lng": 6.121088,
+    "confidence": 10,
+    "formatted": "Hundsnesvegen 151, 4130 Hjelmeland, Norway"
+  },
+  "Kleivastø 15, 5538 Haugesund, Norway": {
+    "lat": 59.3899099,
+    "lng": 5.2928803,
+    "confidence": 10,
+    "formatted": "Kleivastø 15, 5538 Haugesund, Norway"
+  },
+  "Tangen 6, 4072 Randaberg, Norway": {
+    "lat": 58.9996533,
+    "lng": 5.6570151,
+    "confidence": 10,
+    "formatted": "Tangen 6, 4072 Randaberg, Norway"
+  },
+  "Sveholmvegen 10, 4275 Sævelandsvik, Norway": {
+    "lat": 59.269448,
+    "lng": 5.191804,
+    "confidence": 10,
+    "formatted": "Sveholmvegen 10, 4275 Sævelandsvik, Norway"
+  },
+  "Yrkje, 5567 Skjoldastraumen, Norway": {
+    "lat": 59.4333,
+    "lng": 5.6167,
+    "confidence": 7,
+    "formatted": "5567 Oppland, Norway"
+  },
+  "Husøyvegen 163c, 4262 Avaldsnes, Norway": {
+    "lat": 59.341013,
+    "lng": 5.292205,
+    "confidence": 10,
+    "formatted": "Husøyvegen 163C, 4262 Avaldsnes, Norway"
+  },
+  "Husøyvegen 265, 4262 Avaldsnes, Norway": {
+    "lat": 59.337933,
+    "lng": 5.3010509,
+    "confidence": 10,
+    "formatted": "Husøyvegen 265, 4262 Avaldsnes, Norway"
+  },
+  "Husøyvegen 228, 4262 Avaldsnes, Norway": {
+    "lat": 59.341766,
+    "lng": 5.302053,
+    "confidence": 10,
+    "formatted": "Husøyvegen 228, 4262 Avaldsnes, Norway"
+  },
+  "Kaigata 102, 4280 Skudeneshavn, Norway": {
+    "lat": 59.146135,
+    "lng": 5.268121,
+    "confidence": 10,
+    "formatted": "Kaigata 102, 4280 Skudeneshavn, Norway"
+  },
+  "Daleveien 47, 4150 Rennesøy, Norway": {
+    "lat": 59.0954983,
+    "lng": 5.7022536,
+    "confidence": 10,
+    "formatted": "Daleveien 47, 4150 Rennesøy, Norway"
+  },
+  "Jøsnesvegen 142, 4146 Skiftun, Norway": {
+    "lat": 59.274779,
+    "lng": 6.1532592,
+    "confidence": 10,
+    "formatted": "Jøsnesvegen 142, 4146 Skiftun, Norway"
+  },
+  "Kilavågen, 4233 Erfjord, Norway": {
+    "lat": 59.35,
+    "lng": 6.2167,
+    "confidence": 7,
+    "formatted": "4233 Oppland, Norway"
+  },
+  "V/Tor Bernhard Harestad, 4158 Bru, Norway": {
+    "lat": 59.0333,
+    "lng": 5.65,
+    "confidence": 7,
+    "formatted": "4158 Oppland, Norway"
+  },
+  "Hundsnesvegen 151, 4130 Hjelmeland, Norway": {
+    "lat": 59.2205162,
+    "lng": 6.121088,
+    "confidence": 10,
+    "formatted": "Hundsnesvegen 151, 4130 Hjelmeland, Norway"
+  },
+  "Mekjarvik 20, 4072 Randaberg, Norway": {
+    "lat": 59.021824,
+    "lng": 5.614405,
+    "confidence": 10,
+    "formatted": "Mekjarvik 20, 4072 Randaberg, Norway"
+  },
+  "Sjernarøyvegen 22, 4170 Sjernarøy, Norway": {
+    "lat": 59.226975,
+    "lng": 5.851814,
+    "confidence": 10,
+    "formatted": "Sjernarøyvegen 22, 4170 Sjernarøy, Norway"
+  },
+  "Vågen 42, 4364 Sirevåg, Norway": {
+    "lat": 58.5044457,
+    "lng": 5.7964118,
+    "confidence": 10,
+    "formatted": "Vågen 42, 4364 Sirevåg, Norway"
+  },
+  "Oddane 2, 4364 Sirevåg, Norway": {
+    "lat": 58.505497,
+    "lng": 5.793044,
+    "confidence": 10,
+    "formatted": "Oddane 2, 4364 Sirevåg, Norway"
+  },
+  "Lindøyveien 92, 4373 Egersund, Norway": {
+    "lat": 58.4526413,
+    "lng": 5.9964543,
+    "confidence": 10,
+    "formatted": "Lindøyveien 92, 4373 Egersund, Norway"
+  },
+  "Skadberg, 4370 Egersund, Norway": {
+    "lat": 58.4513377,
+    "lng": 6.0027749,
+    "confidence": 9,
+    "formatted": "Fargerike Skadberg Hansen, Arenessmauet, 4370 Egersund, Norway"
+  },
+  "Kaupanes, 4374 Egersund, Norway": {
+    "lat": 58.4418119,
+    "lng": 5.9774719,
+    "confidence": 9,
+    "formatted": "Kaupanesveien, 4371 Egersund, Norway"
+  },
+  "Slettestrandveien 15, 4032 Stavanger, Norway": {
+    "lat": 58.89698,
+    "lng": 5.746878,
+    "confidence": 10,
+    "formatted": "Slettestrandveien 15, 4032 Stavanger, Norway"
+  },
+  "Djuphodl 2, 4360 Varhaug, Norway": {
+    "lat": 58.6140982,
+    "lng": 5.6499077,
+    "confidence": 10,
+    "formatted": "Djuphodl 2, 4360 Varhaug, Norway"
+  },
+  "Varabergmyra 2, 4050 Sola, Norway": {
+    "lat": 58.8777969,
+    "lng": 5.6688947,
+    "confidence": 10,
+    "formatted": "Varabergmyra 2, 4051 Sola, Norway"
+  },
+  "Iris, Professor Olav Hanssens Vei 15,, 4021 Stavanger, Norway": {
+    "lat": 58.9701,
+    "lng": 5.7333,
+    "confidence": 7,
+    "formatted": "4021 Oppland, Norway"
+  },
+  "Svadbergvegen 41, 4137 Årdal I Ryfylke, Norway": {
+    "lat": 59.1454438,
+    "lng": 6.1701689,
+    "confidence": 10,
+    "formatted": "Svadbergvegen 41, 4137 Årdal, Norway"
+  },
+  "Skasvegen 160 (V/Driftsbygning, 4354 Voll, Norway": {
+    "lat": 58.8,
+    "lng": 5.6167,
+    "confidence": 7,
+    "formatted": "4354 Oppland, Norway"
+  },
+  "Hovlandsveien 64, 4374 Egersund, Norway": {
+    "lat": 58.43854,
+    "lng": 5.978238,
+    "confidence": 10,
+    "formatted": "Hovlandsveien 64, 4374 Egersund, Norway"
+  },
+  "Jøsenvågen 44, 5561 Bokn, Norway": {
+    "lat": 59.1764653,
+    "lng": 5.3909949,
+    "confidence": 10,
+    "formatted": "Jøsenvågen 44, 5561 Bokn, Norway"
+  },
+  "Kaien 11, 4250 Kopervik, Norway": {
+    "lat": 59.2843891,
+    "lng": 5.3122972,
+    "confidence": 10,
+    "formatted": "Kaien 11, 4250 Kopervik, Norway"
+  },
+  "nan, 4180 Kvitsøy, Norway": {
+    "lat": 59.0624747,
+    "lng": 5.4104361,
+    "confidence": 7,
+    "formatted": "4180 Kvitsøy, Norway"
+  },
+  "Austre Ombovegen 275, 4187 Ombo, Norway": {
+    "lat": 59.2730203,
+    "lng": 6.0987384,
+    "confidence": 10,
+    "formatted": "Austre Ombovegen 275, 4187 Ombo, Norway"
+  },
+  "Årabrotholmen 13, 4270 Åkrehamn, Norway": {
+    "lat": 59.2554826,
+    "lng": 5.1791718,
+    "confidence": 10,
+    "formatted": "Årabrotholmen 13, 4270 Åkrehamn, Norway"
+  },
+  "Husøyvegen 141, 4262 Avaldsnes, Norway": {
+    "lat": 59.3379334,
+    "lng": 5.2915844,
+    "confidence": 10,
+    "formatted": "Husøyvegen 141, 4262 Avaldsnes, Norway"
+  },
+  "Postboks 24, 6750 Stadlandet, Norway": {
+    "lat": 62.1019744,
+    "lng": 5.3068003,
+    "confidence": 8,
+    "formatted": "Stadlandet, 6750 Stadlandet, Norway"
+  },
+  "Seljevegen 2815, 6740 Selje, Norway": {
+    "lat": 62.024694,
+    "lng": 5.370162,
+    "confidence": 10,
+    "formatted": "Seljevegen 2815, 6740 Selje, Norway"
+  },
+  "Nedrevegen 158, 6710 Raudeberg, Norway": {
+    "lat": 61.985724,
+    "lng": 5.142376,
+    "confidence": 10,
+    "formatted": "Nedrevegen 158, 6710 Raudeberg, Norway"
+  },
+  "Ulvesundvegen 85, 6718 Deknepollen, Norway": {
+    "lat": 61.937447,
+    "lng": 5.136286,
+    "confidence": 10,
+    "formatted": "Ulvesundvegen 85, 6718 Deknepollen, Norway"
+  },
+  "nan, 6701 Måløy, Norway": {
+    "lat": 61.9336888,
+    "lng": 5.1129133,
+    "confidence": 7,
+    "formatted": "6700 Måløy, Norway"
+  },
+  "Kalvøyna 10, 6729 Kalvåg, Norway": {
+    "lat": 61.76482,
+    "lng": 4.878818,
+    "confidence": 10,
+    "formatted": "Kalvøyna 10, 6729 Kalvåg, Norway"
+  },
+  "Skjær, Sogndal, 6879 Solvorn, Norway": {
+    "lat": 61.3,
+    "lng": 7.25,
+    "confidence": 7,
+    "formatted": "6879 Rogaland, Norway"
+  },
+  "Hamregt 1, 6900 Florø, Norway": {
+    "lat": 61.5996,
+    "lng": 5.0328,
+    "confidence": 7,
+    "formatted": "6900 Rogaland, Norway"
+  },
+  "Kyllervegen 4, 6906 Florø, Norway": {
+    "lat": 61.5855691,
+    "lng": 4.9995227,
+    "confidence": 10,
+    "formatted": "Kyllervegen 4, 6906 Florø, Norway"
+  },
+  "Byrknesøy, 5970 Byrknesøy, Norway": {
+    "lat": 60.900534,
+    "lng": 4.8386438,
+    "confidence": 9,
+    "formatted": "Byrknesøy kapell, Svanholmvegen, 5970 Byrknesøy, Norway"
+  },
+  "Hellersøyvegen 88, 6987 Bulandet, Norway": {
+    "lat": 61.284985,
+    "lng": 4.634264,
+    "confidence": 10,
+    "formatted": "Hellersøyvegen 88, 6987 Bulandet, Norway"
+  },
+  "Kalvøyna 75, 5970 Byrknesøy, Norway": {
+    "lat": 60.8935144,
+    "lng": 4.8377925,
+    "confidence": 10,
+    "formatted": "Kalvøyna 75, 5970 Byrknesøy, Norway"
+  },
+  "Sognefjordvegen 47, 5961 Brekke, Norway": {
+    "lat": 60.9869852,
+    "lng": 5.4832159,
+    "confidence": 10,
+    "formatted": "Sognefjordvegen 47, 5961 Brekke, Norway"
+  },
+  "nan, 6843 Skei I Jølster, Norway": {
+    "lat": 61.5714843,
+    "lng": 6.4791646,
+    "confidence": 7,
+    "formatted": "6843 Skei, Norway"
+  },
+  "nan, 6914 Svanøybukt, Norway": {
+    "lat": 61.497692,
+    "lng": 5.1288451,
+    "confidence": 7,
+    "formatted": "Svanøybukt, 6914 Svanøybukt, Norway"
+  },
+  "Øyna 41, 6700 Måløy, Norway": {
+    "lat": 61.9299616,
+    "lng": 5.1197425,
+    "confidence": 10,
+    "formatted": "Øyna 41, 6700 Måløy, Norway"
+  },
+  "Nikøy, 6987 Bulandet, Norway": {
+    "lat": 61.2862347,
+    "lng": 4.6311892,
+    "confidence": 7,
+    "formatted": "Nikøy, 6987 Bulandet, Norway"
+  },
+  "Kalvøyna 8, 6729 Kalvåg, Norway": {
+    "lat": 61.764916,
+    "lng": 4.878329,
+    "confidence": 10,
+    "formatted": "Kalvøyna 8, 6729 Kalvåg, Norway"
+  },
+  "nan, 6718 Deknepollen, Norway": {
+    "lat": 61.9254656,
+    "lng": 5.1471649,
+    "confidence": 8,
+    "formatted": "6718 Deknepollen, Norway"
+  },
+  "Einarsdal Havn 11, 7194 Brandsfjord, Norway": {
+    "lat": 64.1781789,
+    "lng": 10.3548836,
+    "confidence": 10,
+    "formatted": "Einarsdal havn 11, 7194 Brandsfjord, Norway"
+  },
+  "Kråkøyveien 59, 7180 Roan, Norway": {
+    "lat": 64.1483283,
+    "lng": 10.1576697,
+    "confidence": 10,
+    "formatted": "Kråkøyveien 59, 7180 Roan, Norway"
+  },
+  "Austdalsveien 258, 7170 Åfjord, Norway": {
+    "lat": 63.9372896,
+    "lng": 10.2210578,
+    "confidence": 10,
+    "formatted": "Austdalsveien 258, 7170 Åfjord, Norway"
+  },
+  "Havneveien 1, 7142 Uthaug, Norway": {
+    "lat": 63.7282852,
+    "lng": 9.5892757,
+    "confidence": 10,
+    "formatted": "Havneveien 1, 7142 Uthaug, Norway"
+  },
+  "Nordnesveien 39, 7167 Vallersund, Norway": {
+    "lat": 63.8591853,
+    "lng": 9.7329712,
+    "confidence": 10,
+    "formatted": "Nordnesveien 39, 7167 Vallersund, Norway"
+  },
+  "nan, 7167 Vallersund, Norway": {
+    "lat": 63.8617323,
+    "lng": 9.7483636,
+    "confidence": 8,
+    "formatted": "Drilen, 7167 Vallersund, Norway"
+  },
+  "Havneveien, 7142 Uthaug, Norway": {
+    "lat": 63.7243891,
+    "lng": 9.5894654,
+    "confidence": 9,
+    "formatted": "Havneveien, 7142 Uthaug, Norway"
+  },
+  "Havneveien 55, 7142 Uthaug, Norway": {
+    "lat": 63.724517,
+    "lng": 9.586846,
+    "confidence": 10,
+    "formatted": "Havneveien 55, 7142 Uthaug, Norway"
+  },
+  "Kråkvåg, 7152 Kråkvåg, Norway": {
+    "lat": 63.6415906,
+    "lng": 9.335312,
+    "confidence": 9,
+    "formatted": "Kråkvågveien, 7152 Kråkvåg, Norway"
+  },
+  "Kvithyllveien 199, 7100 Rissa, Norway": {
+    "lat": 63.5624014,
+    "lng": 9.9010876,
+    "confidence": 10,
+    "formatted": "Kvithyllveien 199, 7100 Rissa, Norway"
+  },
+  "Vardesvingen 13, 7165 Oksvoll, Norway": {
+    "lat": 63.8157069,
+    "lng": 9.6741573,
+    "confidence": 10,
+    "formatted": "Vardesvingen 13, 7165 Oksvoll, Norway"
+  },
+  "Grønørveien 30, 7300 Orkanger, Norway": {
+    "lat": 63.306066,
+    "lng": 9.834033,
+    "confidence": 10,
+    "formatted": "Grønørveien 30, 7300 Orkanger, Norway"
+  },
+  "Hofstadveien 89, 7224 Melhus, Norway": {
+    "lat": 63.254696,
+    "lng": 10.276857,
+    "confidence": 10,
+    "formatted": "Hofstadvegen 89, 7224 Melhus, Norway"
+  },
+  "Pinstiveien 95, 7375 Røros, Norway": {
+    "lat": 62.562377,
+    "lng": 11.428831,
+    "confidence": 10,
+    "formatted": "Pinstiveien 95, 7375 Røros, Norway"
+  },
+  "Hestvikveien 263, 7247 Hestvika, Norway": {
+    "lat": 63.567559,
+    "lng": 9.19949,
+    "confidence": 10,
+    "formatted": "Hestvikveien 263, 7247 Hestvika, Norway"
+  },
+  "Kjerringvågveien 43, 7252 Dolmøy, Norway": {
+    "lat": 63.654365,
+    "lng": 8.776988,
+    "confidence": 10,
+    "formatted": "Kjerringvågveien 43, 7252 Dolmøy, Norway"
+  },
+  "Industriparkveien 31, 7246 Sandstad, Norway": {
+    "lat": 63.511184,
+    "lng": 9.081467,
+    "confidence": 10,
+    "formatted": "Industriparkveien 31, 7246 Sandstad, Norway"
+  },
+  "Knarrlagsundveien 325, 7241 Ansnes, Norway": {
+    "lat": 63.650603,
+    "lng": 9.026826,
+    "confidence": 10,
+    "formatted": "Knarrlagsundveien 325, 7241 Ansnes, Norway"
+  },
+  "Industriparkveien 41, 7246 Sandstad, Norway": {
+    "lat": 63.509014,
+    "lng": 9.072192,
+    "confidence": 10,
+    "formatted": "Industriparkveien 41, 7246 Sandstad, Norway"
+  },
+  "Industriveien 51, 7266 Kverva, Norway": {
+    "lat": 63.7108341,
+    "lng": 8.5597481,
+    "confidence": 10,
+    "formatted": "Industriveien 51, 7266 Kverva, Norway"
+  },
+  "Strandaveien 25, 7273 Norddyrøy, Norway": {
+    "lat": 63.7991326,
+    "lng": 8.6790478,
+    "confidence": 10,
+    "formatted": "Strandaveien 25, 7273 Norddyrøy, Norway"
+  },
+  "Frøya Næringspark, 7270 Dyrvik, Norway": {
+    "lat": 59.87182,
+    "lng": 5.17928,
+    "confidence": 9,
+    "formatted": "Bømlo, Vestland, Norway"
+  },
+  "nan, 7284 Mausund, Norway": {
+    "lat": 63.8676704,
+    "lng": 8.6637918,
+    "confidence": 7,
+    "formatted": "7284 Mausund, Norway"
+  },
+  "nan, 7286 Sørburøy, Norway": {
+    "lat": 63.9756677,
+    "lng": 9.0747401,
+    "confidence": 7,
+    "formatted": "Sørburøy, 7286 Sørburøy, Norway"
+  },
+  "Nedre Ila 68, 7018 Trondheim, Norway": {
+    "lat": 63.4331395,
+    "lng": 10.3628296,
+    "confidence": 10,
+    "formatted": "Nedre Ila 68, 7018 Trondheim, Norway"
+  },
+  "Trondheim Havn - Pir 1. Nr.7, 7010 Trondheim, Norway": {
+    "lat": 63.4305,
+    "lng": 10.3951,
+    "confidence": 7,
+    "formatted": "7010 Trondheim, Norway"
+  },
+  "Leirvikveien 276, 7273 Norddyrøy, Norway": {
+    "lat": 63.762208,
+    "lng": 8.674679,
+    "confidence": 10,
+    "formatted": "Leirvikveien 276, 7273 Norddyrøy, Norway"
+  },
+  "Feragsveien 11, 7375 Røros, Norway": {
+    "lat": 62.591034,
+    "lng": 11.808348,
+    "confidence": 10,
+    "formatted": "Feragsveien 11, 7375 Røros, Norway"
+  },
+  "Peter Hepsøs Vei 89, 7740 Steinsdalen, Norway": {
+    "lat": 64.320299,
+    "lng": 10.445984,
+    "confidence": 10,
+    "formatted": "Peter Hepsøs vei 89, 7740 Steinsdalen, Norway"
+  },
+  "Værnesveien 453, 7318 Agdenes, Norway": {
+    "lat": 63.619737,
+    "lng": 9.639352,
+    "confidence": 10,
+    "formatted": "Værnesveien 453, 7318 Agdenes, Norway"
+  },
+  "Hegg, 7318 Agdenes, Norway": {
+    "lat": 63.6195,
+    "lng": 9.6376,
+    "confidence": 7,
+    "formatted": "7318 Agdenes, Norway"
+  },
+  "Steinvikveien 75, 7165 Oksvoll, Norway": {
+    "lat": 63.806554,
+    "lng": 9.646555,
+    "confidence": 10,
+    "formatted": "Steinvikveien 75, 7165 Oksvoll, Norway"
+  },
+  "Mowi Norway T-52 Slakteri, 9163 Jøkelfjord, Norway": {
+    "lat": 70.07158,
+    "lng": 21.87419,
+    "confidence": 9,
+    "formatted": "Kvænangen, Troms, Norway"
+  },
+  "nan, 9161 Burfjord, Norway": {
+    "lat": 69.9378704,
+    "lng": 22.0518668,
+    "confidence": 7,
+    "formatted": "9161 Burfjord, Norway"
+  },
+  "Havnegata 38, 9180 Skjervøy, Norway": {
+    "lat": 70.0325352,
+    "lng": 20.9760258,
+    "confidence": 10,
+    "formatted": "Havnegata 38, 9180 Skjervøy, Norway"
+  },
+  "Årviksand, 9195 Årviksand, Norway": {
+    "lat": 70.1960505,
+    "lng": 20.5298875,
+    "confidence": 9,
+    "formatted": "Årviksand barnehage, Ringveien, 9195 Årviksand, Norway"
+  },
+  "Lauksundveien 139, 9194 Lauksletta, Norway": {
+    "lat": 70.089639,
+    "lng": 20.75789,
+    "confidence": 10,
+    "formatted": "Lauksundveien 139, 9194 Lauksletta, Norway"
+  },
+  "Postboks 1, 9159 Havnnes, Norway": {
+    "lat": 69.7885908,
+    "lng": 20.5675998,
+    "confidence": 7,
+    "formatted": "Hamnnes - Gárgu, 9159 Havnnes, Norway"
+  },
+  "nan, 9144 Samuelsberg, Norway": {
+    "lat": 69.5515764,
+    "lng": 20.5333089,
+    "confidence": 7,
+    "formatted": "Fiervá - Samuelsberg - Olmavankka, 9144 Samuelsberg, Norway"
+  },
+  "Strandveien 4, 9180 Skjervøy, Norway": {
+    "lat": 70.0360229,
+    "lng": 20.9906548,
+    "confidence": 10,
+    "formatted": "Strandveien 4, 9180 Skjervøy, Norway"
+  },
+  "Tønsvikvegen 518, 9023 Krokelvdalen, Norway": {
+    "lat": 69.7286577,
+    "lng": 19.0982563,
+    "confidence": 10,
+    "formatted": "Tønsvikvegen 518, 9023 Krokelvdalen, Norway"
+  },
+  "nan, 9136 Vannareid, Norway": {
+    "lat": 70.199238,
+    "lng": 19.6083884,
+    "confidence": 7,
+    "formatted": "9136 Vannareid, Norway"
+  },
+  "Fishy Exports Kaspersen, 9136 Vannareid, Norway": {
+    "lat": 70.2,
+    "lng": 19.6167,
+    "confidence": 7,
+    "formatted": "9136 Vest-Agder, Norway"
+  },
+  "Stakkvik, 9132 Stakkvik, Norway": {
+    "lat": 69.954235,
+    "lng": 19.667322,
+    "confidence": 9,
+    "formatted": "Stakkvik, Nordeidveien, Norway"
+  },
+  "Resset 4, 9303 Silsand, Norway": {
+    "lat": 69.2444039,
+    "lng": 17.9409812,
+    "confidence": 10,
+    "formatted": "Resset 4, 9303 Silsand, Norway"
+  },
+  "Lenangsøra, 9064 Svensby, Norway": {
+    "lat": 69.6667,
+    "lng": 19.8333,
+    "confidence": 7,
+    "formatted": "9064 Vest-Agder, Norway"
+  },
+  "Ropnesveien 71, 9107 Kvaløya, Norway": {
+    "lat": 69.686996,
+    "lng": 18.733987,
+    "confidence": 10,
+    "formatted": "Ropnesvegen 71, 9107 Kvaløya, Norway"
+  },
+  "Solstrandanlegget Kaldslett, 9020 Tromsdalen, Norway": {
+    "lat": 69.65,
+    "lng": 19.0167,
+    "confidence": 7,
+    "formatted": "9020 Vest-Agder, Norway"
+  },
+  "Ropnesvegen 71, 9107 Kvaløya, Norway": {
+    "lat": 69.686996,
+    "lng": 18.733987,
+    "confidence": 10,
+    "formatted": "Ropnesvegen 71, 9107 Kvaløya, Norway"
+  },
+  "Oldervikvegen 516, 9034 Oldervik, Norway": {
+    "lat": 69.7550238,
+    "lng": 19.674682,
+    "confidence": 10,
+    "formatted": "Oldervikvegen 516, 9034 Oldervik, Norway"
+  },
+  "Huldervegen 18, 9016 Tromsø, Norway": {
+    "lat": 69.6712549,
+    "lng": 18.9242365,
+    "confidence": 10,
+    "formatted": "Huldervegen 18, 9016 Tromsø, Norway"
+  },
+  "Strandgt 3, 9008 Tromsø, Norway": {
+    "lat": 69.6489,
+    "lng": 18.9551,
+    "confidence": 7,
+    "formatted": "9008 Vest-Agder, Norway"
+  },
+  "Vengsøya 162, 9120 Vengsøy, Norway": {
+    "lat": 69.8354,
+    "lng": 18.587672,
+    "confidence": 10,
+    "formatted": "Vengsøya 162, 9120 Vengsøy, Norway"
+  },
+  "Kvaløyvågvegen 1422, 9103 Kvaløya, Norway": {
+    "lat": 69.851789,
+    "lng": 18.819577,
+    "confidence": 10,
+    "formatted": "Kvaløyvågvegen 1422, 9103 Kvaløya, Norway"
+  },
+  "Tromtindvegen 322, 9107 Kvaløya, Norway": {
+    "lat": 69.7790764,
+    "lng": 18.3986361,
+    "confidence": 10,
+    "formatted": "Tromtindvegen 322, 9107 Kvaløya, Norway"
+  },
+  "Klubbvegen 15, 9118 Brensholmen, Norway": {
+    "lat": 69.6062079,
+    "lng": 18.0409691,
+    "confidence": 10,
+    "formatted": "Klubbvegen 15, 9118 Brensholmen, Norway"
+  },
+  "Hamnevegen 17, 9110 Sommarøy, Norway": {
+    "lat": 69.6331,
+    "lng": 18.0086,
+    "confidence": 7,
+    "formatted": "9110 Vest-Agder, Norway"
+  },
+  "Kårvikveien 306, 9307 Finnsnes, Norway": {
+    "lat": 69.3977963,
+    "lng": 18.1564186,
+    "confidence": 10,
+    "formatted": "Kårvikveien 306, 9307 Finnsnes, Norway"
+  },
+  "Husøy, 9389 Husøy I Senja, Norway": {
+    "lat": 69.544144,
+    "lng": 17.663595,
+    "confidence": 9,
+    "formatted": "Husøy, Hildurbakken, 9389 Husøy, Norway"
+  },
+  "Senjahopen, 9386 Senjahopen, Norway": {
+    "lat": 69.496955,
+    "lng": 17.489974,
+    "confidence": 9,
+    "formatted": "Senjahopen, Mefjordveien, 9386 Senjahopen, Norway"
+  },
+  "Botnhamnveien 787, 9373 Botnhamn, Norway": {
+    "lat": 69.508355,
+    "lng": 17.906688,
+    "confidence": 10,
+    "formatted": "Botnhamnveien 787, 9373 Botnhamn, Norway"
+  },
+  "Mefjordveien 1537, 9386 Senjahopen, Norway": {
+    "lat": 69.496838,
+    "lng": 17.490895,
+    "confidence": 10,
+    "formatted": "Mefjordveien 1537, 9386 Senjahopen, Norway"
+  },
+  "Mefjordveien 1529, 9386 Senjahopen, Norway": {
+    "lat": 69.496342,
+    "lng": 17.4908117,
+    "confidence": 10,
+    "formatted": "Mefjordveien 1529, 9386 Senjahopen, Norway"
+  },
+  "nan, 9380 Gryllefjord, Norway": {
+    "lat": 69.3626961,
+    "lng": 17.0550418,
+    "confidence": 7,
+    "formatted": "9380 Gryllefjord, Norway"
+  },
+  "Værnesveien 105, 9381 Torsken, Norway": {
+    "lat": 69.336546,
+    "lng": 17.093078,
+    "confidence": 10,
+    "formatted": "Værnesveien 105, 9381 Torsken, Norway"
+  },
+  "Grunnfarnes, 9395 Kaldfarnes, Norway": {
+    "lat": 69.2839,
+    "lng": 17.0028,
+    "confidence": 7,
+    "formatted": "9395 Vest-Agder, Norway"
+  },
+  "nan, 9395 Kaldfarnes, Norway": {
+    "lat": 69.2811046,
+    "lng": 16.9851464,
+    "confidence": 7,
+    "formatted": "Kaldfarnes, Troms, Norway"
+  },
+  "Naustveien 17, 9303 Silsand, Norway": {
+    "lat": 69.2414116,
+    "lng": 17.9527229,
+    "confidence": 10,
+    "formatted": "Naustveien 17, 9303 Silsand, Norway"
+  },
+  "Lavangsnesveien 793, 9350 Sjøvegan, Norway": {
+    "lat": 68.893757,
+    "lng": 17.691394,
+    "confidence": 10,
+    "formatted": "Lavangsnesveien 793, 9350 Sjøvegan, Norway"
+  },
+  "Breivollveien 12, 9450 Hamnvik, Norway": {
+    "lat": 68.7594001,
+    "lng": 17.1509499,
+    "confidence": 10,
+    "formatted": "Breivollveien 12, 9450 Hamnvik, Norway"
+  },
+  "Avd. Gullesfjord, 8455 Stokmarknes, Norway": {
+    "lat": 68.5646,
+    "lng": 14.9108,
+    "confidence": 7,
+    "formatted": "8455 Troms, Norway"
+  },
+  "Kystkulturveien 1747, 9470 Gratangen, Norway": {
+    "lat": 68.712336,
+    "lng": 17.4274064,
+    "confidence": 10,
+    "formatted": "Kystkulturveien 1747, 9470 Gratangen, Norway"
+  },
+  "Postboks 3366, 9276 Tromsø, Norway": {
+    "lat": 69.685,
+    "lng": 19.0035,
+    "confidence": 7,
+    "formatted": "9276 Vest-Agder, Norway"
+  },
+  "V/ Arnt K. Simonsen, 9455 Engenes, Norway": {
+    "lat": 68.9211,
+    "lng": 17.135,
+    "confidence": 7,
+    "formatted": "9455 Vest-Agder, Norway"
+  },
+  "Ibestadveien 917, 9453 Kråkrøhamn, Norway": {
+    "lat": 68.8314985,
+    "lng": 17.3727728,
+    "confidence": 10,
+    "formatted": "Ibestadveien 917, 9453 Kråkrøhamn, Norway"
+  },
+  "Slottet, 9153 Rotsund, Norway": {
+    "lat": 69.7833,
+    "lng": 20.6,
+    "confidence": 7,
+    "formatted": "9153 Vest-Agder, Norway"
+  },
+  "Eidkjosen, 9100 Kvaløysletta, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Oldervikveien 451, 9034 Oldervik, Norway": {
+    "lat": 69.7575481,
+    "lng": 19.6656091,
+    "confidence": 10,
+    "formatted": "Oldervikvegen 451, 9034 Oldervik, Norway"
+  },
+  "Håndverkerveien 7b, 9018 Tromsø, Norway": {
+    "lat": 69.695713,
+    "lng": 19.011733,
+    "confidence": 10,
+    "formatted": "Håndverkervegen 7B, 9018 Tromsø, Norway"
+  },
+  "nan, 9131 Kårvik, Norway": {
+    "lat": 69.8691854,
+    "lng": 18.9240388,
+    "confidence": 7,
+    "formatted": "Inner-Kårvika, 9131 Kårvik, Norway"
+  },
+  "Vannavalen, 9135 Vannvåg, Norway": {
+    "lat": 70.0667,
+    "lng": 20.0,
+    "confidence": 7,
+    "formatted": "9135 Vest-Agder, Norway"
+  },
+  "nan, 9135 Vannvåg, Norway": {
+    "lat": 70.0725413,
+    "lng": 19.981975,
+    "confidence": 7,
+    "formatted": "9135 Vannvåg, Norway"
+  },
+  "Stangnesterminalen 2f, 9409 Harstad, Norway": {
+    "lat": 68.7791765,
+    "lng": 16.5886586,
+    "confidence": 10,
+    "formatted": "Stangnesterminalen 2F, 9409 Harstad, Norway"
+  },
+  "Smørsgård, 9310 Sørreisa, Norway": {
+    "lat": 69.1471094,
+    "lng": 18.0561565,
+    "confidence": 7,
+    "formatted": "Smørsgård, Troms, Norway"
+  },
+  "Gloen 86, 9446 Grovfjord, Norway": {
+    "lat": 68.6759556,
+    "lng": 17.1313389,
+    "confidence": 10,
+    "formatted": "Gloen 86, 9446 Grovfjord, Norway"
+  },
+  "Tovikstrand, 9445 Tovik, Norway": {
+    "lat": 68.6736,
+    "lng": 16.89,
+    "confidence": 7,
+    "formatted": "9445 Vest-Agder, Norway"
+  },
+  "Elvelund 24, 9310 Sørreisa, Norway": {
+    "lat": 69.1830959,
+    "lng": 18.0597567,
+    "confidence": 10,
+    "formatted": "Elvelund 24, 9310 Sørreisa, Norway"
+  },
+  "Navaren 81, 9321 Moen, Norway": {
+    "lat": 69.326087,
+    "lng": 18.5697039,
+    "confidence": 10,
+    "formatted": "Navaren 81, 9321 Moen, Norway"
+  },
+  "Storbergveien 13, 9402 Harstad, Norway": {
+    "lat": 68.8530976,
+    "lng": 16.4895061,
+    "confidence": 10,
+    "formatted": "Storbergveien 13, 9402 Harstad, Norway"
+  },
+  "Ibestadveien 362, 9453 Kråkrøhamn, Norway": {
+    "lat": 68.8649289,
+    "lng": 17.4678904,
+    "confidence": 10,
+    "formatted": "Ibestadveien 362, 9453 Kråkrøhamn, Norway"
+  },
+  "Hågen 17, 9446 Grovfjord, Norway": {
+    "lat": 68.6789021,
+    "lng": 17.119661,
+    "confidence": 10,
+    "formatted": "Hågen 17, 9446 Grovfjord, Norway"
+  },
+  "Sifjord, 9395 Kaldfarnes, Norway": {
+    "lat": 69.2839,
+    "lng": 17.0028,
+    "confidence": 7,
+    "formatted": "9395 Vest-Agder, Norway"
+  },
+  "Kåfjorddalen, 9147 Birtavarre, Norway": {
+    "lat": 69.4938,
+    "lng": 20.8321,
+    "confidence": 7,
+    "formatted": "9147 Vest-Agder, Norway"
+  },
+  "Toften, 9064 Svensby, Norway": {
+    "lat": 69.653734,
+    "lng": 19.820921,
+    "confidence": 9,
+    "formatted": "Toften, Ullsfjordveien, Lyngen, Norway"
+  },
+  "Navaren, 9321 Moen, Norway": {
+    "lat": 69.1304,
+    "lng": 18.6123,
+    "confidence": 7,
+    "formatted": "9321 Vest-Agder, Norway"
+  },
+  "Nedre Jensvoll 11, 9060 Lyngseidet, Norway": {
+    "lat": 69.564945,
+    "lng": 20.222097,
+    "confidence": 10,
+    "formatted": "Nedre Jensvoll vei 11, 9060 Lyngseidet, Norway"
+  },
+  "Nordnes, 9144 Samuelsberg, Norway": {
+    "lat": 69.55,
+    "lng": 20.5333,
+    "confidence": 7,
+    "formatted": "9144 Vest-Agder, Norway"
+  },
+  "Spellemannsdalen 20, 9180 Skjervøy, Norway": {
+    "lat": 70.0291338,
+    "lng": 20.9561055,
+    "confidence": 10,
+    "formatted": "Spellemannsdalen 20, 9180 Skjervøy, Norway"
+  },
+  "Skavåsen 29, 9020 Tromsdalen, Norway": {
+    "lat": 69.631667,
+    "lng": 18.963086,
+    "confidence": 10,
+    "formatted": "Skavåsen 29, 9020 Tromsdalen, Norway"
+  },
+  "Boks 376, 9189 Skjervøy, Norway": {
+    "lat": 70.0336172,
+    "lng": 20.974752,
+    "confidence": 7,
+    "formatted": "9180 Skjervøy, Norway"
+  },
+  "Vorterøy, 9180 Skjervøy, Norway": {
+    "lat": 69.9407925,
+    "lng": 20.6436834,
+    "confidence": 8,
+    "formatted": "Vorterøya, Skjervøy, Troms, Norway"
+  },
+  "Kjøtta 60, 9424 Kjøtta, Norway": {
+    "lat": 68.873823,
+    "lng": 16.694397,
+    "confidence": 10,
+    "formatted": "Kjøtta 60, 9424 Kjøtta, Norway"
+  },
+  "Vorterøyveien 92, 9180 Skjervøy, Norway": {
+    "lat": 69.978286,
+    "lng": 20.658589,
+    "confidence": 10,
+    "formatted": "Vorterøyveien 92, 9180 Skjervøy, Norway"
+  },
+  "Løkvoll, 9144 Samuelsberg, Norway": {
+    "lat": 69.55,
+    "lng": 20.5333,
+    "confidence": 7,
+    "formatted": "9144 Vest-Agder, Norway"
+  },
+  "nan, 9147 Birtavarre, Norway": {
+    "lat": 69.4949552,
+    "lng": 20.8319007,
+    "confidence": 7,
+    "formatted": "9147 Birtavarre, Norway"
+  },
+  "Grønnmyrveien 1, 9144 Samuelsberg, Norway": {
+    "lat": 69.541045,
+    "lng": 20.539444,
+    "confidence": 10,
+    "formatted": "Grønnmyrveien 1, 9144 Samuelsberg, Norway"
+  },
+  "Jøvik, 9302 Rossfjordstraumen, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Straumbotnveien 38, 9455 Engenes, Norway": {
+    "lat": 68.9097419,
+    "lng": 17.1975615,
+    "confidence": 10,
+    "formatted": "Straumbotnveien 38, 9455 Engenes, Norway"
+  },
+  "Andørjaveien 2074, 9455 Engenes, Norway": {
+    "lat": 68.9157272,
+    "lng": 17.2058825,
+    "confidence": 10,
+    "formatted": "Andørjaveien 2074, 9455 Engenes, Norway"
+  },
+  "Verftsveien 16, 9180 Skjervøy, Norway": {
+    "lat": 70.0322851,
+    "lng": 20.9644397,
+    "confidence": 10,
+    "formatted": "Verftsveien 16, 9180 Skjervøy, Norway"
+  },
+  "nan, 9185 Spildra, Norway": {
+    "lat": 69.9968714,
+    "lng": 21.6835721,
+    "confidence": 8,
+    "formatted": "Spildra, Dunvik, 9185 Spildra, Norway"
+  },
+  "Postboks 286, 9189 Skjervøy, Norway": {
+    "lat": 70.0336172,
+    "lng": 20.974752,
+    "confidence": 7,
+    "formatted": "9180 Skjervøy, Norway"
+  },
+  "Langnesbukt, 9147 Birtavarre, Norway": {
+    "lat": 69.4938,
+    "lng": 20.8321,
+    "confidence": 7,
+    "formatted": "9147 Vest-Agder, Norway"
+  },
+  "Langnes, 9147 Birtavarre, Norway": {
+    "lat": 69.4938,
+    "lng": 20.8321,
+    "confidence": 7,
+    "formatted": "9147 Vest-Agder, Norway"
+  },
+  "Dyrøyveien 588, 9311 Brøstadbotn, Norway": {
+    "lat": 69.0551262,
+    "lng": 17.5366341,
+    "confidence": 10,
+    "formatted": "Dyrøyveien 588, 9311 Brøstadbotn, Norway"
+  },
+  "Myrslett, 9151 Storslett, Norway": {
+    "lat": 69.7678,
+    "lng": 21.0247,
+    "confidence": 7,
+    "formatted": "9151 Vest-Agder, Norway"
+  },
+  "Straumfjordnes, 9151 Storslett, Norway": {
+    "lat": 69.7678,
+    "lng": 21.0247,
+    "confidence": 7,
+    "formatted": "9151 Vest-Agder, Norway"
+  },
+  "Dunvik, 9185 Spildra, Norway": {
+    "lat": 69.9962,
+    "lng": 21.6822,
+    "confidence": 7,
+    "formatted": "9185 Vest-Agder, Norway"
+  },
+  "Badderen, 9162 Sørstraumen, Norway": {
+    "lat": 69.8402,
+    "lng": 21.8679,
+    "confidence": 7,
+    "formatted": "9162 Vest-Agder, Norway"
+  },
+  "Stornes, 9151 Storslett, Norway": {
+    "lat": 69.7678,
+    "lng": 21.0247,
+    "confidence": 7,
+    "formatted": "9151 Vest-Agder, Norway"
+  },
+  "Rotsundveien 988, 9153 Rotsund, Norway": {
+    "lat": 69.7753877,
+    "lng": 20.5810459,
+    "confidence": 10,
+    "formatted": "Rotsundveien 988, 9153 Rotsund, Norway"
+  },
+  "Vorterøy, 9189 Skjervøy, Norway": {
+    "lat": 69.9407925,
+    "lng": 20.6436834,
+    "confidence": 8,
+    "formatted": "Vorterøya, Skjervøy, Troms, Norway"
+  },
+  "Stornesveien 368, 9402 Harstad, Norway": {
+    "lat": 68.8530324,
+    "lng": 16.4887564,
+    "confidence": 10,
+    "formatted": "Stornesveien 368, 9402 Harstad, Norway"
+  },
+  "Skarpsno 14, 9151 Storslett, Norway": {
+    "lat": 69.7612374,
+    "lng": 21.0169991,
+    "confidence": 10,
+    "formatted": "Skarpsno 14, 9151 Storslett, Norway"
+  },
+  "Øvre Baisit 7, 9152 Sørkjosen, Norway": {
+    "lat": 69.7868299,
+    "lng": 20.9428362,
+    "confidence": 10,
+    "formatted": "Øvre Baisit 7, 9152 Sørkjosen, Norway"
+  },
+  "Postboks 203, 9189 Skjervøy, Norway": {
+    "lat": 70.0336172,
+    "lng": 20.974752,
+    "confidence": 7,
+    "formatted": "9180 Skjervøy, Norway"
+  },
+  "Melen, 9147 Birtavarre, Norway": {
+    "lat": 69.4938,
+    "lng": 20.8321,
+    "confidence": 7,
+    "formatted": "9147 Vest-Agder, Norway"
+  },
+  "Bjørgaveien 2, 9310 Sørreisa, Norway": {
+    "lat": 69.13189,
+    "lng": 18.04951,
+    "confidence": 10,
+    "formatted": "Bjørgaveien 2, 9310 Sørreisa, Norway"
+  },
+  "Oksfjordhamn, 9151 Storslett, Norway": {
+    "lat": 69.7678,
+    "lng": 21.0247,
+    "confidence": 7,
+    "formatted": "9151 Vest-Agder, Norway"
+  },
+  "Øvermyra, 9144 Samuelsberg, Norway": {
+    "lat": 69.55,
+    "lng": 20.5333,
+    "confidence": 7,
+    "formatted": "9144 Vest-Agder, Norway"
+  },
+  "Langfjord, 9192 Arnøyhamn, Norway": {
+    "lat": 70.0667,
+    "lng": 20.6667,
+    "confidence": 7,
+    "formatted": "9192 Vest-Agder, Norway"
+  },
+  "Stajord, 9161 Burfjord, Norway": {
+    "lat": 69.9394724,
+    "lng": 22.0095374,
+    "confidence": 9,
+    "formatted": "Stajordveien, 9161 Burfjord, Norway"
+  },
+  "Værnesveien 101, 9381 Torsken, Norway": {
+    "lat": 69.336079,
+    "lng": 17.090874,
+    "confidence": 10,
+    "formatted": "Værnesveien 101, 9381 Torsken, Norway"
+  },
+  "Kjækan, 9162 Sørstraumen, Norway": {
+    "lat": 69.8402,
+    "lng": 21.8679,
+    "confidence": 7,
+    "formatted": "9162 Vest-Agder, Norway"
+  },
+  "Dorras, 9162 Sørstraumen, Norway": {
+    "lat": 69.8402,
+    "lng": 21.8679,
+    "confidence": 7,
+    "formatted": "9162 Vest-Agder, Norway"
+  },
+  "Tønsvikvegen 1174, 9022 Krokelvdalen, Norway": {
+    "lat": 69.7647004,
+    "lng": 19.2070622,
+    "confidence": 10,
+    "formatted": "Tønsvikvegen 1174, 9023 Krokelvdalen, Norway"
+  },
+  "Vatnan, 9130 Hansnes, Norway": {
+    "lat": 69.9624,
+    "lng": 19.6186,
+    "confidence": 7,
+    "formatted": "9130 Vest-Agder, Norway"
+  },
+  "Dåfjord, 9130 Hansnes, Norway": {
+    "lat": 69.9624,
+    "lng": 19.6186,
+    "confidence": 7,
+    "formatted": "9130 Vest-Agder, Norway"
+  },
+  "Alf Johan Hemmingsen, 9100 Kvaløysletta, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Naustbuktveien 63, 9100 Kvaløysletta, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Håkøyveien 309, 9100 Kvaløysletta, Norway": {
+    "lat": 62.0,
+    "lng": 10.0,
+    "confidence": 1,
+    "formatted": "Norway"
+  },
+  "Utsikten 131, 9018 Tromsø, Norway": {
+    "lat": 69.6945194,
+    "lng": 19.0018327,
+    "confidence": 10,
+    "formatted": "Utsikten 131, 9018 Tromsø, Norway"
+  },
+  "Botnhamnveien 506, 9373 Botnhamn, Norway": {
+    "lat": 69.4954935,
+    "lng": 17.8567113,
+    "confidence": 10,
+    "formatted": "Botnhamnveien 506, 9373 Botnhamn, Norway"
+  },
+  "Tromsøysundvegen 38, 9020 Tromsdalen, Norway": {
+    "lat": 69.649841,
+    "lng": 18.983293,
+    "confidence": 10,
+    "formatted": "Tromsøysundvegen 38, 9020 Tromsdalen, Norway"
+  },
+  "Dalvegen 6, 9107 Kvaløya, Norway": {
+    "lat": 69.6916079,
+    "lng": 18.616718,
+    "confidence": 10,
+    "formatted": "Dalvegen 6, 9107 Kvaløya, Norway"
+  },
+  "Ringveien 100, 9018 Tromsø, Norway": {
+    "lat": 69.702684,
+    "lng": 19.01647,
+    "confidence": 10,
+    "formatted": "Ringvegen 100, 9018 Tromsø, Norway"
+  },
+  "Spilderveien 563, 9185 Spildra, Norway": {
+    "lat": 69.997075,
+    "lng": 21.705175,
+    "confidence": 10,
+    "formatted": "Spilderveien 563, 9185 Spildra, Norway"
+  },
+  "Strandveien 112, 9300 Finnsnes, Norway": {
+    "lat": 69.2430379,
+    "lng": 17.985516,
+    "confidence": 10,
+    "formatted": "Strandveien 112, 9300 Finnsnes, Norway"
+  },
+  "Ropnesvegen 69, 9107 Kvaløya, Norway": {
+    "lat": 69.686836,
+    "lng": 18.735375,
+    "confidence": 10,
+    "formatted": "Ropnesvegen 69, 9107 Kvaløya, Norway"
+  },
+  "Njordveien 6, 9550 Øksfjord, Norway": {
+    "lat": 70.2369951,
+    "lng": 22.3506847,
+    "confidence": 10,
+    "formatted": "Njordveien 6, 9550 Øksfjord, Norway"
+  },
+  "Gottesjord, 9310 Sørreisa, Norway": {
+    "lat": 69.172525,
+    "lng": 18.117988,
+    "confidence": 9,
+    "formatted": "Gottesjord skole, Vågdalsveien, 9310 Sørreisa, Norway"
+  },
+  "Risfjordveien 2, 9762 Kamøyvær, Norway": {
+    "lat": 71.042722,
+    "lng": 25.895346,
+    "confidence": 10,
+    "formatted": "Risfjordveien 2, 9762 Kamøyvær, Norway"
+  },
+  "Rávttebelgeainu 281, 9840 Varangerbotn, Norway": {
+    "lat": 70.150421,
+    "lng": 28.553257,
+    "confidence": 10,
+    "formatted": "Rávttebelgeainu 281, 9840 Varangerbotn, Norway"
+  },
+  "Seilandsveien 218, 9609 Nordre Seiland, Norway": {
+    "lat": 70.5561696,
+    "lng": 23.4643731,
+    "confidence": 10,
+    "formatted": "Seilandsveien 218, 9609 Nordre, Norway"
+  },
+  "Rávttebelgeainu 1922, 9840 Varangerbotn, Norway": {
+    "lat": 70.076847,
+    "lng": 28.799976,
+    "confidence": 10,
+    "formatted": "Rávttebelgeainu 1922, 9840 Varangerbotn, Norway"
+  },
+  "Håndverkervegen 12, 9018 Tromsø, Norway": {
+    "lat": 69.696851,
+    "lng": 19.011483,
+    "confidence": 10,
+    "formatted": "Håndverkervegen 12, 9018 Tromsø, Norway"
+  },
+  "Rådhusveien 3, 9790 Kjøllefjord, Norway": {
+    "lat": 70.944552,
+    "lng": 27.349388,
+    "confidence": 10,
+    "formatted": "Rådhusvegen 3, 9790 Kjøllefjord, Norway"
+  },
+  "Hammarveien 9, 9425 Sandsøy, Norway": {
+    "lat": 68.9533365,
+    "lng": 16.6549777,
+    "confidence": 10,
+    "formatted": "Hammarveien 9, 9425 Sandsøy, Norway"
+  },
+  "Ørtangen 10, 9800 Vadsø, Norway": {
+    "lat": 70.07132,
+    "lng": 29.749167,
+    "confidence": 10,
+    "formatted": "Ørtangen 10, 9800 Vadsø, Norway"
+  },
+  "Kårhamnsvingen 1, 9657 Kårhamn, Norway": {
+    "lat": 70.54407,
+    "lng": 23.147105,
+    "confidence": 10,
+    "formatted": "Kårhamnsvingen 1, 9657 Kårhamn, Norway"
+  },
+  "Svartnes, 9955 Svartnes, Norway": {
+    "lat": 69.3762708,
+    "lng": 19.1213709,
+    "confidence": 8,
+    "formatted": "Svartnes ytre, Svartnes, Troms, Norway"
+  },
+  "Strandgata 157, 9690 Havøysund, Norway": {
+    "lat": 70.9955019,
+    "lng": 24.6666788,
+    "confidence": 10,
+    "formatted": "Strandgata 157, 9690 Havøysund, Norway"
+  },
+  "Liholmen, 9991 Båtsfjord, Norway": {
+    "lat": 70.6345,
+    "lng": 29.7185,
+    "confidence": 7,
+    "formatted": "9991 Vestfold, Norway"
+  },
+  "Tanafjordveien 3032, 9841 Tana, Norway": {
+    "lat": 70.43035,
+    "lng": 28.060582,
+    "confidence": 10,
+    "formatted": "Tanafjordveien 3032, 9841 Tana, Norway"
+  },
+  "Børresenveien 63, 9841 Tana, Norway": {
+    "lat": 70.48483,
+    "lng": 27.985577,
+    "confidence": 10,
+    "formatted": "Børresenveien 63, 9841 Tana, Norway"
+  },
+  "Laukøyveien 801, 9193 Nikkeby, Norway": {
+    "lat": 70.12715,
+    "lng": 20.792197,
+    "confidence": 10,
+    "formatted": "Laukøyveien 801, 9193 Nikkeby, Norway"
+  },
+  "Masjokdalen 112, 9841 Tana, Norway": {
+    "lat": 70.285688,
+    "lng": 28.122184,
+    "confidence": 10,
+    "formatted": "Masjokdalen 112, 9841 Tana, Norway"
+  },
+  "Sørstraumvegen 679, 9045 Lakselvbukt, Norway": {
+    "lat": 69.411748,
+    "lng": 19.552608,
+    "confidence": 10,
+    "formatted": "Sørstraumvegen 679, 9045 Tromsø, Norway"
+  },
+  "Gambukta 18, 9146 Olderdalen, Norway": {
+    "lat": 69.749368,
+    "lng": 20.485975,
+    "confidence": 10,
+    "formatted": "Gambukta 18, 9146 Olderdalen, Norway"
+  },
+  "Solstrandveien 1, 9020 Tromsdalen, Norway": {
+    "lat": 69.65,
+    "lng": 19.0167,
+    "confidence": 7,
+    "formatted": "9020 Vest-Agder, Norway"
+  },
+  "Solveien 38, 9580 Bergsfjord, Norway": {
+    "lat": 70.252302,
+    "lng": 21.784642,
+    "confidence": 10,
+    "formatted": "Solveien 38, 9580 Bergsfjord, Norway"
+  },
+  "Vikaveien 419, 9303 Silsand, Norway": {
+    "lat": 69.276279,
+    "lng": 17.922291,
+    "confidence": 10,
+    "formatted": "Vikaveien 419, 9303 Silsand, Norway"
+  },
+  "Brygga 3, 3770 Kragerø, Norway": {
+    "lat": 58.8693,
+    "lng": 9.4149,
+    "confidence": 7,
+    "formatted": "3770 Møre og Romsdal fylke, Norway"
+  },
+  "Stoa 13, 3970 Langesund, Norway": {
+    "lat": 59.0078423,
+    "lng": 9.7469378,
+    "confidence": 10,
+    "formatted": "Stoa 13, 3970 Langesund, Norway"
+  },
+  "Tinnegrendvegen 93, 3683 Notodden, Norway": {
+    "lat": 59.549963,
+    "lng": 9.289652,
+    "confidence": 10,
+    "formatted": "Tinnegrendvegen 93, 3683 Notodden, Norway"
+  },
+  "Svaddeveien 129, 3660 Rjukan, Norway": {
+    "lat": 59.8801788,
+    "lng": 8.6595675,
+    "confidence": 10,
+    "formatted": "Svaddevegen 129, 3660 Rjukan, Norway"
+  },
+  "Nystrandveien 86, 3944 Porsgrunn, Norway": {
+    "lat": 59.1107938,
+    "lng": 9.7112314,
+    "confidence": 10,
+    "formatted": "Nystrandvegen 86, 3944 Porsgrunn, Norway"
+  },
+  "Ugleveien 8, 3940 Porsgrunn, Norway": {
+    "lat": 59.0815508,
+    "lng": 9.672695,
+    "confidence": 10,
+    "formatted": "Uglevegen 8, 3940 Porsgrunn, Norway"
+  },
+  "Vaterlands Gate 22, 3970 Langesund, Norway": {
+    "lat": 58.99832,
+    "lng": 9.74972,
+    "confidence": 10,
+    "formatted": "Vaterlands gate 22, 3970 Langesund, Norway"
+  },
+  "Ørvikveien 36, 3970 Langesund, Norway": {
+    "lat": 59.0173569,
+    "lng": 9.7446722,
+    "confidence": 10,
+    "formatted": "Ørvikveien 36, 3970 Langesund, Norway"
+  },
+  "Frosteveien 251, 3967 Stathelle, Norway": {
+    "lat": 58.9478754,
+    "lng": 9.5105076,
+    "confidence": 10,
+    "formatted": "Frosteveien 251, 3967 Stathelle, Norway"
+  },
+  "Molandsmoen 3, 3870 Fyresdal, Norway": {
+    "lat": 59.2040925,
+    "lng": 8.0845339,
+    "confidence": 10,
+    "formatted": "Molandsmoen 3, 3870 Fyresdal, Norway"
+  },
+  "Stoa 7, 3970 Langesund, Norway": {
+    "lat": 59.0080441,
+    "lng": 9.7462807,
+    "confidence": 10,
+    "formatted": "Stoa 7, 3970 Langesund, Norway"
+  },
+  "Jule Industriområde, 7884 Sørli, Norway": {
+    "lat": 64.2236,
+    "lng": 13.8343,
+    "confidence": 7,
+    "formatted": "7884 Telemark, Norway"
+  },
+  "Myrahaugen 19, 7180 Roan, Norway": {
+    "lat": 64.1771322,
+    "lng": 10.219263,
+    "confidence": 10,
+    "formatted": "Myrahaugen 19, 7180 Roan, Norway"
+  },
+  "Norfrøyveien 957, 7270 Dyrvik, Norway": {
+    "lat": 59.87182,
+    "lng": 5.17928,
+    "confidence": 9,
+    "formatted": "Bømlo, Vestland, Norway"
+  },
+  "Abelværvegen 1773, 7950 Abelvær, Norway": {
+    "lat": 64.73263,
+    "lng": 11.182752,
+    "confidence": 10,
+    "formatted": "Abelværvegen 1773, 7950 Abelvær, Norway"
+  },
+  "Postmyrveien 20, 7391 Rennebu, Norway": {
+    "lat": 62.8319392,
+    "lng": 10.014939,
+    "confidence": 10,
+    "formatted": "Postmyrveien 20, 7391 Rennebu, Norway"
+  },
+  "Svenesveien 3, 7250 Melandsjø, Norway": {
+    "lat": 63.610274,
+    "lng": 8.852662,
+    "confidence": 10,
+    "formatted": "Svenesveien 3, 7250 Melandsjø, Norway"
+  },
+  "Brattørkaia 17c, 7010 Trondheim, Norway": {
+    "lat": 63.437375,
+    "lng": 10.397495,
+    "confidence": 10,
+    "formatted": "Brattørkaia 17C, 7010 Trondheim, Norway"
+  },
+  "Vestre Brekstad, 7130 Brekstad, Norway": {
+    "lat": 63.6855972,
+    "lng": 9.6508639,
+    "confidence": 8,
+    "formatted": "7130 Brekstad, Norway"
+  },
+  "Roan Havn 37, 7180 Roan, Norway": {
+    "lat": 64.176981,
+    "lng": 10.214069,
+    "confidence": 10,
+    "formatted": "Roan havn 37, 7180 Roan, Norway"
+  },
+  "Strandaveien 264, 7740 Steinsdalen, Norway": {
+    "lat": 64.3278038,
+    "lng": 10.4456484,
+    "confidence": 10,
+    "formatted": "Strandaveien 264, 7740 Steinsdalen, Norway"
+  },
+  "Hestøyveien 66, 7270 Dyrvik, Norway": {
+    "lat": 63.763588,
+    "lng": 8.8610641,
+    "confidence": 10,
+    "formatted": "Hestøyveien 66, 7270 Dyrvik, Norway"
+  },
+  "Pir I 7, 7010 Trondheim, Norway": {
+    "lat": 63.4431633,
+    "lng": 10.4058564,
+    "confidence": 10,
+    "formatted": "Pir I 7, 7010 Trondheim, Norway"
+  },
+  "Frøneshaugen, 7170 Åfjord, Norway": {
+    "lat": 63.9602766,
+    "lng": 10.2169868,
+    "confidence": 9,
+    "formatted": "Frøneshaugen, 7170 Åfjord, Norway"
+  },
+  "Nordfrøyveien 213, 7260 Sistranda, Norway": {
+    "lat": 63.713969,
+    "lng": 8.842019,
+    "confidence": 10,
+    "formatted": "Nordfrøyveien 213, 7260 Sistranda, Norway"
+  },
+  "Hallemvegen 20, 7715 Steinkjer, Norway": {
+    "lat": 64.032796,
+    "lng": 11.488468,
+    "confidence": 10,
+    "formatted": "Hallemvegen 20, 7715 Steinkjer, Norway"
+  },
+  "Eidshaugvegen 1650, 7940 Ottersøy, Norway": {
+    "lat": 64.93183,
+    "lng": 11.451449,
+    "confidence": 10,
+    "formatted": "Eidshaugvegen 1650, 7940 Ottersøy, Norway"
+  },
+  "Vingvågen 41, 7255 Sundlandet, Norway": {
+    "lat": 63.518077,
+    "lng": 9.293727,
+    "confidence": 10,
+    "formatted": "Vingvågen 41, 7255 Sundlandet, Norway"
+  },
+  "Tempeveien 33-35, 7031 Trondheim, 7031 Trondheim, Norway": {
+    "lat": 63.4305,
+    "lng": 10.3951,
+    "confidence": 7,
+    "formatted": "7031 Trondheim, Norway"
+  },
+  "Ulvøyveien 177, 7242 Knarrlagsund, Norway": {
+    "lat": 63.6720849,
+    "lng": 9.0354051,
+    "confidence": 10,
+    "formatted": "Ulvøyveien 177, 7242 Knarrlagsund, Norway"
+  },
+  "Aursundveien 1272, 7372 Glåmos, Norway": {
+    "lat": 62.6916225,
+    "lng": 11.5822553,
+    "confidence": 10,
+    "formatted": "Aursundveien 1272, 7372 Glåmos, Norway"
+  },
+  "Kvaløysæter Kai, 7770 Flatanger, Norway": {
+    "lat": 64.5006,
+    "lng": 10.894,
+    "confidence": 7,
+    "formatted": "7770 Telemark, Norway"
+  },
+  "Ranheimsvegen 91, 7060 Charlottenlund, Norway": {
+    "lat": 63.432154,
+    "lng": 10.494521,
+    "confidence": 10,
+    "formatted": "Ranheimsvegen 91, 7060 Trondheim, Norway"
+  },
+  "Ramstadlandveien 692, 7924 Austafjord, Norway": {
+    "lat": 64.957971,
+    "lng": 10.989766,
+    "confidence": 10,
+    "formatted": "Ramstadlandveien 692, 7924 Austafjord, Norway"
+  },
+  "Båly, 4521 Spangereid, Norway": {
+    "lat": 58.0409892,
+    "lng": 7.1503565,
+    "confidence": 8,
+    "formatted": "4521 Lindesnes, Norway"
+  },
+  "Midtbø 1, 4420 Åna-Sira, Norway": {
+    "lat": 58.2908171,
+    "lng": 6.4414391,
+    "confidence": 10,
+    "formatted": "Midtbø 1, 4420 Åna-Sira, Norway"
+  },
+  "Kirkehamnveien 154, 4432 Hidrasund, Norway": {
+    "lat": 58.2326399,
+    "lng": 6.5353555,
+    "confidence": 10,
+    "formatted": "Kirkehamnveien 154, 4432 Hidrasund, Norway"
+  },
+  "Gismerøyveien 150, 4515 Mandal, Norway": {
+    "lat": 58.0183981,
+    "lng": 7.4776181,
+    "confidence": 10,
+    "formatted": "Gismerøyveien 150, 4515 Mandal, Norway"
+  },
+  "Gravane 8, 4610 Kristiansand S, Norway": {
+    "lat": 58.1412892,
+    "lng": 7.9950217,
+    "confidence": 10,
+    "formatted": "Gravane 8, 4610 Kristiansand, Norway"
+  },
+  "Lista Fly Og Næringspark, 4560 Vanse, Norway": {
+    "lat": 58.1167,
+    "lng": 6.7,
+    "confidence": 7,
+    "formatted": "4560 Nord-Trøndelag, Norway"
+  },
+  "Skytterheia 7, 4790 Lillesand, Norway": {
+    "lat": 58.239939,
+    "lng": 8.30525,
+    "confidence": 10,
+    "formatted": "Skytterheia 7, 4790 Lillesand, Norway"
+  },
+  "Øyesletta 63, 4484 Øyestranda, Norway": {
+    "lat": 58.2775623,
+    "lng": 6.8878767,
+    "confidence": 10,
+    "formatted": "Øyesletta 63, 4484 Øyestranda, Norway"
+  },
+  "Tollbodgt. 1, 3290 Stavern, Norway": {
+    "lat": 59.0,
+    "lng": 10.0333,
+    "confidence": 7,
+    "formatted": "3290 Hordaland, Norway"
+  },
+  "Brygga 11, 3210 Sandefjord, Norway": {
+    "lat": 59.1275127,
+    "lng": 10.2324053,
+    "confidence": 10,
+    "formatted": "Brygga 11, 3210 Sandefjord, Norway"
+  },
+  "Fynveien 1, 3148 Hvasser, Norway": {
+    "lat": 59.0813084,
+    "lng": 10.4515671,
+    "confidence": 10,
+    "formatted": "Fynveien 1, 3148 Hvasser, Norway"
+  },
+  "Borgeskogen, 3160 Stokke, Norway": {
+    "lat": 59.2236,
+    "lng": 10.3003,
+    "confidence": 7,
+    "formatted": "3160 Hordaland, Norway"
+  },
+  "Tenvikveien 373, 3140 Nøtterøy, Norway": {
+    "lat": 59.1763046,
+    "lng": 10.3640969,
+    "confidence": 10,
+    "formatted": "Tenvikveien 373, 3140 Nøtterøy, Norway"
+  },
+  "Borgeskogen 65, 3160 Stokke, Norway": {
+    "lat": 59.249169,
+    "lng": 10.255656,
+    "confidence": 10,
+    "formatted": "Borgeskogen 65, 3160 Stokke, Norway"
+  },
+  "Framnesveien 41, 3222 Sandefjord, Norway": {
+    "lat": 59.1106322,
+    "lng": 10.2319388,
+    "confidence": 10,
+    "formatted": "Framnesveien 41, 3222 Sandefjord, Norway"
+  },
+  "Brunlanesveien 1505, 3296 Nevlunghavn, Norway": {
+    "lat": 58.9679973,
+    "lng": 9.8687143,
+    "confidence": 10,
+    "formatted": "Brunlanesveien 1505, 3296 Nevlunghavn, Norway"
+  },
+  "Torvuttaket 78, 1540 Vestby, Norway": {
+    "lat": 59.58045,
+    "lng": 10.74544,
+    "confidence": 10,
+    "formatted": "Torvuttaket 78, 1540 Vestby, Norway"
+  },
+  "Dyrskuevegen 3, 2040 Kløfta, Norway": {
+    "lat": 60.081923,
+    "lng": 11.14505,
+    "confidence": 10,
+    "formatted": "Dyrskuevegen 3, 2040 Kløfta, Norway"
+  },
+  "Nypeveien 15, 3032 Drammen, Norway": {
+    "lat": 59.7059373,
+    "lng": 10.1575247,
+    "confidence": 10,
+    "formatted": "Nypeveien 15, 3032 Drammen, Norway"
+  },
+  "C/O Øra Industripark As, 1630 Gamle Fredrikstad, Norway": {
+    "lat": 59.2181,
+    "lng": 10.9298,
+    "confidence": 5,
+    "formatted": "Fredrikstad, Østfold fylke, Norway"
+  },
+  "Solgaard Skog 3, 1599 Moss, Norway": {
+    "lat": 59.4399512,
+    "lng": 10.69705,
+    "confidence": 10,
+    "formatted": "Solgaard skog 3, 1599 Moss, Norway"
+  },
+  "Greåkerveien 145, 1718 Greåker, Norway": {
+    "lat": 59.2662693,
+    "lng": 11.0321951,
+    "confidence": 10,
+    "formatted": "Greåkerveien 145, 1718 Greåker, Norway"
+  },
+  "Brennaveien 20b, 1481 Hagan, Norway": {
+    "lat": 59.9898444,
+    "lng": 10.9078815,
+    "confidence": 10,
+    "formatted": "Brennaveien 20B, 1481 Hagan, Norway"
+  },
+  "Brenneaveien 20b, 1481 Hagan, Norway": {
+    "lat": 59.9974,
+    "lng": 10.9184,
+    "confidence": 7,
+    "formatted": "1481 Aust-Agder, Norway"
+  },
+  "Industrivegen 82, 2072 Dal, Norway": {
+    "lat": 60.2504725,
+    "lng": 11.1927907,
+    "confidence": 10,
+    "formatted": "Industrivegen 82, 2072 Dal, Norway"
+  },
+  "Anolitveien 1-3, 1400 Ski, Norway": {
+    "lat": 59.7167935,
+    "lng": 10.8644929,
+    "confidence": 9,
+    "formatted": "Anolitveien, 1400 Ski, Norway"
+  },
+  "Eidsnesvegen 22, 5455 Halsnøy Kloster, Norway": {
+    "lat": 59.793553,
+    "lng": 5.679641,
+    "confidence": 10,
+    "formatted": "Eidsnesvegen 22, 5455 Halsnøy, Norway"
+  },
+  "Apalehaugen23b, 5412 Stord, Norway": {
+    "lat": 59.7638,
+    "lng": 5.461,
+    "confidence": 7,
+    "formatted": "5412 Oslo County, Norway"
+  },
+  "Nedrevegen 108, 6710 Raudeberg, Norway": {
+    "lat": 61.982535,
+    "lng": 5.136079,
+    "confidence": 10,
+    "formatted": "Nedrevegen 108, 6710 Raudeberg, Norway"
+  },
+  "Økland 12, 5384 Torangsvåg, Norway": {
+    "lat": 60.117902,
+    "lng": 5.144856,
+    "confidence": 10,
+    "formatted": "Økland 12, 5384 Torangsvåg, Norway"
+  },
+  "Skuteviksbodene 1, 5035 Bergen, Norway": {
+    "lat": 60.393,
+    "lng": 5.3242,
+    "confidence": 7,
+    "formatted": "5035 Oslo County, Norway"
+  },
+  "Grimevegen 234, 5970 Byrknesøy, Norway": {
+    "lat": 60.9145173,
+    "lng": 4.8282707,
+    "confidence": 10,
+    "formatted": "Grimevegen 234, 5970 Byrknesøy, Norway"
+  },
+  "C/O Morten Lysvold Nilsen, 5397 Bekkjarvik, Norway": {
+    "lat": 60.0028,
+    "lng": 5.2003,
+    "confidence": 7,
+    "formatted": "5397 Oslo County, Norway"
+  },
+  "Hovlandsvegen 270, 5443 Bømlo, Norway": {
+    "lat": 59.6123229,
+    "lng": 5.2454389,
+    "confidence": 10,
+    "formatted": "Hovlandsvegen 270, 5443 Bømlo, Norway"
+  },
+  "Leiro 33, 5640 Eikelandsosen, Norway": {
+    "lat": 60.23991,
+    "lng": 5.748815,
+    "confidence": 10,
+    "formatted": "Leiro 33, 5640 Eikelandsosen, Norway"
+  },
+  "Leirvikflaten 13, 5179 Godvik, Norway": {
+    "lat": 60.377932,
+    "lng": 5.2104302,
+    "confidence": 10,
+    "formatted": "Leirvikflaten 13, 5179 Godvik, Norway"
+  },
+  "Brandasundvegen 359, 5423 Brandasund, Norway": {
+    "lat": 59.8952542,
+    "lng": 5.1020662,
+    "confidence": 10,
+    "formatted": "Brandasundvegen 359, 5423 Brandasund, Norway"
+  },
+  "Sjøgata 44, 6700 Måløy, Norway": {
+    "lat": 61.9365647,
+    "lng": 5.1164427,
+    "confidence": 10,
+    "formatted": "Sjøgata 44, 6700 Måløy, Norway"
+  },
+  "Ormeletveien 89, 3145 Tjøme, Norway": {
+    "lat": 59.1094877,
+    "lng": 10.4149681,
+    "confidence": 10,
+    "formatted": "Ormeletveien 89, 3145 Tjøme, Norway"
+  },
+  "Utgårdskilen 4-6, 1684 Vesterøy, Norway": {
+    "lat": 59.08774,
+    "lng": 10.86886,
+    "confidence": 7,
+    "formatted": "Vesterøy, Hvaler, Østfold fylke, Norway"
+  },
+  "Engelsvikenveien 6, 1628 Engelsviken, Norway": {
+    "lat": 59.252199,
+    "lng": 10.7358657,
+    "confidence": 10,
+    "formatted": "Engelsvikenveien 6, 1628 Engelsviken, Norway"
+  },
+  "Båthavna 12, 1680 Skjærhalden, Norway": {
+    "lat": 59.022594,
+    "lng": 11.035012,
+    "confidence": 10,
+    "formatted": "Båthavna 12, 1680 Skjærhalden, Norway"
+  },
+  "Georg Feydts Gate 20, 1792 Tistedal, Norway": {
+    "lat": 59.12545,
+    "lng": 11.443756,
+    "confidence": 10,
+    "formatted": "Georg Feydts gate 20, 1792 Tistedal, Norway"
+  },
+  "Pancoveien 16, 1624 Gressvik, Norway": {
+    "lat": 59.23369,
+    "lng": 10.909006,
+    "confidence": 10,
+    "formatted": "Pancoveien 16, 1624 Gressvik, Norway"
+  },
+  "Vallehellene 4, 1664 Rolvsøy, Norway": {
+    "lat": 59.2632,
+    "lng": 11.0046,
+    "confidence": 7,
+    "formatted": "1664 Akershus, Norway"
+  },
+  "Borgarveien 24, 1633 Gamle Fredrikstad, Norway": {
+    "lat": 59.2050496,
+    "lng": 10.9751173,
+    "confidence": 10,
+    "formatted": "Borgarveien 24, 1633 Gamle, Norway"
+  },
+  "Borg Havnevei 12, 1630 Gamle Fredrikstad, Norway": {
+    "lat": 59.2181,
+    "lng": 10.9298,
+    "confidence": 5,
+    "formatted": "Fredrikstad, Østfold fylke, Norway"
+  },
+  "Stabburveien 22, 1617 Fredrikstad, Norway": {
+    "lat": 59.242478,
+    "lng": 10.9753531,
+    "confidence": 10,
+    "formatted": "Stabburveien 22, 1617 Fredrikstad, Norway"
+  },
+  "Elveveien 110, 3271 Larvik, Norway": {
+    "lat": 59.0735601,
+    "lng": 10.058606,
+    "confidence": 10,
+    "formatted": "Elveveien 110, 3271 Larvik, Norway"
+  },
+  "Fasanvegen 41, 2406 Elverum, Norway": {
+    "lat": 60.9060896,
+    "lng": 11.5194045,
+    "confidence": 10,
+    "formatted": "Fasanvegen 41, 2406 Elverum, Norway"
+  },
+  "Borgeskogen 45c, 3160 Stokke, Norway": {
+    "lat": 59.245727,
+    "lng": 10.253103,
+    "confidence": 10,
+    "formatted": "Borgeskogen 45C, 3160 Stokke, Norway"
+  },
+  "Hofveien 6, 3092 Sundbyfoss, Norway": {
+    "lat": 59.521143,
+    "lng": 10.106119,
+    "confidence": 10,
+    "formatted": "Hofveien 6, 3092 Sundbyfoss, Norway"
+  },
+  "Kaarbyveien 35, 3092 Sundbyfoss, Norway": {
+    "lat": 59.513242,
+    "lng": 10.126298,
+    "confidence": 10,
+    "formatted": "Kaarbyveien 35, 3092 Sundbyfoss, Norway"
+  },
+  "Flyplassvegen 439, 5258 Blomsterdalen, Norway": {
+    "lat": 60.29347,
+    "lng": 5.2279932,
+    "confidence": 10,
+    "formatted": "Flyplassvegen 439, 5258 Blomsterdalen, Norway"
+  },
+  "Svanehaugvegen 2, 6812 Førde, Norway": {
+    "lat": 61.4570314,
+    "lng": 5.8887037,
+    "confidence": 10,
+    "formatted": "Svanehaugvegen 2, 6812 Førde, Norway"
+  },
+  "Thor Heyerdahls Veg 138, 2060 Gardermoen, Norway": {
+    "lat": 60.1925889,
+    "lng": 11.0878598,
+    "confidence": 10,
+    "formatted": "Thor Heyerdahls veg 138, 2060 Gardermoen, Norway"
+  },
+  "Tryggve Grans Veg 15, 2060 Gardermoen, Norway": {
+    "lat": 60.2167,
+    "lng": 11.1,
+    "confidence": 7,
+    "formatted": "2060 Aust-Agder, Norway"
+  },
+  "Hoveveien 9, 4306 Sandnes, Norway": {
+    "lat": 58.842653,
+    "lng": 5.7335352,
+    "confidence": 10,
+    "formatted": "Hoveveien 9, 4306 Sandnes, Norway"
+  },
+  "Edvard Munchs Veg, 2060 Gardermoen, Norway": {
+    "lat": 60.2167,
+    "lng": 11.1,
+    "confidence": 7,
+    "formatted": "2060 Aust-Agder, Norway"
+  },
+  "Hjellegata 2, 6905 Florø, Norway": {
+    "lat": 61.6002173,
+    "lng": 5.046831,
+    "confidence": 10,
+    "formatted": "Hjellegata 2, 6900 Florø, Norway"
+  },
+  "Waldemar Thranes Gate 98, 175.0 Oslo, Norway": {
+    "lat": 59.928356,
+    "lng": 10.754557,
+    "confidence": 10,
+    "formatted": "Waldemar Thranes gate 98, 0175 Oslo, Norway"
+  }
+}

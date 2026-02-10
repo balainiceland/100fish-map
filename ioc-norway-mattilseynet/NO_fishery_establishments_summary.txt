@@ -1,0 +1,6 @@
+Norway Fishery Establishments (Mattilsynet)
+Source file: NO_fishery_establishments.csv
+Total rows in source: 885
+Total rows after dedup: 885
+Dedup key: approval_no + plant_name + address
+Access date: 2026-02-10
