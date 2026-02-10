@@ -1,0 +1,7 @@
+MPEDA vs EIC Match Summary
+Date: 2026-02-09
+EIC rows: 413
+MPEDA rows: 1354
+Matched EIC rows: 205
+Unmatched EIC rows: 208
+Unmatched MPEDA rows: 1156

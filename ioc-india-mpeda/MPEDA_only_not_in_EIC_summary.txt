@@ -1,0 +1,4 @@
+MPEDA exporters not in EIC approved establishments list
+Date: 2026-02-09
+MPEDA-only count: 1156
+Source: MPEDA exporter directory (region-wise total)
