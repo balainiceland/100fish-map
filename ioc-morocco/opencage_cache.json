@@ -1,0 +1,2366 @@
+{
+  "DOUAR LAHFAYA, OULED HADDOU, COMMUNE DE BOUSKOURA, NOUACEUR,CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.44976,
+    "lng": -7.65239,
+    "confidence": 8,
+    "formatted": "Bouskoura, Nouaceur, Morocco"
+  },
+  "Lot n° 81, Z I TASSILA III, TIKIOUINE- AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 141 HO2 ZI SIDI GHANEM ROUTE DE SAFI MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "N° 74 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "PORT DE PECHE AGADIR PARCELLE N°247 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE AIT MELLOUL BP 1640 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "QUARTIER INDUSTRIEL LOT N°2 ROUTE AIN SAYARNI BERCHID, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "LOT 3 EX MATRAP AVABDRRAHIM BOUABID LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "Zone d'activité économique Lot N°41 commune urbaine de Jerada, JERADA, Morocco": {
+    "lat": 34.31,
+    "lng": -2.16,
+    "confidence": 9,
+    "formatted": "Jerada, Morocco"
+  },
+  "KM, 7 ROUTE BERKANE -SAIDIA BERKANE, BERKANE, Morocco": {
+    "lat": 35.08348,
+    "lng": -2.24115,
+    "confidence": 9,
+    "formatted": "Saidia, Berkane-Taourirt, Morocco"
+  },
+  "PORT DE PECHE DE BENI ENSAR, NADOR, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "AV AHMED EL HIBA , LOT 855 ZONE INDUSTRIELLE AIT MELLOUL INZEGANE AGADIR, AGADIR, Morocco": {
+    "lat": 30.33729,
+    "lng": -9.49783,
+    "confidence": 9,
+    "formatted": "Ait Melloul, Inezgane-Ait Mellou, Morocco"
+  },
+  "PARCELLE 50 NOUVEAU PORT AGADIR 80000 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "PORT DE MEHDIA KENITRA, KENITRA, Morocco": {
+    "lat": 34.2715531,
+    "lng": -6.6446354,
+    "confidence": 9,
+    "formatted": "Kasbat el Mehdia, Mehdya, باشوية المهدية, Morocco"
+  },
+  "44 AV MED LQBAL BIOUGRA AIT BAHA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE D'AIT MELLOUL N° 638 BIS AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "QI ANZA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE FRANCHE , SECTEUR B1, LOT N°2 , TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "AV MED V QUARTIER INDUSTRIEL DAKHLA BP 132 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "N°175-176 ZONE INDUSTRIELLE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE PORTUAIRE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "DOUAR LAHFAYA KM 11 ROUTE DE MEDIOUNA NOUACEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.3852,
+    "lng": -7.57927,
+    "confidence": 9,
+    "formatted": "Nouaceur, Morocco"
+  },
+  "N° 781, LOTISSEMENT AL MASSAR ROUTE DE SAFI, MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "BP 8002 CITE DAKHLA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N° 136 HAY TARGA SIDI MBAREK MARAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "LOT A35 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE INDUSTRIELLE LOT 151 EL JADIDA, EL JADIDA, Morocco": {
+    "lat": 33.2098244,
+    "lng": -8.4871566,
+    "confidence": 8,
+    "formatted": "Zone Industrielle d'El Jadida, El Jadida, El Jadida Province, Morocco"
+  },
+  "ZONE INDUSTRIELLE LOT 151, EL JADIDA, EL JADIDA, Morocco": {
+    "lat": 33.2098244,
+    "lng": -8.4871566,
+    "confidence": 8,
+    "formatted": "Zone Industrielle d'El Jadida, El Jadida, El Jadida Province, Morocco"
+  },
+  "Lotissement Saadi, Lot n°6, Quartier Industriel Sidi Bernoussi-Casablanca, CASABLANCA, Morocco": {
+    "lat": 33.65561,
+    "lng": -7.45414,
+    "confidence": 9,
+    "formatted": "Sidi Bernoussi, Casablanca, Morocco"
+  },
+  "Lotissement Saadi, Lot n° 16, Quartier Industriel Sidi Bernoussi-Casablanca, CASABLANCA, Morocco": {
+    "lat": 33.65561,
+    "lng": -7.45414,
+    "confidence": 9,
+    "formatted": "Sidi Bernoussi, Casablanca, Morocco"
+  },
+  "1, Allée de Mandariniers, Bd Chefchaouni, Ain Sbaa -Casablanca, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "ZONE INDUSTRIELLE BOUREGRAG, RABAT, Morocco": {
+    "lat": 34.01325,
+    "lng": -6.83255,
+    "confidence": 6,
+    "formatted": "Rabat, Morocco"
+  },
+  "PORT DE PECHE DE TAN TAN, TAN TAN, Morocco": {
+    "lat": 28.43288,
+    "lng": -11.08697,
+    "confidence": 1,
+    "formatted": "Tan Tan, Tan-Tan, Morocco"
+  },
+  "ZI AIT MELLOUL .BP 582 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE LOT 676 AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.3320486,
+    "lng": -9.4920134,
+    "confidence": 9,
+    "formatted": "Ait Melloul Zone Industrielle, 86152 Lotissement E Quartier industrielle, Morocco"
+  },
+  "QUARTIER INDUSTRIEL ROUTE PRINCIPAL TAN TAN, TAN TAN, Morocco": {
+    "lat": 28.43288,
+    "lng": -11.08697,
+    "confidence": 1,
+    "formatted": "Tan Tan, Tan-Tan, Morocco"
+  },
+  "N° 31, NOUVEAU PORT D’AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "40 ANGLE AVENUE ABOUBAKER EL OUAHRANI ET RUE AVIATEUR VITALIS HAY HAY MOHAMMADI CASABLANCA, CASABLANCA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "PORT M DIQ- M DIQ TETOUAN 3 RUE ELRRAOUI APPT 26 1ER ETAGE TANGER TETOUAN, M'DIQ, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "N° 1,2 ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE INDUSTRIELLE 80152 AIT MELLOUL, AGADIR, Morocco": {
+    "lat": 30.3320486,
+    "lng": -9.4920134,
+    "confidence": 9,
+    "formatted": "Ait Melloul Zone Industrielle, 86152 Lotissement E Quartier industrielle, Morocco"
+  },
+  "N° 138 ZONE INDUSTRIELLE -TETOUAN, TETOUAN, Morocco": {
+    "lat": 35.606151,
+    "lng": -5.3093728,
+    "confidence": 8,
+    "formatted": "93006 Tétouan, Morocco"
+  },
+  "LOT N° 756 LOTISSEMENT AL MASSAR ROUTE DE SAFI MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "N° 756,LOTISSEMENT AL MASSAR, ROUTE DE SAFI, 40000,MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "N° 310 LOTISSEMENT LINA ,ZI SIDI MAAROUF-CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.51402,
+    "lng": -7.65384,
+    "confidence": 7,
+    "formatted": "Sidi Ma’rouf, Région du Grand Casablanca, Morocco"
+  },
+  "LOT N° 62 ZONE INDUSTRIELLE DE BENI MELLAL, BENI MELLAL, Morocco": {
+    "lat": 32.33725,
+    "lng": -6.34983,
+    "confidence": 7,
+    "formatted": "Beni Mellal, Beni-Mellal, Morocco"
+  },
+  "167, BD DE BOURGOGNE CASABLANCA, MOHAMMADIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "PARCELLE 64 NOUVEAU PORT ANZA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE D'AIT MELLOUL, LOT N° 862, AGADIR, Morocco": {
+    "lat": 30.3320486,
+    "lng": -9.4920134,
+    "confidence": 9,
+    "formatted": "Ait Melloul Zone Industrielle, 86152 Lotissement E Quartier industrielle, Morocco"
+  },
+  "ZONE INDUSTRIELE HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "19 ROUTE NATIONAL RELIANT TAOURIRT ET DEBDOU, COMMUNE AHL OUES ZA, Province TAOURIRT, TAOURIRT, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "N° 92 ZONE 1 PARC INDUSTRIEL DE BOUSKOURA, PROVINCE DE NOUACEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.44976,
+    "lng": -7.65239,
+    "confidence": 8,
+    "formatted": "Bouskoura, Nouaceur, Morocco"
+  },
+  "LOTS 15 ET16, Z.I SAPINO PROVINCE DE NOUACEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.45839,
+    "lng": -7.64726,
+    "confidence": 9,
+    "formatted": "Nouaceur, Morocco"
+  },
+  "ZONE INDUSTRIELLE HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "8,9,10 ZONE INDUSTRIELLE ABI REGRAG,RABAT, RABAT, Morocco": {
+    "lat": 34.01325,
+    "lng": -6.83255,
+    "confidence": 6,
+    "formatted": "Rabat, Morocco"
+  },
+  "N°1,ZONE INDUSTRIELLE ABI REGREG,TAKADOUM RABAT, RABAT, Morocco": {
+    "lat": 34.01325,
+    "lng": -6.83255,
+    "confidence": 6,
+    "formatted": "Rabat, Morocco"
+  },
+  "STALLE N° 11 PORT DE PECHE S CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "BP 111 ZONE INDJUSTRIELLE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 10 ZONE INDUSTRIELLE BOUJDOUR, BOUJDOUR, Morocco": {
+    "lat": 26.11472,
+    "lng": -14.38917,
+    "confidence": 9,
+    "formatted": "Cabo Bojador, Boujdour, Morocco"
+  },
+  "ZONE INDUSTRIELLE ESSALAML DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "nan, DAKHLA, Morocco": {
+    "lat": 23.6940663,
+    "lng": -15.9431274,
+    "confidence": 5,
+    "formatted": "Dakhla, Pachalik de Dakhla باشوية الداخلة, Morocco"
+  },
+  "ZONE EXTRAPORTUAIRE BP 38 PORT DE TAN TAN, TAN TAN, Morocco": {
+    "lat": 28.43288,
+    "lng": -11.08697,
+    "confidence": 1,
+    "formatted": "Tan Tan, Tan-Tan, Morocco"
+  },
+  "QI ANZA BP.135-AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE PORTUAIRE, ANCIEN PORT,AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE Hay Salam DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "PROVINCE DE CHTOUKA AIT BAHA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 53 ZONE INDUSTRIELLE EL MARSSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT 81 ZONE INDUSTRIELLE EL MARSSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "PRINCE MOULAY HASSAN BEN MEHDI- ASILAH, ASILAH, Morocco": {
+    "lat": 35.46522,
+    "lng": -6.03415,
+    "confidence": 7,
+    "formatted": "Asilah, Région de Tanger-Tétouan, Morocco"
+  },
+  "ZONE INDUSTRIELLE ZONE BASSE ROUTE DE JORF LIHOUDI SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "38,BIS, ZONE INDUSTRIELLE , EL MARSA, LAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "4 GROUPE LOCAUX TECH, ZI TETOUAN, M'DIQ, Morocco": {
+    "lat": 35.68571,
+    "lng": -5.32507,
+    "confidence": 7,
+    "formatted": "M'Diq, Tetouan, Morocco"
+  },
+  "ZONE INDUSTRIELLE HAY SALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "BP 83 ZONE INDUSTRIELLE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 23-24, 25 ZONE INDUSTRIELLE. HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "nan, LAAYOUNE, Morocco": {
+    "lat": 27.154512,
+    "lng": -13.1953921,
+    "confidence": 6,
+    "formatted": "Laayoune, Pachalik de Laâyoune باشوية العيون, Morocco"
+  },
+  "ZONE .INDUSTRIELLE HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "QI TASSILA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZI HAY TAKADOUM BP 22 TAOURIRTE / LOT N° 44 ZONE INDUSTRIELLE OUJDA, TAOURIRT, Morocco": {
+    "lat": 34.68053,
+    "lng": -1.90764,
+    "confidence": 7,
+    "formatted": "Oujda, Oujda-Angad, Morocco"
+  },
+  "ROUTE DU JORF EL YOUDI BP 2253. RC 1425 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ROUTE DJORF LYOUDI BP 2253, SAFI, Morocco": {
+    "lat": 32.16667,
+    "lng": -8.83333,
+    "confidence": 1,
+    "formatted": "Safi, Morocco"
+  },
+  "NOUVEAU PORT DE LARACHE BP 572 LARACHE, LARACHE, Morocco": {
+    "lat": 35.19321,
+    "lng": -6.15572,
+    "confidence": 7,
+    "formatted": "Larache, Morocco"
+  },
+  "Q.I BP 361 OUJDA / LOT N° 44 ZONE INDUSTRIELLE OUJDA, OUJDA, Morocco": {
+    "lat": 34.68053,
+    "lng": -1.90764,
+    "confidence": 7,
+    "formatted": "Oujda, Oujda-Angad, Morocco"
+  },
+  "LOT 37-38-39-40-42 NOUVEAU PORT D' AGADIR, AGADIR, Morocco": {
+    "lat": 30.58333,
+    "lng": -9.5,
+    "confidence": 9,
+    "formatted": "Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT N°3, ZONE INDUSTRIELLE PORTUAIRE -DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ANGLE AVENUE AL MOUKAOUAMA ET RUE MOUSSA IBNOU NOUSSAIR ZONE INDUSTRIELLE BP 399 AGADIR, AGADIR, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "RUE MOUSSA IBNOU NOUSSAIR.QI.AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "RUE 3 LOT 84 ZI ROUTE DE TETOUAN TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "Lot n° 2, ZONE INDUSTRIELLE PORTUAIRE -DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "Lot n° 6, ZONE INDUSTRIELLE PORTUAIRE -DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "BP 66 Z I LAAYOUNE PORT, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE INDUSTRIELLE BP 66 PORT LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE INDUSTRIELLE DE SIDI IFNI, SIDI IFNI, Morocco": {
+    "lat": 29.37975,
+    "lng": -10.17299,
+    "confidence": 7,
+    "formatted": "Sidi Ifni, Tiznit, Morocco"
+  },
+  "ZONE INDUSTRIELLE TASSILA,N° 178 D'CHEIRA EL JIHADIA INEZGANE AIT MELLOUL, AGADIR, Morocco": {
+    "lat": 30.33729,
+    "lng": -9.49783,
+    "confidence": 9,
+    "formatted": "Ait Melloul, Inezgane-Ait Mellou, Morocco"
+  },
+  "37 RUE AIT BA AMRANE CASA (RUE IBN BATOUTA ZI LOT N 115 EL JADIDA) USINES : N°115 QUARTIER INDUSTRIEL, EL JADIDA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "BP 186 PORT DE BENI NSAR NADOR 62050, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "HAY MOULAY RACHID DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "BP 1 ZONE INDUSTRIELLE HAY SALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE INDUSTRIELLE MUNICIPALE,LOT 89 KENITRA, KENITRA, Morocco": {
+    "lat": 34.26101,
+    "lng": -6.5802,
+    "confidence": 7,
+    "formatted": "Kenitra, Morocco"
+  },
+  "PORT DE PECHE DE MEHDIA, KENITRA, Morocco": {
+    "lat": 34.58333,
+    "lng": -6.33333,
+    "confidence": 1,
+    "formatted": "Kenitra, Morocco"
+  },
+  "TANGER FREE ZONE, ILOT N° 118 B, LOT N° 2 TANGER BOUKHALEF, TANGER, Morocco": {
+    "lat": 35.65325,
+    "lng": -5.91322,
+    "confidence": 9,
+    "formatted": "Boukhalef, Tanger-Assilah, Morocco"
+  },
+  "LOT N° 42, ZONE INDUSTRIELLE, SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ANGLE RUE ECHEIH CHAAIB ADOUKALI ET RUE IBN KHALDOUN EL FARABI QUARTIER DU PORT DE PECHE MOHAMMEDIA, MOHAMMADIA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "ZONE INDUSTRIELLE AVENUE BOUJDOUR DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "39 Z I DE TETOUAN BP 6037, M'DIQ, Morocco": {
+    "lat": 35.68571,
+    "lng": -5.32507,
+    "confidence": 7,
+    "formatted": "M'Diq, Tetouan, Morocco"
+  },
+  "39 ZI DE TETOUAN BP 6049, M'DIQ, Morocco": {
+    "lat": 35.68571,
+    "lng": -5.32507,
+    "confidence": 7,
+    "formatted": "M'Diq, Tetouan, Morocco"
+  },
+  "Lot n° 140 ZONE INDUSTRIELLE HAY ESSALAM, DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "BP 132 ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "BP 132 ZONE INDUSTRIELLE ESSALMAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT 36 NOUVELLE ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE INDUSTRIELE, MALAH,ROUTE DE TANGER BP 121 LARACHE, LARACHE, Morocco": {
+    "lat": 35.19321,
+    "lng": -6.15572,
+    "confidence": 7,
+    "formatted": "Larache, Morocco"
+  },
+  "NOUVEAU POTR DE PECHE DE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "N° 104, NOUVEAU POTR DE PECHE DE LARACHE, LARACHE, Morocco": {
+    "lat": 35.19321,
+    "lng": -6.15572,
+    "confidence": 7,
+    "formatted": "Larache, Morocco"
+  },
+  "59 ZONE INDUSTRIEL AM MARSA PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT 21 ET 22 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOTISSEMENT AL HOUDA, LOT N° 467E,Q.I DE TASSILA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "PARCELLE N 48 NOUVEAU PORT AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ROUTE DE L OCEAN QI ANZA AGADIR BP 6145-CP 70014 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT B 606 ZONE INDUSTRIELLE AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT B 610 ZONE INDUSTRIELLE AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "45-47 IMM N° 64 AVENUE DAKHLA HAY EL INARA Z I.CASA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "ZONE INDUSTRIELLE EL MARSA, B.P,41,LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE INDUSTRIELLE DE LA VILLE D'EL MARSSA PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZI TASSILA III AIT MELLOUL TIQIOUINE, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "QUARTIER INDUSTRIEL ESSAOUIRA, ESSAOUIRA, Morocco": {
+    "lat": 31.5125,
+    "lng": -9.77,
+    "confidence": 7,
+    "formatted": "Essaouira, Morocco"
+  },
+  "ZONE INDUSTRIELLE PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "BP 322 ZI VILLE DE QUARTIER EL MASSIRA ZI BP 327 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ENCEINTE NOUVEAU PORT N° 6264 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "N° 02 ROUTE 107, SIDI MOUMEN, CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.5811926,
+    "lng": -7.5220043,
+    "confidence": 9,
+    "formatted": "Route de Chabbou, 20075 Casablanca, Morocco"
+  },
+  "ZI AIT MELLOUL BIOUGRA BP 417 AGAIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "BP 54- 53100 AZROU, AZROU, Morocco": {
+    "lat": 33.4460238,
+    "lng": -5.2278591,
+    "confidence": 6,
+    "formatted": "53100 Azrou, Morocco"
+  },
+  "LOT C55 ZI TASSILA, DCHEIRA ELJIHADIA-INZEGANE AIT MELLOUL, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "11 RUE FILAA HAY MY RACHID, , 71000BOUJDOUR, BOUJDOUR, Morocco": {
+    "lat": 25.66172,
+    "lng": -13.68419,
+    "confidence": 9,
+    "formatted": "Boujdour, Morocco"
+  },
+  "CITE DITE M'HMED AUTOROUTE TEMARA, TEMARA, Morocco": {
+    "lat": 33.92866,
+    "lng": -6.90656,
+    "confidence": 9,
+    "formatted": "Temara, Skhirate-Temara, Morocco"
+  },
+  "LOT 169 à 180 ZONE INDUSTRIELLE SUD OUEST DE MOHAMMEDIA, MOHAMMEDIA, Morocco": {
+    "lat": 33.69,
+    "lng": -7.4,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "PARCELLE N° 261, ZONE DE PECHE HAUTURIERE, PORT DE PECHE AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE HAY SALAM - DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "234 ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "PORT DE PECHE BENI-ENSAR NADOR, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "PARCELLES N° 73 , 74 ET 75 ZONE INDUSTRIELLE I NOUVEAU PORT D’AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "PARCELLE 73-74 et 75 NOUVEAU PORT D' AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "73 Bd MOULAY HICHAM, ZONE INDUSTRIELLE, ESSAOUIRA, Morocco": {
+    "lat": 31.5125,
+    "lng": -9.77,
+    "confidence": 7,
+    "formatted": "Essaouira, Morocco"
+  },
+  "ESSAOUIRA, AGADIR, Morocco": {
+    "lat": 30.38839,
+    "lng": -9.5973034,
+    "confidence": 10,
+    "formatted": "Essaouira, Chemin des Dunes, 80015 Agadir, Morocco"
+  },
+  "ROUTE DE JORF EL YOUDI LOT CONTRAS, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "LOT N°33-34 ZONE INDUSTRIELLE TASSILA JIHADIA,DCHEIRA INZEGANE AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.33729,
+    "lng": -9.49783,
+    "confidence": 9,
+    "formatted": "Ait Melloul, Inezgane-Ait Mellou, Morocco"
+  },
+  "ZONE INDUSTRIELLE .HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT 184, Q.I SIDI GHANEM, ROUTE DE SAFI MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "PORT DE PECHE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "QUARTIER INDUSTRIEL PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT N° 17 ZONE FRANCHE D'EXPORTATION GZENAYA TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "N° 209 210 ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "Route El Gara, km 6,8 Sidi hajjaj Tit Mellil, MEDIOUNA/NOUACEUR, Morocco": {
+    "lat": 33.55808,
+    "lng": -7.48647,
+    "confidence": 9,
+    "formatted": "Tit Mellil, Mediouna, Morocco"
+  },
+  "Lot N° 96 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "102 RUE BOUMAZEL QUARTIER INDUSTRIELSAFI, SAFI, Morocco": {
+    "lat": 32.16667,
+    "lng": -8.83333,
+    "confidence": 1,
+    "formatted": "Safi, Morocco"
+  },
+  "LOT EL MASSAR, N 728 QUARTIER INDUSTRIELLE SIDI GHANEM MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 32.6986,
+    "lng": -7.98151,
+    "confidence": 9,
+    "formatted": "Sidi Ghanem, Kelaa-Des-Sraghna, Morocco"
+  },
+  "LOT N° 8 ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "67, BOULVARD AHMED MANSOUR EDDAHBI QUARTIER INDUSTRIELLE AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N° 516 LOTISSEMENT AL MASSAR, EXTENSION ATELIER I QUARTIER INDUSTRIEL 40000 MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "N° 10 RUE 2 MARS QUARTIER INDUSTRIELLE BP 232 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE.NDUSTRIELLE I HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE INDUSTRIELLE EXTRAPORTUAIRE BP 115 EL OUATIA TAN TAN PLAGE, TAN TAN, Morocco": {
+    "lat": 28.48,
+    "lng": -11.34,
+    "confidence": 7,
+    "formatted": "Tan-Tan Plage, Guelmim-Es Semara, Morocco"
+  },
+  "HAY MOULAY RACHID VILLE DE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 97 ZONE INDUSTRIELLE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "COMPLEXE FRIGORIFIQUE DE L ONP BP 42 ANCIEN PORT AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "Tribu Ouled Ziane Douar Lagrarsa Commune rurale Deroua, Berrechid, BERRECHID, Morocco": {
+    "lat": 33.26553,
+    "lng": -7.58754,
+    "confidence": 9,
+    "formatted": "Berrechid, Settat, Morocco"
+  },
+  "LOT 61, QUARTIER INDUSTRIELLE TASSILA III TIKIOUINE AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE FRANCHE LOGISTIQUE TANGER MED LOT 81, OUED R'MEL COMMUNE KSAR AL MAJAZ PROVINCE ANJRA TANGER, FAHS ANJRA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "Lot n°H Zone Industrielle Hay Essalam, Dakhla, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "KM 11 ROUTE PRINCIPALE D'EL JADIDA N° 8 LISSASFA CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "PORT CREVETTIER DE MEHDIA, KENITRA, Morocco": {
+    "lat": 34.58333,
+    "lng": -6.33333,
+    "confidence": 1,
+    "formatted": "Kenitra, Morocco"
+  },
+  "BP 52 ZONE INDUSTRIELLE PORT DE PECHE LAAYOUNE RC 1335 LAAYOUNE., LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "NOUVEAU PORT DE LARACHE, LARACHE, Morocco": {
+    "lat": 35.19321,
+    "lng": -6.15572,
+    "confidence": 7,
+    "formatted": "Larache, Morocco"
+  },
+  "PARCELLE N° 91, Q.I, PORT DE SIDI IFNI, SIDI IFNI, Morocco": {
+    "lat": 29.37975,
+    "lng": -10.17299,
+    "confidence": 7,
+    "formatted": "Sidi Ifni, Tiznit, Morocco"
+  },
+  "LOT 234 ET 235 ZONE INDUSTRIELLE ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "SAF LHMAMCOMMUNE SEBT ZINAT- TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "KM 33, N° 1 COMMUNE MANSOURIA, BP 72 MOHAMMEDIA, MOHAMMADIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "N° 6 NOUVEAU PORT D' AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N°102 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "332 LOTISSEMENT LINA ZONE INDUSTRIELLE SIDI MAAROUF CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.51402,
+    "lng": -7.65384,
+    "confidence": 7,
+    "formatted": "Sidi Ma’rouf, Région du Grand Casablanca, Morocco"
+  },
+  "NOUVEAU PORT D AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "PARCELLE N° 30 A LA ZONE INDUSTRIELLE EL MARSA BP 65 LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "N° 110 ZONE INDUSTRIELLE EL EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "PDA SIDI ABED EL JADIDA, EL JADIDA, Morocco": {
+    "lat": 33.03534,
+    "lng": -8.64746,
+    "confidence": 9,
+    "formatted": "Sidi Abed, El-Jadida, Morocco"
+  },
+  "PARCELLE N° 28 NOUVEAU PORT AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOTISSEMENT N°1 ZONE INDUSTRIELLE ESSALAM LOT 28 ET 29 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ANGLE AVENUE MOHAMED YAZIDIX BOULVARD ABDERRAHMAN BOUAABID EL RAISE LAAYOUNE BP73 PORTDE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE INDUSTRIELLE ESSALAM III DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "QUARTIER NDUSTRIEL ANZA BP 6143 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "QI ANZA BP 6143 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 5 ET 6 NOUVEAU QUARTIER INDUSTRIEL ROUTE DE DJORF SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "NOUVEAU PORT DE PECHE DE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "ROUTE OULED BERRJAL KM 2 KENITRA, KENITRA, Morocco": {
+    "lat": 34.26101,
+    "lng": -6.5802,
+    "confidence": 7,
+    "formatted": "Kenitra, Morocco"
+  },
+  "LOT 131 - 132 ZONE INDUSTRIELLE SUD OUEST MOHAMMEDIA, MOHAMMADIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "ZONE INDUSTRIELLE LOT N° 45 VILLE D'EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT 40 ZI EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "PARCELLE N° 89 ET 90 PORT D’ AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "PORT DE BENI NSAR NADOR, NADOR, Morocco": {
+    "lat": 35.2651731,
+    "lng": -2.9331484,
+    "confidence": 9,
+    "formatted": "Beni Nsar Port, Route Beni Ensar طريق بني انصار, 62052 Beni Ansar, Morocco"
+  },
+  "ZONE INDUSTRIELLE N° 103 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 211 ET 212 ZONE INDUSTRIELLE HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 63 Z . I ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "N° 50 ZONE INDUSTRIELLE AL FATH BOUJDOUR, BOUJDOUR, Morocco": {
+    "lat": 26.11472,
+    "lng": -14.38917,
+    "confidence": 9,
+    "formatted": "Cabo Bojador, Boujdour, Morocco"
+  },
+  "ZONE INDUSTRIELLE, EL MARSA, LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE FRANCHE, ILOT N°1, LOT N°7, TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "Z.I. AL MAJD, BEHAER, AOUAMA TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "LOT N° 99 Z I BIR RAMI KENITRA, KENITRA, Morocco": {
+    "lat": 34.26101,
+    "lng": -6.5802,
+    "confidence": 7,
+    "formatted": "Kenitra, Morocco"
+  },
+  "LOT N°47,ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "Q I AGADIR, AGADIR, Morocco": {
+    "lat": 30.41068,
+    "lng": -9.5613183,
+    "confidence": 8,
+    "formatted": "Boulevard Hassan I, 80006 Agadir, Morocco"
+  },
+  "ANGLE ROUTE NATIONALE N° 1 ET NATIONALE N° 8 COMMUNE TIKIOUINE AGADIR IDAOUTANATE,AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N° 127/B2 ZONE INDUSTRIELLE TASSILA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 38 Z I VILLE EL MARSA LAAYOUNE PORT, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "N° 87, ZONE INDUSTRIELLE TASSILA III TIKIOUINE,AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "Z.I Tassila3 N° 87 Tikouine Agadir, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT N° 709 PARC INDUSTRIEL SAPINO NOUACEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.3852,
+    "lng": -7.57927,
+    "confidence": 9,
+    "formatted": "Nouaceur, Morocco"
+  },
+  "LOT N° 709 PAC INDUSTRIEL SAPINO NOUACER CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "9-10 Z.I DAR BOUAZZA PROVINCE DE NOUCEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "DOUAR LAGOUASSEM BOUSKOURA PAR SIDI MAAROUF ZONE RURALE CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "ROUTE ELL YOUDI BP 96 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ROUTE EL YOUDI BP 96 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ROUTE DU JORF EL YOUDI BP 96 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "LOT N° 1102 ZONE INDUSTRIELLE SAPINO PROVINCE DE NOUCEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "POLE INDUSTRIEL ONDA NOUACEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.3852,
+    "lng": -7.57927,
+    "confidence": 9,
+    "formatted": "Nouaceur, Morocco"
+  },
+  "LOT 115 PARC INDUSTRIEL OULED SALEH PROVINCE DE NOUCEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "Z.I HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "Zone logistique SNTL, entrepôt D5. Zi MOHAMMEDIA, MOHAMMEDIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "LOT N° 86 ZONE INDUSTRIELLE DAR BOUAZZA REGION DE CASA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "ZONE PORTUAIRE PARCELLE N3 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "NOUVELLE ZI LOTS 12 ET 13 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "Z.I N° 364 ROUTE DEBDOU BP 53 TAOURIRT, TAOURIRT, Morocco": {
+    "lat": 29.69015,
+    "lng": -7.84739,
+    "confidence": 9,
+    "formatted": "Guelmim-Es Semara, Morocco"
+  },
+  "Z I OULED ESSALAM LOT N° 226, BP N° 841 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "RUE DE DJORF LIHOUDI QUARTIER INDUSTRIELLE SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "LOT N° 140, ZONE INDUSTRIELLE HAY ESSALAM, DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "13, RUE MUSTAPHA EL MAÂNI CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 32.9878522,
+    "lng": -7.607265,
+    "confidence": 9,
+    "formatted": "Rue Mustapha El Maani, 26003 Settat, Morocco"
+  },
+  "PARCELLE N° 280 ANCIEN PORT, AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 157 Z.I EL JADIDA ROUTE DE MARRAKECH, EL JADIDA, Morocco": {
+    "lat": 32.9,
+    "lng": -8.5,
+    "confidence": 1,
+    "formatted": "El-Jadida, Morocco"
+  },
+  "NOUVEAU PORT DE LARACHE BP 573 LARACHE, LARACHE, Morocco": {
+    "lat": 35.19321,
+    "lng": -6.15572,
+    "confidence": 7,
+    "formatted": "Larache, Morocco"
+  },
+  "ANCIEN PORT D'AGADIR PARCELLE N° 70, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 136, COMPLEXE INDUSTRIEL SAPINO, Province de NOUACEUR, MEDIOUNA/NOUACEUR, Morocco": {
+    "lat": 33.3802,
+    "lng": -7.62105,
+    "confidence": 7,
+    "formatted": "Nouaseur, Chaouia-Ouardigha, Morocco"
+  },
+  "LOT 29 PARC INDUSTRIEL DE BOUSKOURA, NOUACEUR, MEDIOUNA/NOUACEUR, Morocco": {
+    "lat": 33.3802,
+    "lng": -7.62105,
+    "confidence": 7,
+    "formatted": "Nouaseur, Chaouia-Ouardigha, Morocco"
+  },
+  "Nouveau port de pêche de Tanger, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "LOT 814 ZONE INDUSTIRIELLE AL MAJD TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "Z.I ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 656 AL MASSAR ROUTE DE SAFI MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "BP 270 ZONE INDUSTRIEL ROUTE TELEMZOUNE TAN TAN, TAN TAN, Morocco": {
+    "lat": 28.43288,
+    "lng": -11.08697,
+    "confidence": 1,
+    "formatted": "Tan Tan, Tan-Tan, Morocco"
+  },
+  "ZONE INDUSTRIEL ROUTE TELEMZOUNE TAN TAN 82000, TAN TAN, Morocco": {
+    "lat": 28.43288,
+    "lng": -11.08697,
+    "confidence": 1,
+    "formatted": "Tan Tan, Tan-Tan, Morocco"
+  },
+  "ROUTE SIDI OUASSEL BP 301 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "21 LOT NAMAE BENSOUDA FES, FES, Morocco": {
+    "lat": 34.03715,
+    "lng": -4.9998,
+    "confidence": 6,
+    "formatted": "Fès, Fes, Morocco"
+  },
+  "PARCELLE N 85 BP 1712 NOUVEAU PORT AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE FRANCHE DE TANGER, TANGER, Morocco": {
+    "lat": 35.7177722,
+    "lng": -5.9187258,
+    "confidence": 7,
+    "formatted": "90100 Gueznaïa, Morocco"
+  },
+  "N°97 HAY RAJAA ANGLE RUE DES PLEIADES ET ALLEE DES LIONS CASABLANCA, CASABLANCA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "N° 97 HAY RAJJA RUE DES PLEIADES ET A LLEE DES LIONS CASABLANCA, CASABLANCA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "AVANT PORT DE MEHDIA KENITRA, KENITRA, Morocco": {
+    "lat": 34.26101,
+    "lng": -6.5802,
+    "confidence": 7,
+    "formatted": "Kenitra, Morocco"
+  },
+  "LOT N° 280 (E63) ZONE INDUSTRIELLE TASSILA II AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N° 674 FARHAT HACHAD Z.I DCHEIRA EL JIHADIA INEZGANE AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.33729,
+    "lng": -9.49783,
+    "confidence": 9,
+    "formatted": "Ait Melloul, Inezgane-Ait Mellou, Morocco"
+  },
+  "Z.I. EXTRA PORTUAIRE BP 317, EL OUATIA, TANTAN PLAGE, TAN TAN, Morocco": {
+    "lat": 28.08333,
+    "lng": -11.08333,
+    "confidence": 1,
+    "formatted": "Tan-Tan, Morocco"
+  },
+  "Lot n° 33 ZONE INDUSTRIELLE GZENAYA TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "LOT 80,ZONE INDUSTRIELLE BASSE,ROUTE DJORF,SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "PORT DE PECHE DE MOHAMMEDIA, MOHAMMEDIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "PORT DE MEHDIA KENITRA, MEHDIA, Morocco": {
+    "lat": 34.2715531,
+    "lng": -6.6446354,
+    "confidence": 9,
+    "formatted": "Kasbat el Mehdia, Mehdya, باشوية المهدية, Morocco"
+  },
+  "Km 42, CENTRE SIDI RAHAL ROUTE COTIERE CASA AZEMOUR SIDI RAHAL PLAGE, CASABLANCA, Morocco": {
+    "lat": 31.24693,
+    "lng": -8.65456,
+    "confidence": 9,
+    "formatted": "Zaouia Sidi Rehal, Marrakech-Tensift-Al Haouz, Morocco"
+  },
+  "QUARTIER MUNICIPAL INDUSTRIEL LOT N° 71 KENITRA, KENITRA, Morocco": {
+    "lat": 34.26101,
+    "lng": -6.5802,
+    "confidence": 7,
+    "formatted": "Kenitra, Morocco"
+  },
+  "QI AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "RUE AL BAHARA QI. ANZA. BP.6196. AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE 2EME TRANCHE, LOT N° 26-27-28-29 BOUJDOUR, BOUJDOUR, Morocco": {
+    "lat": 26.11472,
+    "lng": -14.38917,
+    "confidence": 9,
+    "formatted": "Cabo Bojador, Boujdour, Morocco"
+  },
+  "N° 136 Zone Industrielle Al Marsa Layoune, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT H 13, ZONE INDUSTRIELLE BOUJDOUR, BOUJDOUR, Morocco": {
+    "lat": 26.11472,
+    "lng": -14.38917,
+    "confidence": 9,
+    "formatted": "Cabo Bojador, Boujdour, Morocco"
+  },
+  "ZI LOT N 47 EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "MUNICIPALITE EL MARSA LOT N° 60 ZON E INDUSTRIELLE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT 238 PE 26 ZONE INDUSTRIELLE AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "Z I LOT 631 BP 1761 AIT MELLOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ROUTE DU DJORF EL YOUDI SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "LOT 140 ZONE INDUSTRIELLE ASSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "237 HAY EL MASSIRA OURZAZAT, OURZAZAT, Morocco": {
+    "lat": 32.0,
+    "lng": -6.0,
+    "confidence": 1,
+    "formatted": "Morocco"
+  },
+  "Lot Laayoune n° 33 Ain BORJA Casablanca, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "ROUTE LAAYOUNE QUARTIER INDUSTRIEL AL WATAYA N° 56/914 ZONE EXTRA PORTUAIRE TAN TAN PORT, TAN TAN, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "Z.I LOT N° 52 WIFAK OULFA SASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "PARCELLE N° 30 ZI NOUVEAU PORT D’ANZA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT 169 à 180ZONE INDUSTRIELLE SUD- OUEST DE MOHAMMEDIA, MOHAMMEDIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "ANCIEN PORT DE PECHE AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N°1-11,LOT PARC HALIOPOLIS, CR DRARGA TIKIOUINE, AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT N° 35 ZONE INDUSTRIELLE EL MARSA, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "MAGASIN N° 1 PORT DE PECHE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "LOCAL N° 13-14 PORT DE PECHE DE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "ZI VILLE DE DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "AVANT PORT DE MEHDIA, KENITRA, Morocco": {
+    "lat": 34.58333,
+    "lng": -6.33333,
+    "confidence": 1,
+    "formatted": "Kenitra, Morocco"
+  },
+  "Km 16.5 DOUAR AARABA DAR BOUAZZA PROVINCE DE NOUCEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "PORT DE PECHE DE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "Z I ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "N° 10 PORT DE M DIQ BP 251, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "PORT DE PECHE DE BENI ENSAR, M'DIQ, Morocco": {
+    "lat": 35.68571,
+    "lng": -5.32507,
+    "confidence": 7,
+    "formatted": "M'Diq, Tetouan, Morocco"
+  },
+  "Port de Mehdia kENITRA, KENITRA, Morocco": {
+    "lat": 34.2715531,
+    "lng": -6.6446354,
+    "confidence": 9,
+    "formatted": "Kasbat el Mehdia, Mehdya, باشوية المهدية, Morocco"
+  },
+  "NOUVELLE ZI LOT 181 ET 182 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "N 442 ZI SIDI GHANEM MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.6238798,
+    "lng": -7.9879842,
+    "confidence": 9,
+    "formatted": "Riad Casa Sofia, Riad Zitoun Kadim, Derb El Khadar N 16, 40040 Marrakesh, Morocco"
+  },
+  "LOT AL MASSAR N° 31 ROUTE DE SAFI MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "DOUAR HART HAMRI, DAR BOUAZZA,NOUACEUR CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.51535,
+    "lng": -7.81677,
+    "confidence": 9,
+    "formatted": "Dar Bouazza, Nouaceur, Morocco"
+  },
+  "29 RUE DE LA PYRAMIDE BELVEDERE CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "LOT 121 NOUVELLE ZI DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZI ROUTE DE JORF LYOUDI, SAFI, Morocco": {
+    "lat": 32.16667,
+    "lng": -8.83333,
+    "confidence": 1,
+    "formatted": "Safi, Morocco"
+  },
+  "LOT HALIOPOLIS N° 11,12 COMMUNE DRARGA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "LOT HALIOPOLIS N° 11 ET 12 AGADIR COMMUNE DRARGAR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZI LOT 32 ET 33 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "RUE ASSINAA QUARTIER INDUSTRIEL ANZA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "RUE ALMILAHA Q I D'ANZA, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "AVENUE 10 MARS SIDI OTHMAN, CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "KHALIL II RUE 4 N 97 LA VILETTE CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "RUE PRESIDENT BEKKAI Q.I AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "DOUAR LAHFARI, COMMUNE RURALE MEJATIA OULED TALEB MEDIOUNA CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.45884,
+    "lng": -7.51613,
+    "confidence": 9,
+    "formatted": "Mediouna, Morocco"
+  },
+  "Z.I N° 18 BP 77 SELOUANE, PR DE NADOR, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "STALLE N 8 PORT DE PECHE CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "LOTS 41 ZONE INDUSTRIELLE BP 808 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ZI LOTS 181-192 ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE INDUSTRIELLE EL MRSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "QI HAY ES SALAM DAKHLA NOUVEAU QI, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT 99 /100 HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "19 LOT ENNACER AFOURER AZILAL, AZILAL, Morocco": {
+    "lat": 32.20721,
+    "lng": -6.53824,
+    "confidence": 9,
+    "formatted": "Afourer, Azilal, Morocco"
+  },
+  "LOT 33 Z.I SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "N° 112 A2 ZONE INDUSTRIELLE TASSILA- INEZGANE-AIT MELLOUL, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N° 43, RUE AL KHOUZAMA, QUARTIER LA GIRONDE CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "QI N° 35 TASSILLA D'CHEIRA EL JIHADIA INEZGANE AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "N° 9 ZONE INDUSTRIELLE AL MAAZOUZIA SIDI GHANEM MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 32.6986,
+    "lng": -7.98151,
+    "confidence": 9,
+    "formatted": "Sidi Ghanem, Kelaa-Des-Sraghna, Morocco"
+  },
+  "N°9 ZONE INDUSTRIELLE AL MAAZOUZIA SIDI GHANEM MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 32.6986,
+    "lng": -7.98151,
+    "confidence": 9,
+    "formatted": "Sidi Ghanem, Kelaa-Des-Sraghna, Morocco"
+  },
+  "N° 7 PORT DE BENI NSAR NADOR, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "ZI LOT 2263, LOTISSEMENT OULED ZAERS, AIN AOUDA, RABAT (AIN AOUDA), Morocco": {
+    "lat": 34.01325,
+    "lng": -6.83255,
+    "confidence": 6,
+    "formatted": "Rabat, Morocco"
+  },
+  "ROUTE DU DJORF EL YOUDI BP 294 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ZI AVENUE MOHAMED V DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZI LOT N°1 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ROUTE DE TETOUAN Z I 3éme RUE N° 85 90000 TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "LOT 14 ZI SUD OUEST MOHAMMEDIA, MOHAMMADIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "LOT N° B775 QUARTIER 9INDUSTRIEL, INZGANE-AIT MELLOUL, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE EL MARSA,LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZONE INDUSTRIELLE, ROUTE DE DJORF ELYOUDI SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ZI N 1 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "12 Z.I OUJDA, OUJDA, Morocco": {
+    "lat": 34.68053,
+    "lng": -1.90764,
+    "confidence": 7,
+    "formatted": "Oujda, Oujda-Angad, Morocco"
+  },
+  "Z.I N° 40 BP 6000 SELOUANE,NADOR, NADOR, Morocco": {
+    "lat": 35.07313,
+    "lng": -2.9423,
+    "confidence": 9,
+    "formatted": "Selouane, Nador, Morocco"
+  },
+  "QI ANZA BP 6294 ANZA 80002 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ANCIEN PORT D'AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "PORT DE PECHE D'AGADIR, AGADIR, Morocco": {
+    "lat": 30.4264616,
+    "lng": -9.6194073,
+    "confidence": 9,
+    "formatted": "Port De Peche, Avenue Mohamed V شارع الحسن الثاني, 80024 Agadir, Morocco"
+  },
+  "DOUAR BOUHALA COMMUNE DE SAHEL OULED HARIZ BERRACHID, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "LOT 85 SECTEUR 13S, ZI OUELED SALEH, NOUACEUR-CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.3852,
+    "lng": -7.57927,
+    "confidence": 9,
+    "formatted": "Nouaceur, Morocco"
+  },
+  "16 RUE DE TINGHIRT, ROCHE NOIRE, AÏN SEBAA, CASABLANCA ZONE INDUSTRIELLE, CASABLANCA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "ZI LOTS 207 ET 208 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZONE INDUSTRIELLE ESALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 80 ZONE INDUSTRIELLE,PORT DE LAAYOUNE BP 52, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT 110 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "PARCELLE 81 NOUVEAU PORT BP 1798 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIEL,PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ROUTE DU JORF EL YOUDI BP 56 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "PARCELLE N° 2 NOUVEAU PORT D'AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "NOUVELLE ZI LOT N 87 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "RUE DE L'OCEAN QUARTIER INDUSTRIEL ANZA AGADIR 80090 AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "QUARTIER INDUSTRIEL ANZA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "KM 10.500 ROUTE D'ELJADIDA, LISSASFA 20230 CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "NOT 44 – 46, NOUVEAU PORT D'AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ZONE INDUSTRIELLE LOTISSEMENT 38 ROUTE DE MARTIL TETOUAN, M'DIQ, Morocco": {
+    "lat": 35.68571,
+    "lng": -5.32507,
+    "confidence": 7,
+    "formatted": "M'Diq, Tetouan, Morocco"
+  },
+  "NOUVEAU PORT DE TANGER, TANGER, Morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975,
+    "confidence": 6,
+    "formatted": "Tangier, Tanger-Assilah, Morocco"
+  },
+  "ZONE INDUSTRIELLE D'EL JADIDA LOT 266, EL JADIDA, Morocco": {
+    "lat": 33.2098244,
+    "lng": -8.4871566,
+    "confidence": 8,
+    "formatted": "Zone Industrielle d'El Jadida, El Jadida, El Jadida Province, Morocco"
+  },
+  "Z.I. EXTRA PORTUAIRE BP 217, EL OUATIA, TANTAN PLAGE, TAN TAN, Morocco": {
+    "lat": 28.08333,
+    "lng": -11.08333,
+    "confidence": 1,
+    "formatted": "Tan-Tan, Morocco"
+  },
+  "LOT B 37 Z I PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "ZI ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "NOUVELLE ZI LOT 69 ET 71 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "BP N° 62 ZONE INDUSTRIELLE EL MARSA LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "COMMUNE OUELD SEBBAH, HANGAR N°3 EL GARA BERCHID, BERRECHID, Morocco": {
+    "lat": 33.26553,
+    "lng": -7.58754,
+    "confidence": 9,
+    "formatted": "Berrechid, Settat, Morocco"
+  },
+  "PORT DE PECHE SE BENI ENSAR NADOR, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "Avenue Alfarabi, lot D4 ZI Tassila Dceira- Inzegane AIT Melloul, AGADIR, Morocco": {
+    "lat": 30.33729,
+    "lng": -9.49783,
+    "confidence": 9,
+    "formatted": "Ait Melloul, Inezgane-Ait Mellou, Morocco"
+  },
+  "QI HAY ES SALAM DAKHLA OU NOUVELLE ZI DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "Z.I ROUTE DE DJORF EL YOUDI,SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "QI HAY ES SALAM DAKHLA NOUVELLE ZI, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "ZI MOULAY RACHID RUE 3 LOT 124 CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "BD DES ZENETAS ET HASSAN II. MOHAMMEDIA, MOHAMMADIA, Morocco": {
+    "lat": 33.68607,
+    "lng": -7.38298,
+    "confidence": 7,
+    "formatted": "Mohammedia, Morocco"
+  },
+  "Lot n° 6 ZONE INDUSTRIELLE HAY ESSALAM DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "RUE OUED ESDDAHAB N° 5 DAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT 81,82,83,84,85 ZONE INDUSTRIELLE 2 TAZA, TAZA, Morocco": {
+    "lat": 34.21,
+    "lng": -4.01,
+    "confidence": 7,
+    "formatted": "Taza, Morocco"
+  },
+  "LOT 81,82,83,84,85 ZONEINDUSTRIELLE 2 TAZA, TAZA, Morocco": {
+    "lat": 34.21,
+    "lng": -4.01,
+    "confidence": 7,
+    "formatted": "Taza, Morocco"
+  },
+  "Z I Hay SalamDAKHLA, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "PARCELLE N° 9 NOUVEAU PORT AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "85 QI HAY ES SALAM DAKHLA ZI HAY ESSALAM, DAKHLA, Morocco": {
+    "lat": 30.41071,
+    "lng": -9.55572,
+    "confidence": 9,
+    "formatted": "Dakhla, Oued ed Dahab-Lagouira, Morocco"
+  },
+  "LOT N° 32 ZONE INDUSTRIELLE EL MARSA PORT DE LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.83333,
+    "lng": -12.33333,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "N 42 ZONE INDUSTRIELLE ROUTE DE MARTIL TETOUAN, M'DIQ, Morocco": {
+    "lat": 35.9110395,
+    "lng": -5.3829102,
+    "confidence": 9,
+    "formatted": "Route du Poste Frontière de Benzú, Belyounech, Morocco"
+  },
+  "PARCELLE N 8 NOUVEAU PORT AGADIR BP 5231, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "11 ROUTE DE ZENATAS RUE L – AIN SEBAA CASABLANCA Q.I ANZA AGADIR BP 124, AGADIR, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "ROUTE ELL YOUDI SAFI BP 129 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ROUTE DU JORF EL YOUDI BP 41 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "N° 4 RUE EL BAHARA BP 85 Q.I ANZA AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  },
+  "ROUTE EL YOUDI BP 114 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "BP 228 PORT DE MEHDIA, KENITRA, Morocco": {
+    "lat": 34.2715531,
+    "lng": -6.6446354,
+    "confidence": 9,
+    "formatted": "Kasbat el Mehdia, Mehdya, باشوية المهدية, Morocco"
+  },
+  "1, PLACE PRINCE SIDI MOHAMED BP 1544 CASA CARE 20300 SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "ROUTE EL YOUDI SAFI, SAFI, Morocco": {
+    "lat": 32.29939,
+    "lng": -9.23718,
+    "confidence": 7,
+    "formatted": "Safi, Morocco"
+  },
+  "LOT 113, ZONE INDUSTRIELLE EL MARSA, LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "LOT N° 508 LOTISSEMENT AL MASSAR ROUTE DE SAFI MARRAKECH, MARRAKECH, Morocco": {
+    "lat": 31.63416,
+    "lng": -7.99994,
+    "confidence": 6,
+    "formatted": "Marrakesh, Marrakech, Morocco"
+  },
+  "KM 9 ROUTE EL JADIDA, ZI DE LISSASFA. CASA 9 RUE SAINT EMILLON 20300 CASA, CASABLANCA, Morocco": {
+    "lat": null,
+    "lng": null,
+    "confidence": null,
+    "formatted": null
+  },
+  "Z.I LISSASFA,KM 9,ROUTE EL JADIDA CASABLANCA, CASABLANCA, Morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138,
+    "confidence": 6,
+    "formatted": "Casablanca, Morocco"
+  },
+  "ZONE INDUSTRIELLE PORT LAAYOUNE, LAAYOUNE, Morocco": {
+    "lat": 27.18064,
+    "lng": -13.06349,
+    "confidence": 9,
+    "formatted": "Laayoune, Morocco"
+  },
+  "zone industrielle PORTUAIRE-PORT DE BENI ENSAR, NADOR, Morocco": {
+    "lat": 35.16813,
+    "lng": -2.93352,
+    "confidence": 7,
+    "formatted": "Nador, Morocco"
+  },
+  "A62 ZI TASSILA INEZGANE AIT MEOUL AGADIR, AGADIR, Morocco": {
+    "lat": 30.42018,
+    "lng": -9.59815,
+    "confidence": 7,
+    "formatted": "Agadir, Agadir-Ida-ou-Tnan, Morocco"
+  }
+}

@@ -1,0 +1,6 @@
+Morocco ONSSA Approved Fish Processing Establishments
+Source file: ONSSA_fish_processing_approved.csv
+Total rows in source: 436
+Total rows after dedup: 436
+Dedup key: approval_no + plant_name + address
+Access date: 2026-02-11
