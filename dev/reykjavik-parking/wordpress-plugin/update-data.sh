@@ -2,7 +2,7 @@
 #
 # Update Data Files
 #
-# Regenerates JSON data files for both directories and pushes to GitHub.
+# Regenerates JSON data files for all directories and pushes to GitHub.
 # The CDN (jsDelivr) will automatically update within ~24 hours.
 #
 # Usage:
@@ -36,25 +36,34 @@ cd "$SCRIPT_DIR/investor-directory"
 node tools/generate-json.js
 echo ""
 
+# Generate coworking JSON
+echo "3. Generating coworking data JSON..."
+cd "$SCRIPT_DIR/coworking-directory"
+node tools/generate-json.js
+echo ""
+
 # Git operations
 cd "$SCRIPT_DIR/.."
 
-echo "3. Checking for changes..."
-if git diff --quiet startup-directory investor-directory 2>/dev/null; then
+echo "4. Checking for changes..."
+if git diff --quiet startup-directory investor-directory coworking-directory 2>/dev/null; then
     echo "   No changes detected."
 else
     echo "   Changes found. Staging files..."
     git add wordpress-plugin/startup-directory/js/startups-data.json
-    git add wordpress-plugin/investor-directory/js/investors-data.json
     git add wordpress-plugin/startup-directory/js/startups-data.js
+    git add wordpress-plugin/investor-directory/js/investors-data.json
     git add wordpress-plugin/investor-directory/js/investors-data.js
+    git add wordpress-plugin/coworking-directory/js/coworking-data.json
+    git add wordpress-plugin/coworking-directory/js/coworking-data.js
 
     echo ""
-    echo "4. Creating commit..."
+    echo "5. Creating commit..."
     STARTUP_COUNT=$(node -e "console.log(require('./wordpress-plugin/startup-directory/js/startups-data.json').startups.length)")
     INVESTOR_COUNT=$(node -e "console.log(require('./wordpress-plugin/investor-directory/js/investors-data.json').investors.length)")
+    COWORKING_COUNT=$(node -e "console.log(require('./wordpress-plugin/coworking-directory/js/coworking-data.json').spaces.length)")
 
-    git commit -m "Update directory data (${STARTUP_COUNT} startups, ${INVESTOR_COUNT} investors)
+    git commit -m "Update directory data (${STARTUP_COUNT} startups, ${INVESTOR_COUNT} investors, ${COWORKING_COUNT} coworking spaces)
 
 Auto-generated JSON data files for CDN loading.
 
@@ -62,7 +71,7 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
 
     if [ "$NO_PUSH" = false ]; then
         echo ""
-        echo "5. Pushing to GitHub..."
+        echo "6. Pushing to GitHub..."
         git push origin master
         echo ""
         echo "========================================"
@@ -78,5 +87,6 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
 fi
 
 echo ""
-echo "Startup Directory: $STARTUP_COUNT startups"
-echo "Investor Directory: $INVESTOR_COUNT investors"
+echo "Startup Directory:   $STARTUP_COUNT startups"
+echo "Investor Directory:  $INVESTOR_COUNT investors"
+echo "Coworking Directory: $COWORKING_COUNT spaces"

@@ -1827,6 +1827,16 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2026
+    },
+    {
+        id: 162,
+        name: "VAST Data",
+        description: "Data infrastructure company providing flash storage and data management solutions with offices in Reykjavik",
+        website: "https://www.vastdata.com",
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2016
     }
 ];
 

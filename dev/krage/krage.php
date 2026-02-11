@@ -159,7 +159,7 @@ class Krage {
     // =========================================================================
     public function shortcode_logo($atts) {
         $atts = shortcode_atts(['size' => '150'], $atts);
-        $logo = plugin_dir_url(__FILE__) . 'images/logo.png';
+        $logo = plugin_dir_url(__FILE__) . 'images/logo.jpg';
         return '<img src="' . esc_url($logo) . '" alt="Krage" class="krage-logo" style="max-width:' . intval($atts['size']) . 'px;height:auto;">';
     }
 
@@ -173,16 +173,16 @@ class Krage {
         $img_base = plugin_dir_url(__FILE__) . 'images/';
 
         // Image paths
-        $logo = $img_base . 'logo.png';
+        $logo = $img_base . 'logo.jpg';
         $hero_img = $img_base . 'hero.jpg';
-        $product_hand = $img_base . 'product-hand.jpg';
+        $product_hand = $img_base . 'product-hands.jpg';
         $packaging = $img_base . 'packaging.jpg';
-        $packaging_elegant = $img_base . 'packaging-elegant.jpg';
-        $packaging_minimalist = $img_base . 'packaging-minimalist.jpg';
+        $packaging_elegant = $img_base . 'packaging.jpg';
+        $packaging_minimalist = $img_base . 'packaging.jpg';
         $lifestyle = $img_base . 'lifestyle.jpg';
         $lifestyle_morning = $img_base . 'lifestyle-morning.jpg';
         $lifestyle_office = $img_base . 'lifestyle-office.jpg';
-        $sustainability = $img_base . 'sustainability.jpg';
+        $sustainability = $img_base . 'eco-decomposing.jpg';
         $eco_decomposing = $img_base . 'eco-decomposing.jpg';
         $eco_bamboo = $img_base . 'eco-bamboo-leaves.jpg';
         $materials_bamboo = $img_base . 'materials-bamboo-hemp.jpg';
@@ -459,12 +459,12 @@ class Krage {
         // Product gallery images
         $product_img_1 = $img_base . 'product-1.jpg';
         $product_img_2 = $img_base . 'product-2.jpg';
-        $product_hand = $img_base . 'product-hand.jpg';
+        $product_hand = $img_base . 'product-hands.jpg';
         $product_hands = $img_base . 'product-hands.jpg';
         $product_layers = $img_base . 'product-layers.jpg';
         $product_exploded = $img_base . 'product-exploded.jpg';
         $product_collar_fold = $img_base . 'product-collar-fold.jpg';
-        $packaging = $img_base . 'packaging-elegant.jpg';
+        $packaging = $img_base . 'packaging.jpg';
 
         ob_start();
         ?>
@@ -545,8 +545,8 @@ class Krage {
     // =========================================================================
     public function shortcode_about($atts) {
         $img_base = plugin_dir_url(__FILE__) . 'images/';
-        $logo = $img_base . 'logo.png';
-        $sustainability = $img_base . 'sustainability.jpg';
+        $logo = $img_base . 'logo.jpg';
+        $sustainability = $img_base . 'eco-decomposing.jpg';
         $lifestyle = $img_base . 'lifestyle.jpg';
         $packaging = $img_base . 'packaging.jpg';
 

@@ -27,3 +27,15 @@ Website: polarregiongames.com
 Description:
 Founded Year: 2024
 Sector: Games
+
+Startup Name: uiData
+Website: www.datacentral.ai
+Description: DataCentral is a platform for simplifying data sharing across teams and external parties. Strong growing customer base in Retail, Aviation, Leisure, Airport operations and several other industries. Completed our first funding round late 2025. 
+Founded Year: 2023
+Sector: SAAS, Data, AI, Software
+
+Startup Name: Black Eye.ai
+Website:
+Description: Fintech-AI
+Founded Year: 2026
+Sector: technology 
