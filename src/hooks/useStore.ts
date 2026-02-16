@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { Factory, FilterState, FactoryCategory, VerificationLevel, FactoryByproduct } from '../types';
+import type { Factory, FilterState, FactoryCategory, VerificationLevel, FactoryByproduct, FactoryContact } from '../types';
 import { sampleFactories } from '../data/sampleFactories';
 import { fetchApprovedFactories, isSupabaseConfigured, type FactoryFromDB } from '../lib/supabase';
 
@@ -67,6 +67,24 @@ function transformDBFactory(dbFactory: FactoryFromDB): Factory {
     endUse: bp.end_use as FactoryByproduct['endUse'],
   }));
 
+  // Transform contacts
+  const contacts: FactoryContact[] = (dbFactory.contacts || []).map(c => ({
+    id: c.id,
+    factoryId: c.factory_id,
+    name: c.name,
+    role: c.role,
+    email: c.email,
+    phone: c.phone,
+    linkedinUrl: c.linkedin_url,
+    isPrimary: c.is_primary,
+    notes: c.notes,
+  }));
+
+  // Derive legacy contactEmail/phone from primary contact, falling back to DB fields
+  const primaryContact = contacts.find(c => c.isPrimary);
+  const contactEmail = primaryContact?.email || dbFactory.contact_email;
+  const phone = primaryContact?.phone || dbFactory.phone;
+
   return {
     id: dbFactory.id,
     name: dbFactory.name,
@@ -79,8 +97,8 @@ function transformDBFactory(dbFactory: FactoryFromDB): Factory {
     longitude: dbFactory.longitude,
     companyName: dbFactory.company_name,
     website: dbFactory.website,
-    contactEmail: dbFactory.contact_email,
-    phone: dbFactory.phone,
+    contactEmail,
+    phone,
     employeeCount: dbFactory.employee_count,
     yearEstablished: dbFactory.year_established,
     primarySpecies: dbFactory.primary_species || [],
@@ -88,6 +106,7 @@ function transformDBFactory(dbFactory: FactoryFromDB): Factory {
     certifications: dbFactory.certifications || [],
     utilizationScore,
     byproducts,
+    contacts,
     categories: (dbFactory.categories || []) as FactoryCategory[],
     status: dbFactory.status as Factory['status'],
     verified: dbFactory.verified,

@@ -153,21 +153,25 @@ export async function fetchApprovedFactories(): Promise<{
       return { success: true, factories: [] };
     }
 
-    // Fetch byproducts and categories in batches to avoid URL length limits
+    // Fetch byproducts, contacts, and categories in batches to avoid URL length limits
     const factoryIds = factories.map((f: any) => f.id);
     const BATCH_SIZE = 200;
     let allByproducts: Record<string, unknown>[] = [];
+    let allContacts: Record<string, unknown>[] = [];
     let allCategories: Record<string, unknown>[] = [];
 
     for (let i = 0; i < factoryIds.length; i += BATCH_SIZE) {
       const batchIds = factoryIds.slice(i, i + BATCH_SIZE);
-      const [bpResult, catResult] = await Promise.all([
+      const [bpResult, contactResult, catResult] = await Promise.all([
         supabase.from('factory_byproducts').select('*').in('factory_id', batchIds),
+        supabase.from('factory_contacts').select('*').in('factory_id', batchIds),
         supabase.from('factory_categories').select('*').in('factory_id', batchIds),
       ]);
       if (bpResult.error) throw bpResult.error;
+      if (contactResult.error) throw contactResult.error;
       if (catResult.error) throw catResult.error;
       allByproducts = allByproducts.concat(bpResult.data || []);
+      allContacts = allContacts.concat(contactResult.data || []);
       allCategories = allCategories.concat(catResult.data || []);
     }
 
@@ -175,6 +179,7 @@ export async function fetchApprovedFactories(): Promise<{
     const factoriesWithRelations = factories.map(factory => ({
       ...factory,
       byproducts: allByproducts.filter((bp: Record<string, unknown>) => bp.factory_id === factory.id),
+      contacts: allContacts.filter((c: Record<string, unknown>) => c.factory_id === factory.id),
       categories: allCategories.filter((cat: Record<string, unknown>) => cat.factory_id === factory.id).map((cat: Record<string, unknown>) => cat.category as string),
     }));
 
@@ -216,6 +221,7 @@ export interface FactoryFromDB {
   featured?: boolean;
   created_at: string;
   byproducts: ByproductFromDB[];
+  contacts: ContactFromDB[];
   categories: string[];
 }
 
@@ -226,6 +232,30 @@ export interface ByproductFromDB {
   description?: string;
   percentage: number;
   end_use: string;
+}
+
+export interface ContactFromDB {
+  id: string;
+  factory_id: string;
+  name: string;
+  role?: string;
+  email?: string;
+  phone?: string;
+  linkedin_url?: string;
+  is_primary: boolean;
+  notes?: string;
+  created_at: string;
+}
+
+export interface ContactInsert {
+  factory_id: string;
+  name: string;
+  role?: string;
+  email?: string;
+  phone?: string;
+  linkedin_url?: string;
+  is_primary: boolean;
+  notes?: string;
 }
 
 // Export supabase client for auth operations
@@ -269,21 +299,25 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
       return { success: true, factories: [] };
     }
 
-    // Fetch byproducts and categories in batches to avoid URL length limits
+    // Fetch byproducts, contacts, and categories in batches to avoid URL length limits
     const factoryIds = factories.map((f: any) => f.id);
     const BATCH_SIZE = 200;
     let allByproducts: Record<string, unknown>[] = [];
+    let allContacts: Record<string, unknown>[] = [];
     let allCategories: Record<string, unknown>[] = [];
 
     for (let i = 0; i < factoryIds.length; i += BATCH_SIZE) {
       const batchIds = factoryIds.slice(i, i + BATCH_SIZE);
-      const [bpResult, catResult] = await Promise.all([
+      const [bpResult, contactResult, catResult] = await Promise.all([
         supabase.from('factory_byproducts').select('*').in('factory_id', batchIds),
+        supabase.from('factory_contacts').select('*').in('factory_id', batchIds),
         supabase.from('factory_categories').select('*').in('factory_id', batchIds),
       ]);
       if (bpResult.error) throw bpResult.error;
+      if (contactResult.error) throw contactResult.error;
       if (catResult.error) throw catResult.error;
       allByproducts = allByproducts.concat(bpResult.data || []);
+      allContacts = allContacts.concat(contactResult.data || []);
       allCategories = allCategories.concat(catResult.data || []);
     }
 
@@ -291,6 +325,7 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
     const factoriesWithRelations = factories.map(factory => ({
       ...factory,
       byproducts: allByproducts.filter((bp: Record<string, unknown>) => bp.factory_id === factory.id),
+      contacts: allContacts.filter((c: Record<string, unknown>) => c.factory_id === factory.id),
       categories: allCategories.filter((cat: Record<string, unknown>) => cat.factory_id === factory.id).map((cat: Record<string, unknown>) => cat.category as string),
     }));
 
@@ -442,6 +477,54 @@ export async function saveByproducts(
   }
 }
 
+// Save contacts for a factory (replaces all existing contacts)
+export async function saveContacts(
+  factoryId: string,
+  contacts: Omit<ContactInsert, 'factory_id'>[]
+): Promise<{ success: boolean; error?: string }> {
+  if (!isSupabaseConfigured() || !supabase) {
+    return { success: false, error: 'Supabase not configured' };
+  }
+
+  try {
+    // Delete existing contacts
+    const { error: deleteError } = await supabase
+      .from('factory_contacts')
+      .delete()
+      .eq('factory_id', factoryId);
+
+    if (deleteError) throw deleteError;
+
+    // Insert new contacts if any
+    if (contacts.length > 0) {
+      const rows = contacts.map(c => ({
+        factory_id: factoryId,
+        name: c.name,
+        role: c.role || null,
+        email: c.email || null,
+        phone: c.phone || null,
+        linkedin_url: c.linkedin_url || null,
+        is_primary: c.is_primary,
+        notes: c.notes || null,
+      }));
+
+      const { error: insertError } = await supabase
+        .from('factory_contacts')
+        .insert(rows);
+
+      if (insertError) throw insertError;
+    }
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error saving contacts:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'An error occurred',
+    };
+  }
+}
+
 // Delete factory
 export async function deleteFactory(factoryId: string): Promise<{ success: boolean; error?: string }> {
   if (!isSupabaseConfigured() || !supabase) {
@@ -449,10 +532,9 @@ export async function deleteFactory(factoryId: string): Promise<{ success: boole
   }
 
   try {
-    // Delete related byproducts first
+    // Delete related data first
     await supabase.from('factory_byproducts').delete().eq('factory_id', factoryId);
-
-    // Delete related categories
+    await supabase.from('factory_contacts').delete().eq('factory_id', factoryId);
     await supabase.from('factory_categories').delete().eq('factory_id', factoryId);
 
     // Delete factory

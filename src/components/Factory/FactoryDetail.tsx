@@ -1,4 +1,4 @@
-import { X, MapPin, Fish, Calendar, Users, Award, ExternalLink, Mail, Phone, Utensils, FlaskConical, Heart, PawPrint, Leaf, Package, Trash2, GitCompareArrows, Check } from 'lucide-react';
+import { X, MapPin, Fish, Calendar, Users, Award, ExternalLink, Mail, Phone, Utensils, FlaskConical, Heart, PawPrint, Leaf, Package, Trash2, GitCompareArrows, Check, Linkedin, Star } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import { useStore } from '../../hooks/useStore';
 import {
@@ -352,9 +352,9 @@ export default function FactoryDetail() {
           </div>
         </div>
 
-        {/* Contact & Links */}
-        <div className="space-y-3">
-          {factory.website && (
+        {/* Website */}
+        {factory.website && (
+          <div>
             <a
               href={factory.website}
               target="_blank"
@@ -364,26 +364,89 @@ export default function FactoryDetail() {
               <ExternalLink className="w-4 h-4" />
               Visit Website
             </a>
-          )}
-          {factory.contactEmail && (
-            <a
-              href={`mailto:${factory.contactEmail}`}
-              className="flex items-center gap-2 text-ioc-teal hover:text-ioc-ocean transition-colors text-sm"
-            >
-              <Mail className="w-4 h-4" />
-              {factory.contactEmail}
-            </a>
-          )}
-          {factory.phone && (
-            <a
-              href={`tel:${factory.phone}`}
-              className="flex items-center gap-2 text-ioc-teal hover:text-ioc-ocean transition-colors text-sm"
-            >
-              <Phone className="w-4 h-4" />
-              {factory.phone}
-            </a>
-          )}
-        </div>
+          </div>
+        )}
+
+        {/* Contacts */}
+        {factory.contacts && factory.contacts.length > 0 ? (
+          <div className="space-y-3">
+            <div className="flex items-center gap-2">
+              <Users className="w-4 h-4 text-ioc-teal" />
+              <h3 className="font-medium text-gray-900 text-sm">Contacts</h3>
+            </div>
+            {[...factory.contacts].sort((a, b) => (b.isPrimary ? 1 : 0) - (a.isPrimary ? 1 : 0)).map(contact => (
+              <div key={contact.id} className="p-3 bg-gray-50 rounded-lg border border-gray-100 space-y-1.5">
+                <div className="flex items-center gap-2">
+                  <span className="font-medium text-sm text-gray-900">{contact.name}</span>
+                  {contact.role && (
+                    <span className="px-1.5 py-0.5 bg-ioc-ocean/10 text-ioc-ocean text-xs rounded">
+                      {contact.role}
+                    </span>
+                  )}
+                  {contact.isPrimary && (
+                    <span className="flex items-center gap-0.5 px-1.5 py-0.5 bg-amber-50 text-amber-700 text-xs rounded">
+                      <Star className="w-3 h-3 fill-amber-500" />
+                      Primary
+                    </span>
+                  )}
+                </div>
+                <div className="flex flex-wrap gap-x-4 gap-y-1">
+                  {contact.email && (
+                    <a
+                      href={`mailto:${contact.email}`}
+                      className="flex items-center gap-1 text-ioc-teal hover:text-ioc-ocean transition-colors text-xs"
+                    >
+                      <Mail className="w-3 h-3" />
+                      {contact.email}
+                    </a>
+                  )}
+                  {contact.phone && (
+                    <a
+                      href={`tel:${contact.phone}`}
+                      className="flex items-center gap-1 text-ioc-teal hover:text-ioc-ocean transition-colors text-xs"
+                    >
+                      <Phone className="w-3 h-3" />
+                      {contact.phone}
+                    </a>
+                  )}
+                  {contact.linkedinUrl && (
+                    <a
+                      href={contact.linkedinUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 text-ioc-teal hover:text-ioc-ocean transition-colors text-xs"
+                    >
+                      <Linkedin className="w-3 h-3" />
+                      LinkedIn
+                    </a>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          // Fallback to legacy contactEmail/phone
+          <div className="space-y-3">
+            {factory.contactEmail && (
+              <a
+                href={`mailto:${factory.contactEmail}`}
+                className="flex items-center gap-2 text-ioc-teal hover:text-ioc-ocean transition-colors text-sm"
+              >
+                <Mail className="w-4 h-4" />
+                {factory.contactEmail}
+              </a>
+            )}
+            {factory.phone && (
+              <a
+                href={`tel:${factory.phone}`}
+                className="flex items-center gap-2 text-ioc-teal hover:text-ioc-ocean transition-colors text-sm"
+              >
+                <Phone className="w-4 h-4" />
+                {factory.phone}
+              </a>
+            )}
+          </div>
+        )}
 
         {/* Report Issue */}
         <div className="pt-4 border-t border-gray-200">

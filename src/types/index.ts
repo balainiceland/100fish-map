@@ -29,6 +29,9 @@ export interface Factory {
   utilizationScore: number; // 0-100
   byproducts: FactoryByproduct[];
 
+  // Contacts
+  contacts: FactoryContact[];
+
   // Categories
   categories: FactoryCategory[];
 
@@ -42,6 +45,18 @@ export interface Factory {
   submittedBy?: string;
   createdAt: string;
   updatedAt: string;
+}
+
+export interface FactoryContact {
+  id: string;
+  factoryId: string;
+  name: string;
+  role?: string;
+  email?: string;
+  phone?: string;
+  linkedinUrl?: string;
+  isPrimary: boolean;
+  notes?: string;
 }
 
 export interface FactoryByproduct {
@@ -172,6 +187,18 @@ export const SPECIES_OPTIONS = [
   'anchovy',
   'sardine',
   'other',
+] as const;
+
+export const CONTACT_ROLE_OPTIONS = [
+  'CEO',
+  'Managing Director',
+  'Plant Manager',
+  'Quality Manager',
+  'Sales Director',
+  'Export Manager',
+  'Sustainability Officer',
+  'Operations Manager',
+  'General Contact',
 ] as const;
 
 export const CERTIFICATION_OPTIONS = [

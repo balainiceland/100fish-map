@@ -16,9 +16,11 @@ import {
   Recycle,
   Plus,
   Trash2,
+  Linkedin,
+  Star,
 } from 'lucide-react';
-import { updateFactory, updateVerificationLevel, saveByproducts, type FactoryFromDB, type FactoryInsert } from '../../lib/supabase';
-import { VERIFICATION_LABELS, BYPRODUCT_LABELS, END_USE_LABELS } from '../../types';
+import { updateFactory, updateVerificationLevel, saveByproducts, saveContacts, type FactoryFromDB, type FactoryInsert } from '../../lib/supabase';
+import { VERIFICATION_LABELS, BYPRODUCT_LABELS, END_USE_LABELS, CONTACT_ROLE_OPTIONS } from '../../types';
 import type { VerificationLevel, ByproductCategory, EndUse } from '../../types';
 
 interface FactoryEditorProps {
@@ -65,6 +67,16 @@ interface ByproductRow {
   end_use: EndUse;
 }
 
+interface ContactRow {
+  name: string;
+  role: string;
+  email: string;
+  phone: string;
+  linkedin_url: string;
+  is_primary: boolean;
+  notes: string;
+}
+
 export default function FactoryEditor({ factory, onClose, onSave }: FactoryEditorProps) {
   const [formData, setFormData] = useState({
     name: factory.name || '',
@@ -90,6 +102,18 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
       description: bp.description || '',
       percentage: bp.percentage,
       end_use: bp.end_use as EndUse,
+    }))
+  );
+
+  const [contacts, setContacts] = useState<ContactRow[]>(
+    (factory.contacts || []).map(c => ({
+      name: c.name || '',
+      role: c.role || '',
+      email: c.email || '',
+      phone: c.phone || '',
+      linkedin_url: c.linkedin_url || '',
+      is_primary: c.is_primary || false,
+      notes: c.notes || '',
     }))
   );
 
@@ -128,6 +152,43 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
 
   const removeByproduct = (index: number) => {
     setByproducts(prev => prev.filter((_, i) => i !== index));
+  };
+
+  const addContact = () => {
+    const isFirst = contacts.length === 0;
+    setContacts(prev => [...prev, {
+      name: '',
+      role: '',
+      email: '',
+      phone: '',
+      linkedin_url: '',
+      is_primary: isFirst,
+      notes: '',
+    }]);
+  };
+
+  const updateContact = (index: number, field: keyof ContactRow, value: unknown) => {
+    setContacts(prev => prev.map((c, i) =>
+      i === index ? { ...c, [field]: value } : c
+    ));
+  };
+
+  const togglePrimary = (index: number) => {
+    setContacts(prev => prev.map((c, i) => ({
+      ...c,
+      is_primary: i === index,
+    })));
+  };
+
+  const removeContact = (index: number) => {
+    setContacts(prev => {
+      const updated = prev.filter((_, i) => i !== index);
+      // If we removed the primary and there are still contacts, make the first one primary
+      if (updated.length > 0 && !updated.some(c => c.is_primary)) {
+        updated[0].is_primary = true;
+      }
+      return updated;
+    });
   };
 
   const totalPercentage = byproducts.reduce((sum, bp) => sum + bp.percentage, 0);
@@ -183,6 +244,22 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
 
       if (!bpResult.success) {
         setError(bpResult.error || 'Failed to save byproducts');
+        return;
+      }
+
+      // Save contacts
+      const contactResult = await saveContacts(factory.id, contacts.filter(c => c.name.trim()).map(c => ({
+        name: c.name.trim(),
+        role: c.role || undefined,
+        email: c.email || undefined,
+        phone: c.phone || undefined,
+        linkedin_url: c.linkedin_url || undefined,
+        is_primary: c.is_primary,
+        notes: c.notes || undefined,
+      })));
+
+      if (!contactResult.success) {
+        setError(contactResult.error || 'Failed to save contacts');
         return;
       }
 
@@ -530,6 +607,136 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
             {totalPercentage > 100 && (
               <p className="text-sm text-red-600">Total percentage exceeds 100%. Please adjust the values.</p>
             )}
+          </div>
+
+          {/* Contact People */}
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="font-medium text-gray-900 flex items-center gap-2">
+                <Users className="w-4 h-4 text-ioc-teal" />
+                Contact People
+              </h3>
+              <button
+                type="button"
+                onClick={addContact}
+                className="flex items-center gap-1 px-3 py-1.5 text-sm bg-ioc-teal text-white rounded-lg hover:bg-ioc-ocean transition-colors"
+              >
+                <Plus className="w-3 h-3" />
+                Add Contact
+              </button>
+            </div>
+
+            {contacts.length === 0 ? (
+              <p className="text-sm text-gray-400 italic">No contacts added yet. Click "Add Contact" to add people.</p>
+            ) : (
+              <div className="space-y-3">
+                {contacts.map((contact, index) => (
+                  <div key={index} className="p-3 bg-gray-50 rounded-lg border border-gray-200 space-y-3">
+                    <div className="flex items-start gap-2">
+                      <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-2">
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 mb-1">Name *</label>
+                          <input
+                            type="text"
+                            value={contact.name}
+                            onChange={(e) => updateContact(index, 'name', e.target.value)}
+                            className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                            placeholder="Contact name"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 mb-1">Role</label>
+                          <input
+                            type="text"
+                            list="contact-roles"
+                            value={contact.role}
+                            onChange={(e) => updateContact(index, 'role', e.target.value)}
+                            className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                            placeholder="e.g. Plant Manager"
+                          />
+                        </div>
+                        <div className="flex items-end gap-2">
+                          <button
+                            type="button"
+                            onClick={() => togglePrimary(index)}
+                            className={`flex items-center gap-1 px-2 py-1.5 text-xs rounded-lg border transition-colors ${
+                              contact.is_primary
+                                ? 'bg-amber-50 text-amber-700 border-amber-300'
+                                : 'bg-white text-gray-500 border-gray-300 hover:border-amber-300'
+                            }`}
+                            title="Set as primary contact"
+                          >
+                            <Star className={`w-3 h-3 ${contact.is_primary ? 'fill-amber-500' : ''}`} />
+                            Primary
+                          </button>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => removeContact(index)}
+                        className="mt-5 p-1.5 text-red-400 hover:bg-red-50 rounded transition-colors"
+                        title="Remove"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                      <div>
+                        <label className="block text-xs font-medium text-gray-500 mb-1">
+                          <Mail className="w-3 h-3 inline mr-1" />Email
+                        </label>
+                        <input
+                          type="email"
+                          value={contact.email}
+                          onChange={(e) => updateContact(index, 'email', e.target.value)}
+                          className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                          placeholder="email@example.com"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-medium text-gray-500 mb-1">
+                          <Phone className="w-3 h-3 inline mr-1" />Phone
+                        </label>
+                        <input
+                          type="tel"
+                          value={contact.phone}
+                          onChange={(e) => updateContact(index, 'phone', e.target.value)}
+                          className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                          placeholder="+1 234 567 890"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-medium text-gray-500 mb-1">
+                          <Linkedin className="w-3 h-3 inline mr-1" />LinkedIn
+                        </label>
+                        <input
+                          type="url"
+                          value={contact.linkedin_url}
+                          onChange={(e) => updateContact(index, 'linkedin_url', e.target.value)}
+                          className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                          placeholder="https://linkedin.com/in/..."
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label className="block text-xs font-medium text-gray-500 mb-1">Notes</label>
+                      <input
+                        type="text"
+                        value={contact.notes}
+                        onChange={(e) => updateContact(index, 'notes', e.target.value)}
+                        className="w-full px-2 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal"
+                        placeholder="Optional notes"
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            <datalist id="contact-roles">
+              {CONTACT_ROLE_OPTIONS.map(role => (
+                <option key={role} value={role} />
+              ))}
+            </datalist>
           </div>
 
           {/* Verification Level */}
