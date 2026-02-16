@@ -141,6 +141,16 @@ JUNK_EMAIL_PATTERNS = [
     'sentry.io', 'cloudflare.com', 'google.com',
 ]
 
+# Personal email domains — not suitable as company contact emails
+PERSONAL_EMAIL_DOMAINS = {
+    'gmail.com', 'yahoo.com', 'yahoo.fr', 'yahoo.co.uk', 'yahoo.no',
+    'hotmail.com', 'hotmail.fr', 'hotmail.no', 'hotmail.co.uk',
+    'outlook.com', 'live.com', 'live.no', 'msn.com',
+    'icloud.com', 'me.com', 'mac.com',
+    'aol.com', 'protonmail.com', 'proton.me',
+    'mail.com', 'gmx.com', 'gmx.net',
+}
+
 LEGAL_TOKENS = {
     'ltd', 'limited', 'inc', 'inc.', 'incorporated', 'corp', 'corporation',
     'co', 'company', 'llc', 'lp', 'as', 'sa', 'ag', 'gmbh', 'bv', 'ehf',
@@ -587,8 +597,15 @@ def skatturinn_lookup(kennitala):
     return people
 
 
+_skatturinn_cache = {}  # company_name.lower() → people list
+
+
 def skatturinn_enrich(company_name):
     """Full pipeline: search company name → find best match → get board members."""
+    cache_key = company_name.strip().lower()
+    if cache_key in _skatturinn_cache:
+        return _skatturinn_cache[cache_key]
+
     # Strip legal suffixes for better search matching
     search_name = re.sub(r'\s+(hf\.?|ehf\.?|sf\.?|ses|ohf)$', '', company_name.strip(), flags=re.I)
     time.sleep(1.0)
@@ -625,7 +642,149 @@ def skatturinn_enrich(company_name):
     kennitala = best[0]
     time.sleep(1.0)
     people = skatturinn_lookup(kennitala)
+    _skatturinn_cache[cache_key] = people
     return people
+
+
+# ---------------------------------------------------------------------------
+# Norway Company Registry (Brønnøysund / brreg.no)
+# ---------------------------------------------------------------------------
+BRREG_API = 'https://data.brreg.no/enhetsregisteret/api'
+
+# Norwegian role codes → our role taxonomy
+NO_ROLE_MAP = {
+    'DAGL': 'CEO',           # Daglig leder (Managing Director / CEO)
+    'LEDE': 'Chairman',      # Styrets leder (Board Chair)
+    'NEST': 'Vice Chairman', # Nestleder (Deputy Chair)
+    'MEDL': 'Board Member',  # Styremedlem
+}
+
+# Codes to skip (alternates, auditors, accountants, signatories)
+NO_ROLE_SKIP = {'VARA', 'REVI', 'REGN', 'SIGN', 'KONT', 'REPR', 'BOBE', 'DTPR', 'DTSO', 'EIKM'}
+
+# Norwegian legal suffixes to strip for matching
+NO_LEGAL_SUFFIXES = re.compile(r'\s+(AS|ASA|ANS|DA|SA|NUF|BA|KF|SF|ENK)\s*$', re.I)
+
+
+def brreg_search(company_name):
+    """Search Brønnøysund company registry by name.
+    Returns list of dicts with orgnr, name, org_form, employees, active, email, phone, website."""
+    clean = NO_LEGAL_SUFFIXES.sub('', company_name.strip()).strip()
+    url = f'{BRREG_API}/enheter?navn={quote(clean)}&size=10'
+    try:
+        resp = requests.get(url, headers={'Accept': 'application/json'}, timeout=15)
+        if resp.status_code != 200:
+            return []
+        data = resp.json()
+    except Exception:
+        return []
+
+    results = []
+    for e in data.get('_embedded', {}).get('enheter', []):
+        results.append({
+            'orgnr': e.get('organisasjonsnummer', ''),
+            'name': e.get('navn', ''),
+            'org_form': e.get('organisasjonsform', {}).get('kode', ''),
+            'employees': e.get('antallAnsatte', 0) or 0,
+            'active': not e.get('konkurs', False) and not e.get('slettedato'),
+            'email': e.get('epostadresse', ''),
+            'phone': e.get('telefon', ''),
+            'website': e.get('hjemmeside', ''),
+        })
+    return results
+
+
+def brreg_lookup(orgnr):
+    """Look up officers for a company by organisasjonsnummer.
+    Returns list of dicts with name and role."""
+    url = f'{BRREG_API}/enheter/{orgnr}/roller'
+    try:
+        resp = requests.get(url, headers={'Accept': 'application/json'}, timeout=15)
+        if resp.status_code != 200:
+            return []
+        data = resp.json()
+    except Exception:
+        return []
+
+    people = []
+    seen = set()
+    for group in data.get('rollegrupper', []):
+        for role in group.get('roller', []):
+            rcode = role.get('type', {}).get('kode', '')
+            if rcode in NO_ROLE_SKIP:
+                continue
+            mapped_role = NO_ROLE_MAP.get(rcode)
+            if not mapped_role:
+                continue
+            # Skip resigned officers
+            if role.get('fratraadt') or role.get('avregistrert'):
+                continue
+            person = role.get('person', {})
+            navn = person.get('navn', {})
+            fornavn = navn.get('fornavn', '')
+            etternavn = navn.get('etternavn', '')
+            name = f'{fornavn} {etternavn}'.strip()
+            if not name or name in seen:
+                continue
+            seen.add(name)
+            people.append({'name': name, 'role': mapped_role})
+    return people
+
+
+_brreg_cache = {}  # company_name.lower() → (people, extra_info)
+
+
+def brreg_enrich(company_name):
+    """Full pipeline: search company → find best match → get officers.
+    Returns (people, extra_info) where extra_info has email/phone/website from registry."""
+    cache_key = company_name.strip().lower()
+    if cache_key in _brreg_cache:
+        return _brreg_cache[cache_key]
+
+    time.sleep(0.5)  # rate limit (brreg is generous but be polite)
+    results = brreg_search(company_name)
+    if not results:
+        return [], {}
+
+    # Prefer active companies
+    active = [r for r in results if r['active']]
+    pool = active if active else results
+
+    # Pick best match: exact name > shortest containing name > most employees
+    search_lower = company_name.lower().strip()
+    search_clean = NO_LEGAL_SUFFIXES.sub('', search_lower).strip()
+
+    best = pool[0]
+    for r in pool:
+        r_lower = r['name'].lower()
+        r_clean = NO_LEGAL_SUFFIXES.sub('', r_lower).strip()
+        if r_lower == search_lower or r_clean == search_clean:
+            best = r
+            break
+    else:
+        # No exact match — shortest name that contains our search term
+        matches = [r for r in pool if search_clean in r['name'].lower()]
+        if matches:
+            best = min(matches, key=lambda r: len(r['name']))
+        else:
+            # Fallback: most employees (likely the main entity)
+            best = max(pool, key=lambda r: r['employees'])
+
+    time.sleep(0.5)
+    people = brreg_lookup(best['orgnr'])
+
+    # Cap board members: keep CEO + Chairman + Vice Chairman + up to 2 board members
+    ceo_chair = [p for p in people if p['role'] in ('CEO', 'Chairman', 'Vice Chairman')]
+    board = [p for p in people if p['role'] == 'Board Member'][:2]
+    people = ceo_chair + board
+
+    extra_info = {
+        'email': best.get('email', ''),
+        'phone': best.get('phone', ''),
+        'website': best.get('website', ''),
+    }
+    _brreg_cache[cache_key] = (people, extra_info)
+    return people, extra_info
 
 
 # ---------------------------------------------------------------------------
@@ -751,6 +910,26 @@ def enrich(args):
     audit_rows = []
     sql_values = []
 
+    # Running tallies for live stats
+    stats = {'named': 0, 'email': 0, 'phone': 0, 'linkedin': 0, 'empty': 0}
+
+    # Open CSV files incrementally (append mode after header)
+    csv_fieldnames = [
+        'factory_id', 'company_name', 'name', 'role',
+        'email', 'phone', 'linkedin_url', 'is_primary', 'notes',
+    ]
+    audit_fieldnames = [
+        'factory_id', 'factory_name', 'company_name', 'country',
+        'candidate_urls', 'searched_queries', 'contacts_found',
+        'has_named_person', 'has_email', 'has_phone', 'has_linkedin',
+        'registry_people',
+    ]
+    # Write headers
+    with open(out_csv, 'w', newline='', encoding='utf-8') as f:
+        csv.DictWriter(f, fieldnames=csv_fieldnames).writeheader()
+    with open(out_audit, 'w', newline='', encoding='utf-8') as f:
+        csv.DictWriter(f, fieldnames=audit_fieldnames).writeheader()
+
     for idx, fac in enumerate(todo, 1):
         fid = fac['id']
         factory_name = (fac.get('name') or '').strip()
@@ -758,7 +937,7 @@ def enrich(args):
         country = (fac.get('country') or '').strip()
         website = (fac.get('website') or '').strip()
 
-        print(f'[{idx}/{len(todo)}] {company_name} ({country})')
+        print(f'[{idx}/{len(todo)}] {company_name} ({country})', flush=True)
 
         terms = best_query_terms(company_name, factory_name)
         candidates = []
@@ -812,15 +991,38 @@ def enrich(args):
                 'notes': notes or '',
             })
 
-        # --- Step 1: Public registry lookup (Iceland → Skatturinn) ---
+        # --- Step 1: Public registry lookup ---
         registry_people = []
+        registry_extra = {}
         if country and country.lower() == 'iceland':
             registry_people = skatturinn_enrich(company_name)
             if registry_people:
-                print(f'    Registry: {len(registry_people)} board members found')
+                print(f'    Registry (skatturinn.is): {len(registry_people)} people found')
                 for p in registry_people:
                     add_contact(p['name'], p['role'], '', '', '',
                                 f'Source: skatturinn.is (Fyrirtækjaskrá)')
+        elif country and country.lower() == 'norway':
+            registry_people, registry_extra = brreg_enrich(company_name)
+            if registry_people:
+                print(f'    Registry (brreg.no): {len(registry_people)} people found')
+                for p in registry_people:
+                    add_contact(p['name'], p['role'], '', '', '',
+                                f'Source: brreg.no (Enhetsregisteret)')
+            # Add company-level contact info from registry (skip personal emails)
+            reg_email = (registry_extra.get('email') or '').strip().lower()
+            if reg_email and reg_email.split('@')[-1] not in PERSONAL_EMAIL_DOMAINS:
+                add_contact('Unknown', 'General Contact', reg_email, '', '',
+                            f'Source: brreg.no (Enhetsregisteret)')
+            if registry_extra.get('phone'):
+                phone = normalize_phone(registry_extra['phone'])
+                if phone:
+                    add_contact('Unknown', 'General Contact', '', phone, '',
+                                f'Source: brreg.no (Enhetsregisteret)')
+            # Use registry website if factory has none
+            if not website and registry_extra.get('website'):
+                website = normalize_url(registry_extra['website'])
+                if website and website not in candidates:
+                    candidates.append(website)
 
         # --- Step 2: Scrape candidate URLs and their contact/about subpages ---
         for base_url in candidates[:4]:
@@ -948,8 +1150,21 @@ def enrich(args):
         for c in contacts:
             sql_values.append(contact_to_sql(c))
 
+        # Update running stats
+        for c in contacts:
+            if c['name'] != 'Unknown':
+                stats['named'] += 1
+            if c['email']:
+                stats['email'] += 1
+            if c['phone']:
+                stats['phone'] += 1
+            if c['linkedin_url']:
+                stats['linkedin'] += 1
+        if all(c['name'] == 'Unknown' and not c['email'] and not c['phone'] and not c['linkedin_url'] for c in contacts):
+            stats['empty'] += 1
+
         # Audit row
-        audit_rows.append({
+        audit_row = {
             'factory_id': fid,
             'factory_name': factory_name,
             'company_name': company_name,
@@ -962,46 +1177,36 @@ def enrich(args):
             'has_phone': 'TRUE' if any(c['phone'] for c in contacts) else 'FALSE',
             'has_linkedin': 'TRUE' if any(c['linkedin_url'] for c in contacts) else 'FALSE',
             'registry_people': str(len(registry_people)),
-        })
+        }
+        audit_rows.append(audit_row)
+
+        # Write CSV rows incrementally (append)
+        with open(out_csv, 'a', newline='', encoding='utf-8') as f:
+            w = csv.DictWriter(f, fieldnames=csv_fieldnames)
+            for c in contacts:
+                row = dict(c)
+                row['is_primary'] = 'TRUE' if row['is_primary'] else 'FALSE'
+                w.writerow(row)
+        with open(out_audit, 'a', newline='', encoding='utf-8') as f:
+            csv.DictWriter(f, fieldnames=audit_fieldnames).writerow(audit_row)
 
         # Save progress after each factory
         progress['processed_ids'].append(fid)
         if idx % 5 == 0:
             save_progress(progress)
-            print(f'  ... progress saved ({idx}/{len(todo)})')
+        if idx % 25 == 0:
+            sys.stdout.flush()
+            print(f'  --- Stats after {idx}/{len(todo)}: '
+                  f'{len(rows_out)} contacts, '
+                  f'{stats["named"]} named, '
+                  f'{stats["email"]} emails, '
+                  f'{stats["phone"]} phones, '
+                  f'{stats["linkedin"]} LinkedIn, '
+                  f'{stats["empty"]} empty ---')
 
     # --- Write outputs ---
-
-    # CSV
-    with open(out_csv, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(
-            f,
-            fieldnames=[
-                'factory_id', 'company_name', 'name', 'role',
-                'email', 'phone', 'linkedin_url', 'is_primary', 'notes',
-            ],
-        )
-        w.writeheader()
-        for r in rows_out:
-            row = dict(r)
-            row['is_primary'] = 'TRUE' if row['is_primary'] else 'FALSE'
-            w.writerow(row)
+    # CSV and Audit CSV already written incrementally above
     print(f'\nCSV written: {out_csv}')
-
-    # Audit CSV
-    with open(out_audit, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(
-            f,
-            fieldnames=[
-                'factory_id', 'factory_name', 'company_name', 'country',
-                'candidate_urls', 'searched_queries', 'contacts_found',
-                'has_named_person', 'has_email', 'has_phone', 'has_linkedin',
-                'registry_people',
-            ],
-        )
-        w.writeheader()
-        for r in audit_rows:
-            w.writerow(r)
     print(f'Audit CSV written: {out_audit}')
 
     # SQL
