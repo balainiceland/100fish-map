@@ -9,6 +9,7 @@ import ComparePanel from './components/Compare/ComparePanel';
 import BenchmarksPanel from './components/Benchmarks/BenchmarksPanel';
 import AdminPage from './components/Admin/AdminPage';
 import LoginGate from './components/Auth/LoginGate';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import { useStore } from './hooks/useStore';
 
 function MapPage() {
@@ -54,6 +55,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginGate><MapPage /></LoginGate>} />
         <Route path="/admin" element={<AdminPage />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );
