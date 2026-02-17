@@ -49,6 +49,7 @@ const initialFilters: FilterState = {
   species: null,
   scoreRange: [0, 100],
   verificationLevel: null,
+  hasContacts: false,
 };
 
 // Transform database format to app format
@@ -157,6 +158,12 @@ const applyFilters = (factories: Factory[], filters: FilterState): Factory[] => 
     // Verification level filter
     if (filters.verificationLevel && factory.verificationLevel !== (filters.verificationLevel as VerificationLevel)) {
       return false;
+    }
+
+    // Has contacts filter — at least one named (non-Unknown) contact
+    if (filters.hasContacts) {
+      const hasNamedContact = factory.contacts?.some(c => c.name && c.name !== 'Unknown' && c.name !== 'General Contact') || false;
+      if (!hasNamedContact) return false;
     }
 
     return true;

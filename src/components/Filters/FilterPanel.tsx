@@ -164,6 +164,25 @@ export default function FilterPanel() {
           </select>
         </div>
 
+        {/* Has Contacts Filter */}
+        <div className="flex items-center justify-between">
+          <label className="text-sm font-medium text-gray-700">
+            Has Contact Info
+          </label>
+          <button
+            onClick={() => setFilters({ hasContacts: !filters.hasContacts })}
+            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
+              filters.hasContacts ? 'bg-ioc-teal' : 'bg-gray-300'
+            }`}
+          >
+            <span
+              className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                filters.hasContacts ? 'translate-x-6' : 'translate-x-1'
+              }`}
+            />
+          </button>
+        </div>
+
         {/* Reset Button */}
         <button
           onClick={resetFilters}

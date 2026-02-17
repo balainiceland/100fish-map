@@ -122,6 +122,7 @@ export interface FilterState {
   species: string | null;
   scoreRange: [number, number];
   verificationLevel: VerificationLevel | null;
+  hasContacts: boolean;
 }
 
 // Map types
