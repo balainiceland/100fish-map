@@ -258,6 +258,15 @@ export interface ContactInsert {
   notes?: string;
 }
 
+// Record authorized user (upsert on email)
+export async function recordAuthorizedUser(email: string): Promise<void> {
+  if (!supabase) return;
+  await supabase.from('authorized_users').upsert(
+    { email: email.toLowerCase(), last_seen_at: new Date().toISOString() },
+    { onConflict: 'email' }
+  );
+}
+
 // Export supabase client for auth operations
 export { supabase };
 

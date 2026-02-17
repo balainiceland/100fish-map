@@ -1,8 +1,10 @@
-import { Fish, Plus, HelpCircle, Menu, TrendingUp } from 'lucide-react';
+import { Fish, Plus, HelpCircle, Menu, TrendingUp, LogOut } from 'lucide-react';
 import { useStore } from '../hooks/useStore';
+import { useAuth } from '../hooks/useAuth';
 
 export default function Header() {
   const { toggleSubmitForm, toggleFilterPanel, isFilterPanelOpen, toggleBenchmarksPanel, isBenchmarksPanelOpen } = useStore();
+  const { user, isAuthenticated, signOut } = useAuth();
 
   return (
     <header className="bg-ioc-deep-blue text-white px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between shadow-lg z-[1001] relative">
@@ -54,6 +56,21 @@ export default function Header() {
         >
           <HelpCircle className="w-5 h-5" />
         </button>
+
+        {isAuthenticated && user && (
+          <>
+            <span className="text-xs text-white/60 hidden lg:block max-w-[140px] truncate" title={user.email || ''}>
+              {user.email}
+            </span>
+            <button
+              onClick={signOut}
+              className="p-2 hover:bg-white/10 rounded-md transition-colors"
+              title="Sign out"
+            >
+              <LogOut className="w-4 h-4 text-white/70" />
+            </button>
+          </>
+        )}
       </div>
     </header>
   );
