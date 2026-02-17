@@ -31,3 +31,6 @@ dist-ssr
 
 # Script output (enrichment CSVs, SQL, progress)
 scripts/output/
+
+# Supabase local dev temp files
+supabase/.temp/

@@ -21,7 +21,7 @@ This guide explains how to set up email notifications when new factories are sub
 supabase login
 
 # Link to your project
-cd /Users/Bala_1/dev/ioc-seafood-map
+cd /path/to/ioc-seafood-map
 supabase link --project-ref YOUR_PROJECT_REF
 ```
 

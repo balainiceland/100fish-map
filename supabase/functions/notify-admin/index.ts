@@ -61,7 +61,7 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: '100% Fish Map <onboarding@resend.dev>', // Using Resend test domain
+        from: Deno.env.get('RESEND_FROM_EMAIL') || '100% Fish Map <onboarding@resend.dev>',
         to: adminEmails,
         subject: `New Factory Submission: ${factory.name}`,
         html: `

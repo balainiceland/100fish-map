@@ -164,7 +164,7 @@ export async function fetchApprovedFactories(): Promise<{
       const batchIds = factoryIds.slice(i, i + BATCH_SIZE);
       const [bpResult, contactResult, catResult] = await Promise.all([
         supabase.from('factory_byproducts').select('*').in('factory_id', batchIds),
-        supabase.from('factory_contacts').select('*').in('factory_id', batchIds),
+        supabase.rpc('get_factory_contacts', { factory_ids: batchIds }),
         supabase.from('factory_categories').select('*').in('factory_id', batchIds),
       ]);
       if (bpResult.error) throw bpResult.error;
@@ -310,7 +310,7 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
       const batchIds = factoryIds.slice(i, i + BATCH_SIZE);
       const [bpResult, contactResult, catResult] = await Promise.all([
         supabase.from('factory_byproducts').select('*').in('factory_id', batchIds),
-        supabase.from('factory_contacts').select('*').in('factory_id', batchIds),
+        supabase.rpc('get_factory_contacts', { factory_ids: batchIds }),
         supabase.from('factory_categories').select('*').in('factory_id', batchIds),
       ]);
       if (bpResult.error) throw bpResult.error;
