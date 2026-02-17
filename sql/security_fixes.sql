@@ -3,7 +3,7 @@
 --
 -- Step 1: Create RPC functions (run BEFORE deploying frontend changes)
 -- Step 2: Deploy frontend (git push)
--- Step 3: Lock down RLS policies (run AFTER frontend is deployed)
+-- Step 3: Lock down RLS policies + fix recursion (run AFTER frontend is deployed)
 
 -- ============================================================
 -- STEP 1: Create RPC functions (additive — nothing breaks)
@@ -71,20 +71,53 @@ GRANT EXECUTE ON FUNCTION public.get_factory_contacts(uuid[]) TO authenticated;
 
 -- ============================================================
 -- STEP 3: Lock down RLS policies (run AFTER frontend is deployed)
+-- All admin checks use check_admin_status() (SECURITY DEFINER)
+-- to avoid infinite recursion on admin_users self-reference.
 -- ============================================================
 
 -- 3a. admin_users — drop public SELECT, add admin-only SELECT
 DROP POLICY IF EXISTS "Anyone can check admin status" ON admin_users;
+DROP POLICY IF EXISTS "Admins can view admin list" ON admin_users;
 CREATE POLICY "Admins can view admin list" ON admin_users
   FOR SELECT USING (
     auth.role() = 'authenticated'
-    AND auth.email() IN (SELECT email FROM admin_users)
+    AND check_admin_status(auth.email())
   );
 
--- 3b. factory_contacts — drop public SELECT (admin FOR ALL policy stays)
-DROP POLICY IF EXISTS "Public can view contacts for approved factories" ON factory_contacts;
+-- 3b. admin_users — fix INSERT policy
+DROP POLICY IF EXISTS "Admins can add admins" ON admin_users;
+CREATE POLICY "Admins can add admins" ON admin_users
+  FOR INSERT WITH CHECK (
+    check_admin_status(auth.email())
+  );
 
--- 3c. factories — rate limit INSERT
+-- 3c. admin_users — fix DELETE policy
+DROP POLICY IF EXISTS "Admins can remove other admins" ON admin_users;
+CREATE POLICY "Admins can remove other admins" ON admin_users
+  FOR DELETE USING (
+    check_admin_status(auth.email())
+    AND email <> auth.email()
+  );
+
+-- 3d. factory_contacts — drop public SELECT, fix admin policy
+DROP POLICY IF EXISTS "Public can view contacts for approved factories" ON factory_contacts;
+DROP POLICY IF EXISTS "Admins have full access to contacts" ON factory_contacts;
+CREATE POLICY "Admins have full access to contacts" ON factory_contacts
+  FOR ALL USING (
+    check_admin_status(auth.email())
+  ) WITH CHECK (
+    check_admin_status(auth.email())
+  );
+
+-- 3e. factories — fix admin policy + rate limit INSERT
+DROP POLICY IF EXISTS "Admin full access" ON factories;
+CREATE POLICY "Admin full access" ON factories
+  FOR ALL USING (
+    check_admin_status(auth.email())
+  ) WITH CHECK (
+    check_admin_status(auth.email())
+  );
+
 DROP POLICY IF EXISTS "Public insert" ON factories;
 CREATE POLICY "Rate limited public insert" ON factories
   FOR INSERT WITH CHECK (
@@ -94,4 +127,22 @@ CREATE POLICY "Rate limited public insert" ON factories
     AND (SELECT count(*) FROM factories
          WHERE created_at > now() - interval '1 hour'
          AND status = 'pending') < 50
+  );
+
+-- 3f. factory_byproducts — fix admin policy
+DROP POLICY IF EXISTS "Admin full access" ON factory_byproducts;
+CREATE POLICY "Admin full access" ON factory_byproducts
+  FOR ALL USING (
+    check_admin_status(auth.email())
+  ) WITH CHECK (
+    check_admin_status(auth.email())
+  );
+
+-- 3g. factory_categories — fix admin policy
+DROP POLICY IF EXISTS "Admin full access" ON factory_categories;
+CREATE POLICY "Admin full access" ON factory_categories
+  FOR ALL USING (
+    check_admin_status(auth.email())
+  ) WITH CHECK (
+    check_admin_status(auth.email())
   );
