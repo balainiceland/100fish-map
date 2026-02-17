@@ -331,6 +331,88 @@ def bing_search(query, limit=6):
     return results
 
 
+def ddg_search(query, limit=6):
+    """Scrape DuckDuckGo HTML lite results (no API key needed)."""
+    html, final, status = safe_get(
+        'https://html.duckduckgo.com/html/?q=' + requests.utils.quote(query),
+        timeout=15,
+    )
+    if not html:
+        return []
+    soup = BeautifulSoup(html, 'html.parser')
+    results = []
+    for a in soup.select('.result__a'):
+        href = a.get('href', '')
+        # DDG wraps URLs: //duckduckgo.com/l/?uddg=ENCODED_URL
+        if 'uddg=' in href:
+            from urllib.parse import parse_qs, urlparse, unquote
+            real = parse_qs(urlparse(href).query).get('uddg', [''])[0]
+            if real:
+                href = unquote(real)
+        title = a.get_text(' ', strip=True)
+        sn = a.find_parent('.result')
+        snippet = ''
+        if sn:
+            snip_el = sn.select_one('.result__snippet')
+            snippet = snip_el.get_text(' ', strip=True) if snip_el else ''
+        if href.startswith('http'):
+            results.append((href, title, snippet))
+        if len(results) >= limit:
+            break
+    return results
+
+
+def brave_search(query, limit=6):
+    """Scrape Brave Search HTML results (no API key needed)."""
+    try:
+        r = requests.get(
+            'https://search.brave.com/search?q=' + requests.utils.quote(query),
+            headers=UA, timeout=15, allow_redirects=True,
+        )
+        if r.status_code >= 400:
+            return []
+        html = r.text[:400000]
+    except Exception:
+        return []
+    soup = BeautifulSoup(html, 'html.parser')
+    results = []
+    for div in soup.select('#results .snippet'):
+        a = div.find_previous('a', href=True)
+        if not a:
+            continue
+        href = a.get('href', '')
+        if not href.startswith('http') or 'brave.com' in href:
+            continue
+        title = a.get_text(' ', strip=True)
+        snippet = div.get_text(' ', strip=True)
+        results.append((href, title, snippet))
+        if len(results) >= limit:
+            break
+    return results
+
+
+# Search engine dispatcher — rotates engines for parallel batch resilience
+SEARCH_ENGINES = {
+    'bing': bing_search,
+    'ddg': ddg_search,
+    'brave': brave_search,
+}
+
+
+def web_search(query, limit=6, engine='bing'):
+    """Search using the specified engine, with fallback."""
+    fn = SEARCH_ENGINES.get(engine, bing_search)
+    results = fn(query, limit)
+    # Fallback to another engine if primary returned nothing
+    if not results and engine != 'ddg':
+        time.sleep(1)
+        results = ddg_search(query, limit)
+    if not results and engine != 'bing':
+        time.sleep(1)
+        results = bing_search(query, limit)
+    return results
+
+
 # ---------------------------------------------------------------------------
 # Contact extraction
 # ---------------------------------------------------------------------------
@@ -854,9 +936,9 @@ def load_progress():
     return {'processed_ids': [], 'started_at': None}
 
 
-def save_progress(progress):
+def save_progress(progress, path=None):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_FILE, 'w') as f:
+    with open(path or PROGRESS_FILE, 'w') as f:
         json.dump(progress, f, indent=2)
 
 
@@ -867,12 +949,18 @@ def enrich(args):
     today = datetime.now().strftime('%Y-%m-%d')
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    out_csv = OUTPUT_DIR / f'factory_contacts_enriched_{today}.csv'
-    out_audit = OUTPUT_DIR / f'factory_contacts_enriched_{today}_audit.csv'
-    out_sql = OUTPUT_DIR / f'factory_contacts_enriched_{today}.sql'
+    batch_suffix = f'_batch{args.batch_num:02d}' if args.batch_num else ''
+    out_csv = OUTPUT_DIR / f'factory_contacts_enriched_{today}{batch_suffix}.csv'
+    out_audit = OUTPUT_DIR / f'factory_contacts_enriched_{today}{batch_suffix}_audit.csv'
+    out_sql = OUTPUT_DIR / f'factory_contacts_enriched_{today}{batch_suffix}.sql'
 
-    # Load progress for resume
-    progress = load_progress() if args.resume else {'processed_ids': [], 'started_at': None}
+    # Load progress for resume (batch-specific progress file)
+    progress_file = OUTPUT_DIR / f'progress{batch_suffix}.json'
+    if args.resume and progress_file.exists():
+        with open(progress_file) as f:
+            progress = json.load(f)
+    else:
+        progress = {'processed_ids': [], 'started_at': None}
     if not progress.get('started_at'):
         progress['started_at'] = today
 
@@ -899,6 +987,18 @@ def enrich(args):
 
     if args.limit:
         todo = todo[:args.limit]
+
+    # Batch slicing: split into N chunks, process chunk X
+    if args.batch_num and args.batch_total:
+        chunk_size = len(todo) // args.batch_total
+        remainder = len(todo) % args.batch_total
+        # Distribute remainder across first batches
+        start = 0
+        for i in range(1, args.batch_num):
+            start += chunk_size + (1 if i <= remainder else 0)
+        end = start + chunk_size + (1 if args.batch_num <= remainder else 0)
+        todo = todo[start:end]
+        print(f'  Batch {args.batch_num}/{args.batch_total}: factories {start+1}-{end} ({len(todo)} in this batch)')
 
     print(f'  {len(todo)} factories to process\n')
 
@@ -954,8 +1054,8 @@ def enrich(args):
             country_term = country if country else 'seafood'
             q = f'"{terms[0]}" {country_term} seafood contact'
             searched_queries.append(q)
-            time.sleep(1.5)  # rate limit
-            for href, title, snippet in bing_search(q, limit=8):
+            time.sleep(2.5)  # rate limit
+            for href, title, snippet in web_search(q, limit=8, engine=args.engine):
                 d = get_domain(href)
                 if not d or d in DIR_DOMAINS:
                     continue
@@ -1079,8 +1179,8 @@ def enrich(args):
                 continue
             q = f'"{nc["name"]}" "{company_name}" LinkedIn'
             searched_queries.append(q)
-            time.sleep(1.5)
-            for href, title, snippet in bing_search(q, limit=4):
+            time.sleep(2.5)
+            for href, title, snippet in web_search(q, limit=4, engine=args.engine):
                 if 'linkedin.com/in/' not in href.lower():
                     continue
                 # Verify name appears in search result
@@ -1100,8 +1200,8 @@ def enrich(args):
             for t in terms[:2]:
                 q = f'"{t}" CEO LinkedIn'
                 searched_queries.append(q)
-                time.sleep(1.5)
-                for href, title, snippet in bing_search(q, limit=6):
+                time.sleep(2.5)
+                for href, title, snippet in web_search(q, limit=6, engine=args.engine):
                     if 'linkedin.com/in/' not in href.lower():
                         continue
                     check = (title + ' ' + snippet).lower()
@@ -1193,7 +1293,7 @@ def enrich(args):
         # Save progress after each factory
         progress['processed_ids'].append(fid)
         if idx % 5 == 0:
-            save_progress(progress)
+            save_progress(progress, progress_file)
         if idx % 25 == 0:
             sys.stdout.flush()
             print(f'  --- Stats after {idx}/{len(todo)}: '
@@ -1226,7 +1326,7 @@ def enrich(args):
     print(f'SQL written: {out_sql}')
 
     # Final progress save
-    save_progress(progress)
+    save_progress(progress, progress_file)
 
     # Summary
     named_count = sum(1 for r in rows_out if r['name'] != 'Unknown')
@@ -1247,7 +1347,27 @@ def main():
     parser.add_argument('--limit', type=int, default=0, help='Process only N factories (for testing)')
     parser.add_argument('--country', type=str, default=None, help='Filter factories by country')
     parser.add_argument('--resume', action='store_true', help='Resume from last saved progress')
+    parser.add_argument('--engine', type=str, default='bing',
+                        choices=['bing', 'ddg', 'brave'],
+                        help='Search engine to use (default: bing). Falls back to others if primary fails.')
+    parser.add_argument('--batch', type=str, default=None,
+                        help='Process batch X of Y (e.g. --batch 1/10). Splits factory list into Y chunks.')
     args = parser.parse_args()
+
+    # Parse --batch X/Y
+    if args.batch:
+        parts = args.batch.split('/')
+        if len(parts) != 2:
+            print('ERROR: --batch must be in format X/Y (e.g. 1/10)', file=sys.stderr)
+            sys.exit(1)
+        args.batch_num = int(parts[0])
+        args.batch_total = int(parts[1])
+        if not (1 <= args.batch_num <= args.batch_total):
+            print(f'ERROR: batch number must be 1-{args.batch_total}', file=sys.stderr)
+            sys.exit(1)
+    else:
+        args.batch_num = None
+        args.batch_total = None
 
     enrich(args)
 
