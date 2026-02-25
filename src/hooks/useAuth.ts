@@ -56,7 +56,6 @@ export const useAuth = create<AuthState>((set) => ({
 
   sendMagicLink: async (email: string) => {
     if (!isSupabaseConfigured() || !supabase) {
-      console.log('Demo mode - Magic link requested for:', email);
       return { success: true };
     }
 

@@ -48,6 +48,14 @@ export default function AdminDashboard() {
   const [searchQuery, setSearchQuery] = useState('');
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [editingFactory, setEditingFactory] = useState<FactoryFromDB | null>(null);
+  const [toast, setToast] = useState<{ message: string; type: 'error' | 'success' } | null>(null);
+
+  // Auto-dismiss toast after 5 seconds
+  useEffect(() => {
+    if (!toast) return;
+    const timer = setTimeout(() => setToast(null), 5000);
+    return () => clearTimeout(timer);
+  }, [toast]);
 
   const loadFactories = useCallback(async () => {
     if (activeTab === 'settings') return;
@@ -78,7 +86,7 @@ export default function AdminDashboard() {
     if (result.success) {
       loadFactories();
     } else {
-      alert('Failed to approve: ' + result.error);
+      setToast({ message: 'Failed to approve: ' + result.error, type: 'error' });
     }
     setActionLoading(null);
   };
@@ -90,7 +98,7 @@ export default function AdminDashboard() {
     if (result.success) {
       loadFactories();
     } else {
-      alert('Failed to reject: ' + result.error);
+      setToast({ message: 'Failed to reject: ' + result.error, type: 'error' });
     }
     setActionLoading(null);
   };
@@ -101,7 +109,7 @@ export default function AdminDashboard() {
     if (result.success) {
       loadFactories();
     } else {
-      alert('Failed to update: ' + result.error);
+      setToast({ message: 'Failed to update: ' + result.error, type: 'error' });
     }
     setActionLoading(null);
   };
@@ -115,7 +123,7 @@ export default function AdminDashboard() {
     if (result.success) {
       loadFactories();
     } else {
-      alert('Failed to delete: ' + result.error);
+      setToast({ message: 'Failed to delete: ' + result.error, type: 'error' });
     }
     setActionLoading(null);
   };
@@ -191,6 +199,19 @@ export default function AdminDashboard() {
 
   return (
     <div className="space-y-6">
+      {/* Toast notification */}
+      {toast && (
+        <div className={`fixed top-4 right-4 z-50 flex items-center gap-2 px-4 py-3 rounded-lg shadow-lg text-sm font-medium transition-all ${
+          toast.type === 'error' ? 'bg-red-50 text-red-800 border border-red-200' : 'bg-green-50 text-green-800 border border-green-200'
+        }`}>
+          {toast.type === 'error' ? <XCircle className="w-4 h-4 shrink-0" /> : <CheckCircle className="w-4 h-4 shrink-0" />}
+          <span>{toast.message}</span>
+          <button onClick={() => setToast(null)} className="ml-2 p-0.5 hover:opacity-70">
+            <X className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      )}
+
       {/* Stats Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
         <div className="bg-white rounded-lg shadow p-4">

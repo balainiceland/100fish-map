@@ -64,8 +64,7 @@ export async function submitFactory(
   categories: string[]
 ): Promise<{ success: boolean; error?: string; factoryId?: string }> {
   if (!isSupabaseConfigured() || !supabase) {
-    // Demo mode - just log and return success
-    console.log('Demo mode - Factory submission:', { factory, byproducts, categories });
+    // Demo mode - return success without persisting
     return { success: true, factoryId: 'demo-' + Date.now() };
   }
 
@@ -707,8 +706,6 @@ export async function removeAdminUser(email: string): Promise<{ success: boolean
 // Request email verification
 export async function requestEmailVerification(email: string): Promise<{ success: boolean; error?: string }> {
   if (!isSupabaseConfigured() || !supabase) {
-    // Demo mode
-    console.log('Demo mode - Email verification requested for:', email);
     return { success: true };
   }
 

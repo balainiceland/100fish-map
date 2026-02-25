@@ -209,7 +209,6 @@ export const useStore = create<StoreState>((set, get) => ({
         // Add Supabase factories at the beginning (real data first)
         allFactories = [...supabaseFactories, ...sampleFactories];
         dataSource = 'supabase';
-        console.log(`Loaded ${supabaseFactories.length} factories from Supabase + ${sampleFactories.length} demo factories`);
       } else if (result.error) {
         console.error('Error fetching from Supabase:', result.error);
       }
