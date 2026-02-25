@@ -302,6 +302,13 @@ export default function AdminDashboard() {
           </div>
         </div>
 
+        {/* Search results header */}
+        {searchQuery && !isLoading && (
+          <div className="px-4 py-2 bg-ioc-teal/10 border-b border-ioc-teal/20 text-sm text-ioc-deep-blue font-medium">
+            Showing {filteredFactories.length} result{filteredFactories.length !== 1 ? 's' : ''} for &ldquo;{searchQuery}&rdquo;
+          </div>
+        )}
+
         {/* Factory List */}
         <div className="divide-y divide-gray-100">
           {isLoading ? (
