@@ -1,16 +1,20 @@
-import { useEffect } from 'react';
+import { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, useSearchParams } from 'react-router-dom';
 import Header from './components/Header';
 import MapContainer from './components/Map/MapContainer';
 import FilterPanel from './components/Filters/FilterPanel';
-import FactoryDetail from './components/Factory/FactoryDetail';
-import SubmitForm from './components/Submit/SubmitForm';
-import ComparePanel from './components/Compare/ComparePanel';
-import BenchmarksPanel from './components/Benchmarks/BenchmarksPanel';
-import AdminPage from './components/Admin/AdminPage';
 import LoginGate from './components/Auth/LoginGate';
-import PrivacyPolicy from './components/PrivacyPolicy';
 import { useStore } from './hooks/useStore';
+
+// Route-level lazy loading
+const AdminPage = lazy(() => import('./components/Admin/AdminPage'));
+const PrivacyPolicy = lazy(() => import('./components/PrivacyPolicy'));
+
+// Component-level lazy loading (modals/panels)
+const FactoryDetail = lazy(() => import('./components/Factory/FactoryDetail'));
+const SubmitForm = lazy(() => import('./components/Submit/SubmitForm'));
+const ComparePanel = lazy(() => import('./components/Compare/ComparePanel'));
+const BenchmarksPanel = lazy(() => import('./components/Benchmarks/BenchmarksPanel'));
 
 function MapPage() {
   const loadFactories = useStore(state => state.loadFactories);
@@ -40,10 +44,12 @@ function MapPage() {
       <main className="flex-1 relative">
         <MapContainer />
         <FilterPanel />
-        <FactoryDetail />
-        <SubmitForm />
-        <ComparePanel />
-        <BenchmarksPanel />
+        <Suspense fallback={null}>
+          <FactoryDetail />
+          <SubmitForm />
+          <ComparePanel />
+          <BenchmarksPanel />
+        </Suspense>
       </main>
     </div>
   );
@@ -54,8 +60,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LoginGate><MapPage /></LoginGate>} />
-        <Route path="/admin" element={<AdminPage />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/admin" element={<Suspense fallback={<div className="h-screen flex items-center justify-center"><div className="animate-spin rounded-full h-8 w-8 border-b-2 border-ocean-600" /></div>}><AdminPage /></Suspense>} />
+        <Route path="/privacy" element={<Suspense fallback={<div className="h-screen flex items-center justify-center"><div className="animate-spin rounded-full h-8 w-8 border-b-2 border-ocean-600" /></div>}><PrivacyPolicy /></Suspense>} />
       </Routes>
     </BrowserRouter>
   );
