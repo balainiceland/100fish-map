@@ -570,6 +570,7 @@ export default function SubmitForm() {
           );
         }
 
+        {
         const totalUtilization = formData.byproducts.reduce((sum, bp) => sum + bp.percentage, 0);
 
         return (
@@ -656,6 +657,7 @@ export default function SubmitForm() {
             </p>
           </div>
         );
+        }
 
       default:
         return null;

@@ -64,6 +64,7 @@ export default function LocationPicker({ latitude, longitude, onChange }: Locati
       leafletMapRef.current = null;
       markerRef.current = null;
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Update marker when coordinates change externally

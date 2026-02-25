@@ -61,7 +61,7 @@ export const useAdmin = create<AdminState>((set, get) => ({
           set({ user: null, session: null, isAdmin: false });
         }
       });
-    } catch (err) {
+    } catch {
       set({ isLoading: false, error: 'Failed to initialize auth' });
     }
   },
@@ -90,7 +90,7 @@ export const useAdmin = create<AdminState>((set, get) => ({
       }
 
       return { success: true };
-    } catch (err) {
+    } catch {
       return { success: false, error: 'Failed to send magic link' };
     }
   },

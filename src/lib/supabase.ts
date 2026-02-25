@@ -154,7 +154,7 @@ export async function fetchApprovedFactories(): Promise<{
     }
 
     // Fetch byproducts, contacts, and categories in batches to avoid URL length limits
-    const factoryIds = factories.map((f: any) => f.id);
+    const factoryIds = factories.map((f) => f.id);
     const BATCH_SIZE = 200;
     let allByproducts: Record<string, unknown>[] = [];
     let allContacts: Record<string, unknown>[] = [];
@@ -309,7 +309,7 @@ export async function fetchFactoriesByStatus(status?: 'pending' | 'approved' | '
     }
 
     // Fetch byproducts, contacts, and categories in batches to avoid URL length limits
-    const factoryIds = factories.map((f: any) => f.id);
+    const factoryIds = factories.map((f) => f.id);
     const BATCH_SIZE = 200;
     let allByproducts: Record<string, unknown>[] = [];
     let allContacts: Record<string, unknown>[] = [];
