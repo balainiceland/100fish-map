@@ -131,20 +131,30 @@ export default function AdminDashboard() {
   const normalize = (s: string) =>
     s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-  // Filter by tab, then by search query
+  // Filter by tab, then by search query — name/company startsWith first
   const query = normalize(searchQuery);
-  const filteredFactories = factories
-    .filter((f) => activeTab === 'all' || f.status === activeTab)
-    .filter(
-      (f) =>
-        !query ||
-        normalize(f.name).includes(query) ||
-        normalize(f.country).includes(query) ||
-        (f.city && normalize(f.city).includes(query)) ||
-        (f.company_name && normalize(f.company_name).includes(query)) ||
-        (f.primary_species && f.primary_species.some((s) => normalize(s).includes(query))) ||
-        (f.categories && f.categories.some((c) => normalize(c).includes(query)))
-    );
+  const tabFiltered = factories.filter((f) => activeTab === 'all' || f.status === activeTab);
+  const filteredFactories = !query
+    ? tabFiltered
+    : tabFiltered
+        .filter(
+          (f) =>
+            normalize(f.name).includes(query) ||
+            (f.company_name && normalize(f.company_name).includes(query)) ||
+            normalize(f.country).includes(query) ||
+            (f.city && normalize(f.city).includes(query))
+        )
+        .sort((a, b) => {
+          const aName = normalize(a.name);
+          const bName = normalize(b.name);
+          const aCompany = a.company_name ? normalize(a.company_name) : '';
+          const bCompany = b.company_name ? normalize(b.company_name) : '';
+
+          // Priority: name startsWith > company startsWith > name contains > rest
+          const aRank = aName.startsWith(query) ? 0 : aCompany.startsWith(query) ? 1 : 2;
+          const bRank = bName.startsWith(query) ? 0 : bCompany.startsWith(query) ? 1 : 2;
+          return aRank - bRank || aName.localeCompare(bName);
+        });
 
   // Show settings page
   if (activeTab === 'settings') {
