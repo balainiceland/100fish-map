@@ -198,6 +198,12 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
     setIsSaving(true);
     setError(null);
 
+    // Safety timeout — abort if any Supabase call hangs
+    const timeout = setTimeout(() => {
+      setIsSaving(false);
+      setError('Save timed out after 30 seconds. Please check your connection and try again.');
+    }, 30000);
+
     try {
       // Update factory data - only include fields that have values
       const updateData: Record<string, unknown> = {
@@ -218,6 +224,7 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
       if (formData.employee_count) updateData.employee_count = Number(formData.employee_count);
       if (formData.year_established) updateData.year_established = Number(formData.year_established);
 
+      console.log('[FactoryEditor] Saving factory data...');
       const result = await updateFactory(factory.id, updateData as Partial<FactoryInsert>);
 
       if (!result.success) {
@@ -227,6 +234,7 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
 
       // Update verification level if changed
       if (formData.verification_level !== factory.verification_level) {
+        console.log('[FactoryEditor] Updating verification level...');
         const verifyResult = await updateVerificationLevel(factory.id, formData.verification_level);
         if (!verifyResult.success) {
           setError(verifyResult.error || 'Failed to update verification level');
@@ -235,6 +243,7 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
       }
 
       // Save byproducts
+      console.log('[FactoryEditor] Saving byproducts...');
       const bpResult = await saveByproducts(factory.id, byproducts.map(bp => ({
         category: bp.category,
         description: bp.description || undefined,
@@ -248,6 +257,7 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
       }
 
       // Save contacts
+      console.log('[FactoryEditor] Saving contacts...');
       const contactResult = await saveContacts(factory.id, contacts.filter(c => c.name.trim()).map(c => ({
         name: c.name.trim(),
         role: c.role || undefined,
@@ -263,11 +273,13 @@ export default function FactoryEditor({ factory, onClose, onSave }: FactoryEdito
         return;
       }
 
+      console.log('[FactoryEditor] Save complete');
       onSave();
     } catch (err) {
       console.error('Error saving factory:', err);
       setError(err instanceof Error ? err.message : 'An unexpected error occurred');
     } finally {
+      clearTimeout(timeout);
       setIsSaving(false);
     }
   };
