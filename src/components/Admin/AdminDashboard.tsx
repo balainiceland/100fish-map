@@ -306,11 +306,16 @@ export default function AdminDashboard() {
         {searchQuery && !isLoading && (
           <div className="px-4 py-2 bg-ioc-teal/10 border-b border-ioc-teal/20 text-sm text-ioc-deep-blue font-medium">
             Showing {filteredFactories.length} result{filteredFactories.length !== 1 ? 's' : ''} for &ldquo;{searchQuery}&rdquo;
+            {filteredFactories.length > 0 && filteredFactories.length <= 5 && (
+              <span className="ml-2 text-xs text-gray-500">
+                ({filteredFactories.map(f => f.name).join(', ')})
+              </span>
+            )}
           </div>
         )}
 
-        {/* Factory List */}
-        <div className="divide-y divide-gray-100">
+        {/* Factory List — key forces full re-render when search/tab changes */}
+        <div key={`${activeTab}-${searchQuery}`} className="divide-y divide-gray-100">
           {isLoading ? (
             <div className="p-8 text-center">
               <Loader2 className="w-8 h-8 text-ioc-teal animate-spin mx-auto mb-2" />
