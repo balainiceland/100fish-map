@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import {
   Clock,
   CheckCircle,
@@ -128,31 +128,35 @@ export default function AdminDashboard() {
   };
 
   // Strip diacritics for accent-insensitive search (e.g. "Visir" matches "Vísir")
-  const normalize = (s: string) =>
-    s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const normalize = (s: string | null | undefined) =>
+    (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
   // Filter by tab, then by search query — match on name/company only
-  const query = normalize(searchQuery);
-  const tabFiltered = factories.filter((f) => activeTab === 'all' || f.status === activeTab);
-  const filteredFactories = !query
-    ? tabFiltered
-    : tabFiltered
-        .filter(
-          (f) =>
-            normalize(f.name).includes(query) ||
-            (f.company_name && normalize(f.company_name).includes(query))
-        )
-        .sort((a, b) => {
-          const aName = normalize(a.name);
-          const bName = normalize(b.name);
-          const aCompany = a.company_name ? normalize(a.company_name) : '';
-          const bCompany = b.company_name ? normalize(b.company_name) : '';
+  const filteredFactories = useMemo(() => {
+    const query = normalize(searchQuery);
+    const tabFiltered = factories.filter(
+      (f) => activeTab === 'all' || f.status === activeTab
+    );
+    if (!query) return tabFiltered;
 
-          // Priority: name startsWith > company startsWith > contains
-          const aRank = aName.startsWith(query) ? 0 : aCompany.startsWith(query) ? 1 : 2;
-          const bRank = bName.startsWith(query) ? 0 : bCompany.startsWith(query) ? 1 : 2;
-          return aRank - bRank || aName.localeCompare(bName);
-        });
+    return tabFiltered
+      .filter((f) => {
+        const name = normalize(f.name);
+        const company = normalize(f.company_name);
+        return name.includes(query) || company.includes(query);
+      })
+      .sort((a, b) => {
+        const aName = normalize(a.name);
+        const bName = normalize(b.name);
+        const aCompany = normalize(a.company_name);
+        const bCompany = normalize(b.company_name);
+
+        // Priority: name startsWith > company startsWith > contains
+        const aRank = aName.startsWith(query) ? 0 : aCompany.startsWith(query) ? 1 : 2;
+        const bRank = bName.startsWith(query) ? 0 : bCompany.startsWith(query) ? 1 : 2;
+        return aRank - bRank || aName.localeCompare(bName);
+      });
+  }, [factories, activeTab, searchQuery]);
 
   // Show settings page
   if (activeTab === 'settings') {
@@ -275,12 +279,17 @@ export default function AdminDashboard() {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Search factories..."
+                  placeholder="Search by name..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-9 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal w-full sm:w-64"
                 />
               </div>
+              {searchQuery && (
+                <span className="text-xs text-gray-500 whitespace-nowrap">
+                  {filteredFactories.length} found
+                </span>
+              )}
               <button
                 onClick={loadFactories}
                 disabled={isLoading}
