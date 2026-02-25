@@ -55,8 +55,8 @@ export default function AdminDashboard() {
     setIsLoading(true);
     setError(null);
 
-    const status = activeTab === 'all' ? undefined : (activeTab as 'pending' | 'approved' | 'rejected');
-    const result = await fetchFactoriesByStatus(status);
+    // Always fetch all factories so search works across tabs
+    const result = await fetchFactoriesByStatus();
 
     if (result.success) {
       setFactories(result.factories);
@@ -119,21 +119,28 @@ export default function AdminDashboard() {
     setActionLoading(null);
   };
 
-  // Filter factories by search query
-  const filteredFactories = factories.filter(
-    (f) =>
-      f.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      f.country.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (f.company_name && f.company_name.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
-
-  // Stats
+  // Stats (from all factories)
   const stats = {
     pending: factories.filter((f) => f.status === 'pending').length,
     approved: factories.filter((f) => f.status === 'approved').length,
     rejected: factories.filter((f) => f.status === 'rejected').length,
     total: factories.length,
   };
+
+  // Filter by tab, then by search query
+  const query = searchQuery.toLowerCase();
+  const filteredFactories = factories
+    .filter((f) => activeTab === 'all' || f.status === activeTab)
+    .filter(
+      (f) =>
+        !query ||
+        f.name.toLowerCase().includes(query) ||
+        f.country.toLowerCase().includes(query) ||
+        (f.city && f.city.toLowerCase().includes(query)) ||
+        (f.company_name && f.company_name.toLowerCase().includes(query)) ||
+        (f.primary_species && f.primary_species.some((s) => s.toLowerCase().includes(query))) ||
+        (f.categories && f.categories.some((c) => c.toLowerCase().includes(query)))
+    );
 
   // Show settings page
   if (activeTab === 'settings') {
