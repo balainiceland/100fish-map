@@ -131,7 +131,7 @@ export default function AdminDashboard() {
   const normalize = (s: string) =>
     s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-  // Filter by tab, then by search query — name/company startsWith first
+  // Filter by tab, then by search query — match on name/company only
   const query = normalize(searchQuery);
   const tabFiltered = factories.filter((f) => activeTab === 'all' || f.status === activeTab);
   const filteredFactories = !query
@@ -140,9 +140,7 @@ export default function AdminDashboard() {
         .filter(
           (f) =>
             normalize(f.name).includes(query) ||
-            (f.company_name && normalize(f.company_name).includes(query)) ||
-            normalize(f.country).includes(query) ||
-            (f.city && normalize(f.city).includes(query))
+            (f.company_name && normalize(f.company_name).includes(query))
         )
         .sort((a, b) => {
           const aName = normalize(a.name);
@@ -150,7 +148,7 @@ export default function AdminDashboard() {
           const aCompany = a.company_name ? normalize(a.company_name) : '';
           const bCompany = b.company_name ? normalize(b.company_name) : '';
 
-          // Priority: name startsWith > company startsWith > name contains > rest
+          // Priority: name startsWith > company startsWith > contains
           const aRank = aName.startsWith(query) ? 0 : aCompany.startsWith(query) ? 1 : 2;
           const bRank = bName.startsWith(query) ? 0 : bCompany.startsWith(query) ? 1 : 2;
           return aRank - bRank || aName.localeCompare(bName);
