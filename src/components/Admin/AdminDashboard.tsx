@@ -285,11 +285,6 @@ export default function AdminDashboard() {
                   className="pl-9 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-ioc-teal focus:border-ioc-teal w-full sm:w-64"
                 />
               </div>
-              {searchQuery && (
-                <span className="text-xs text-gray-500 whitespace-nowrap">
-                  {filteredFactories.length} found
-                </span>
-              )}
               <button
                 onClick={loadFactories}
                 disabled={isLoading}
@@ -306,11 +301,6 @@ export default function AdminDashboard() {
         {searchQuery && !isLoading && (
           <div className="px-4 py-2 bg-ioc-teal/10 border-b border-ioc-teal/20 text-sm text-ioc-deep-blue font-medium">
             Showing {filteredFactories.length} result{filteredFactories.length !== 1 ? 's' : ''} for &ldquo;{searchQuery}&rdquo;
-            {filteredFactories.length > 0 && filteredFactories.length <= 5 && (
-              <span className="ml-2 text-xs text-gray-500">
-                ({filteredFactories.map(f => f.name).join(', ')})
-              </span>
-            )}
           </div>
         )}
 
