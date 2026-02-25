@@ -127,19 +127,23 @@ export default function AdminDashboard() {
     total: factories.length,
   };
 
+  // Strip diacritics for accent-insensitive search (e.g. "Visir" matches "Vísir")
+  const normalize = (s: string) =>
+    s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
   // Filter by tab, then by search query
-  const query = searchQuery.toLowerCase();
+  const query = normalize(searchQuery);
   const filteredFactories = factories
     .filter((f) => activeTab === 'all' || f.status === activeTab)
     .filter(
       (f) =>
         !query ||
-        f.name.toLowerCase().includes(query) ||
-        f.country.toLowerCase().includes(query) ||
-        (f.city && f.city.toLowerCase().includes(query)) ||
-        (f.company_name && f.company_name.toLowerCase().includes(query)) ||
-        (f.primary_species && f.primary_species.some((s) => s.toLowerCase().includes(query))) ||
-        (f.categories && f.categories.some((c) => c.toLowerCase().includes(query)))
+        normalize(f.name).includes(query) ||
+        normalize(f.country).includes(query) ||
+        (f.city && normalize(f.city).includes(query)) ||
+        (f.company_name && normalize(f.company_name).includes(query)) ||
+        (f.primary_species && f.primary_species.some((s) => normalize(s).includes(query))) ||
+        (f.categories && f.categories.some((c) => normalize(c).includes(query)))
     );
 
   // Show settings page
