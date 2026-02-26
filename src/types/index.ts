@@ -210,6 +210,9 @@ export const CERTIFICATION_OPTIONS = [
   'BRC',
   'IFS',
   'GlobalGAP',
+  'MarinTrust',
+  'FEMAS',
+  'IRF',
   'Friend of the Sea',
   'Dolphin Safe',
 ] as const;

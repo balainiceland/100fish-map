@@ -1,11 +1,12 @@
+import { useMemo } from 'react';
 import { Filter, X, RotateCcw } from 'lucide-react';
 import { useStore, useStatistics } from '../../hooks/useStore';
 import { CATEGORY_LABELS, VERIFICATION_LABELS } from '../../types';
-import { getUniqueCountries, getUniqueSpecies } from '../../data/sampleFactories';
 import type { FactoryCategory, VerificationLevel } from '../../types';
 
 export default function FilterPanel() {
   const {
+    factories,
     filters,
     setFilters,
     resetFilters,
@@ -15,8 +16,28 @@ export default function FilterPanel() {
 
   const { totalFactories, totalCountries, averageScore } = useStatistics();
 
-  const countries = getUniqueCountries();
-  const species = getUniqueSpecies();
+  const countries = useMemo(() =>
+    [...new Set(factories.map(f => f.country))].sort(),
+    [factories]
+  );
+
+  const species = useMemo(() => {
+    const s = new Set<string>();
+    factories.forEach(f => f.primarySpecies.forEach(sp => s.add(sp)));
+    return [...s].sort();
+  }, [factories]);
+
+  const categories = useMemo(() => {
+    const c = new Set<string>();
+    factories.forEach(f => f.categories.forEach(cat => c.add(cat)));
+    return [...c].sort().map(key => [key, CATEGORY_LABELS[key as FactoryCategory] || key] as const);
+  }, [factories]);
+
+  const verificationLevels = useMemo(() => {
+    const v = new Set<string>();
+    factories.forEach(f => { if (f.verificationLevel) v.add(f.verificationLevel); });
+    return [...v].sort().map(key => [key, VERIFICATION_LABELS[key as VerificationLevel] || key] as const);
+  }, [factories]);
 
   if (!isFilterPanelOpen) {
     return (
@@ -95,7 +116,7 @@ export default function FilterPanel() {
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ioc-teal focus:border-transparent text-sm"
           >
             <option value="">All Categories</option>
-            {Object.entries(CATEGORY_LABELS).map(([key, label]) => (
+            {categories.map(([key, label]) => (
               <option key={key} value={key}>{label}</option>
             ))}
           </select>
@@ -158,7 +179,7 @@ export default function FilterPanel() {
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ioc-teal focus:border-transparent text-sm"
           >
             <option value="">All Levels</option>
-            {Object.entries(VERIFICATION_LABELS).map(([key, label]) => (
+            {verificationLevels.map(([key, label]) => (
               <option key={key} value={key}>{label}</option>
             ))}
           </select>
