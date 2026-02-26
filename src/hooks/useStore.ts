@@ -334,22 +334,25 @@ export interface CountryBenchmark {
 export const useBenchmarks = () => {
   const factories = useStore(state => state.factories);
 
-  // Global stats
-  const globalAverage = factories.length > 0
-    ? Math.round(factories.reduce((sum, f) => sum + f.utilizationScore, 0) / factories.length)
+  // Only include factories that have been assessed (score > 0)
+  const assessed = factories.filter(f => f.utilizationScore > 0);
+
+  // Global stats (assessed only)
+  const globalAverage = assessed.length > 0
+    ? Math.round(assessed.reduce((sum, f) => sum + f.utilizationScore, 0) / assessed.length)
     : 0;
 
-  const globalMin = factories.length > 0
-    ? Math.min(...factories.map(f => f.utilizationScore))
+  const globalMin = assessed.length > 0
+    ? Math.min(...assessed.map(f => f.utilizationScore))
     : 0;
 
-  const globalMax = factories.length > 0
-    ? Math.max(...factories.map(f => f.utilizationScore))
+  const globalMax = assessed.length > 0
+    ? Math.max(...assessed.map(f => f.utilizationScore))
     : 0;
 
-  // Group by country
+  // Group by country (assessed factories only)
   const countryMap = new Map<string, Factory[]>();
-  factories.forEach(f => {
+  assessed.forEach(f => {
     const list = countryMap.get(f.country) || [];
     list.push(f);
     countryMap.set(f.country, list);
@@ -376,8 +379,8 @@ export const useBenchmarks = () => {
     })
     .sort((a, b) => b.averageScore - a.averageScore);
 
-  // Top performers globally
-  const topPerformers = [...factories]
+  // Top performers globally (assessed only)
+  const topPerformers = [...assessed]
     .sort((a, b) => b.utilizationScore - a.utilizationScore)
     .slice(0, 10);
 

@@ -83,9 +83,10 @@ export default function BenchmarksPanel() {
               {countryBenchmarks.map((benchmark, index) => (
                 <div
                   key={benchmark.country}
-                  className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+                  className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer"
+                  onClick={() => benchmark.topFactory && handleFactoryClick(benchmark.topFactory)}
                 >
-                  <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
+                  <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 ${
                     index === 0 ? 'bg-yellow-400 text-yellow-900' :
                     index === 1 ? 'bg-gray-300 text-gray-700' :
                     index === 2 ? 'bg-amber-600 text-white' :
@@ -98,8 +99,13 @@ export default function BenchmarksPanel() {
                       {benchmark.country}
                     </div>
                     <div className="text-xs text-gray-500">
-                      {benchmark.factoryCount} {benchmark.factoryCount === 1 ? 'factory' : 'factories'}
+                      {benchmark.factoryCount} assessed {benchmark.factoryCount === 1 ? 'factory' : 'factories'}
                     </div>
+                    {benchmark.topFactory && (
+                      <div className="text-[10px] text-ioc-teal truncate">
+                        #1: {benchmark.topFactory.name}
+                      </div>
+                    )}
                   </div>
                   <div className="text-right">
                     <div
