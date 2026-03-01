@@ -1,10 +1,11 @@
 import { Fish, Plus, HelpCircle, Menu, TrendingUp, LogOut } from 'lucide-react';
-import { useStore } from '../hooks/useStore';
+import { useStore, useStatistics } from '../hooks/useStore';
 import { useAuth } from '../hooks/useAuth';
 
 export default function Header() {
   const { toggleSubmitForm, toggleFilterPanel, isFilterPanelOpen, toggleBenchmarksPanel, isBenchmarksPanelOpen } = useStore();
   const { user, isAuthenticated, signOut } = useAuth();
+  const { totalFactories, totalCountries, averageScore, enrichedCount } = useStatistics();
 
   return (
     <header className="bg-ioc-deep-blue text-white px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between shadow-lg z-[1001] relative">
@@ -27,6 +28,25 @@ export default function Header() {
             </h1>
             <p className="text-xs text-white/70 hidden sm:block">Tracking 100% Fish Philosophy Adoption</p>
           </div>
+        </div>
+      </div>
+
+      <div className="hidden md:flex items-center gap-4 lg:gap-6">
+        <div className="text-center">
+          <div className="font-bold text-ioc-seafoam">{totalFactories}</div>
+          <div className="text-xs text-white/60">Factories</div>
+        </div>
+        <div className="text-center">
+          <div className="font-bold text-ioc-teal">{totalCountries}</div>
+          <div className="text-xs text-white/60">Countries</div>
+        </div>
+        <div className="text-center">
+          <div className="font-bold text-ioc-yellow">{averageScore}%</div>
+          <div className="text-xs text-white/60">Avg Score</div>
+        </div>
+        <div className="text-center">
+          <div className="font-bold text-ioc-seafoam">{enrichedCount}</div>
+          <div className="text-xs text-white/60">Enriched</div>
         </div>
       </div>
 

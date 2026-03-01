@@ -317,8 +317,9 @@ export const useStatistics = () => {
     factories.length > 0
       ? Math.round(factories.reduce((sum, f) => sum + f.utilizationScore, 0) / factories.length)
       : 0;
+  const enrichedCount = factories.filter(f => f.byproducts.length > 0).length;
 
-  return { totalFactories, totalCountries, averageScore };
+  return { totalFactories, totalCountries, averageScore, enrichedCount };
 };
 
 // Benchmark statistics by country
