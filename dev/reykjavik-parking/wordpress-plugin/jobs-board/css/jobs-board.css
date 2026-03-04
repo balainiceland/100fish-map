@@ -186,6 +186,14 @@
     color: #ccc;
 }
 
+/* Job Excerpt */
+.sjb-job-excerpt {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 0 14px 0;
+}
+
 /* Job Tags */
 .sjb-job-tags {
     display: flex;

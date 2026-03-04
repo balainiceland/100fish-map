@@ -407,6 +407,14 @@
         html += '<span class="sjb-remote">' + getRemoteLabel(job.remote) + '</span>';
         html += '</div>';
 
+        // Description excerpt
+        if (job.description) {
+            var excerpt = job.description.length > 150
+                ? job.description.substring(0, 150).replace(/\s+\S*$/, '') + '...'
+                : job.description;
+            html += '<p class="sjb-job-excerpt">' + escapeHtml(excerpt) + '</p>';
+        }
+
         // Tags
         html += '<div class="sjb-job-tags">';
         html += '<span class="sjb-tag sjb-tag-' + job.category + '">' + getCategoryLabel(job.category) + '</span>';
