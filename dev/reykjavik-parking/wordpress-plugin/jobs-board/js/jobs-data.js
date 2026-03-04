@@ -3623,8 +3623,8 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-11",
             applicationUrl: "https://alfred.is/starf/fjarmalastjori-indo",
-            featured: true,
-            status: "active",
+            featured: false,
+            status: "filled",
             lastVerified: "2026-03-04"
         },
         {
