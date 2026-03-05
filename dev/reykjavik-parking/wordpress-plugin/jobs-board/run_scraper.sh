@@ -1,10 +1,15 @@
 #!/bin/bash
-# Startup Iceland Jobs Scraper - Daily Cron Job
+# Startup Iceland Jobs Scraper - Daily Scheduled Job
 # Runs the job scraper and logs output
+# Triggered by launchd: ~/Library/LaunchAgents/com.startupiceland.jobscraper.plist
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_FILE="$SCRIPT_DIR/scraper_log.txt"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
+
+# Explicit paths for launchd (no login shell PATH)
+PYTHON="/opt/anaconda3/bin/python3"
+NODE="/usr/local/bin/node"
 
 echo "========================================" >> "$LOG_FILE"
 echo "Scraper run: $DATE" >> "$LOG_FILE"
@@ -14,7 +19,7 @@ echo "========================================" >> "$LOG_FILE"
 cd "$SCRIPT_DIR"
 
 # Run the scraper with playwright, merge, and verify existing jobs
-/opt/anaconda3/bin/python3 startup_job_scraper.py --playwright --merge --verify >> "$LOG_FILE" 2>&1
+$PYTHON startup_job_scraper.py --playwright --merge --verify >> "$LOG_FILE" 2>&1
 
 # Check if new jobs were added
 if grep -q "Successfully added" "$LOG_FILE" | tail -1; then
@@ -26,22 +31,36 @@ fi
 
 # Generate JSON for CDN
 echo "Generating jobs-data.json for CDN..." >> "$LOG_FILE"
-node "$SCRIPT_DIR/tools/generate-json.js" >> "$LOG_FILE" 2>&1
+$NODE "$SCRIPT_DIR/tools/generate-json.js" >> "$LOG_FILE" 2>&1
 
 # Count jobs for commit message
-JOB_COUNT=$(node -e "const d = require('$SCRIPT_DIR/js/jobs-data.json'); console.log(d.jobs.length)" 2>/dev/null || echo "unknown")
+JOB_COUNT=$($NODE -e "const d = require('$SCRIPT_DIR/js/jobs-data.json'); console.log(d.jobs.length)" 2>/dev/null || echo "unknown")
 
-# Git commit and push to update CDN
-REPO_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
-cd "$REPO_ROOT"
+# Sync data to reykjavik-parking repo for CDN
+SYNC_DIR="$HOME/.jobs-board-sync"
+REPO_URL="git@github.com:balainiceland/reykjavik-parking.git"
+DATA_PATH="dev/reykjavik-parking/wordpress-plugin/jobs-board"
 
-git add "$SCRIPT_DIR/js/jobs-data.js" "$SCRIPT_DIR/js/jobs-data.json" "$SCRIPT_DIR/scraped_jobs.json"
+# Clone or pull the sync repo
+if [ -d "$SYNC_DIR/.git" ]; then
+    cd "$SYNC_DIR" && git pull --ff-only origin master >> "$LOG_FILE" 2>&1
+else
+    git clone --branch master --single-branch "$REPO_URL" "$SYNC_DIR" >> "$LOG_FILE" 2>&1
+    cd "$SYNC_DIR"
+fi
+
+# Copy updated data files
+cp "$SCRIPT_DIR/js/jobs-data.js" "$SYNC_DIR/$DATA_PATH/js/jobs-data.js"
+cp "$SCRIPT_DIR/js/jobs-data.json" "$SYNC_DIR/$DATA_PATH/js/jobs-data.json"
+cp "$SCRIPT_DIR/scraped_jobs.json" "$SYNC_DIR/$DATA_PATH/scraped_jobs.json"
+
+git add "$DATA_PATH/js/jobs-data.js" "$DATA_PATH/js/jobs-data.json" "$DATA_PATH/scraped_jobs.json"
 if git diff --cached --quiet; then
     echo "No data changes to commit" >> "$LOG_FILE"
 else
     git commit -m "Update jobs board data ($JOB_COUNT jobs)" >> "$LOG_FILE" 2>&1
     git push origin master >> "$LOG_FILE" 2>&1
-    echo "Pushed updated jobs data to GitHub" >> "$LOG_FILE"
+    echo "Pushed updated jobs data to reykjavik-parking repo" >> "$LOG_FILE"
 fi
 
 cd "$SCRIPT_DIR"
